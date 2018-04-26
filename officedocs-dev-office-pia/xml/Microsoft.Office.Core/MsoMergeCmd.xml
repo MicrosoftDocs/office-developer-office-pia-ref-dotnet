@@ -1,0 +1,115 @@
+﻿<Type Name="MsoMergeCmd" FullName="Microsoft.Office.Core.MsoMergeCmd">
+  <TypeSignature Language="C#" Value="public enum MsoMergeCmd" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoMergeCmd extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoMergeCmd" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoMergeCmd" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoMergeCmd" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies the output of a merge shapes operation.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoMergeCombine">
+      <MemberSignature Language="C#" Value="msoMergeCombine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMergeCmd msoMergeCombine = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMergeCmd.msoMergeCombine" />
+      <MemberSignature Language="VB.NET" Value="msoMergeCombine" />
+      <MemberSignature Language="C++ CLI" Value="msoMergeCombine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMergeCmd</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Creates a new shape from selected shapes. If the selected shapes overlap, the area where they overlap is cut out, or discarded.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMergeFragment">
+      <MemberSignature Language="C#" Value="msoMergeFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMergeCmd msoMergeFragment = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMergeCmd.msoMergeFragment" />
+      <MemberSignature Language="VB.NET" Value="msoMergeFragment" />
+      <MemberSignature Language="C++ CLI" Value="msoMergeFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMergeCmd</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Breaks a shape into smaller parts or create new shapes from intersecting lines or from shapes that overlap.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMergeIntersect">
+      <MemberSignature Language="C#" Value="msoMergeIntersect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMergeCmd msoMergeIntersect = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMergeCmd.msoMergeIntersect" />
+      <MemberSignature Language="VB.NET" Value="msoMergeIntersect" />
+      <MemberSignature Language="C++ CLI" Value="msoMergeIntersect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMergeCmd</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Forms a new closed shape from the area where selected shapes overlap, eliminating non-overlapping areas.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMergeSubtract">
+      <MemberSignature Language="C#" Value="msoMergeSubtract" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMergeCmd msoMergeSubtract = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMergeCmd.msoMergeSubtract" />
+      <MemberSignature Language="VB.NET" Value="msoMergeSubtract" />
+      <MemberSignature Language="C++ CLI" Value="msoMergeSubtract" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMergeCmd</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Creates a new shape by subtracting from the primary selection the areas where subsequent selections overlap.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMergeUnion">
+      <MemberSignature Language="C#" Value="msoMergeUnion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMergeCmd msoMergeUnion = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMergeCmd.msoMergeUnion" />
+      <MemberSignature Language="VB.NET" Value="msoMergeUnion" />
+      <MemberSignature Language="C++ CLI" Value="msoMergeUnion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMergeCmd</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Creates a new shape from the perimeter of two or more overlapping shapes. The new shape is a set of all the points from the original shapes.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

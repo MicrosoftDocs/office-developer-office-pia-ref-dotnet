@@ -1,0 +1,77 @@
+﻿<Type Name="MsoAutomationSecurity" FullName="Microsoft.Office.Core.MsoAutomationSecurity">
+  <TypeSignature Language="C#" Value="public enum MsoAutomationSecurity" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoAutomationSecurity extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoAutomationSecurity" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoAutomationSecurity" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoAutomationSecurity" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies the security mode an application uses when programmatically opening files.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoAutomationSecurityByUI">
+      <MemberSignature Language="C#" Value="msoAutomationSecurityByUI" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutomationSecurity msoAutomationSecurityByUI = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutomationSecurity.msoAutomationSecurityByUI" />
+      <MemberSignature Language="VB.NET" Value="msoAutomationSecurityByUI" />
+      <MemberSignature Language="C++ CLI" Value="msoAutomationSecurityByUI" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutomationSecurity</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Uses the security setting specified in the Security dialog box.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAutomationSecurityForceDisable">
+      <MemberSignature Language="C#" Value="msoAutomationSecurityForceDisable" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutomationSecurity msoAutomationSecurityForceDisable = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutomationSecurity.msoAutomationSecurityForceDisable" />
+      <MemberSignature Language="VB.NET" Value="msoAutomationSecurityForceDisable" />
+      <MemberSignature Language="C++ CLI" Value="msoAutomationSecurityForceDisable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutomationSecurity</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Disables all macros in all files opened programmatically, without showing any security alerts.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAutomationSecurityLow">
+      <MemberSignature Language="C#" Value="msoAutomationSecurityLow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutomationSecurity msoAutomationSecurityLow = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutomationSecurity.msoAutomationSecurityLow" />
+      <MemberSignature Language="VB.NET" Value="msoAutomationSecurityLow" />
+      <MemberSignature Language="C++ CLI" Value="msoAutomationSecurityLow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutomationSecurity</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Enables all macros. This is the default value when the application is started.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

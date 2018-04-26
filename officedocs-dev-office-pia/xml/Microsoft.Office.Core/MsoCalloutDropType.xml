@@ -1,0 +1,118 @@
+﻿<Type Name="MsoCalloutDropType" FullName="Microsoft.Office.Core.MsoCalloutDropType">
+  <TypeSignature Language="C#" Value="public enum MsoCalloutDropType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoCalloutDropType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoCalloutDropType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoCalloutDropType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoCalloutDropType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies starting position of the callout line relative to the text bounding box.</summary>
+    <remarks>
+      <para>Used with the <b>PresetDrop</b> method of the <b>CalloutFormat</b> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoCalloutDropBottom">
+      <MemberSignature Language="C#" Value="msoCalloutDropBottom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCalloutDropType msoCalloutDropBottom = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCalloutDropType.msoCalloutDropBottom" />
+      <MemberSignature Language="VB.NET" Value="msoCalloutDropBottom" />
+      <MemberSignature Language="C++ CLI" Value="msoCalloutDropBottom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCalloutDropType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Bottom.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCalloutDropCenter">
+      <MemberSignature Language="C#" Value="msoCalloutDropCenter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCalloutDropType msoCalloutDropCenter = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCalloutDropType.msoCalloutDropCenter" />
+      <MemberSignature Language="VB.NET" Value="msoCalloutDropCenter" />
+      <MemberSignature Language="C++ CLI" Value="msoCalloutDropCenter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCalloutDropType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Center.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCalloutDropCustom">
+      <MemberSignature Language="C#" Value="msoCalloutDropCustom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCalloutDropType msoCalloutDropCustom = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCalloutDropType.msoCalloutDropCustom" />
+      <MemberSignature Language="VB.NET" Value="msoCalloutDropCustom" />
+      <MemberSignature Language="C++ CLI" Value="msoCalloutDropCustom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCalloutDropType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Custom. If this value is used as the value for the <b>PresetDrop</b> property, the <b>Drop</b> and <b>AutoAttach</b> properties of the <b>CalloutFormat</b> object are used to determine where the callout line attaches to the text box. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCalloutDropMixed">
+      <MemberSignature Language="C#" Value="msoCalloutDropMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCalloutDropType msoCalloutDropMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCalloutDropType.msoCalloutDropMixed" />
+      <MemberSignature Language="VB.NET" Value="msoCalloutDropMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoCalloutDropMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCalloutDropType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>Return value only; indicates a combination of the other states. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCalloutDropTop">
+      <MemberSignature Language="C#" Value="msoCalloutDropTop" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCalloutDropType msoCalloutDropTop = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCalloutDropType.msoCalloutDropTop" />
+      <MemberSignature Language="VB.NET" Value="msoCalloutDropTop" />
+      <MemberSignature Language="C++ CLI" Value="msoCalloutDropTop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCalloutDropType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Top.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,33 @@
+<Type Name="_CommandBarComboBoxEvents_ChangeEventHandler" FullName="Microsoft.Office.Core._CommandBarComboBoxEvents_ChangeEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void _CommandBarComboBoxEvents_ChangeEventHandler(CommandBarComboBox Ctrl);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _CommandBarComboBoxEvents_ChangeEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CommandBarComboBoxEvents_ChangeEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub _CommandBarComboBoxEvents_ChangeEventHandler(Ctrl As CommandBarComboBox)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void _CommandBarComboBoxEvents_ChangeEventHandler(CommandBarComboBox ^ Ctrl);" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Ctrl" Type="Microsoft.Office.Core.CommandBarComboBox" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Ctrl">The command bar combo box control.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Core._CommandBarComboBoxEvents_Event.Change" /> event. The <b>Change</b> event occurs when the end user changes the selection in a command bar combo box.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

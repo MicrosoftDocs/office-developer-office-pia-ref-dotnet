@@ -1,0 +1,275 @@
+﻿<Type Name="UserPermission" FullName="Microsoft.Office.Core.UserPermission">
+  <TypeSignature Language="C#" Value="public interface UserPermission : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract UserPermission implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.UserPermission" />
+  <TypeSignature Language="VB.NET" Value="Public Interface UserPermission&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class UserPermission : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0375-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <b>UserPermission</b> object associates a set of permissions on the active document with a single user and an optional expiration date.</summary>
+    <remarks>
+      <para>Represents a member of the active document's <see cref="T:Microsoft.Office.Core.Permission" /> collection.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Core.Permission.Add(System.String,System.Object,System.Object)" /> method of the <b>Permission</b> object to grant specific permissions on the active document to a new user, with an optional expiration date. Use the <see cref="M:Microsoft.Office.Core.UserPermission.Remove" /> method of the <b>UserPermission</b> object to remove a user and the user's permissions.</para>
+      <para>While some permissions granted through the user interface (such as <b>msoPermissionPrint</b>) apply to all users, you can use the <b>UserPermission</b> object to assign them on a per-user basis with per-user expiration dates.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.UserPermission.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <b>Application</b> object that represents the container application for the object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.UserPermission.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which the specified object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.Sync.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExpirationDate">
+      <MemberSignature Language="C#" Value="public object ExpirationDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ExpirationDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.UserPermission.ExpirationDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExpirationDate As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ExpirationDate { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the optional expiration date of the permissions on the active document assigned to the user associated with the specified <see cref="T:Microsoft.Office.Core.UserPermission" /> object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>UserPermission</b> object associates a set of permissions on the active document with a single user and an optional expiration date. The <b>ExpirationDate</b> property returns or sets the optional expiration date of the specified <b>UserPermission</b> object using the local time zone.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.UserPermission.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the <b>Parent</b> object for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Permission">
+      <MemberSignature Language="C#" Value="public int Permission { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Permission" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.UserPermission.Permission" />
+      <MemberSignature Language="VB.NET" Value="Public Property Permission As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Permission { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets an <b>Integer</b> value representing the permissions on the active document assigned to the user associated with the specified <see cref="T:Microsoft.Office.Core.UserPermission" /> object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>Permission</b> property can be one or a combination of <see cref="T:Microsoft.Office.Core.MsoPermission" /> constants.</para>
+          <para>The <b>UserPermission</b> object associates a set of permissions on the active document with a single user and an optional expiration date. The <b>Permission</b> property returns the set of user permissions determined by the specified <b>UserPermission</b> object. While some permissions granted through the user interface (such as <b>msoPermissionPrint</b>) apply to all users, you can use the <b>UserPermission</b> object to assign them on a per-user basis with per-user expiration dates.</para>
+          <list type="bullet">
+            <item>
+              <para>The <b>msoPermissionView</b> or <b>msoPermissionRead</b> option corresponds to the Read option in the user interface.</para>
+            </item>
+            <item>
+              <para>The <b>msoPermissionExtract</b> option corresponds to the Allow users with read access to copy content option in the user interface.</para>
+            </item>
+            <item>
+              <para>The <b>msoPermissionChange</b> option corresponds to the Change option in the user interface. The <b>msoPermissionChange</b> option represents the sum of <b>msoPermissionView</b> + <b>msoPermissionEdit</b> + <b>msoPermissionSave</b> + <b>msoPermissionExtract</b> and allows users to view, edit, copy, and save, but not print, the document.</para>
+            </item>
+            <item>
+              <para>The <b>msoPermissionPrint</b> option corresponds to thePrint content option in the user interface.</para>
+            </item>
+            <item>
+              <para>The <b>msoPermissionObjectModel</b> option corresponds to the Access content programmatically option in the user interface and allows users to access the document programmatically through its object model. Users without <b>msoPermissionObjectModel</b> cannot use the object model to determine their own rights, because programmatic access is disabled.</para>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public void Remove ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Remove() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.UserPermission.Remove" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Remove ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Remove();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Removes the specified <see cref="T:Microsoft.Office.Core.UserPermission" /> object from the <see cref="T:Microsoft.Office.Core.Permission" /> collection of the active document.</summary>
+        <remarks>
+          <para>The <b>UserPermission</b> object associates a set of permissions on the active document with a single user and an optional expiration date. The <b>Remove</b> method removes the user and the set of user permissions determined by the specified <b>UserPermission</b> object.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserId">
+      <MemberSignature Language="C#" Value="public string this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UserId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.UserPermission.UserId" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property UserId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the email name of the user whose permissions on the active document are determined by the specified <see cref="T:Microsoft.Office.Core.UserPermission" /> object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>UserPermission</b> object associates a set of permissions on the active document with a single user and an optional expiration date. The <b>UserID</b> property returns the name in email form of the user whose permissions are determined by the specified <b>UserPermission</b> object.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,36 @@
+﻿<Type Name="CommandBarComboBox" FullName="Microsoft.Office.Core.CommandBarComboBox">
+  <TypeSignature Language="C#" Value="public interface CommandBarComboBox : Microsoft.Office.Core._CommandBarComboBox, Microsoft.Office.Core._CommandBarComboBoxEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CommandBarComboBox implements class Microsoft.Office.Core._CommandBarComboBox, class Microsoft.Office.Core._CommandBarComboBoxEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CommandBarComboBox" />
+  <TypeSignature Language="VB.NET" Value="Public Interface CommandBarComboBox&#xA;Implements _CommandBarComboBox, _CommandBarComboBoxEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class CommandBarComboBox : Microsoft::Office::Core::_CommandBarComboBox, Microsoft::Office::Core::_CommandBarComboBoxEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._CommandBarComboBox</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._CommandBarComboBoxEvents_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Core.CommandBarComboBoxClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C030C-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a combo box control on a command bar.</summary>
+    <remarks>
+      <para>Use <b>Controls</b>(<paramref name="index" />), where <paramref name="index" /> is the index number of the control, to return a <b>CommandBarComboBox</b> object. (The <see cref="P:Microsoft.Office.Core._CommandBarComboBox.Type" /> property of the control must be <b>msoControlEdit</b>, <b>msoControlDropdown</b>, <b>msoControlComboBox</b>, <b>msoControlButtonDropdown</b>, <b>msoControlSplitDropdown</b>, <b>msoControlOCXDropdown</b>, <b>msoControlGraphicCombo</b>, or <b>msoControlGraphicDropdown</b>.) </para>
+      <para>You can also use the <see cref="M:Microsoft.Office.Core._CommandBars.FindControl(System.Object,System.Object,System.Object,System.Object)" /> method to return a <b>CommandBarComboBox</b> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

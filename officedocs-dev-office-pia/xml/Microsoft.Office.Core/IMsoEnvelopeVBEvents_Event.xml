@@ -1,0 +1,67 @@
+﻿<Type Name="IMsoEnvelopeVBEvents_Event" FullName="Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event">
+  <TypeSignature Language="C#" Value="public interface IMsoEnvelopeVBEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMsoEnvelopeVBEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IMsoEnvelopeVBEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IMsoEnvelopeVBEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Core.IMsoEnvelopeVBEvents), typeof(Microsoft.Office.Core.IMsoEnvelopeVBEvents_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Events interface for Microsoft Office <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> object events.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EnvelopeHide">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler EnvelopeHide;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler EnvelopeHide" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event.EnvelopeHide" />
+      <MemberSignature Language="VB.NET" Value="Event EnvelopeHide As IMsoEnvelopeVBEvents_EnvelopeHideEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::IMsoEnvelopeVBEvents_EnvelopeHideEventHandler ^ EnvelopeHide;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when the user interface (UI) that corresponds to the <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> object is hidden.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnvelopeShow">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler EnvelopeShow;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler EnvelopeShow" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event.EnvelopeShow" />
+      <MemberSignature Language="VB.NET" Value="Event EnvelopeShow As IMsoEnvelopeVBEvents_EnvelopeShowEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::IMsoEnvelopeVBEvents_EnvelopeShowEventHandler ^ EnvelopeShow;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when the user interface (UI) that corresponds to the <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> object is displayed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

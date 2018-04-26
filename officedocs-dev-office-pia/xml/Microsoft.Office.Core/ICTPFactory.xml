@@ -1,0 +1,64 @@
+﻿<Type Name="ICTPFactory" FullName="Microsoft.Office.Core.ICTPFactory">
+  <TypeSignature Language="C#" Value="public interface ICTPFactory" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICTPFactory" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ICTPFactory" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICTPFactory" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ICTPFactory" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C033D-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Used to create a custom task pane.</summary>
+    <remarks>
+      <para>
+        <b>Note</b>: You can create custom task panes in any language that supports COM and allows you to create dynamic-linked library (DLL) files. For example, Microsoft Visual Basic® 6.0, Microsoft Visual Basic .NET, Microsoft Visual C++®, Microsoft Visual C++ .NET, and Microsoft Visual C#®. However, Microsoft Visual Basic for Applications (VBA) does not support creating custom task panes. </para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CreateCTP">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.CustomTaskPane CreateCTP (string CTPAxID, string CTPTitle, object CTPParentWindow);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.CustomTaskPane CreateCTP([in]string CTPAxID, [in]string CTPTitle, [in]object CTPParentWindow) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ICTPFactory.CreateCTP(System.String,System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateCTP (CTPAxID As String, CTPTitle As String, Optional CTPParentWindow As Object) As CustomTaskPane" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CustomTaskPane</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="CTPAxID" Type="System.String" />
+        <Parameter Name="CTPTitle" Type="System.String" />
+        <Parameter Name="CTPParentWindow" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="CTPAxID">The CLSID or ProgID of a Microsoft ActiveX® object. </param>
+        <param name="CTPTitle">The title for the task pane.</param>
+        <param name="CTPParentWindow">The window that hosts the task pane. If not present, the parent of the task pane is the <b>ActiveWindow</b> property of the host application.</param>
+        <summary>Creates an instance of a custom task pane.</summary>
+        <returns>
+          <see cref="T:Microsoft.Office.Core.CustomTaskPane" />
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

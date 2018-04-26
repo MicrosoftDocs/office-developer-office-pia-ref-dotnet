@@ -1,0 +1,35 @@
+﻿<Type Name="MsoEnvelope" FullName="Microsoft.Office.Core.MsoEnvelope">
+  <TypeSignature Language="C#" Value="public interface MsoEnvelope : Microsoft.Office.Core.IMsoEnvelopeVB, Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MsoEnvelope implements class Microsoft.Office.Core.IMsoEnvelopeVB, class Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoEnvelope" />
+  <TypeSignature Language="VB.NET" Value="Public Interface MsoEnvelope&#xA;Implements IMsoEnvelopeVB, IMsoEnvelopeVBEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class MsoEnvelope : Microsoft::Office::Core::IMsoEnvelopeVB, Microsoft::Office::Core::IMsoEnvelopeVBEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core.IMsoEnvelopeVB</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Core.MsoEnvelopeClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000672AC-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Provides access to functionality that lets you send documents as emails directly from Microsoft Office applications.</summary>
+    <remarks>
+      <para>Use the <b>MailEnvelope</b> property of the <see cref="T:Microsoft.Office.Interop.Word.Document" />  object, <see cref="T:Microsoft.Office.Interop.Excel.Chart" /> object or <see cref="T:Microsoft.Office.Interop.Excel.Worksheet" /> object (depending on the application you are using) to return an <b>MsoEnvelope</b> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

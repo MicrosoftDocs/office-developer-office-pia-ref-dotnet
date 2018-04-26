@@ -1,0 +1,115 @@
+﻿<Type Name="ContentVerificationResults" FullName="Microsoft.Office.Core.ContentVerificationResults">
+  <TypeSignature Language="C#" Value="public enum ContentVerificationResults" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ContentVerificationResults extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ContentVerificationResults" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ContentVerificationResults" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ContentVerificationResults" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Provides the status of  verifying whether the content of a document has changed.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="contverresError">
+      <MemberSignature Language="C#" Value="contverresError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.ContentVerificationResults contverresError = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.ContentVerificationResults.contverresError" />
+      <MemberSignature Language="VB.NET" Value="contverresError" />
+      <MemberSignature Language="C++ CLI" Value="contverresError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ContentVerificationResults</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The verification resulted in an error.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="contverresModified">
+      <MemberSignature Language="C#" Value="contverresModified" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.ContentVerificationResults contverresModified = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.ContentVerificationResults.contverresModified" />
+      <MemberSignature Language="VB.NET" Value="contverresModified" />
+      <MemberSignature Language="C++ CLI" Value="contverresModified" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ContentVerificationResults</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>The content of the document has been modified since it was digitally signed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="contverresUnverified">
+      <MemberSignature Language="C#" Value="contverresUnverified" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.ContentVerificationResults contverresUnverified = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.ContentVerificationResults.contverresUnverified" />
+      <MemberSignature Language="VB.NET" Value="contverresUnverified" />
+      <MemberSignature Language="C++ CLI" Value="contverresUnverified" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ContentVerificationResults</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The document has not been verified.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="contverresValid">
+      <MemberSignature Language="C#" Value="contverresValid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.ContentVerificationResults contverresValid = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.ContentVerificationResults.contverresValid" />
+      <MemberSignature Language="VB.NET" Value="contverresValid" />
+      <MemberSignature Language="C++ CLI" Value="contverresValid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ContentVerificationResults</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>The content of the has been verified and is valid.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="contverresVerifying">
+      <MemberSignature Language="C#" Value="contverresVerifying" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.ContentVerificationResults contverresVerifying = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.ContentVerificationResults.contverresVerifying" />
+      <MemberSignature Language="VB.NET" Value="contverresVerifying" />
+      <MemberSignature Language="C++ CLI" Value="contverresVerifying" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ContentVerificationResults</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The content of the document is currently being verified.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

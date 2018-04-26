@@ -1,0 +1,80 @@
+﻿<Type Name="MsoFileNewAction" FullName="Microsoft.Office.Core.MsoFileNewAction">
+  <TypeSignature Language="C#" Value="public enum MsoFileNewAction" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFileNewAction extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFileNewAction" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoFileNewAction" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoFileNewAction" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies action to take when a user clicks an item in the task pane.</summary>
+    <remarks>
+      <para>Used with the <b>Add</b> method of the <b>NewFile</b> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoCreateNewFile">
+      <MemberSignature Language="C#" Value="msoCreateNewFile" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileNewAction msoCreateNewFile = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileNewAction.msoCreateNewFile" />
+      <MemberSignature Language="VB.NET" Value="msoCreateNewFile" />
+      <MemberSignature Language="C++ CLI" Value="msoCreateNewFile" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileNewAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Create a new file.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEditFile">
+      <MemberSignature Language="C#" Value="msoEditFile" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileNewAction msoEditFile = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileNewAction.msoEditFile" />
+      <MemberSignature Language="VB.NET" Value="msoEditFile" />
+      <MemberSignature Language="C++ CLI" Value="msoEditFile" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileNewAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Edit file.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoOpenFile">
+      <MemberSignature Language="C#" Value="msoOpenFile" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileNewAction msoOpenFile = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileNewAction.msoOpenFile" />
+      <MemberSignature Language="VB.NET" Value="msoOpenFile" />
+      <MemberSignature Language="C++ CLI" Value="msoOpenFile" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileNewAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Open file.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

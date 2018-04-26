@@ -1,0 +1,110 @@
+﻿<Type Name="ICustomXMLPartsEvents" FullName="Microsoft.Office.Core.ICustomXMLPartsEvents">
+  <TypeSignature Language="C#" Value="public interface ICustomXMLPartsEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICustomXMLPartsEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ICustomXMLPartsEvents" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICustomXMLPartsEvents" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ICustomXMLPartsEvents" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000CDB0A-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Events interface for Microsoft Office <see cref="T:Microsoft.Office.Core.ICustomXMLParts" /> object events.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="PartAfterAdd">
+      <MemberSignature Language="C#" Value="public void PartAfterAdd (Microsoft.Office.Core.CustomXMLPart NewPart);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PartAfterAdd([in]class Microsoft.Office.Core.CustomXMLPart NewPart) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ICustomXMLPartsEvents.PartAfterAdd(Microsoft.Office.Core.CustomXMLPart)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PartAfterAdd (NewPart As CustomXMLPart)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PartAfterAdd(Microsoft::Office::Core::CustomXMLPart ^ NewPart);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="NewPart" Type="Microsoft.Office.Core.CustomXMLPart" />
+      </Parameters>
+      <Docs>
+        <param name="NewPart">To be added.</param>
+        <summary>Reserved for internal use.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PartAfterLoad">
+      <MemberSignature Language="C#" Value="public void PartAfterLoad (Microsoft.Office.Core.CustomXMLPart Part);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PartAfterLoad([in]class Microsoft.Office.Core.CustomXMLPart Part) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ICustomXMLPartsEvents.PartAfterLoad(Microsoft.Office.Core.CustomXMLPart)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PartAfterLoad (Part As CustomXMLPart)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PartAfterLoad(Microsoft::Office::Core::CustomXMLPart ^ Part);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Part" Type="Microsoft.Office.Core.CustomXMLPart" />
+      </Parameters>
+      <Docs>
+        <param name="Part">To be added.</param>
+        <summary>Reserved for internal use.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PartBeforeDelete">
+      <MemberSignature Language="C#" Value="public void PartBeforeDelete (Microsoft.Office.Core.CustomXMLPart OldPart);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PartBeforeDelete([in]class Microsoft.Office.Core.CustomXMLPart OldPart) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ICustomXMLPartsEvents.PartBeforeDelete(Microsoft.Office.Core.CustomXMLPart)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PartBeforeDelete (OldPart As CustomXMLPart)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PartBeforeDelete(Microsoft::Office::Core::CustomXMLPart ^ OldPart);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="OldPart" Type="Microsoft.Office.Core.CustomXMLPart" />
+      </Parameters>
+      <Docs>
+        <param name="OldPart">To be added.</param>
+        <summary>Reserved for internal use.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,63 @@
+﻿<Type Name="MsoFilterConjunction" FullName="Microsoft.Office.Core.MsoFilterConjunction">
+  <TypeSignature Language="C#" Value="public enum MsoFilterConjunction" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFilterConjunction extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFilterConjunction" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoFilterConjunction" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoFilterConjunction" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies how a filter criterion relates to other filter criteria.</summary>
+    <remarks>
+      <para>Used with the <b>Conjunction</b> property of the <b>ODSOFilters</b> object and with the <b>Add</b> method of the <b>MailMergeFilters</b> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoFilterConjunctionAnd">
+      <MemberSignature Language="C#" Value="msoFilterConjunctionAnd" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFilterConjunction msoFilterConjunctionAnd = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFilterConjunction.msoFilterConjunctionAnd" />
+      <MemberSignature Language="VB.NET" Value="msoFilterConjunctionAnd" />
+      <MemberSignature Language="C++ CLI" Value="msoFilterConjunctionAnd" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFilterConjunction</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <b>And</b> conjunction.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFilterConjunctionOr">
+      <MemberSignature Language="C#" Value="msoFilterConjunctionOr" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFilterConjunction msoFilterConjunctionOr = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFilterConjunction.msoFilterConjunctionOr" />
+      <MemberSignature Language="VB.NET" Value="msoFilterConjunctionOr" />
+      <MemberSignature Language="C++ CLI" Value="msoFilterConjunctionOr" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFilterConjunction</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <b>Or</b> conjunction.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
