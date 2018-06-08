@@ -1,0 +1,204 @@
+﻿<Type Name="NewFile" FullName="Microsoft.Office.Core.NewFile">
+  <TypeSignature Language="C#" Value="public interface NewFile : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NewFile implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.NewFile" />
+  <TypeSignature Language="VB.NET" Value="Public Interface NewFile&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class NewFile : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0936-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <b>NewFile</b> object represents items listed on the New Item task pane available in several Microsoft Office applications.</summary>
+    <remarks>
+      <para>The following table shows the property to use to access the <b>NewFile</b> object in each of the applications.</para>
+      <list type="table">
+        <item>
+          <description>Microsoft Access</description>
+          <description>
+            <b>NewFileTaskPane</b>
+          </description>
+        </item>
+        <item>
+          <description>Microsoft Excel</description>
+          <description>
+            <b>NewWorkbook</b>
+          </description>
+        </item>
+        <item>
+          <description>Microsoft FrontPage</description>
+          <description>
+            <b>NewPageOrWeb</b>
+          </description>
+        </item>
+        <item>
+          <description>Microsoft PowerPoint</description>
+          <description>
+            <b>NewPresentation</b>
+          </description>
+        </item>
+        <item>
+          <description>Microsoft Word</description>
+          <description>
+            <b>NewDocument</b>
+          </description>
+        </item>
+      </list>
+      <para>Use the <see cref="M:Microsoft.Office.Core.NewFile.Add(System.String,System.Object,System.Object,System.Object)" /> method to add a new item to the New Item task pane. Use the <see cref="M:Microsoft.Office.Core.NewFile.Remove(System.String,System.Object,System.Object,System.Object)" /> method to remove an item from the New Item task pane.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public bool Add (string FileName, object Section, object DisplayName, object Action);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Add([in]string FileName, [in]object Section, [in]object DisplayName, [in]object Action) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.NewFile.Add(System.String,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (FileName As String, Optional Section As Object, Optional DisplayName As Object, Optional Action As Object) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FileName" Type="System.String" />
+        <Parameter Name="Section" Type="System.Object" />
+        <Parameter Name="DisplayName" Type="System.Object" />
+        <Parameter Name="Action" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="FileName">Required <b>String</b>. The name of the file to add to the list of files on the task pane.</param>
+        <param name="Section">Optional <b>Object</b>. The section to which to add the file. Can be any <see cref="T:Microsoft.Office.Core.MsoFileNewSection" /> constant.</param>
+        <param name="DisplayName">Optional <b>Object</b>. The text to display in the task pane.</param>
+        <param name="Action">Optional <b>Object</b>. The action to take when a user clicks on the item. Can be any <see cref="T:Microsoft.Office.Core.MsoFileNewAction" /> constant.</param>
+        <summary>Adds a new item to the New Item task pane.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>This method returns <b>True</b> if the item was successfully added; <b>False</b> otherwise.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.NewFile.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <b>Application</b> object that represents the container application for the object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.NewFile.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which the specified object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.NewFile.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public bool Remove (string FileName, object Section, object DisplayName, object Action);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Remove([in]string FileName, [in]object Section, [in]object DisplayName, [in]object Action) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.NewFile.Remove(System.String,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Remove (FileName As String, Optional Section As Object, Optional DisplayName As Object, Optional Action As Object) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FileName" Type="System.String" />
+        <Parameter Name="Section" Type="System.Object" />
+        <Parameter Name="DisplayName" Type="System.Object" />
+        <Parameter Name="Action" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="FileName">Required <b>String</b>. The name of the file reference.</param>
+        <param name="Section">Optional <b>Object</b>. The section of the task pane where the file reference exists. Can be any <see cref="T:Microsoft.Office.Core.MsoFileNewSection" /> constant.</param>
+        <param name="DisplayName">Optional <b>Object</b>. The display text of the file reference.</param>
+        <param name="Action">Optional <b>Object</b>. The action taken when a user clicks on the item. Can be any <see cref="T:Microsoft.Office.Core.MsoFileNewAction" /> constant.</param>
+        <summary>Removes an item from the New Item task pane.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

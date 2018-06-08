@@ -1,0 +1,35 @@
+<Type Name="_CommandBarButtonEvents_ClickEventHandler" FullName="Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void _CommandBarButtonEvents_ClickEventHandler(CommandBarButton Ctrl, out bool CancelDefault);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _CommandBarButtonEvents_ClickEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub _CommandBarButtonEvents_ClickEventHandler(Ctrl As CommandBarButton, ByRef CancelDefault As Boolean)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void _CommandBarButtonEvents_ClickEventHandler(CommandBarButton ^ Ctrl, [Runtime::InteropServices::Out] bool % CancelDefault);" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Ctrl" Type="Microsoft.Office.Core.CommandBarButton" />
+    <Parameter Name="CancelDefault" Type="System.Boolean&amp;" RefType="out" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Ctrl">Required <b>CommandBarButton</b>. Denotes the <b>CommandBarButton</b> control that initiated the event.</param>
+    <param name="CancelDefault">Required <b>Boolean</b>. <b>False</b> if the default behavior associated with the <b>CommandBarButton</b> control occurs, unless it’s canceled by another process or add-in.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Core._CommandBarButtonEvents_Event.Click" /> event. The <b>Click</b> event occurs when the user clicks a <see cref="T:Microsoft.Office.Core.CommandBarButton" /> object.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

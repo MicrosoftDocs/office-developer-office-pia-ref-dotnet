@@ -1,0 +1,82 @@
+﻿<Type Name="MsoSyncAvailableType" FullName="Microsoft.Office.Core.MsoSyncAvailableType">
+  <TypeSignature Language="C#" Value="public enum MsoSyncAvailableType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSyncAvailableType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSyncAvailableType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoSyncAvailableType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoSyncAvailableType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Specifies whether and under what circumstances synchronization is available for the document.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoSyncAvailableAnywhere">
+      <MemberSignature Language="C#" Value="msoSyncAvailableAnywhere" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncAvailableType msoSyncAvailableAnywhere = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncAvailableType.msoSyncAvailableAnywhere" />
+      <MemberSignature Language="VB.NET" Value="msoSyncAvailableAnywhere" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncAvailableAnywhere" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncAvailableType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Synchronization is available offline and online.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncAvailableNone">
+      <MemberSignature Language="C#" Value="msoSyncAvailableNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncAvailableType msoSyncAvailableNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncAvailableType.msoSyncAvailableNone" />
+      <MemberSignature Language="VB.NET" Value="msoSyncAvailableNone" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncAvailableNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncAvailableType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>No synchronization is available.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncAvailableOffline">
+      <MemberSignature Language="C#" Value="msoSyncAvailableOffline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncAvailableType msoSyncAvailableOffline = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncAvailableType.msoSyncAvailableOffline" />
+      <MemberSignature Language="VB.NET" Value="msoSyncAvailableOffline" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncAvailableOffline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncAvailableType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Synchronization is available offline only.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

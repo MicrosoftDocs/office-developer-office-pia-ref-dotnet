@@ -1,0 +1,80 @@
+﻿<Type Name="MsoExtrusionColorType" FullName="Microsoft.Office.Core.MsoExtrusionColorType">
+  <TypeSignature Language="C#" Value="public enum MsoExtrusionColorType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoExtrusionColorType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoExtrusionColorType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoExtrusionColorType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoExtrusionColorType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies whether the extrusion color is based on the extruded shape's fill (the front face of the extrusion) and automatically changes when the shape's fill changes, or whether the extrusion color is independent of the shape's fill.</summary>
+    <remarks>
+      <para>Used with the <b>ExtrusionColorType</b> property of the <b>ThreeDFormat</b> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoExtrusionColorAutomatic">
+      <MemberSignature Language="C#" Value="msoExtrusionColorAutomatic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoExtrusionColorType msoExtrusionColorAutomatic = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoExtrusionColorType.msoExtrusionColorAutomatic" />
+      <MemberSignature Language="VB.NET" Value="msoExtrusionColorAutomatic" />
+      <MemberSignature Language="C++ CLI" Value="msoExtrusionColorAutomatic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoExtrusionColorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Extrusion color is based on shape fill.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoExtrusionColorCustom">
+      <MemberSignature Language="C#" Value="msoExtrusionColorCustom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoExtrusionColorType msoExtrusionColorCustom = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoExtrusionColorType.msoExtrusionColorCustom" />
+      <MemberSignature Language="VB.NET" Value="msoExtrusionColorCustom" />
+      <MemberSignature Language="C++ CLI" Value="msoExtrusionColorCustom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoExtrusionColorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Extrusion color is independent of shape fill.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoExtrusionColorTypeMixed">
+      <MemberSignature Language="C#" Value="msoExtrusionColorTypeMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoExtrusionColorType msoExtrusionColorTypeMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoExtrusionColorType.msoExtrusionColorTypeMixed" />
+      <MemberSignature Language="VB.NET" Value="msoExtrusionColorTypeMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoExtrusionColorTypeMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoExtrusionColorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>Return value only; indicates a combination of the other states. </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

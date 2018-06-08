@@ -1,0 +1,51 @@
+<Type Name="_CommandBarsEvents_Event" FullName="Microsoft.Office.Core._CommandBarsEvents_Event">
+  <TypeSignature Language="C#" Value="public interface _CommandBarsEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CommandBarsEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CommandBarsEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _CommandBarsEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _CommandBarsEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Core._CommandBarsEvents), typeof(Microsoft.Office.Core._CommandBarsEvents_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Events interface for Microsoft Office <see cref="T:Microsoft.Office.Core.CommandBars" /> object events.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="OnUpdate">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler OnUpdate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler OnUpdate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core._CommandBarsEvents_Event.OnUpdate" />
+      <MemberSignature Language="VB.NET" Value="Event OnUpdate As _CommandBarsEvents_OnUpdateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::_CommandBarsEvents_OnUpdateEventHandler ^ OnUpdate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when any change is made to a command bar.</summary>
+        <remarks>
+          <para>The <b>OnUpdate</b> event is recognized by the <see cref="T:Microsoft.Office.Core.CommandBar" /> object and all command bar controls. The event is triggered by any change to a command bar or command bar control or any change to the state of a command bar or command bar control. These changes can occur due to a text or cell selection, for example. Since a large number of <b>OnUpdate</b> events can occur during normal usage, developers should exercise caution when using this event. It is strongly recommended that this event be used primarily for checking that a custom command bar has been added or removed by a <see cref="T:Microsoft.Office.Core.COMAddIn" /> object.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

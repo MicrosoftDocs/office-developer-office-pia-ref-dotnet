@@ -1,0 +1,58 @@
+﻿<Type Name="MsoSyncVersionType" FullName="Microsoft.Office.Core.MsoSyncVersionType">
+  <TypeSignature Language="C#" Value="public enum MsoSyncVersionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSyncVersionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSyncVersionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoSyncVersionType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoSyncVersionType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies which version of a shared document to open alongside the currently open local version.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoSyncVersionLastViewed">
+      <MemberSignature Language="C#" Value="msoSyncVersionLastViewed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncVersionType msoSyncVersionLastViewed = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncVersionType.msoSyncVersionLastViewed" />
+      <MemberSignature Language="VB.NET" Value="msoSyncVersionLastViewed" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncVersionLastViewed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncVersionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Opens the copy of the document that is created whenever the user overwrites the local copy with the server copy.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncVersionServer">
+      <MemberSignature Language="C#" Value="msoSyncVersionServer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncVersionType msoSyncVersionServer = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncVersionType.msoSyncVersionServer" />
+      <MemberSignature Language="VB.NET" Value="msoSyncVersionServer" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncVersionServer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncVersionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Opens the server version. </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

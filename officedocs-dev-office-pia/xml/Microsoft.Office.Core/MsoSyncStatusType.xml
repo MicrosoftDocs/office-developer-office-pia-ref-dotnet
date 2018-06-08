@@ -1,0 +1,175 @@
+﻿<Type Name="MsoSyncStatusType" FullName="Microsoft.Office.Core.MsoSyncStatusType">
+  <TypeSignature Language="C#" Value="public enum MsoSyncStatusType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSyncStatusType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSyncStatusType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoSyncStatusType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoSyncStatusType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies the status of the synchronization of the local copy of the active document with the server copy.</summary>
+    <remarks>
+      <para>Used with the <see cref="P:Microsoft.Office.Core.Sync.Status" /> property of the <see cref="T:Microsoft.Office.Core.Sync" /> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoSyncStatusConflict">
+      <MemberSignature Language="C#" Value="msoSyncStatusConflict" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncStatusType msoSyncStatusConflict = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncStatusType.msoSyncStatusConflict" />
+      <MemberSignature Language="VB.NET" Value="msoSyncStatusConflict" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncStatusConflict" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Both the local and the server copies have changes.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncStatusError">
+      <MemberSignature Language="C#" Value="msoSyncStatusError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncStatusType msoSyncStatusError = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncStatusType.msoSyncStatusError" />
+      <MemberSignature Language="VB.NET" Value="msoSyncStatusError" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncStatusError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>An error occurred. Use <b>ErrorType</b> property of <b>Sync</b> object to determine exact error.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncStatusLatest">
+      <MemberSignature Language="C#" Value="msoSyncStatusLatest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncStatusType msoSyncStatusLatest = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncStatusType.msoSyncStatusLatest" />
+      <MemberSignature Language="VB.NET" Value="msoSyncStatusLatest" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncStatusLatest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Documents are already in sync.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncStatusLocalChanges">
+      <MemberSignature Language="C#" Value="msoSyncStatusLocalChanges" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncStatusType msoSyncStatusLocalChanges = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncStatusType.msoSyncStatusLocalChanges" />
+      <MemberSignature Language="VB.NET" Value="msoSyncStatusLocalChanges" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncStatusLocalChanges" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Only local copy has changes.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncStatusNewerAvailable">
+      <MemberSignature Language="C#" Value="msoSyncStatusNewerAvailable" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncStatusType msoSyncStatusNewerAvailable = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncStatusType.msoSyncStatusNewerAvailable" />
+      <MemberSignature Language="VB.NET" Value="msoSyncStatusNewerAvailable" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncStatusNewerAvailable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Only server copy has changes.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncStatusNoSharedWorkspace">
+      <MemberSignature Language="C#" Value="msoSyncStatusNoSharedWorkspace" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncStatusType msoSyncStatusNoSharedWorkspace = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncStatusType.msoSyncStatusNoSharedWorkspace" />
+      <MemberSignature Language="VB.NET" Value="msoSyncStatusNoSharedWorkspace" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncStatusNoSharedWorkspace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>No shared workspace.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncStatusNotRoaming">
+      <MemberSignature Language="C#" Value="msoSyncStatusNotRoaming" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncStatusType msoSyncStatusNotRoaming = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncStatusType.msoSyncStatusNotRoaming" />
+      <MemberSignature Language="VB.NET" Value="msoSyncStatusNotRoaming" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncStatusNotRoaming" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>No syncronization is needed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncStatusSuspended">
+      <MemberSignature Language="C#" Value="msoSyncStatusSuspended" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncStatusType msoSyncStatusSuspended = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncStatusType.msoSyncStatusSuspended" />
+      <MemberSignature Language="VB.NET" Value="msoSyncStatusSuspended" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncStatusSuspended" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Synchronization was suspended. You can use the <b>Unsuspend</b> method of the <b>Sync</b> object to resume synchronization.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,151 @@
+﻿<Type Name="IRibbonControl" FullName="Microsoft.Office.Core.IRibbonControl">
+  <TypeSignature Language="C#" Value="public interface IRibbonControl" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRibbonControl" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IRibbonControl" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IRibbonControl" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IRibbonControl" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0395-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents the object passed into every Ribbon user interface (UI) control's callback procedure.</summary>
+    <remarks>
+      <para>The <b>IRibbonControl</b> object  contains the name (ID) of the control and the current <b>Window</b> object for the Ribbon UI control.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>The following example, written in C#,  shows two procedures called from the <b>onAction</b> event procedure  of a Button control and a ToggleButton control. In the first procedure, the <b>IRibbonControl</b> object representing the control is passed into the procedure and a message box is displayed indicating that the button was pressed along with the ID of the button. The second procedure is similar to the first with the addition of a <b>Boolean</b> parameter indicating that the button was pressed.</para>
+      <code>&lt;span class="label"&gt;public void ButtonOnAction(IRibbonControl control) 
+   MessageBox.Show("Button clicked: " + control.Id); 
+} 
+ 
+public void ToggleButtonOnAction(IRibbonControl control, bool pressed) 
+{ 
+ 
+ 
+...if (pressed) 
+ 
+      MessageBox.Show("ToggleButton was switched on."); 
+ 
+ 
+   else 
+      MessageBox.Show("ToggleButton was switched off."); 
+ 
+}&lt;/span&gt;</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName="Context">
+      <MemberSignature Language="C#" Value="public object Context { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Context" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IRibbonControl.Context" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Context As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Context { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Represents the active window containing the Ribbon user interface that triggers a callback procedure. Read-only.</summary>
+        <value>Object</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IRibbonControl.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the ID of the control specified in the Ribbon XML markup customization file. Read-only.</summary>
+        <value>String</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tag">
+      <MemberSignature Language="C#" Value="public string Tag { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Tag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IRibbonControl.Tag" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tag As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Tag { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Used to store arbitrary strings and fetch them at runtime. Read-only</summary>
+        <value>String</value>
+        <remarks>
+          <para>Normally you can distinguish between controls in a Ribbon user interface XML customization file using the <b>Id</b> property. However, there are restrictions on what IDs can contain (no non-alphanumeric characters, and they must all be unique).
+
+The <b>Tag</b> property doesn’t have these restrictions and so it can be used in the following situations, where ID doesn’t work:</para>
+          <list type="bullet">
+            <item>
+              <para>If you need to store a special string with your control such as a filename.  For example: tag=”C:\path\file.xlsm.”</para>
+            </item>
+            <item>
+              <para>If you want multiple controls to be treated the same way by your callback procedures, but you don’t want to maintain a list of all of their IDs (which must be unique).  For example, you could have buttons on different tabs on the Ribbon, all with tag=”blue”, and then just check the <b>Tag</b> property instead of the <b>ID</b> property when perfroming some common action.</para>
+            </item>
+          </list>
+          <para />
+          <para />
+        </remarks>
+        <example>
+          <para>In the  XML used to customize the Ribbon user interface, you can set a tag as follows. When the MyFunction action is called, you can read the <b>Tag</b> property, which will be equal to “some string”. </para>
+          <code>&lt;span class="label"&gt;&amp;lt;button id=”mybutton” tag=”some string” onAction=”MyFunction”/&amp;gt;&lt;/span&gt;</code>
+        </example>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

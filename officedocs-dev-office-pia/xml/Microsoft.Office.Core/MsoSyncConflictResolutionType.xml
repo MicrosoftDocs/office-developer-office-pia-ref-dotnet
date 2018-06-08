@@ -1,0 +1,80 @@
+﻿<Type Name="MsoSyncConflictResolutionType" FullName="Microsoft.Office.Core.MsoSyncConflictResolutionType">
+  <TypeSignature Language="C#" Value="public enum MsoSyncConflictResolutionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSyncConflictResolutionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSyncConflictResolutionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoSyncConflictResolutionType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoSyncConflictResolutionType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies how conflicts should be resolved when synchronizing a shared document.</summary>
+    <remarks>
+      <para>Used with the <b>ResolveConflict</b> method of the <b>Sync</b> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoSyncConflictClientWins">
+      <MemberSignature Language="C#" Value="msoSyncConflictClientWins" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncConflictResolutionType msoSyncConflictClientWins = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncConflictResolutionType.msoSyncConflictClientWins" />
+      <MemberSignature Language="VB.NET" Value="msoSyncConflictClientWins" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncConflictClientWins" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncConflictResolutionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Replace the server copy with the local copy.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncConflictMerge">
+      <MemberSignature Language="C#" Value="msoSyncConflictMerge" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncConflictResolutionType msoSyncConflictMerge = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncConflictResolutionType.msoSyncConflictMerge" />
+      <MemberSignature Language="VB.NET" Value="msoSyncConflictMerge" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncConflictMerge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncConflictResolutionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Merge changes made to the server copy into the local copy. In order to resolve the conflict with the merged changes winning, you must save the active document after merging changes, then call the <b>ResolveConflict</b> method again with the <see cref="F:Microsoft.Office.Core.MsoSyncConflictResolutionType.msoSyncConflictClientWins" /> option.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncConflictServerWins">
+      <MemberSignature Language="C#" Value="msoSyncConflictServerWins" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncConflictResolutionType msoSyncConflictServerWins = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncConflictResolutionType.msoSyncConflictServerWins" />
+      <MemberSignature Language="VB.NET" Value="msoSyncConflictServerWins" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncConflictServerWins" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncConflictResolutionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Replace the local copy with the server copy.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

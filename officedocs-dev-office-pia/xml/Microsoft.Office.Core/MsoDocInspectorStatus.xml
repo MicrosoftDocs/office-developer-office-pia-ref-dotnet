@@ -1,0 +1,77 @@
+﻿<Type Name="MsoDocInspectorStatus" FullName="Microsoft.Office.Core.MsoDocInspectorStatus">
+  <TypeSignature Language="C#" Value="public enum MsoDocInspectorStatus" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoDocInspectorStatus extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoDocInspectorStatus" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoDocInspectorStatus" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoDocInspectorStatus" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Represents the results of running a Document Inspector module.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoDocInspectorStatusDocOk">
+      <MemberSignature Language="C#" Value="msoDocInspectorStatusDocOk" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDocInspectorStatus msoDocInspectorStatusDocOk = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDocInspectorStatus.msoDocInspectorStatusDocOk" />
+      <MemberSignature Language="VB.NET" Value="msoDocInspectorStatusDocOk" />
+      <MemberSignature Language="C++ CLI" Value="msoDocInspectorStatusDocOk" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDocInspectorStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Indicates that the Document Inspector module returned no issues or errors.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoDocInspectorStatusError">
+      <MemberSignature Language="C#" Value="msoDocInspectorStatusError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDocInspectorStatus msoDocInspectorStatusError = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDocInspectorStatus.msoDocInspectorStatusError" />
+      <MemberSignature Language="VB.NET" Value="msoDocInspectorStatusError" />
+      <MemberSignature Language="C++ CLI" Value="msoDocInspectorStatusError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDocInspectorStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Indicates  that the Document Inspector module returned an error.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoDocInspectorStatusIssueFound">
+      <MemberSignature Language="C#" Value="msoDocInspectorStatusIssueFound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDocInspectorStatus msoDocInspectorStatusIssueFound = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDocInspectorStatus.msoDocInspectorStatusIssueFound" />
+      <MemberSignature Language="VB.NET" Value="msoDocInspectorStatusIssueFound" />
+      <MemberSignature Language="C++ CLI" Value="msoDocInspectorStatusIssueFound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDocInspectorStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Indicates  that the Document Inspector module found one or more occurrences of the search criteria.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,58 @@
+﻿<Type Name="ICustomTaskPaneConsumer" FullName="Microsoft.Office.Core.ICustomTaskPaneConsumer">
+  <TypeSignature Language="C#" Value="public interface ICustomTaskPaneConsumer" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICustomTaskPaneConsumer" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ICustomTaskPaneConsumer" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICustomTaskPaneConsumer" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ICustomTaskPaneConsumer" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C033E-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>An interface that provides access to the <see cref="M:Microsoft.Office.Core.ICustomTaskPaneConsumer.CTPFactoryAvailable(Microsoft.Office.Core.ICTPFactory)" /> method that is used to create an instance of a custom task pane.</summary>
+    <remarks>
+      <para>
+        <b>Note</b>: You can create custom task panes in any language that supports COM and allows you to create dynamic-linked library (DLL) files. For example, Microsoft Visual Basic® 6.0, Microsoft Visual Basic .NET, Microsoft Visual C++®, Microsoft Visual C++ .NET, and Microsoft Visual C#®. However, Microsoft Visual Basic for Applications (VBA) does not support creating custom task panes. </para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CTPFactoryAvailable">
+      <MemberSignature Language="C#" Value="public void CTPFactoryAvailable (Microsoft.Office.Core.ICTPFactory CTPFactoryInst);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CTPFactoryAvailable([in]class Microsoft.Office.Core.ICTPFactory CTPFactoryInst) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ICustomTaskPaneConsumer.CTPFactoryAvailable(Microsoft.Office.Core.ICTPFactory)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CTPFactoryAvailable (CTPFactoryInst As ICTPFactory)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CTPFactoryAvailable(Microsoft::Office::Core::ICTPFactory ^ CTPFactoryInst);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="CTPFactoryInst" Type="Microsoft.Office.Core.ICTPFactory" />
+      </Parameters>
+      <Docs>
+        <param name="CTPFactoryInst">The object is used by an add-in to create a task pane.</param>
+        <summary>Passes an <see cref="T:Microsoft.Office.Core.ICTPFactory" /> object to a Microsoft ActiveX add-in that can then be used when creating a custom task pane.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

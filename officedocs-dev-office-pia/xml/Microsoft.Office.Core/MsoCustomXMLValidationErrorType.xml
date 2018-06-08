@@ -1,0 +1,80 @@
+﻿<Type Name="MsoCustomXMLValidationErrorType" FullName="Microsoft.Office.Core.MsoCustomXMLValidationErrorType">
+  <TypeSignature Language="C#" Value="public enum MsoCustomXMLValidationErrorType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoCustomXMLValidationErrorType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoCustomXMLValidationErrorType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoCustomXMLValidationErrorType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoCustomXMLValidationErrorType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Indicates how validation errors will be cleared or generated.</summary>
+    <remarks>
+      <para>References to DTDs from custom XML parts are not supported. DTD references in custom XML parts will not resolve, and custom XML parts containing DTD references generate an exception when an attempt is made to save the file's content to a flat XML file.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoCustomXMLValidationErrorAutomaticallyCleared">
+      <MemberSignature Language="C#" Value="msoCustomXMLValidationErrorAutomaticallyCleared" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCustomXMLValidationErrorType msoCustomXMLValidationErrorAutomaticallyCleared = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCustomXMLValidationErrorType.msoCustomXMLValidationErrorAutomaticallyCleared" />
+      <MemberSignature Language="VB.NET" Value="msoCustomXMLValidationErrorAutomaticallyCleared" />
+      <MemberSignature Language="C++ CLI" Value="msoCustomXMLValidationErrorAutomaticallyCleared" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCustomXMLValidationErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Specifies that the error will clear itself whenever any change is made to the node it is bound to. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCustomXMLValidationErrorManual">
+      <MemberSignature Language="C#" Value="msoCustomXMLValidationErrorManual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCustomXMLValidationErrorType msoCustomXMLValidationErrorManual = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCustomXMLValidationErrorType.msoCustomXMLValidationErrorManual" />
+      <MemberSignature Language="VB.NET" Value="msoCustomXMLValidationErrorManual" />
+      <MemberSignature Language="C++ CLI" Value="msoCustomXMLValidationErrorManual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCustomXMLValidationErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Specifies that the error will not be cleared until the <see cref="M:Microsoft.Office.Core.CustomXMLValidationError.Delete" /> method is called.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCustomXMLValidationErrorSchemaGenerated">
+      <MemberSignature Language="C#" Value="msoCustomXMLValidationErrorSchemaGenerated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCustomXMLValidationErrorType msoCustomXMLValidationErrorSchemaGenerated = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCustomXMLValidationErrorType.msoCustomXMLValidationErrorSchemaGenerated" />
+      <MemberSignature Language="VB.NET" Value="msoCustomXMLValidationErrorSchemaGenerated" />
+      <MemberSignature Language="C++ CLI" Value="msoCustomXMLValidationErrorSchemaGenerated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCustomXMLValidationErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Specifies that where there is a non-empty schema collection available for the custom XML part and validation is in effect, any changes to the part will cause validation errors.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

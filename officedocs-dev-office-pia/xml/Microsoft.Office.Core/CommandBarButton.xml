@@ -1,0 +1,36 @@
+﻿<Type Name="CommandBarButton" FullName="Microsoft.Office.Core.CommandBarButton">
+  <TypeSignature Language="C#" Value="public interface CommandBarButton : Microsoft.Office.Core._CommandBarButton, Microsoft.Office.Core._CommandBarButtonEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CommandBarButton implements class Microsoft.Office.Core._CommandBarButton, class Microsoft.Office.Core._CommandBarButtonEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CommandBarButton" />
+  <TypeSignature Language="VB.NET" Value="Public Interface CommandBarButton&#xA;Implements _CommandBarButton, _CommandBarButtonEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class CommandBarButton : Microsoft::Office::Core::_CommandBarButton, Microsoft::Office::Core::_CommandBarButtonEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._CommandBarButton</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._CommandBarButtonEvents_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Core.CommandBarButtonClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C030E-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a button control on a command bar.</summary>
+    <remarks>
+      <para>Use <b>Controls</b>(<paramref name="index" />), where <paramref name="index" /> is the index number of the control, to return a <b>CommandBarButton</b> object. (The <see cref="P:Microsoft.Office.Core._CommandBarButton.Type" /> property of the control must be <b>msoControlButton</b>.)</para>
+      <para>You can also use the <see cref="M:Microsoft.Office.Core._CommandBars.FindControl(System.Object,System.Object,System.Object,System.Object)" /> method to return a <b>CommandBarButton</b> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

@@ -1,0 +1,172 @@
+﻿<Type Name="CertificateVerificationResults" FullName="Microsoft.Office.Core.CertificateVerificationResults">
+  <TypeSignature Language="C#" Value="public enum CertificateVerificationResults" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CertificateVerificationResults extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CertificateVerificationResults" />
+  <TypeSignature Language="VB.NET" Value="Public Enum CertificateVerificationResults" />
+  <TypeSignature Language="C++ CLI" Value="public enum class CertificateVerificationResults" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Provides the results of  verifying a digital certificate.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="certverresError">
+      <MemberSignature Language="C#" Value="certverresError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.CertificateVerificationResults certverresError = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.CertificateVerificationResults.certverresError" />
+      <MemberSignature Language="VB.NET" Value="certverresError" />
+      <MemberSignature Language="C++ CLI" Value="certverresError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CertificateVerificationResults</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The verification resulted in an error.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="certverresExpired">
+      <MemberSignature Language="C#" Value="certverresExpired" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.CertificateVerificationResults certverresExpired = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.CertificateVerificationResults.certverresExpired" />
+      <MemberSignature Language="VB.NET" Value="certverresExpired" />
+      <MemberSignature Language="C++ CLI" Value="certverresExpired" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CertificateVerificationResults</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>The certification has expired.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="certverresInvalid">
+      <MemberSignature Language="C#" Value="certverresInvalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.CertificateVerificationResults certverresInvalid = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.CertificateVerificationResults.certverresInvalid" />
+      <MemberSignature Language="VB.NET" Value="certverresInvalid" />
+      <MemberSignature Language="C++ CLI" Value="certverresInvalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CertificateVerificationResults</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>The certification is invalid.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="certverresRevoked">
+      <MemberSignature Language="C#" Value="certverresRevoked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.CertificateVerificationResults certverresRevoked = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.CertificateVerificationResults.certverresRevoked" />
+      <MemberSignature Language="VB.NET" Value="certverresRevoked" />
+      <MemberSignature Language="C++ CLI" Value="certverresRevoked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CertificateVerificationResults</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>The certification has been revoked.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="certverresUntrusted">
+      <MemberSignature Language="C#" Value="certverresUntrusted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.CertificateVerificationResults certverresUntrusted = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.CertificateVerificationResults.certverresUntrusted" />
+      <MemberSignature Language="VB.NET" Value="certverresUntrusted" />
+      <MemberSignature Language="C++ CLI" Value="certverresUntrusted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CertificateVerificationResults</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>The certification is from an untrusted source.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="certverresUnverified">
+      <MemberSignature Language="C#" Value="certverresUnverified" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.CertificateVerificationResults certverresUnverified = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.CertificateVerificationResults.certverresUnverified" />
+      <MemberSignature Language="VB.NET" Value="certverresUnverified" />
+      <MemberSignature Language="C++ CLI" Value="certverresUnverified" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CertificateVerificationResults</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The certification is currently unverified.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="certverresValid">
+      <MemberSignature Language="C#" Value="certverresValid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.CertificateVerificationResults certverresValid = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.CertificateVerificationResults.certverresValid" />
+      <MemberSignature Language="VB.NET" Value="certverresValid" />
+      <MemberSignature Language="C++ CLI" Value="certverresValid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CertificateVerificationResults</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>The certification is valid.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="certverresVerifying">
+      <MemberSignature Language="C#" Value="certverresVerifying" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.CertificateVerificationResults certverresVerifying = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.CertificateVerificationResults.certverresVerifying" />
+      <MemberSignature Language="VB.NET" Value="certverresVerifying" />
+      <MemberSignature Language="C++ CLI" Value="certverresVerifying" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CertificateVerificationResults</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The certificate is currently being verified.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
