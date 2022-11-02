@@ -626,14 +626,14 @@
       </Parameters>
       <Docs>
         <param name="ChartFieldType">Contains the text to be inserted.</param>
-        <param name="Formula">Specifies a cell (or range) if the <see cref="T:Microsoft.Office.Core.MsoChartFieldFormula" /> constant is passed in for the <paramref name="ChartFieldType" /> parameter.</param>
+        <param name="Formula">Specifies a cell (or range) if the <see cref="T:Microsoft.Office.Core.MsoChartFieldType" /> **msoChartFieldFormula** constant is passed in for the <paramref name="ChartFieldType" /> parameter.</param>
         <param name="Position">Specifies the character position where the chart field is inserted. The default is to append the field to the end of the text. If the position value is out of range, the default is used.</param>
         <summary>Inserts a field into the body of a data label in a chart.</summary>
         <returns>
           <b>TextRange2</b>
         </returns>
         <remarks>
-          <para>This method applies only to data labels in a chart. Calling this method on any other kind of <a href="a6a59c9b-9b64-c1e2-2e98-a1f99025c877.htm">Microsoft.Office.Core.TextRange2</a></para>
+          <para>This method applies only to data labels in a chart. Calling this method on any other kind of <see cref="T:Microsoft.Office.Core.TextRange2" /></para>
           <para />
         </remarks>
       </Docs>
