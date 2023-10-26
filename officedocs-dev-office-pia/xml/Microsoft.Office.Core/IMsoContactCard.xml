@@ -1,9 +1,10 @@
-﻿<Type Name="IMsoContactCard" FullName="Microsoft.Office.Core.IMsoContactCard">
+<Type Name="IMsoContactCard" FullName="Microsoft.Office.Core.IMsoContactCard">
+  <TypeSignature Language="C++ CLI" Value="public interface class IMsoContactCard : Microsoft::Office::Core::_IMsoDispObj" />
   <TypeSignature Language="C#" Value="public interface IMsoContactCard : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMsoContactCard implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IMsoContactCard" />
   <TypeSignature Language="VB.NET" Value="Public Interface IMsoContactCard&#xA;Implements _IMsoDispObj" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IMsoContactCard : Microsoft::Office::Core::_IMsoDispObj" />
+  <TypeSignature Language="F#" Value="type IMsoContactCard = interface&#xA;    interface _IMsoDispObj" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -15,10 +16,12 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C03F0-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C03F0-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C03F0-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4288)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4288)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -27,11 +30,12 @@
   </Docs>
   <Members>
     <Member MemberName="Address">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Address { System::String ^ get(); };" />
       <MemberSignature Language="C#" Value="public string Address { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Address" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IMsoContactCard.Address" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Address As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Address { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Address : string" Usage="Microsoft.Office.Core.IMsoContactCard.Address" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -39,10 +43,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -58,11 +64,12 @@
       </Docs>
     </Member>
     <Member MemberName="AddressType">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoContactCardAddressType AddressType { Microsoft::Office::Core::MsoContactCardAddressType get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoContactCardAddressType AddressType { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoContactCardAddressType AddressType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IMsoContactCard.AddressType" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AddressType As MsoContactCardAddressType" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoContactCardAddressType AddressType { Microsoft::Office::Core::MsoContactCardAddressType get(); };" />
+      <MemberSignature Language="F#" Value="member this.AddressType : Microsoft.Office.Core.MsoContactCardAddressType" Usage="Microsoft.Office.Core.IMsoContactCard.AddressType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -70,10 +77,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -109,11 +118,12 @@
       </Docs>
     </Member>
     <Member MemberName="Application">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object Application { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Application" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IMsoContactCard.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : obj" Usage="Microsoft.Office.Core.IMsoContactCard.Application" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
@@ -124,10 +134,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -143,11 +155,12 @@
       </Docs>
     </Member>
     <Member MemberName="CardType">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoContactCardType CardType { Microsoft::Office::Core::MsoContactCardType get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoContactCardType CardType { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoContactCardType CardType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IMsoContactCard.CardType" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CardType As MsoContactCardType" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoContactCardType CardType { Microsoft::Office::Core::MsoContactCardType get(); };" />
+      <MemberSignature Language="F#" Value="member this.CardType : Microsoft.Office.Core.MsoContactCardType" Usage="Microsoft.Office.Core.IMsoContactCard.CardType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -155,10 +168,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -206,11 +221,12 @@
       </Docs>
     </Member>
     <Member MemberName="Creator">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
       <MemberSignature Language="C#" Value="public int Creator { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IMsoContactCard.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Core.IMsoContactCard.Creator" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
@@ -221,10 +237,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -240,11 +258,12 @@
       </Docs>
     </Member>
     <Member MemberName="Parent">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object Parent { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IMsoContactCard.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Core.IMsoContactCard.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -252,10 +271,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

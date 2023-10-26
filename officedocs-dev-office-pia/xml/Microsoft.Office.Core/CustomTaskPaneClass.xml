@@ -1,9 +1,10 @@
-﻿<Type Name="CustomTaskPaneClass" FullName="Microsoft.Office.Core.CustomTaskPaneClass">
+<Type Name="CustomTaskPaneClass" FullName="Microsoft.Office.Core.CustomTaskPaneClass">
+  <TypeSignature Language="C++ CLI" Value="public ref class CustomTaskPaneClass : Microsoft::Office::Core::CustomTaskPane" />
   <TypeSignature Language="C#" Value="public class CustomTaskPaneClass : Microsoft.Office.Core.CustomTaskPane" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi CustomTaskPaneClass extends System.Object implements class Microsoft.Office.Core._CustomTaskPane, class Microsoft.Office.Core._CustomTaskPaneEvents_Event, class Microsoft.Office.Core.CustomTaskPane" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CustomTaskPaneClass" />
   <TypeSignature Language="VB.NET" Value="Public Class CustomTaskPaneClass&#xA;Implements CustomTaskPane" />
-  <TypeSignature Language="C++ CLI" Value="public ref class CustomTaskPaneClass : Microsoft::Office::Core::CustomTaskPane" />
+  <TypeSignature Language="F#" Value="type CustomTaskPaneClass = class&#xA;    interface _CustomTaskPane&#xA;    interface CustomTaskPane&#xA;    interface _CustomTaskPaneEvents_Event" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -13,18 +14,27 @@
   </Base>
   <Interfaces>
     <Interface>
+      <InterfaceName>Microsoft.Office.Core._CustomTaskPane</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._CustomTaskPaneEvents_Event</InterfaceName>
+    </Interface>
+    <Interface>
       <InterfaceName>Microsoft.Office.Core.CustomTaskPane</InterfaceName>
     </Interface>
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ClassInterface(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ClassInterface(0)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Office.Core._CustomTaskPaneEvents\0")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Office.Core._CustomTaskPaneEvents\0")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Office.Core._CustomTaskPaneEvents\0")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("C5771BE5-A188-466B-AB31-00A6A32B1B1C")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("C5771BE5-A188-466B-AB31-00A6A32B1B1C")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("C5771BE5-A188-466B-AB31-00A6A32B1B1C")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -32,12 +42,65 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="add_DockPositionStateChange">
+      <MemberSignature Language="C#" Value="public virtual void add_DockPositionStateChange (Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_DockPositionStateChange(class Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomTaskPaneClass.add_DockPositionStateChange(Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_DockPositionStateChange (unnamedParam1 As _CustomTaskPaneEvents_DockPositionStateChangeEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_DockPositionStateChange : Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler -&gt; unit&#xA;override this.add_DockPositionStateChange : Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler -&gt; unit" Usage="customTaskPaneClass.add_DockPositionStateChange unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core._CustomTaskPaneEvents_Event.add_DockPositionStateChange(Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_VisibleStateChange">
+      <MemberSignature Language="C#" Value="public virtual void add_VisibleStateChange (Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_VisibleStateChange(class Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomTaskPaneClass.add_VisibleStateChange(Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_VisibleStateChange (unnamedParam1 As _CustomTaskPaneEvents_VisibleStateChangeEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_VisibleStateChange : Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler -&gt; unit&#xA;override this.add_VisibleStateChange : Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler -&gt; unit" Usage="customTaskPaneClass.add_VisibleStateChange unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core._CustomTaskPaneEvents_Event.add_VisibleStateChange(Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Application">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Application { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public virtual object Application { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Application" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomTaskPaneClass.Application" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Application As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : obj" Usage="Application" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CustomTaskPane.Application</InterfaceMember>
@@ -48,10 +111,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -64,11 +129,12 @@
       </Docs>
     </Member>
     <Member MemberName="ContentControl">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ ContentControl { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public virtual object ContentControl { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object ContentControl" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomTaskPaneClass.ContentControl" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ContentControl As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ ContentControl { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContentControl : obj" Usage="ContentControl" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CustomTaskPane.ContentControl</InterfaceMember>
@@ -79,10 +145,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -95,11 +163,12 @@
       </Docs>
     </Member>
     <Member MemberName="Delete">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Delete() = Microsoft::Office::Core::_CustomTaskPane::Delete;" />
       <MemberSignature Language="C#" Value="public virtual void Delete ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomTaskPaneClass.Delete" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub Delete ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Delete() = Microsoft::Office::Core::_CustomTaskPane::Delete;" />
+      <MemberSignature Language="F#" Value="abstract member Delete : unit -&gt; unit&#xA;override this.Delete : unit -&gt; unit" Usage="customTaskPaneClass.Delete " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CustomTaskPane.Delete</InterfaceMember>
@@ -110,7 +179,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(9)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(9)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -123,11 +193,12 @@
       </Docs>
     </Member>
     <Member MemberName="DockPosition">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Core::MsoCTPDockPosition DockPosition { Microsoft::Office::Core::MsoCTPDockPosition get(); void set(Microsoft::Office::Core::MsoCTPDockPosition value); };" />
       <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Core.MsoCTPDockPosition DockPosition { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoCTPDockPosition DockPosition" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomTaskPaneClass.DockPosition" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property DockPosition As MsoCTPDockPosition" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Core::MsoCTPDockPosition DockPosition { Microsoft::Office::Core::MsoCTPDockPosition get(); void set(Microsoft::Office::Core::MsoCTPDockPosition value); };" />
+      <MemberSignature Language="F#" Value="member this.DockPosition : Microsoft.Office.Core.MsoCTPDockPosition with get, set" Usage="DockPosition" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CustomTaskPane.DockPosition</InterfaceMember>
@@ -138,13 +209,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(7)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(7)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(7)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(7)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(7)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(7)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(7)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -157,11 +231,12 @@
       </Docs>
     </Member>
     <Member MemberName="DockPositionRestrict">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Core::MsoCTPDockPositionRestrict DockPositionRestrict { Microsoft::Office::Core::MsoCTPDockPositionRestrict get(); void set(Microsoft::Office::Core::MsoCTPDockPositionRestrict value); };" />
       <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Core.MsoCTPDockPositionRestrict DockPositionRestrict { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoCTPDockPositionRestrict DockPositionRestrict" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomTaskPaneClass.DockPositionRestrict" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property DockPositionRestrict As MsoCTPDockPositionRestrict" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Core::MsoCTPDockPositionRestrict DockPositionRestrict { Microsoft::Office::Core::MsoCTPDockPositionRestrict get(); void set(Microsoft::Office::Core::MsoCTPDockPositionRestrict value); };" />
+      <MemberSignature Language="F#" Value="member this.DockPositionRestrict : Microsoft.Office.Core.MsoCTPDockPositionRestrict with get, set" Usage="DockPositionRestrict" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CustomTaskPane.DockPositionRestrict</InterfaceMember>
@@ -172,13 +247,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(8)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(8)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(8)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(8)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(8)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(8)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(8)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(8)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -191,11 +269,12 @@
       </Docs>
     </Member>
     <Member MemberName="DockPositionStateChange">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Core::_CustomTaskPaneEvents_DockPositionStateChangeEventHandler ^ DockPositionStateChange;" />
       <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler DockPositionStateChange;" />
       <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler DockPositionStateChange" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core.CustomTaskPaneClass.DockPositionStateChange" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event DockPositionStateChange As _CustomTaskPaneEvents_DockPositionStateChangeEventHandler Implements DockPositionStateChange" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Core::_CustomTaskPaneEvents_DockPositionStateChangeEventHandler ^ DockPositionStateChange;" />
+      <MemberSignature Language="F#" Value="member this.DockPositionStateChange : Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler " Usage="member this.DockPositionStateChange : Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler " />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:Microsoft.Office.Core._CustomTaskPaneEvents_Event.DockPositionStateChange</InterfaceMember>
@@ -213,11 +292,12 @@
       </Docs>
     </Member>
     <Member MemberName="Height">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Height { int get(); void set(int value); };" />
       <MemberSignature Language="C#" Value="public virtual int Height { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Height" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomTaskPaneClass.Height" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property Height As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Height { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Height : int with get, set" Usage="Height" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CustomTaskPane.Height</InterfaceMember>
@@ -228,13 +308,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(5)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -246,12 +329,65 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="remove_DockPositionStateChange">
+      <MemberSignature Language="C#" Value="public virtual void remove_DockPositionStateChange (Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_DockPositionStateChange(class Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomTaskPaneClass.remove_DockPositionStateChange(Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_DockPositionStateChange (unnamedParam1 As _CustomTaskPaneEvents_DockPositionStateChangeEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_DockPositionStateChange : Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler -&gt; unit&#xA;override this.remove_DockPositionStateChange : Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler -&gt; unit" Usage="customTaskPaneClass.remove_DockPositionStateChange unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core._CustomTaskPaneEvents_Event.remove_DockPositionStateChange(Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_VisibleStateChange">
+      <MemberSignature Language="C#" Value="public virtual void remove_VisibleStateChange (Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_VisibleStateChange(class Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomTaskPaneClass.remove_VisibleStateChange(Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_VisibleStateChange (unnamedParam1 As _CustomTaskPaneEvents_VisibleStateChangeEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_VisibleStateChange : Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler -&gt; unit&#xA;override this.remove_VisibleStateChange : Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler -&gt; unit" Usage="customTaskPaneClass.remove_VisibleStateChange unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core._CustomTaskPaneEvents_Event.remove_VisibleStateChange(Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Title">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ default { System::String ^ get(); };" />
       <MemberSignature Language="C#" Value="public virtual string this { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Title" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomTaskPaneClass.Title" />
       <MemberSignature Language="VB.NET" Value="Default Public Overridable ReadOnly Property Title As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ default { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Title : string" Usage="Title" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CustomTaskPane.Title</InterfaceMember>
@@ -262,10 +398,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -278,11 +416,12 @@
       </Docs>
     </Member>
     <Member MemberName="Visible">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool Visible { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public virtual bool Visible { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool Visible" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomTaskPaneClass.Visible" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property Visible As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool Visible { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Visible : bool with get, set" Usage="Visible" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CustomTaskPane.Visible</InterfaceMember>
@@ -293,13 +432,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(3)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -312,11 +454,12 @@
       </Docs>
     </Member>
     <Member MemberName="VisibleStateChange">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Core::_CustomTaskPaneEvents_VisibleStateChangeEventHandler ^ VisibleStateChange;" />
       <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler VisibleStateChange;" />
       <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler VisibleStateChange" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core.CustomTaskPaneClass.VisibleStateChange" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event VisibleStateChange As _CustomTaskPaneEvents_VisibleStateChangeEventHandler Implements VisibleStateChange" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Core::_CustomTaskPaneEvents_VisibleStateChangeEventHandler ^ VisibleStateChange;" />
+      <MemberSignature Language="F#" Value="member this.VisibleStateChange : Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler " Usage="member this.VisibleStateChange : Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler " />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:Microsoft.Office.Core._CustomTaskPaneEvents_Event.VisibleStateChange</InterfaceMember>
@@ -334,11 +477,12 @@
       </Docs>
     </Member>
     <Member MemberName="Width">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Width { int get(); void set(int value); };" />
       <MemberSignature Language="C#" Value="public virtual int Width { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Width" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomTaskPaneClass.Width" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property Width As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Width { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Width : int with get, set" Usage="Width" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CustomTaskPane.Width</InterfaceMember>
@@ -349,13 +493,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(6)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(6)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(6)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(6)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(6)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(6)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(6)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -368,11 +515,12 @@
       </Docs>
     </Member>
     <Member MemberName="Window">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Window { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public virtual object Window { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Window" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomTaskPaneClass.Window" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Window As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Window { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Window : obj" Usage="Window" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CustomTaskPane.Window</InterfaceMember>
@@ -383,10 +531,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

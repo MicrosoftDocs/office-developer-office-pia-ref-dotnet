@@ -1,0 +1,1333 @@
+<Type Name="ITabStrip" FullName="Microsoft.Vbe.Interop.Forms.ITabStrip">
+  <TypeSignature Language="C#" Value="public interface ITabStrip" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ITabStrip" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop.Forms.ITabStrip" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ITabStrip" />
+  <TypeSignature Language="F#" Value="type ITabStrip = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("04598FC2-866C-11CF-AB7C-00AA00C08FCF")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("04598FC2-866C-11CF-AB7C-00AA00C08FCF")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4176)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4176)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="_Font_Reserved">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.NewFont _Font_Reserved { set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Vbe.Interop.Forms.NewFont _Font_Reserved" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip._Font_Reserved" />
+      <MemberSignature Language="VB.NET" Value="Public Property _Font_Reserved As NewFont" />
+      <MemberSignature Language="F#" Value="member this._Font_Reserved : Microsoft.Vbe.Interop.Forms.NewFont" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip._Font_Reserved" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2147483135)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2147483135)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(2147483135)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(2147483135)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.NewFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetClientHeight">
+      <MemberSignature Language="C#" Value="public void _GetClientHeight (out int ClientHeight);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _GetClientHeight([out] int32&amp; ClientHeight) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ITabStrip._GetClientHeight(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub _GetClientHeight (ByRef ClientHeight As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _GetClientHeight : int -&gt; unit" Usage="iTabStrip._GetClientHeight ClientHeight" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743850)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743850)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ClientHeight" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="ClientHeight">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetClientLeft">
+      <MemberSignature Language="C#" Value="public void _GetClientLeft (out int ClientLeft);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _GetClientLeft([out] int32&amp; ClientLeft) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ITabStrip._GetClientLeft(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub _GetClientLeft (ByRef ClientLeft As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _GetClientLeft : int -&gt; unit" Usage="iTabStrip._GetClientLeft ClientLeft" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743846)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743846)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ClientLeft" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="ClientLeft">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetClientTop">
+      <MemberSignature Language="C#" Value="public void _GetClientTop (out int ClientTop);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _GetClientTop([out] int32&amp; ClientTop) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ITabStrip._GetClientTop(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub _GetClientTop (ByRef ClientTop As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _GetClientTop : int -&gt; unit" Usage="iTabStrip._GetClientTop ClientTop" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743844)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743844)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ClientTop" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="ClientTop">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetClientWidth">
+      <MemberSignature Language="C#" Value="public void _GetClientWidth (out int ClientWidth);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _GetClientWidth([out] int32&amp; ClientWidth) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ITabStrip._GetClientWidth(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub _GetClientWidth (ByRef ClientWidth As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _GetClientWidth : int -&gt; unit" Usage="iTabStrip._GetClientWidth ClientWidth" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743848)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743848)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ClientWidth" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="ClientWidth">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetTabFixedHeight">
+      <MemberSignature Language="C#" Value="public void _GetTabFixedHeight (out int TabFixedHeight);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _GetTabFixedHeight([out] int32&amp; TabFixedHeight) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ITabStrip._GetTabFixedHeight(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub _GetTabFixedHeight (ByRef TabFixedHeight As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _GetTabFixedHeight : int -&gt; unit" Usage="iTabStrip._GetTabFixedHeight TabFixedHeight" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743843)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743843)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="TabFixedHeight" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="TabFixedHeight">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetTabFixedWidth">
+      <MemberSignature Language="C#" Value="public void _GetTabFixedWidth (out int TabFixedWidth);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _GetTabFixedWidth([out] int32&amp; TabFixedWidth) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ITabStrip._GetTabFixedWidth(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub _GetTabFixedWidth (ByRef TabFixedWidth As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _GetTabFixedWidth : int -&gt; unit" Usage="iTabStrip._GetTabFixedWidth TabFixedWidth" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743841)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743841)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="TabFixedWidth" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="TabFixedWidth">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_SetTabFixedHeight">
+      <MemberSignature Language="C#" Value="public void _SetTabFixedHeight (int TabFixedHeight);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _SetTabFixedHeight([in]int32 TabFixedHeight) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ITabStrip._SetTabFixedHeight(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub _SetTabFixedHeight (TabFixedHeight As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _SetTabFixedHeight : int -&gt; unit" Usage="iTabStrip._SetTabFixedHeight TabFixedHeight" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743842)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743842)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="TabFixedHeight" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="TabFixedHeight">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_SetTabFixedWidth">
+      <MemberSignature Language="C#" Value="public void _SetTabFixedWidth (int TabFixedWidth);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _SetTabFixedWidth([in]int32 TabFixedWidth) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ITabStrip._SetTabFixedWidth(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub _SetTabFixedWidth (TabFixedWidth As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _SetTabFixedWidth : int -&gt; unit" Usage="iTabStrip._SetTabFixedWidth TabFixedWidth" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743840)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743840)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="TabFixedWidth" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="TabFixedWidth">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackColor">
+      <MemberSignature Language="C#" Value="public int BackColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 BackColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.BackColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property BackColor As Integer" />
+      <MemberSignature Language="F#" Value="member this.BackColor : int with get, set" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.BackColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.ComAliasName("Microsoft.Vbe.Interop.Forms.OLE_COLOR")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComAliasName("Microsoft.Vbe.Interop.Forms.OLE_COLOR")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-501)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-501)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-501)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-501)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-501)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-501)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClientHeight">
+      <MemberSignature Language="C#" Value="public float ClientHeight { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 ClientHeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.ClientHeight" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ClientHeight As Single" />
+      <MemberSignature Language="F#" Value="member this.ClientHeight : single" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.ClientHeight" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(546)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(546)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(546)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(546)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClientLeft">
+      <MemberSignature Language="C#" Value="public float ClientLeft { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 ClientLeft" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.ClientLeft" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ClientLeft As Single" />
+      <MemberSignature Language="F#" Value="member this.ClientLeft : single" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.ClientLeft" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(547)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(547)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(547)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(547)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClientTop">
+      <MemberSignature Language="C#" Value="public float ClientTop { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 ClientTop" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.ClientTop" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ClientTop As Single" />
+      <MemberSignature Language="F#" Value="member this.ClientTop : single" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.ClientTop" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(548)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(548)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(548)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(548)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClientWidth">
+      <MemberSignature Language="C#" Value="public float ClientWidth { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 ClientWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.ClientWidth" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ClientWidth As Single" />
+      <MemberSignature Language="F#" Value="member this.ClientWidth : single" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.ClientWidth" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(549)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(549)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(549)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(549)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public bool Enabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Enabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property Enabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Enabled : bool with get, set" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.Enabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-514)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-514)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-514)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-514)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-514)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-514)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Font">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.NewFont Font { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Vbe.Interop.Forms.NewFont Font" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.Font" />
+      <MemberSignature Language="VB.NET" Value="Public Property Font As NewFont" />
+      <MemberSignature Language="F#" Value="member this.Font : Microsoft.Vbe.Interop.Forms.NewFont with get, set" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.Font" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-512)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-512)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-512)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-512)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-512)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-512)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.NewFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontBold">
+      <MemberSignature Language="C#" Value="public bool FontBold { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool FontBold" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.FontBold" />
+      <MemberSignature Language="VB.NET" Value="Public Property FontBold As Boolean" />
+      <MemberSignature Language="F#" Value="member this.FontBold : bool with get, set" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.FontBold" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontItalic">
+      <MemberSignature Language="C#" Value="public bool FontItalic { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool FontItalic" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.FontItalic" />
+      <MemberSignature Language="VB.NET" Value="Public Property FontItalic As Boolean" />
+      <MemberSignature Language="F#" Value="member this.FontItalic : bool with get, set" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.FontItalic" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontName">
+      <MemberSignature Language="C#" Value="public string FontName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FontName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.FontName" />
+      <MemberSignature Language="VB.NET" Value="Public Property FontName As String" />
+      <MemberSignature Language="F#" Value="member this.FontName : string with get, set" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.FontName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontSize">
+      <MemberSignature Language="C#" Value="public decimal FontSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal FontSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.FontSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property FontSize As Decimal" />
+      <MemberSignature Language="F#" Value="member this.FontSize : decimal with get, set" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.FontSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontStrikethru">
+      <MemberSignature Language="C#" Value="public bool FontStrikethru { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool FontStrikethru" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.FontStrikethru" />
+      <MemberSignature Language="VB.NET" Value="Public Property FontStrikethru As Boolean" />
+      <MemberSignature Language="F#" Value="member this.FontStrikethru : bool with get, set" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.FontStrikethru" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(6)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(6)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(6)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(6)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(6)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(6)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontUnderline">
+      <MemberSignature Language="C#" Value="public bool FontUnderline { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool FontUnderline" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.FontUnderline" />
+      <MemberSignature Language="VB.NET" Value="Public Property FontUnderline As Boolean" />
+      <MemberSignature Language="F#" Value="member this.FontUnderline : bool with get, set" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.FontUnderline" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontWeight">
+      <MemberSignature Language="C#" Value="public short FontWeight { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int16 FontWeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.FontWeight" />
+      <MemberSignature Language="VB.NET" Value="Public Property FontWeight As Short" />
+      <MemberSignature Language="F#" Value="member this.FontWeight : int16 with get, set" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.FontWeight" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(7)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(7)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(7)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(7)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(7)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(7)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int16</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForeColor">
+      <MemberSignature Language="C#" Value="public int ForeColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ForeColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.ForeColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property ForeColor As Integer" />
+      <MemberSignature Language="F#" Value="member this.ForeColor : int with get, set" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.ForeColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.ComAliasName("Microsoft.Vbe.Interop.Forms.OLE_COLOR")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComAliasName("Microsoft.Vbe.Interop.Forms.OLE_COLOR")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-513)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-513)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-513)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-513)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-513)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-513)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="let_MouseIcon">
+      <MemberSignature Language="C#" Value="public void let_MouseIcon (stdole.StdPicture MouseIcon);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance void let_MouseIcon([in]class stdole.StdPicture MouseIcon) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ITabStrip.let_MouseIcon(stdole.StdPicture)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub let_MouseIcon (MouseIcon As StdPicture)" />
+      <MemberSignature Language="F#" Value="abstract member let_MouseIcon : stdole.StdPicture -&gt; unit" Usage="iTabStrip.let_MouseIcon MouseIcon" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-522)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-522)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="MouseIcon" Type="stdole.StdPicture" />
+      </Parameters>
+      <Docs>
+        <param name="MouseIcon">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseIcon">
+      <MemberSignature Language="C#" Value="public stdole.StdPicture MouseIcon { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class stdole.StdPicture MouseIcon" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.MouseIcon" />
+      <MemberSignature Language="VB.NET" Value="Public Property MouseIcon As StdPicture" />
+      <MemberSignature Language="F#" Value="member this.MouseIcon : stdole.StdPicture with get, set" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.MouseIcon" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-522)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-522)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-522)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-522)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-522)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-522)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>stdole.StdPicture</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MousePointer">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.fmMousePointer MousePointer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Vbe.Interop.Forms.fmMousePointer MousePointer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.MousePointer" />
+      <MemberSignature Language="VB.NET" Value="Public Property MousePointer As fmMousePointer" />
+      <MemberSignature Language="F#" Value="member this.MousePointer : Microsoft.Vbe.Interop.Forms.fmMousePointer with get, set" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.MousePointer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-521)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-521)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-521)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-521)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-521)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-521)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.fmMousePointer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MultiRow">
+      <MemberSignature Language="C#" Value="public bool MultiRow { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MultiRow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.MultiRow" />
+      <MemberSignature Language="VB.NET" Value="Public Property MultiRow As Boolean" />
+      <MemberSignature Language="F#" Value="member this.MultiRow : bool with get, set" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.MultiRow" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(514)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(514)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(514)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(514)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(514)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(514)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectedItem">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.Tab SelectedItem { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Vbe.Interop.Forms.Tab SelectedItem" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.SelectedItem" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SelectedItem As Tab" />
+      <MemberSignature Language="F#" Value="member this.SelectedItem : Microsoft.Vbe.Interop.Forms.Tab" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.SelectedItem" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(545)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(545)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(545)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(545)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(1024)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(1024)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.Tab</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Style">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.fmTabStyle Style { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Vbe.Interop.Forms.fmTabStyle Style" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.Style" />
+      <MemberSignature Language="VB.NET" Value="Public Property Style As fmTabStyle" />
+      <MemberSignature Language="F#" Value="member this.Style : Microsoft.Vbe.Interop.Forms.fmTabStyle with get, set" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.Style" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(513)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(513)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(513)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(513)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(513)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(513)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.fmTabStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TabFixedHeight">
+      <MemberSignature Language="C#" Value="public float TabFixedHeight { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 TabFixedHeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.TabFixedHeight" />
+      <MemberSignature Language="VB.NET" Value="Public Property TabFixedHeight As Single" />
+      <MemberSignature Language="F#" Value="member this.TabFixedHeight : single with get, set" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.TabFixedHeight" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(516)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(516)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(516)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(516)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(516)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(516)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TabFixedWidth">
+      <MemberSignature Language="C#" Value="public float TabFixedWidth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 TabFixedWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.TabFixedWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Property TabFixedWidth As Single" />
+      <MemberSignature Language="F#" Value="member this.TabFixedWidth : single with get, set" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.TabFixedWidth" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(515)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(515)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(515)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(515)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(515)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(515)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TabOrientation">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.fmTabOrientation TabOrientation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Vbe.Interop.Forms.fmTabOrientation TabOrientation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.TabOrientation" />
+      <MemberSignature Language="VB.NET" Value="Public Property TabOrientation As fmTabOrientation" />
+      <MemberSignature Language="F#" Value="member this.TabOrientation : Microsoft.Vbe.Interop.Forms.fmTabOrientation with get, set" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.TabOrientation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(512)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(512)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(512)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(512)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(512)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(512)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.fmTabOrientation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tabs">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.Tabs this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Vbe.Interop.Forms.Tabs Tabs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.Tabs" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Tabs As Tabs" />
+      <MemberSignature Language="F#" Value="member this.Tabs : Microsoft.Vbe.Interop.Forms.Tabs" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.Tabs" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.Tabs</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public int Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ITabStrip.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As Integer" />
+      <MemberSignature Language="F#" Value="member this.Value : int with get, set" Usage="Microsoft.Vbe.Interop.Forms.ITabStrip.Value" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(528)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(528)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(528)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(528)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(528)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(528)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

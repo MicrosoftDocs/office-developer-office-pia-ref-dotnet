@@ -1,0 +1,2081 @@
+<Type Name="ControlClass" FullName="Microsoft.Vbe.Interop.Forms.ControlClass">
+  <TypeSignature Language="C#" Value="public class ControlClass : Microsoft.Vbe.Interop.Forms.Control" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi ControlClass extends System.Object implements class Microsoft.Vbe.Interop.Forms.Control, class Microsoft.Vbe.Interop.Forms.ControlEvents_Event, class Microsoft.Vbe.Interop.Forms.IControl" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop.Forms.ControlClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class ControlClass&#xA;Implements Control" />
+  <TypeSignature Language="F#" Value="type ControlClass = class&#xA;    interface IControl&#xA;    interface Control&#xA;    interface ControlEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Vbe.Interop.Forms.Control</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Vbe.Interop.Forms.ControlEvents_Event</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Vbe.Interop.Forms.IControl</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ClassInterface(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ClassInterface(0)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Vbe.Interop.Forms.ControlEvents\0")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Vbe.Interop.Forms.ControlEvents\0")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("909E0AE0-16DC-11CE-9E98-00AA00574A4F")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("909E0AE0-16DC-11CE-9E98-00AA00574A4F")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(2)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(2)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ControlClass ();" />
+      <MemberSignature Language="ILAsm" Value=".method public specialname rtspecialname instance void .ctor() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetHeight">
+      <MemberSignature Language="C#" Value="public virtual void _GetHeight (out int Height);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _GetHeight([out] int32&amp; Height) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass._GetHeight(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _GetHeight (ByRef Height As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _GetHeight : int -&gt; unit&#xA;override this._GetHeight : int -&gt; unit" Usage="controlClass._GetHeight Height" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.IControl._GetHeight(System.Int32@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743817)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743817)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Height" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Height">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GethWnd">
+      <MemberSignature Language="C#" Value="public virtual int _GethWnd ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 _GethWnd() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass._GethWnd" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _GethWnd () As Integer" />
+      <MemberSignature Language="F#" Value="abstract member _GethWnd : unit -&gt; int&#xA;override this._GethWnd : unit -&gt; int" Usage="controlClass._GethWnd " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.IControl._GethWnd</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743867)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743867)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetID">
+      <MemberSignature Language="C#" Value="public virtual int _GetID ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 _GetID() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass._GetID" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _GetID () As Integer" />
+      <MemberSignature Language="F#" Value="abstract member _GetID : unit -&gt; int&#xA;override this._GetID : unit -&gt; int" Usage="controlClass._GetID " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.IControl._GetID</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743868)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743868)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetLeft">
+      <MemberSignature Language="C#" Value="public virtual void _GetLeft (out int Left);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _GetLeft([out] int32&amp; Left) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass._GetLeft(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _GetLeft (ByRef Left As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _GetLeft : int -&gt; unit&#xA;override this._GetLeft : int -&gt; unit" Usage="controlClass._GetLeft Left" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.IControl._GetLeft(System.Int32@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743826)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743826)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Left" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Left">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetOldHeight">
+      <MemberSignature Language="C#" Value="public virtual void _GetOldHeight (out int OldHeight);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _GetOldHeight([out] int32&amp; OldHeight) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass._GetOldHeight(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _GetOldHeight (ByRef OldHeight As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _GetOldHeight : int -&gt; unit&#xA;override this._GetOldHeight : int -&gt; unit" Usage="controlClass._GetOldHeight OldHeight" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.IControl._GetOldHeight(System.Int32@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743831)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743831)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="OldHeight" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="OldHeight">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetOldLeft">
+      <MemberSignature Language="C#" Value="public virtual void _GetOldLeft (out int OldLeft);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _GetOldLeft([out] int32&amp; OldLeft) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass._GetOldLeft(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _GetOldLeft (ByRef OldLeft As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _GetOldLeft : int -&gt; unit&#xA;override this._GetOldLeft : int -&gt; unit" Usage="controlClass._GetOldLeft OldLeft" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.IControl._GetOldLeft(System.Int32@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743833)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743833)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="OldLeft" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="OldLeft">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetOldTop">
+      <MemberSignature Language="C#" Value="public virtual void _GetOldTop (out int OldTop);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _GetOldTop([out] int32&amp; OldTop) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass._GetOldTop(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _GetOldTop (ByRef OldTop As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _GetOldTop : int -&gt; unit&#xA;override this._GetOldTop : int -&gt; unit" Usage="controlClass._GetOldTop OldTop" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.IControl._GetOldTop(System.Int32@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743835)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743835)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="OldTop" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="OldTop">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetOldWidth">
+      <MemberSignature Language="C#" Value="public virtual void _GetOldWidth (out int OldWidth);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _GetOldWidth([out] int32&amp; OldWidth) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass._GetOldWidth(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _GetOldWidth (ByRef OldWidth As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _GetOldWidth : int -&gt; unit&#xA;override this._GetOldWidth : int -&gt; unit" Usage="controlClass._GetOldWidth OldWidth" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.IControl._GetOldWidth(System.Int32@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743837)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743837)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="OldWidth" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="OldWidth">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetTop">
+      <MemberSignature Language="C#" Value="public virtual void _GetTop (out int Top);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _GetTop([out] int32&amp; Top) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass._GetTop(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _GetTop (ByRef Top As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _GetTop : int -&gt; unit&#xA;override this._GetTop : int -&gt; unit" Usage="controlClass._GetTop Top" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.IControl._GetTop(System.Int32@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743852)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743852)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Top" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Top">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetWidth">
+      <MemberSignature Language="C#" Value="public virtual void _GetWidth (out int Width);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _GetWidth([out] int32&amp; Width) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass._GetWidth(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _GetWidth (ByRef Width As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _GetWidth : int -&gt; unit&#xA;override this._GetWidth : int -&gt; unit" Usage="controlClass._GetWidth Width" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.IControl._GetWidth(System.Int32@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743860)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743860)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Width" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Width">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Move">
+      <MemberSignature Language="C#" Value="public virtual void _Move (int Left, int Top, int Width, int Height);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _Move([in]int32 Left, [in]int32 Top, [in]int32 Width, [in]int32 Height) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass._Move(System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _Move (Left As Integer, Top As Integer, Width As Integer, Height As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _Move : int * int * int * int -&gt; unit&#xA;override this._Move : int * int * int * int -&gt; unit" Usage="controlClass._Move (Left, Top, Width, Height)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.IControl._Move(System.Int32,System.Int32,System.Int32,System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743869)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743869)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Left" Type="System.Int32" />
+        <Parameter Name="Top" Type="System.Int32" />
+        <Parameter Name="Width" Type="System.Int32" />
+        <Parameter Name="Height" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Left">To be added.</param>
+        <param name="Top">To be added.</param>
+        <param name="Width">To be added.</param>
+        <param name="Height">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_SetHeight">
+      <MemberSignature Language="C#" Value="public virtual void _SetHeight (int Height);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _SetHeight([in]int32 Height) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass._SetHeight(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _SetHeight (Height As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _SetHeight : int -&gt; unit&#xA;override this._SetHeight : int -&gt; unit" Usage="controlClass._SetHeight Height" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.IControl._SetHeight(System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743816)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743816)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Height" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Height">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_SetLeft">
+      <MemberSignature Language="C#" Value="public virtual void _SetLeft (int Left);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _SetLeft([in]int32 Left) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass._SetLeft(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _SetLeft (Left As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _SetLeft : int -&gt; unit&#xA;override this._SetLeft : int -&gt; unit" Usage="controlClass._SetLeft Left" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.IControl._SetLeft(System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743825)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743825)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Left" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Left">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_SetTop">
+      <MemberSignature Language="C#" Value="public virtual void _SetTop (int Top);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _SetTop([in]int32 Top) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass._SetTop(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _SetTop (Top As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _SetTop : int -&gt; unit&#xA;override this._SetTop : int -&gt; unit" Usage="controlClass._SetTop Top" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.IControl._SetTop(System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743851)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743851)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Top" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Top">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_SetWidth">
+      <MemberSignature Language="C#" Value="public virtual void _SetWidth (int Width);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _SetWidth([in]int32 Width) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass._SetWidth(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _SetWidth (Width As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _SetWidth : int -&gt; unit&#xA;override this._SetWidth : int -&gt; unit" Usage="controlClass._SetWidth Width" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.IControl._SetWidth(System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743859)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743859)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Width" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Width">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_ZOrder">
+      <MemberSignature Language="C#" Value="public virtual void _ZOrder (Microsoft.Vbe.Interop.Forms.fmZOrder zPosition);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _ZOrder([in]valuetype Microsoft.Vbe.Interop.Forms.fmZOrder zPosition) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass._ZOrder(Microsoft.Vbe.Interop.Forms.fmZOrder)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _ZOrder (zPosition As fmZOrder)" />
+      <MemberSignature Language="F#" Value="abstract member _ZOrder : Microsoft.Vbe.Interop.Forms.fmZOrder -&gt; unit&#xA;override this._ZOrder : Microsoft.Vbe.Interop.Forms.fmZOrder -&gt; unit" Usage="controlClass._ZOrder zPosition" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.IControl._ZOrder(Microsoft.Vbe.Interop.Forms.fmZOrder)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743870)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743870)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="zPosition" Type="Microsoft.Vbe.Interop.Forms.fmZOrder" />
+      </Parameters>
+      <Docs>
+        <param name="zPosition">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_AfterUpdate">
+      <MemberSignature Language="C#" Value="public virtual void add_AfterUpdate (Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_AfterUpdate(class Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass.add_AfterUpdate(Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_AfterUpdate (unnamedParam1 As ControlEvents_AfterUpdateEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_AfterUpdate : Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler -&gt; unit&#xA;override this.add_AfterUpdate : Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler -&gt; unit" Usage="controlClass.add_AfterUpdate unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.add_AfterUpdate(Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_BeforeUpdate">
+      <MemberSignature Language="C#" Value="public virtual void add_BeforeUpdate (Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_BeforeUpdate(class Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass.add_BeforeUpdate(Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_BeforeUpdate (unnamedParam1 As ControlEvents_BeforeUpdateEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_BeforeUpdate : Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler -&gt; unit&#xA;override this.add_BeforeUpdate : Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler -&gt; unit" Usage="controlClass.add_BeforeUpdate unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.add_BeforeUpdate(Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Enter">
+      <MemberSignature Language="C#" Value="public virtual void add_Enter (Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Enter(class Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass.add_Enter(Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_Enter (unnamedParam1 As ControlEvents_EnterEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Enter : Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler -&gt; unit&#xA;override this.add_Enter : Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler -&gt; unit" Usage="controlClass.add_Enter unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.add_Enter(Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Exit">
+      <MemberSignature Language="C#" Value="public virtual void add_Exit (Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Exit(class Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass.add_Exit(Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_Exit (unnamedParam1 As ControlEvents_ExitEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Exit : Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler -&gt; unit&#xA;override this.add_Exit : Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler -&gt; unit" Usage="controlClass.add_Exit unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.add_Exit(Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AfterUpdate">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler AfterUpdate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler AfterUpdate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ControlClass.AfterUpdate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event AfterUpdate As ControlEvents_AfterUpdateEventHandler Implements AfterUpdate" />
+      <MemberSignature Language="F#" Value="member this.AfterUpdate : Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler " Usage="member this.AfterUpdate : Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.AfterUpdate</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeUpdate">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler BeforeUpdate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler BeforeUpdate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ControlClass.BeforeUpdate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event BeforeUpdate As ControlEvents_BeforeUpdateEventHandler Implements BeforeUpdate" />
+      <MemberSignature Language="F#" Value="member this.BeforeUpdate : Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler " Usage="member this.BeforeUpdate : Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.BeforeUpdate</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BoundValue">
+      <MemberSignature Language="C#" Value="public virtual object BoundValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object BoundValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.BoundValue" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property BoundValue As Object" />
+      <MemberSignature Language="F#" Value="member this.BoundValue : obj with get, set" Usage="BoundValue" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.BoundValue</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147385328)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147385328)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147385328)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147385328)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-2147385328)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-2147385328)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Cancel">
+      <MemberSignature Language="C#" Value="public virtual bool Cancel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Cancel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.Cancel" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Cancel As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Cancel : bool with get, set" Usage="Cancel" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.Cancel</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147418056)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147418056)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147418056)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147418056)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-2147418056)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-2147418056)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ControlSource">
+      <MemberSignature Language="C#" Value="public virtual string ControlSource { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ControlSource" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.ControlSource" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property ControlSource As String" />
+      <MemberSignature Language="F#" Value="member this.ControlSource : string with get, set" Usage="ControlSource" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.ControlSource</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147385343)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147385343)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147385343)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147385343)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-2147385343)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-2147385343)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ControlTipText">
+      <MemberSignature Language="C#" Value="public virtual string ControlTipText { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ControlTipText" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.ControlTipText" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property ControlTipText As String" />
+      <MemberSignature Language="F#" Value="member this.ControlTipText : string with get, set" Usage="ControlTipText" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.ControlTipText</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147418043)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147418043)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147418043)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147418043)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-2147418043)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-2147418043)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="public virtual bool Default { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Default" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.Default" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Default As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Default : bool with get, set" Usage="Default" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.Default</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147418057)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147418057)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147418057)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147418057)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-2147418057)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-2147418057)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enter">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler Enter;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler Enter" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ControlClass.Enter" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event Enter As ControlEvents_EnterEventHandler Implements Enter" />
+      <MemberSignature Language="F#" Value="member this.Enter : Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler " Usage="member this.Enter : Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.Enter</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exit">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler Exit;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler Exit" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ControlClass.Exit" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event Exit As ControlEvents_ExitEventHandler Implements Exit" />
+      <MemberSignature Language="F#" Value="member this.Exit : Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler " Usage="member this.Exit : Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.Exit</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Height">
+      <MemberSignature Language="C#" Value="public virtual float Height { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 Height" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.Height" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Height As Single" />
+      <MemberSignature Language="F#" Value="member this.Height : single with get, set" Usage="Height" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.Height</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147418106)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147418106)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147418106)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147418106)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-2147418106)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-2147418106)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HelpContextID">
+      <MemberSignature Language="C#" Value="public virtual int HelpContextID { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 HelpContextID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.HelpContextID" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property HelpContextID As Integer" />
+      <MemberSignature Language="F#" Value="member this.HelpContextID : int with get, set" Usage="HelpContextID" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.HelpContextID</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147418062)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147418062)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147418062)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147418062)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-2147418062)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-2147418062)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InSelection">
+      <MemberSignature Language="C#" Value="public virtual bool InSelection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool InSelection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.InSelection" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property InSelection As Boolean" />
+      <MemberSignature Language="F#" Value="member this.InSelection : bool with get, set" Usage="InSelection" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.InSelection</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147385341)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147385341)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147385341)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147385341)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(1088)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(1088)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-2147385341)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-2147385341)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(1088)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(1088)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayoutEffect">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Vbe.Interop.Forms.fmLayoutEffect LayoutEffect { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Vbe.Interop.Forms.fmLayoutEffect LayoutEffect" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.LayoutEffect" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property LayoutEffect As fmLayoutEffect" />
+      <MemberSignature Language="F#" Value="member this.LayoutEffect : Microsoft.Vbe.Interop.Forms.fmLayoutEffect" Usage="LayoutEffect" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.LayoutEffect</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147385340)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147385340)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147385340)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147385340)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(1024)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(1024)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.fmLayoutEffect</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Left">
+      <MemberSignature Language="C#" Value="public virtual float Left { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 Left" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.Left" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Left As Single" />
+      <MemberSignature Language="F#" Value="member this.Left : single with get, set" Usage="Left" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.Left</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147418109)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147418109)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147418109)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147418109)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-2147418109)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-2147418109)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public virtual void Move (object Left, object Top, object Width, object Height, object Layout);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Move([in]object Left, [in]object Top, [in]object Width, [in]object Height, [in]object Layout) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass.Move(System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Move (Optional Left As Object, Optional Top As Object, Optional Width As Object, Optional Height As Object, Optional Layout As Object)" />
+      <MemberSignature Language="F#" Value="abstract member Move : obj * obj * obj * obj * obj -&gt; unit&#xA;override this.Move : obj * obj * obj * obj * obj -&gt; unit" Usage="controlClass.Move (Left, Top, Width, Height, Layout)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.IControl.Move(System.Object,System.Object,System.Object,System.Object,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147385088)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147385088)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Left" Type="System.Object" />
+        <Parameter Name="Top" Type="System.Object" />
+        <Parameter Name="Width" Type="System.Object" />
+        <Parameter Name="Height" Type="System.Object" />
+        <Parameter Name="Layout" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Left">To be added.</param>
+        <param name="Top">To be added.</param>
+        <param name="Width">To be added.</param>
+        <param name="Height">To be added.</param>
+        <param name="Layout">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public virtual string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Name" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.Name</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147418112)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147418112)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147418112)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147418112)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(532)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(532)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-2147418112)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-2147418112)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(532)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(532)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Object">
+      <MemberSignature Language="C#" Value="public virtual object Object { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Object" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.Object" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Object As Object" />
+      <MemberSignature Language="F#" Value="member this.Object : obj" Usage="Object" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.Object</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147385335)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147385335)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147385335)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147385335)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(1024)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(1024)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OldHeight">
+      <MemberSignature Language="C#" Value="public virtual float OldHeight { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 OldHeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.OldHeight" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property OldHeight As Single" />
+      <MemberSignature Language="F#" Value="member this.OldHeight : single" Usage="OldHeight" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.OldHeight</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147385339)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147385339)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147385339)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147385339)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(1024)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(1024)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OldLeft">
+      <MemberSignature Language="C#" Value="public virtual float OldLeft { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 OldLeft" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.OldLeft" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property OldLeft As Single" />
+      <MemberSignature Language="F#" Value="member this.OldLeft : single" Usage="OldLeft" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.OldLeft</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147385338)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147385338)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147385338)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147385338)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(1024)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(1024)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OldTop">
+      <MemberSignature Language="C#" Value="public virtual float OldTop { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 OldTop" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.OldTop" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property OldTop As Single" />
+      <MemberSignature Language="F#" Value="member this.OldTop : single" Usage="OldTop" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.OldTop</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147385337)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147385337)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147385337)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147385337)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(1024)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(1024)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OldWidth">
+      <MemberSignature Language="C#" Value="public virtual float OldWidth { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 OldWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.OldWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property OldWidth As Single" />
+      <MemberSignature Language="F#" Value="member this.OldWidth : single" Usage="OldWidth" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.OldWidth</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147385336)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147385336)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147385336)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147385336)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(1024)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(1024)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public virtual object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Parent As Object" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Parent" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.Parent</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147418104)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147418104)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147418104)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147418104)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(1024)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(1024)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_AfterUpdate">
+      <MemberSignature Language="C#" Value="public virtual void remove_AfterUpdate (Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_AfterUpdate(class Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass.remove_AfterUpdate(Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_AfterUpdate (unnamedParam1 As ControlEvents_AfterUpdateEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_AfterUpdate : Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler -&gt; unit&#xA;override this.remove_AfterUpdate : Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler -&gt; unit" Usage="controlClass.remove_AfterUpdate unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.remove_AfterUpdate(Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_BeforeUpdate">
+      <MemberSignature Language="C#" Value="public virtual void remove_BeforeUpdate (Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_BeforeUpdate(class Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass.remove_BeforeUpdate(Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_BeforeUpdate (unnamedParam1 As ControlEvents_BeforeUpdateEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_BeforeUpdate : Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler -&gt; unit&#xA;override this.remove_BeforeUpdate : Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler -&gt; unit" Usage="controlClass.remove_BeforeUpdate unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.remove_BeforeUpdate(Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Enter">
+      <MemberSignature Language="C#" Value="public virtual void remove_Enter (Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Enter(class Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass.remove_Enter(Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_Enter (unnamedParam1 As ControlEvents_EnterEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Enter : Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler -&gt; unit&#xA;override this.remove_Enter : Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler -&gt; unit" Usage="controlClass.remove_Enter unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.remove_Enter(Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Exit">
+      <MemberSignature Language="C#" Value="public virtual void remove_Exit (Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Exit(class Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass.remove_Exit(Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_Exit (unnamedParam1 As ControlEvents_ExitEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Exit : Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler -&gt; unit&#xA;override this.remove_Exit : Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler -&gt; unit" Usage="controlClass.remove_Exit unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.remove_Exit(Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RowSource">
+      <MemberSignature Language="C#" Value="public virtual string RowSource { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RowSource" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.RowSource" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property RowSource As String" />
+      <MemberSignature Language="F#" Value="member this.RowSource : string with get, set" Usage="RowSource" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.RowSource</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147385330)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147385330)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147385330)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147385330)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-2147385330)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-2147385330)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RowSourceType">
+      <MemberSignature Language="C#" Value="public virtual short RowSourceType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int16 RowSourceType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.RowSourceType" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property RowSourceType As Short" />
+      <MemberSignature Language="F#" Value="member this.RowSourceType : int16 with get, set" Usage="RowSourceType" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.RowSourceType</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147385329)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147385329)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147385329)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147385329)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-2147385329)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-2147385329)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int16</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Select">
+      <MemberSignature Language="C#" Value="public virtual void Select (bool SelectInGroup);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Select([in]bool SelectInGroup) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass.Select(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Select (SelectInGroup As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Select : bool -&gt; unit&#xA;override this.Select : bool -&gt; unit" Usage="controlClass.Select SelectInGroup" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.IControl.Select(System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147385086)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147385086)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibFunc(64)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibFunc(64)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SelectInGroup" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="SelectInGroup">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFocus">
+      <MemberSignature Language="C#" Value="public virtual void SetFocus ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetFocus() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass.SetFocus" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub SetFocus ()" />
+      <MemberSignature Language="F#" Value="abstract member SetFocus : unit -&gt; unit&#xA;override this.SetFocus : unit -&gt; unit" Usage="controlClass.SetFocus " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.IControl.SetFocus</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147385085)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147385085)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TabIndex">
+      <MemberSignature Language="C#" Value="public virtual short TabIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int16 TabIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.TabIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property TabIndex As Short" />
+      <MemberSignature Language="F#" Value="member this.TabIndex : int16 with get, set" Usage="TabIndex" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.TabIndex</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147418097)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147418097)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147418097)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147418097)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-2147418097)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-2147418097)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int16</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TabStop">
+      <MemberSignature Language="C#" Value="public virtual bool TabStop { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TabStop" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.TabStop" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property TabStop As Boolean" />
+      <MemberSignature Language="F#" Value="member this.TabStop : bool with get, set" Usage="TabStop" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.TabStop</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147418098)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147418098)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147418098)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147418098)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-2147418098)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-2147418098)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tag">
+      <MemberSignature Language="C#" Value="public virtual string Tag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Tag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.Tag" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Tag As String" />
+      <MemberSignature Language="F#" Value="member this.Tag : string with get, set" Usage="Tag" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.Tag</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147418101)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147418101)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147418101)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147418101)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-2147418101)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-2147418101)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Top">
+      <MemberSignature Language="C#" Value="public virtual float Top { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 Top" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.Top" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Top As Single" />
+      <MemberSignature Language="F#" Value="member this.Top : single with get, set" Usage="Top" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.Top</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147418108)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147418108)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147418108)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147418108)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-2147418108)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-2147418108)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Visible">
+      <MemberSignature Language="C#" Value="public virtual bool Visible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Visible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.Visible" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Visible As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Visible : bool with get, set" Usage="Visible" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.Visible</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147418105)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147418105)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147418105)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147418105)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-2147418105)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-2147418105)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Width">
+      <MemberSignature Language="C#" Value="public virtual float Width { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 Width" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ControlClass.Width" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Width As Single" />
+      <MemberSignature Language="F#" Value="member this.Width : single with get, set" Usage="Width" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IControl.Width</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147418107)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147418107)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-2147418107)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-2147418107)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-2147418107)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-2147418107)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ZOrder">
+      <MemberSignature Language="C#" Value="public virtual void ZOrder (object zPosition);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ZOrder([in]object zPosition) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlClass.ZOrder(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ZOrder (Optional zPosition As Object)" />
+      <MemberSignature Language="F#" Value="abstract member ZOrder : obj -&gt; unit&#xA;override this.ZOrder : obj -&gt; unit" Usage="controlClass.ZOrder zPosition" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.IControl.ZOrder(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-2147385083)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-2147385083)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="zPosition" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="zPosition">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

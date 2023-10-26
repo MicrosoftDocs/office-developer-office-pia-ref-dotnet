@@ -1,9 +1,10 @@
-﻿<Type Name="IMsoDispCagNotifySink" FullName="Microsoft.Office.Core.IMsoDispCagNotifySink">
+<Type Name="IMsoDispCagNotifySink" FullName="Microsoft.Office.Core.IMsoDispCagNotifySink">
+  <TypeSignature Language="C++ CLI" Value="public interface class IMsoDispCagNotifySink" />
   <TypeSignature Language="C#" Value="public interface IMsoDispCagNotifySink" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMsoDispCagNotifySink" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IMsoDispCagNotifySink" />
   <TypeSignature Language="VB.NET" Value="Public Interface IMsoDispCagNotifySink" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IMsoDispCagNotifySink" />
+  <TypeSignature Language="F#" Value="type IMsoDispCagNotifySink = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,10 +12,12 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C0359-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C0359-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C0359-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4304)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4304)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -23,11 +26,12 @@
   </Docs>
   <Members>
     <Member MemberName="InsertClip">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InsertClip(System::Object ^ pClipMoniker, System::Object ^ pItemMoniker);" />
       <MemberSignature Language="C#" Value="public void InsertClip (object pClipMoniker, object pItemMoniker);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InsertClip([in]object pClipMoniker, [in]object pItemMoniker) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IMsoDispCagNotifySink.InsertClip(System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InsertClip (pClipMoniker As Object, pItemMoniker As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InsertClip(System::Object ^ pClipMoniker, System::Object ^ pItemMoniker);" />
+      <MemberSignature Language="F#" Value="abstract member InsertClip : obj * obj -&gt; unit" Usage="iMsoDispCagNotifySink.InsertClip (pClipMoniker, pItemMoniker)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -35,7 +39,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -53,11 +58,12 @@
       </Docs>
     </Member>
     <Member MemberName="WindowIsClosing">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WindowIsClosing();" />
       <MemberSignature Language="C#" Value="public void WindowIsClosing ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WindowIsClosing() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IMsoDispCagNotifySink.WindowIsClosing" />
       <MemberSignature Language="VB.NET" Value="Public Sub WindowIsClosing ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WindowIsClosing();" />
+      <MemberSignature Language="F#" Value="abstract member WindowIsClosing : unit -&gt; unit" Usage="iMsoDispCagNotifySink.WindowIsClosing " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -65,7 +71,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

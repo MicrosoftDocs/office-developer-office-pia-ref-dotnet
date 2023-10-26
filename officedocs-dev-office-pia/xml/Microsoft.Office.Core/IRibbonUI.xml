@@ -1,9 +1,10 @@
-﻿<Type Name="IRibbonUI" FullName="Microsoft.Office.Core.IRibbonUI">
+<Type Name="IRibbonUI" FullName="Microsoft.Office.Core.IRibbonUI">
+  <TypeSignature Language="C++ CLI" Value="public interface class IRibbonUI" />
   <TypeSignature Language="C#" Value="public interface IRibbonUI" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRibbonUI" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IRibbonUI" />
   <TypeSignature Language="VB.NET" Value="Public Interface IRibbonUI" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IRibbonUI" />
+  <TypeSignature Language="F#" Value="type IRibbonUI = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,10 +12,12 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C03A7-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C03A7-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C03A7-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4160)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4160)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -41,11 +44,12 @@ End Sub</code>
   </Docs>
   <Members>
     <Member MemberName="ActivateTab">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ActivateTab(System::String ^ ControlID);" />
       <MemberSignature Language="C#" Value="public void ActivateTab (string ControlID);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ActivateTab([in]string ControlID) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IRibbonUI.ActivateTab(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ActivateTab (ControlID As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ActivateTab(System::String ^ ControlID);" />
+      <MemberSignature Language="F#" Value="abstract member ActivateTab : string -&gt; unit" Usage="iRibbonUI.ActivateTab ControlID" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -53,7 +57,8 @@ End Sub</code>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -69,11 +74,12 @@ End Sub</code>
       </Docs>
     </Member>
     <Member MemberName="ActivateTabMso">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ActivateTabMso(System::String ^ ControlID);" />
       <MemberSignature Language="C#" Value="public void ActivateTabMso (string ControlID);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ActivateTabMso([in]string ControlID) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IRibbonUI.ActivateTabMso(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ActivateTabMso (ControlID As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ActivateTabMso(System::String ^ ControlID);" />
+      <MemberSignature Language="F#" Value="abstract member ActivateTabMso : string -&gt; unit" Usage="iRibbonUI.ActivateTabMso ControlID" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -81,7 +87,8 @@ End Sub</code>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -97,11 +104,12 @@ End Sub</code>
       </Docs>
     </Member>
     <Member MemberName="ActivateTabQ">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ActivateTabQ(System::String ^ ControlID, System::String ^ Namespace);" />
       <MemberSignature Language="C#" Value="public void ActivateTabQ (string ControlID, string Namespace);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ActivateTabQ([in]string ControlID, [in]string Namespace) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IRibbonUI.ActivateTabQ(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ActivateTabQ (ControlID As String, Namespace As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ActivateTabQ(System::String ^ ControlID, System::String ^ Namespace);" />
+      <MemberSignature Language="F#" Value="abstract member ActivateTabQ : string * string -&gt; unit" Usage="iRibbonUI.ActivateTabQ (ControlID, Namespace)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -109,7 +117,8 @@ End Sub</code>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(6)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(6)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -127,11 +136,12 @@ End Sub</code>
       </Docs>
     </Member>
     <Member MemberName="Invalidate">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Invalidate();" />
       <MemberSignature Language="C#" Value="public void Invalidate ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Invalidate() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IRibbonUI.Invalidate" />
       <MemberSignature Language="VB.NET" Value="Public Sub Invalidate ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Invalidate();" />
+      <MemberSignature Language="F#" Value="abstract member Invalidate : unit -&gt; unit" Usage="iRibbonUI.Invalidate " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -139,7 +149,8 @@ End Sub</code>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -170,11 +181,12 @@ End Sub</code>
       </Docs>
     </Member>
     <Member MemberName="InvalidateControl">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InvalidateControl(System::String ^ ControlID);" />
       <MemberSignature Language="C#" Value="public void InvalidateControl (string ControlID);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InvalidateControl([in]string ControlID) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IRibbonUI.InvalidateControl(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InvalidateControl (ControlID As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InvalidateControl(System::String ^ ControlID);" />
+      <MemberSignature Language="F#" Value="abstract member InvalidateControl : string -&gt; unit" Usage="iRibbonUI.InvalidateControl ControlID" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -182,7 +194,8 @@ End Sub</code>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -216,11 +229,12 @@ End Sub</code>
       </Docs>
     </Member>
     <Member MemberName="InvalidateControlMso">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InvalidateControlMso(System::String ^ ControlID);" />
       <MemberSignature Language="C#" Value="public void InvalidateControlMso (string ControlID);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InvalidateControlMso([in]string ControlID) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IRibbonUI.InvalidateControlMso(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InvalidateControlMso (ControlID As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InvalidateControlMso(System::String ^ ControlID);" />
+      <MemberSignature Language="F#" Value="abstract member InvalidateControlMso : string -&gt; unit" Usage="iRibbonUI.InvalidateControlMso ControlID" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -228,7 +242,8 @@ End Sub</code>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

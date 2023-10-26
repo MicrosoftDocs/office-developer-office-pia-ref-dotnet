@@ -1,0 +1,340 @@
+<Type Name="HTMLOptionClass" FullName="Microsoft.Vbe.Interop.Forms.HTMLOptionClass">
+  <TypeSignature Language="C#" Value="public class HTMLOptionClass : Microsoft.Vbe.Interop.Forms.HTMLOption" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi HTMLOptionClass extends System.Object implements class Microsoft.Vbe.Interop.Forms.HTMLOption, class Microsoft.Vbe.Interop.Forms.IWHTMLOption, class Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop.Forms.HTMLOptionClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class HTMLOptionClass&#xA;Implements HTMLOption" />
+  <TypeSignature Language="F#" Value="type HTMLOptionClass = class&#xA;    interface IWHTMLOption&#xA;    interface HTMLOption&#xA;    interface WHTMLControlEvents4_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Vbe.Interop.Forms.HTMLOption</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Vbe.Interop.Forms.IWHTMLOption</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ClassInterface(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ClassInterface(0)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4\0")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4\0")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("5512D118-5CC6-11CF-8D67-00AA00BDCE1D")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("5512D118-5CC6-11CF-8D67-00AA00BDCE1D")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(32)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(32)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="add_Click">
+      <MemberSignature Language="C#" Value="public virtual void add_Click (Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_ClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Click(class Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_ClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.HTMLOptionClass.add_Click(Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_ClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_Click (unnamedParam1 As WHTMLControlEvents4_ClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Click : Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_ClickEventHandler -&gt; unit&#xA;override this.add_Click : Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_ClickEventHandler -&gt; unit" Usage="hTMLOptionClass.add_Click unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_Event.add_Click(Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_ClickEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_ClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Checked">
+      <MemberSignature Language="C#" Value="public virtual bool this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Checked" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.HTMLOptionClass.Checked" />
+      <MemberSignature Language="VB.NET" Value="Default Public Overridable Property Checked As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Checked : bool with get, set" Usage="Checked" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IWHTMLOption.Checked</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Click">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_ClickEventHandler Click;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_ClickEventHandler Click" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.HTMLOptionClass.Click" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event Click As WHTMLControlEvents4_ClickEventHandler Implements Click" />
+      <MemberSignature Language="F#" Value="member this.Click : Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_ClickEventHandler " Usage="member this.Click : Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_ClickEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_Event.Click</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_ClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayStyle">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Vbe.Interop.Forms.fmDisplayStyle DisplayStyle { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Vbe.Interop.Forms.fmDisplayStyle DisplayStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.HTMLOptionClass.DisplayStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property DisplayStyle As fmDisplayStyle" />
+      <MemberSignature Language="F#" Value="member this.DisplayStyle : Microsoft.Vbe.Interop.Forms.fmDisplayStyle" Usage="DisplayStyle" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IWHTMLOption.DisplayStyle</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-540)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-540)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-540)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-540)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(64)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(64)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.fmDisplayStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HTMLName">
+      <MemberSignature Language="C#" Value="public virtual string HTMLName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string HTMLName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.HTMLOptionClass.HTMLName" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property HTMLName As String" />
+      <MemberSignature Language="F#" Value="member this.HTMLName : string with get, set" Usage="HTMLName" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IWHTMLOption.HTMLName</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-541)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-541)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-541)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-541)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-541)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-541)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HTMLType">
+      <MemberSignature Language="C#" Value="public virtual string HTMLType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string HTMLType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.HTMLOptionClass.HTMLType" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property HTMLType As String" />
+      <MemberSignature Language="F#" Value="member this.HTMLType : string with get, set" Usage="HTMLType" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IWHTMLOption.HTMLType</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(618)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(618)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(618)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(618)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(1088)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(1088)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(618)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(618)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(1088)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(1088)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Click">
+      <MemberSignature Language="C#" Value="public virtual void remove_Click (Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_ClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Click(class Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_ClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.HTMLOptionClass.remove_Click(Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_ClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_Click (unnamedParam1 As WHTMLControlEvents4_ClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Click : Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_ClickEventHandler -&gt; unit&#xA;override this.remove_Click : Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_ClickEventHandler -&gt; unit" Usage="hTMLOptionClass.remove_Click unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_Event.remove_Click(Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_ClickEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.WHTMLControlEvents4_ClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public virtual string Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.HTMLOptionClass.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Value As String" />
+      <MemberSignature Language="F#" Value="member this.Value : string with get, set" Usage="Value" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IWHTMLOption.Value</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(607)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(607)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(607)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(607)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(607)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(607)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

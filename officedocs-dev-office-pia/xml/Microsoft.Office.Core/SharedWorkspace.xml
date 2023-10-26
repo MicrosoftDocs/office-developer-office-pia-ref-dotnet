@@ -1,9 +1,10 @@
-﻿<Type Name="SharedWorkspace" FullName="Microsoft.Office.Core.SharedWorkspace">
+<Type Name="SharedWorkspace" FullName="Microsoft.Office.Core.SharedWorkspace">
+  <TypeSignature Language="C++ CLI" Value="public interface class SharedWorkspace : Microsoft::Office::Core::_IMsoDispObj" />
   <TypeSignature Language="C#" Value="public interface SharedWorkspace : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SharedWorkspace implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SharedWorkspace" />
   <TypeSignature Language="VB.NET" Value="Public Interface SharedWorkspace&#xA;Implements _IMsoDispObj" />
-  <TypeSignature Language="C++ CLI" Value="public interface class SharedWorkspace : Microsoft::Office::Core::_IMsoDispObj" />
+  <TypeSignature Language="F#" Value="type SharedWorkspace = interface&#xA;    interface _IMsoDispObj" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -15,10 +16,12 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C0385-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C0385-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C0385-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4288)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4288)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -44,11 +47,12 @@
   </Docs>
   <Members>
     <Member MemberName="Application">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object Application { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Application" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : obj" Usage="Microsoft.Office.Core.SharedWorkspace.Application" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
@@ -59,10 +63,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -75,11 +81,12 @@
       </Docs>
     </Member>
     <Member MemberName="Connected">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Connected { bool get(); };" />
       <MemberSignature Language="C#" Value="public bool Connected { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool Connected" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.Connected" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Connected As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Connected { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.Connected : bool" Usage="Microsoft.Office.Core.SharedWorkspace.Connected" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -87,10 +94,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(11)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(11)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(11)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(11)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(11)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -110,6 +119,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CreateNew([in]object URL, [in]object Name) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SharedWorkspace.CreateNew(System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub CreateNew (Optional URL As Object, Optional Name As Object)" />
+      <MemberSignature Language="F#" Value="abstract member CreateNew : obj * obj -&gt; unit" Usage="sharedWorkspace.CreateNew (URL, Name)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -117,7 +127,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(7)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(7)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -139,11 +150,12 @@
       </Docs>
     </Member>
     <Member MemberName="Creator">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
       <MemberSignature Language="C#" Value="public int Creator { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Core.SharedWorkspace.Creator" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
@@ -154,10 +166,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -175,11 +189,12 @@
       </Docs>
     </Member>
     <Member MemberName="Delete">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
       <MemberSignature Language="C#" Value="public void Delete ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SharedWorkspace.Delete" />
       <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberSignature Language="F#" Value="abstract member Delete : unit -&gt; unit" Usage="sharedWorkspace.Delete " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -187,7 +202,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(8)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(8)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -204,11 +220,12 @@
       </Docs>
     </Member>
     <Member MemberName="Disconnect">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Disconnect();" />
       <MemberSignature Language="C#" Value="public void Disconnect ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Disconnect() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SharedWorkspace.Disconnect" />
       <MemberSignature Language="VB.NET" Value="Public Sub Disconnect ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Disconnect();" />
+      <MemberSignature Language="F#" Value="abstract member Disconnect : unit -&gt; unit" Usage="sharedWorkspace.Disconnect " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -216,7 +233,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(15)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(15)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(15)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -232,11 +250,12 @@
       </Docs>
     </Member>
     <Member MemberName="Files">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::SharedWorkspaceFiles ^ Files { Microsoft::Office::Core::SharedWorkspaceFiles ^ get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.SharedWorkspaceFiles Files { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.SharedWorkspaceFiles Files" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.Files" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Files As SharedWorkspaceFiles" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::SharedWorkspaceFiles ^ Files { Microsoft::Office::Core::SharedWorkspaceFiles ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Files : Microsoft.Office.Core.SharedWorkspaceFiles" Usage="Microsoft.Office.Core.SharedWorkspace.Files" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -244,10 +263,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -260,11 +281,12 @@
       </Docs>
     </Member>
     <Member MemberName="Folders">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::SharedWorkspaceFolders ^ Folders { Microsoft::Office::Core::SharedWorkspaceFolders ^ get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.SharedWorkspaceFolders Folders { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.SharedWorkspaceFolders Folders" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.Folders" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Folders As SharedWorkspaceFolders" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::SharedWorkspaceFolders ^ Folders { Microsoft::Office::Core::SharedWorkspaceFolders ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Folders : Microsoft.Office.Core.SharedWorkspaceFolders" Usage="Microsoft.Office.Core.SharedWorkspace.Folders" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -272,10 +294,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -291,11 +315,12 @@
       </Docs>
     </Member>
     <Member MemberName="LastRefreshed">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ LastRefreshed { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object LastRefreshed { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object LastRefreshed" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.LastRefreshed" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastRefreshed As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ LastRefreshed { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.LastRefreshed : obj" Usage="Microsoft.Office.Core.SharedWorkspace.LastRefreshed" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -303,10 +328,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(12)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(12)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(12)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(12)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(12)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -322,11 +349,12 @@
       </Docs>
     </Member>
     <Member MemberName="Links">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::SharedWorkspaceLinks ^ Links { Microsoft::Office::Core::SharedWorkspaceLinks ^ get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.SharedWorkspaceLinks Links { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.SharedWorkspaceLinks Links" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.Links" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Links As SharedWorkspaceLinks" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::SharedWorkspaceLinks ^ Links { Microsoft::Office::Core::SharedWorkspaceLinks ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Links : Microsoft.Office.Core.SharedWorkspaceLinks" Usage="Microsoft.Office.Core.SharedWorkspace.Links" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -334,10 +362,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -350,11 +380,12 @@
       </Docs>
     </Member>
     <Member MemberName="Members">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::SharedWorkspaceMembers ^ Members { Microsoft::Office::Core::SharedWorkspaceMembers ^ get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.SharedWorkspaceMembers Members { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.SharedWorkspaceMembers Members" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.Members" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Members As SharedWorkspaceMembers" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::SharedWorkspaceMembers ^ Members { Microsoft::Office::Core::SharedWorkspaceMembers ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Members : Microsoft.Office.Core.SharedWorkspaceMembers" Usage="Microsoft.Office.Core.SharedWorkspace.Members" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -362,10 +393,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -378,11 +411,12 @@
       </Docs>
     </Member>
     <Member MemberName="Name">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="C#" Value="public string this { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.Name" />
       <MemberSignature Language="VB.NET" Value="Default Public Property Name As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.Office.Core.SharedWorkspace.Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -390,13 +424,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -409,11 +446,12 @@
       </Docs>
     </Member>
     <Member MemberName="Parent">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object Parent { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Core.SharedWorkspace.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -421,10 +459,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(9)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(9)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(9)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(9)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(9)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -437,11 +477,12 @@
       </Docs>
     </Member>
     <Member MemberName="Refresh">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Refresh();" />
       <MemberSignature Language="C#" Value="public void Refresh ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Refresh() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SharedWorkspace.Refresh" />
       <MemberSignature Language="VB.NET" Value="Public Sub Refresh ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Refresh();" />
+      <MemberSignature Language="F#" Value="abstract member Refresh : unit -&gt; unit" Usage="sharedWorkspace.Refresh " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -449,7 +490,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(6)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(6)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -465,11 +507,12 @@
       </Docs>
     </Member>
     <Member MemberName="RemoveDocument">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveDocument();" />
       <MemberSignature Language="C#" Value="public void RemoveDocument ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemoveDocument() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SharedWorkspace.RemoveDocument" />
       <MemberSignature Language="VB.NET" Value="Public Sub RemoveDocument ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveDocument();" />
+      <MemberSignature Language="F#" Value="abstract member RemoveDocument : unit -&gt; unit" Usage="sharedWorkspace.RemoveDocument " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -477,7 +520,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(14)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(14)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -494,11 +538,12 @@
       </Docs>
     </Member>
     <Member MemberName="SourceURL">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SourceURL { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="C#" Value="public string SourceURL { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string SourceURL" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.SourceURL" />
       <MemberSignature Language="VB.NET" Value="Public Property SourceURL As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SourceURL { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.SourceURL : string with get, set" Usage="Microsoft.Office.Core.SharedWorkspace.SourceURL" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -506,13 +551,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(13)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(13)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(13)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(13)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(13)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(13)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(13)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(13)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -528,11 +576,12 @@
       </Docs>
     </Member>
     <Member MemberName="Tasks">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::SharedWorkspaceTasks ^ Tasks { Microsoft::Office::Core::SharedWorkspaceTasks ^ get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.SharedWorkspaceTasks Tasks { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.SharedWorkspaceTasks Tasks" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.Tasks" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tasks As SharedWorkspaceTasks" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::SharedWorkspaceTasks ^ Tasks { Microsoft::Office::Core::SharedWorkspaceTasks ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Tasks : Microsoft.Office.Core.SharedWorkspaceTasks" Usage="Microsoft.Office.Core.SharedWorkspace.Tasks" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -540,10 +589,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -556,11 +607,12 @@
       </Docs>
     </Member>
     <Member MemberName="URL">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ URL { System::String ^ get(); };" />
       <MemberSignature Language="C#" Value="public string URL { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string URL" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.URL" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property URL As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ URL { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.URL : string" Usage="Microsoft.Office.Core.SharedWorkspace.URL" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -568,10 +620,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(10)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(10)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(10)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(10)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

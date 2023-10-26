@@ -1,9 +1,10 @@
-﻿<Type Name="ChartPoint" FullName="Microsoft.Office.Core.ChartPoint">
+<Type Name="ChartPoint" FullName="Microsoft.Office.Core.ChartPoint">
+  <TypeSignature Language="C++ CLI" Value="public interface class ChartPoint" />
   <TypeSignature Language="C#" Value="public interface ChartPoint" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ChartPoint" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ChartPoint" />
   <TypeSignature Language="VB.NET" Value="Public Interface ChartPoint" />
-  <TypeSignature Language="C++ CLI" Value="public interface class ChartPoint" />
+  <TypeSignature Language="F#" Value="type ChartPoint = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,10 +12,12 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C170C-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C170C-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C170C-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4112)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4112)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4112)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -27,6 +30,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object _ApplyDataLabels([in]valuetype Microsoft.Office.Core.XlDataLabelsType Type, [in]object IMsoLegendKey, [in]object AutoText, [in]object HasLeaderLines) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartPoint._ApplyDataLabels(Microsoft.Office.Core.XlDataLabelsType,System.Object,System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function _ApplyDataLabels (Optional Type As XlDataLabelsType = Microsoft.Office.Core.XlDataLabelsType.xlDataLabelsShowValue, Optional IMsoLegendKey As Object, Optional AutoText As Object, Optional HasLeaderLines As Object) As Object" />
+      <MemberSignature Language="F#" Value="abstract member _ApplyDataLabels : Microsoft.Office.Core.XlDataLabelsType * obj * obj * obj -&gt; obj" Usage="chartPoint._ApplyDataLabels (Type, IMsoLegendKey, AutoText, HasLeaderLines)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -34,7 +38,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibFunc(1088)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibFunc(1088)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -57,11 +62,12 @@
       </Docs>
     </Member>
     <Member MemberName="Application">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object Application { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Application" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : obj" Usage="Microsoft.Office.Core.ChartPoint.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -69,7 +75,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(148)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(148)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -88,6 +95,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ApplyDataLabels([in]valuetype Microsoft.Office.Core.XlDataLabelsType Type, [in]object IMsoLegendKey, [in]object AutoText, [in]object HasLeaderLines, [in]object ShowSeriesName, [in]object ShowCategoryName, [in]object ShowValue, [in]object ShowPercentage, [in]object ShowBubbleSize, [in]object Separator) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartPoint.ApplyDataLabels(Microsoft.Office.Core.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function ApplyDataLabels (Optional Type As XlDataLabelsType = Microsoft.Office.Core.XlDataLabelsType.xlDataLabelsShowValue, Optional IMsoLegendKey As Object, Optional AutoText As Object, Optional HasLeaderLines As Object, Optional ShowSeriesName As Object, Optional ShowCategoryName As Object, Optional ShowValue As Object, Optional ShowPercentage As Object, Optional ShowBubbleSize As Object, Optional Separator As Object) As Object" />
+      <MemberSignature Language="F#" Value="abstract member ApplyDataLabels : Microsoft.Office.Core.XlDataLabelsType * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; obj" Usage="chartPoint.ApplyDataLabels (Type, IMsoLegendKey, AutoText, HasLeaderLines, ShowSeriesName, ShowCategoryName, ShowValue, ShowPercentage, ShowBubbleSize, Separator)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -125,11 +133,12 @@
       </Docs>
     </Member>
     <Member MemberName="ApplyPictToEnd">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ApplyPictToEnd { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool ApplyPictToEnd { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool ApplyPictToEnd" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.ApplyPictToEnd" />
       <MemberSignature Language="VB.NET" Value="Public Property ApplyPictToEnd As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ApplyPictToEnd { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.ApplyPictToEnd : bool with get, set" Usage="Microsoft.Office.Core.ChartPoint.ApplyPictToEnd" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -137,7 +146,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1661)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1661)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1661)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -150,11 +160,12 @@
       </Docs>
     </Member>
     <Member MemberName="ApplyPictToFront">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ApplyPictToFront { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool ApplyPictToFront { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool ApplyPictToFront" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.ApplyPictToFront" />
       <MemberSignature Language="VB.NET" Value="Public Property ApplyPictToFront As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ApplyPictToFront { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.ApplyPictToFront : bool with get, set" Usage="Microsoft.Office.Core.ChartPoint.ApplyPictToFront" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -162,7 +173,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1660)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1660)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1660)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -175,11 +187,12 @@
       </Docs>
     </Member>
     <Member MemberName="ApplyPictToSides">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ApplyPictToSides { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool ApplyPictToSides { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool ApplyPictToSides" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.ApplyPictToSides" />
       <MemberSignature Language="VB.NET" Value="Public Property ApplyPictToSides As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ApplyPictToSides { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.ApplyPictToSides : bool with get, set" Usage="Microsoft.Office.Core.ChartPoint.ApplyPictToSides" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -187,7 +200,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1659)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1659)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1659)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -200,11 +214,12 @@
       </Docs>
     </Member>
     <Member MemberName="Border">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::IMsoBorder ^ Border { Microsoft::Office::Core::IMsoBorder ^ get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.IMsoBorder Border { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.IMsoBorder Border" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Border" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Border As IMsoBorder" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::IMsoBorder ^ Border { Microsoft::Office::Core::IMsoBorder ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Border : Microsoft.Office.Core.IMsoBorder" Usage="Microsoft.Office.Core.ChartPoint.Border" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -212,7 +227,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(128)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(128)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(128)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -225,11 +241,12 @@
       </Docs>
     </Member>
     <Member MemberName="ClearFormats">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ ClearFormats();" />
       <MemberSignature Language="C#" Value="public object ClearFormats ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ClearFormats() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartPoint.ClearFormats" />
       <MemberSignature Language="VB.NET" Value="Public Function ClearFormats () As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ ClearFormats();" />
+      <MemberSignature Language="F#" Value="abstract member ClearFormats : unit -&gt; obj" Usage="chartPoint.ClearFormats " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -246,11 +263,12 @@
       </Docs>
     </Member>
     <Member MemberName="Copy">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Copy();" />
       <MemberSignature Language="C#" Value="public object Copy ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Copy() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartPoint.Copy" />
       <MemberSignature Language="VB.NET" Value="Public Function Copy () As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Copy();" />
+      <MemberSignature Language="F#" Value="abstract member Copy : unit -&gt; obj" Usage="chartPoint.Copy " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -267,11 +285,12 @@
       </Docs>
     </Member>
     <Member MemberName="Creator">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
       <MemberSignature Language="C#" Value="public int Creator { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Core.ChartPoint.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -279,7 +298,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(149)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(149)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -294,11 +314,12 @@
       </Docs>
     </Member>
     <Member MemberName="DataLabel">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::IMsoDataLabel ^ DataLabel { Microsoft::Office::Core::IMsoDataLabel ^ get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.IMsoDataLabel DataLabel { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.IMsoDataLabel DataLabel" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.DataLabel" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DataLabel As IMsoDataLabel" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::IMsoDataLabel ^ DataLabel { Microsoft::Office::Core::IMsoDataLabel ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.DataLabel : Microsoft.Office.Core.IMsoDataLabel" Usage="Microsoft.Office.Core.ChartPoint.DataLabel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -306,7 +327,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(158)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(158)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(158)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -319,11 +341,12 @@
       </Docs>
     </Member>
     <Member MemberName="Delete">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Delete();" />
       <MemberSignature Language="C#" Value="public object Delete ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Delete() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartPoint.Delete" />
       <MemberSignature Language="VB.NET" Value="Public Function Delete () As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Delete();" />
+      <MemberSignature Language="F#" Value="abstract member Delete : unit -&gt; obj" Usage="chartPoint.Delete " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -340,11 +363,12 @@
       </Docs>
     </Member>
     <Member MemberName="Explosion">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Explosion { int get(); void set(int value); };" />
       <MemberSignature Language="C#" Value="public int Explosion { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Explosion" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Explosion" />
       <MemberSignature Language="VB.NET" Value="Public Property Explosion As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Explosion { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Explosion : int with get, set" Usage="Microsoft.Office.Core.ChartPoint.Explosion" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -352,7 +376,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(182)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(182)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(182)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -365,11 +390,12 @@
       </Docs>
     </Member>
     <Member MemberName="Fill">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::ChartFillFormat ^ Fill { Microsoft::Office::Core::ChartFillFormat ^ get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.ChartFillFormat Fill { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.ChartFillFormat Fill" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Fill" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Fill As ChartFillFormat" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::ChartFillFormat ^ Fill { Microsoft::Office::Core::ChartFillFormat ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Fill : Microsoft.Office.Core.ChartFillFormat" Usage="Microsoft.Office.Core.ChartPoint.Fill" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -377,7 +403,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1663)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1663)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1663)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -390,11 +417,12 @@
       </Docs>
     </Member>
     <Member MemberName="Format">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::IMsoChartFormat ^ Format { Microsoft::Office::Core::IMsoChartFormat ^ get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.IMsoChartFormat Format { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.IMsoChartFormat Format" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Format" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Format As IMsoChartFormat" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::IMsoChartFormat ^ Format { Microsoft::Office::Core::IMsoChartFormat ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Format : Microsoft.Office.Core.IMsoChartFormat" Usage="Microsoft.Office.Core.ChartPoint.Format" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -402,7 +430,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743854)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743854)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743854)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -415,11 +444,12 @@
       </Docs>
     </Member>
     <Member MemberName="Has3DEffect">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Has3DEffect { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool Has3DEffect { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool Has3DEffect" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Has3DEffect" />
       <MemberSignature Language="VB.NET" Value="Public Property Has3DEffect As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Has3DEffect { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Has3DEffect : bool with get, set" Usage="Microsoft.Office.Core.ChartPoint.Has3DEffect" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -427,7 +457,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1665)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1665)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1665)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -440,11 +471,12 @@
       </Docs>
     </Member>
     <Member MemberName="HasDataLabel">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasDataLabel { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool HasDataLabel { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool HasDataLabel" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.HasDataLabel" />
       <MemberSignature Language="VB.NET" Value="Public Property HasDataLabel As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasDataLabel { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.HasDataLabel : bool with get, set" Usage="Microsoft.Office.Core.ChartPoint.HasDataLabel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -452,7 +484,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(77)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(77)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(77)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -465,11 +498,12 @@
       </Docs>
     </Member>
     <Member MemberName="Height">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Height { double get(); };" />
       <MemberSignature Language="C#" Value="public double Height { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float64 Height" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Height" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Height As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Height { double get(); };" />
+      <MemberSignature Language="F#" Value="member this.Height : double" Usage="Microsoft.Office.Core.ChartPoint.Height" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -477,7 +511,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(2652)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2652)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2652)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -490,11 +525,12 @@
       </Docs>
     </Member>
     <Member MemberName="Interior">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::IMsoInterior ^ Interior { Microsoft::Office::Core::IMsoInterior ^ get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.IMsoInterior Interior { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.IMsoInterior Interior" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Interior" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Interior As IMsoInterior" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::IMsoInterior ^ Interior { Microsoft::Office::Core::IMsoInterior ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Interior : Microsoft.Office.Core.IMsoInterior" Usage="Microsoft.Office.Core.ChartPoint.Interior" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -502,7 +538,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(129)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(129)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(129)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -515,11 +552,12 @@
       </Docs>
     </Member>
     <Member MemberName="InvertIfNegative">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool InvertIfNegative { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool InvertIfNegative { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool InvertIfNegative" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.InvertIfNegative" />
       <MemberSignature Language="VB.NET" Value="Public Property InvertIfNegative As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool InvertIfNegative { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.InvertIfNegative : bool with get, set" Usage="Microsoft.Office.Core.ChartPoint.InvertIfNegative" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -527,7 +565,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(132)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(132)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(132)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -540,11 +579,12 @@
       </Docs>
     </Member>
     <Member MemberName="Left">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Left { double get(); };" />
       <MemberSignature Language="C#" Value="public double Left { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float64 Left" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Left" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Left As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Left { double get(); };" />
+      <MemberSignature Language="F#" Value="member this.Left : double" Usage="Microsoft.Office.Core.ChartPoint.Left" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -552,7 +592,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(2654)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2654)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2654)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -565,11 +606,12 @@
       </Docs>
     </Member>
     <Member MemberName="MarkerBackgroundColor">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MarkerBackgroundColor { int get(); void set(int value); };" />
       <MemberSignature Language="C#" Value="public int MarkerBackgroundColor { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 MarkerBackgroundColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.MarkerBackgroundColor" />
       <MemberSignature Language="VB.NET" Value="Public Property MarkerBackgroundColor As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MarkerBackgroundColor { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.MarkerBackgroundColor : int with get, set" Usage="Microsoft.Office.Core.ChartPoint.MarkerBackgroundColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -577,7 +619,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(73)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(73)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(73)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -590,11 +633,12 @@
       </Docs>
     </Member>
     <Member MemberName="MarkerBackgroundColorIndex">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::XlColorIndex MarkerBackgroundColorIndex { Microsoft::Office::Core::XlColorIndex get(); void set(Microsoft::Office::Core::XlColorIndex value); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.XlColorIndex MarkerBackgroundColorIndex { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.XlColorIndex MarkerBackgroundColorIndex" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.MarkerBackgroundColorIndex" />
       <MemberSignature Language="VB.NET" Value="Public Property MarkerBackgroundColorIndex As XlColorIndex" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::XlColorIndex MarkerBackgroundColorIndex { Microsoft::Office::Core::XlColorIndex get(); void set(Microsoft::Office::Core::XlColorIndex value); };" />
+      <MemberSignature Language="F#" Value="member this.MarkerBackgroundColorIndex : Microsoft.Office.Core.XlColorIndex with get, set" Usage="Microsoft.Office.Core.ChartPoint.MarkerBackgroundColorIndex" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -602,7 +646,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(74)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(74)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(74)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -615,11 +660,12 @@
       </Docs>
     </Member>
     <Member MemberName="MarkerForegroundColor">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MarkerForegroundColor { int get(); void set(int value); };" />
       <MemberSignature Language="C#" Value="public int MarkerForegroundColor { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 MarkerForegroundColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.MarkerForegroundColor" />
       <MemberSignature Language="VB.NET" Value="Public Property MarkerForegroundColor As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MarkerForegroundColor { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.MarkerForegroundColor : int with get, set" Usage="Microsoft.Office.Core.ChartPoint.MarkerForegroundColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -627,7 +673,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(75)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(75)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(75)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -640,11 +687,12 @@
       </Docs>
     </Member>
     <Member MemberName="MarkerForegroundColorIndex">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::XlColorIndex MarkerForegroundColorIndex { Microsoft::Office::Core::XlColorIndex get(); void set(Microsoft::Office::Core::XlColorIndex value); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.XlColorIndex MarkerForegroundColorIndex { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.XlColorIndex MarkerForegroundColorIndex" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.MarkerForegroundColorIndex" />
       <MemberSignature Language="VB.NET" Value="Public Property MarkerForegroundColorIndex As XlColorIndex" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::XlColorIndex MarkerForegroundColorIndex { Microsoft::Office::Core::XlColorIndex get(); void set(Microsoft::Office::Core::XlColorIndex value); };" />
+      <MemberSignature Language="F#" Value="member this.MarkerForegroundColorIndex : Microsoft.Office.Core.XlColorIndex with get, set" Usage="Microsoft.Office.Core.ChartPoint.MarkerForegroundColorIndex" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -652,7 +700,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(76)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(76)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(76)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -665,11 +714,12 @@
       </Docs>
     </Member>
     <Member MemberName="MarkerSize">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MarkerSize { int get(); void set(int value); };" />
       <MemberSignature Language="C#" Value="public int MarkerSize { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 MarkerSize" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.MarkerSize" />
       <MemberSignature Language="VB.NET" Value="Public Property MarkerSize As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MarkerSize { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.MarkerSize : int with get, set" Usage="Microsoft.Office.Core.ChartPoint.MarkerSize" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -677,7 +727,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(231)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(231)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(231)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -690,11 +741,12 @@
       </Docs>
     </Member>
     <Member MemberName="MarkerStyle">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::XlMarkerStyle MarkerStyle { Microsoft::Office::Core::XlMarkerStyle get(); void set(Microsoft::Office::Core::XlMarkerStyle value); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.XlMarkerStyle MarkerStyle { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.XlMarkerStyle MarkerStyle" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.MarkerStyle" />
       <MemberSignature Language="VB.NET" Value="Public Property MarkerStyle As XlMarkerStyle" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::XlMarkerStyle MarkerStyle { Microsoft::Office::Core::XlMarkerStyle get(); void set(Microsoft::Office::Core::XlMarkerStyle value); };" />
+      <MemberSignature Language="F#" Value="member this.MarkerStyle : Microsoft.Office.Core.XlMarkerStyle with get, set" Usage="Microsoft.Office.Core.ChartPoint.MarkerStyle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -702,7 +754,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(72)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(72)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(72)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -715,11 +768,12 @@
       </Docs>
     </Member>
     <Member MemberName="Name">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
       <MemberSignature Language="C#" Value="public string Name { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Name" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Office.Core.ChartPoint.Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -727,7 +781,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(2651)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2651)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2651)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -740,11 +795,12 @@
       </Docs>
     </Member>
     <Member MemberName="Parent">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object Parent { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Core.ChartPoint.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -752,7 +808,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(150)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(150)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -765,11 +822,12 @@
       </Docs>
     </Member>
     <Member MemberName="Paste">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Paste();" />
       <MemberSignature Language="C#" Value="public object Paste ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Paste() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartPoint.Paste" />
       <MemberSignature Language="VB.NET" Value="Public Function Paste () As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Paste();" />
+      <MemberSignature Language="F#" Value="abstract member Paste : unit -&gt; obj" Usage="chartPoint.Paste " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -786,11 +844,12 @@
       </Docs>
     </Member>
     <Member MemberName="PictureType">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::XlChartPictureType PictureType { Microsoft::Office::Core::XlChartPictureType get(); void set(Microsoft::Office::Core::XlChartPictureType value); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.XlChartPictureType PictureType { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.XlChartPictureType PictureType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.PictureType" />
       <MemberSignature Language="VB.NET" Value="Public Property PictureType As XlChartPictureType" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::XlChartPictureType PictureType { Microsoft::Office::Core::XlChartPictureType get(); void set(Microsoft::Office::Core::XlChartPictureType value); };" />
+      <MemberSignature Language="F#" Value="member this.PictureType : Microsoft.Office.Core.XlChartPictureType with get, set" Usage="Microsoft.Office.Core.ChartPoint.PictureType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -798,7 +857,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(161)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(161)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(161)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -811,11 +871,12 @@
       </Docs>
     </Member>
     <Member MemberName="PictureUnit">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double PictureUnit { double get(); void set(double value); };" />
       <MemberSignature Language="C#" Value="public double PictureUnit { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float64 PictureUnit" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.PictureUnit" />
       <MemberSignature Language="VB.NET" Value="Public Property PictureUnit As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double PictureUnit { double get(); void set(double value); };" />
+      <MemberSignature Language="F#" Value="member this.PictureUnit : double with get, set" Usage="Microsoft.Office.Core.ChartPoint.PictureUnit" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -823,7 +884,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(162)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(162)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(162)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -836,11 +898,12 @@
       </Docs>
     </Member>
     <Member MemberName="PictureUnit2">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double PictureUnit2 { double get(); void set(double value); };" />
       <MemberSignature Language="C#" Value="public double PictureUnit2 { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float64 PictureUnit2" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.PictureUnit2" />
       <MemberSignature Language="VB.NET" Value="Public Property PictureUnit2 As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double PictureUnit2 { double get(); void set(double value); };" />
+      <MemberSignature Language="F#" Value="member this.PictureUnit2 : double with get, set" Usage="Microsoft.Office.Core.ChartPoint.PictureUnit2" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -848,7 +911,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(2649)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2649)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2649)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -867,6 +931,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance float64 PieSliceLocation([in]valuetype Microsoft.Office.Core.XlPieSliceLocation loc, [in]valuetype Microsoft.Office.Core.XlPieSliceIndex Index) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartPoint.PieSliceLocation(Microsoft.Office.Core.XlPieSliceLocation,Microsoft.Office.Core.XlPieSliceIndex)" />
       <MemberSignature Language="VB.NET" Value="Public Function PieSliceLocation (loc As XlPieSliceLocation, Optional Index As XlPieSliceIndex = Microsoft.Office.Core.XlPieSliceIndex.xlOuterCenterPoint) As Double" />
+      <MemberSignature Language="F#" Value="abstract member PieSliceLocation : Microsoft.Office.Core.XlPieSliceLocation * Microsoft.Office.Core.XlPieSliceIndex -&gt; double" Usage="chartPoint.PieSliceLocation (loc, Index)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -888,11 +953,12 @@
       </Docs>
     </Member>
     <Member MemberName="SecondaryPlot">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SecondaryPlot { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool SecondaryPlot { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool SecondaryPlot" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.SecondaryPlot" />
       <MemberSignature Language="VB.NET" Value="Public Property SecondaryPlot As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SecondaryPlot { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.SecondaryPlot : bool with get, set" Usage="Microsoft.Office.Core.ChartPoint.SecondaryPlot" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -900,7 +966,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1662)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1662)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1662)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -913,11 +980,12 @@
       </Docs>
     </Member>
     <Member MemberName="Select">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Select();" />
       <MemberSignature Language="C#" Value="public object Select ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Select() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartPoint.Select" />
       <MemberSignature Language="VB.NET" Value="Public Function Select () As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Select();" />
+      <MemberSignature Language="F#" Value="abstract member Select : unit -&gt; obj" Usage="chartPoint.Select " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -934,11 +1002,12 @@
       </Docs>
     </Member>
     <Member MemberName="Shadow">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Shadow { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool Shadow { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool Shadow" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Shadow" />
       <MemberSignature Language="VB.NET" Value="Public Property Shadow As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Shadow { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Shadow : bool with get, set" Usage="Microsoft.Office.Core.ChartPoint.Shadow" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -946,7 +1015,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(103)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(103)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -959,11 +1029,12 @@
       </Docs>
     </Member>
     <Member MemberName="Top">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Top { double get(); };" />
       <MemberSignature Language="C#" Value="public double Top { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float64 Top" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Top" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Top As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Top { double get(); };" />
+      <MemberSignature Language="F#" Value="member this.Top : double" Usage="Microsoft.Office.Core.ChartPoint.Top" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -971,7 +1042,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(2655)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2655)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2655)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -984,11 +1056,12 @@
       </Docs>
     </Member>
     <Member MemberName="Width">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Width { double get(); };" />
       <MemberSignature Language="C#" Value="public double Width { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float64 Width" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Width" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Width As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Width { double get(); };" />
+      <MemberSignature Language="F#" Value="member this.Width : double" Usage="Microsoft.Office.Core.ChartPoint.Width" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -996,7 +1069,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(2653)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2653)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2653)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

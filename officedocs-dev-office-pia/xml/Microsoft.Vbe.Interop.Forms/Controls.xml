@@ -1,0 +1,656 @@
+<Type Name="Controls" FullName="Microsoft.Vbe.Interop.Forms.Controls">
+  <TypeSignature Language="C#" Value="public interface Controls : System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Controls implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop.Forms.Controls" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Controls&#xA;Implements IEnumerable" />
+  <TypeSignature Language="F#" Value="type Controls = interface&#xA;    interface IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("04598FC7-866C-11CF-AB7C-00AA00C08FCF")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("04598FC7-866C-11CF-AB7C-00AA00C08FCF")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4160)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4160)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="_AddByClass">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.Control _AddByClass (ref int clsid);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Vbe.Interop.Forms.Control _AddByClass([in]int32&amp; clsid) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.Controls._AddByClass(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function _AddByClass (ByRef clsid As Integer) As Control" />
+      <MemberSignature Language="F#" Value="abstract member _AddByClass : int -&gt; Microsoft.Vbe.Interop.Forms.Control" Usage="controls._AddByClass clsid" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743814)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743814)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.Control</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clsid" Type="System.Int32" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="clsid">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetItemByID">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.Control _GetItemByID (int ID);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Vbe.Interop.Forms.Control _GetItemByID([in]int32 ID) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.Controls._GetItemByID(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function _GetItemByID (ID As Integer) As Control" />
+      <MemberSignature Language="F#" Value="abstract member _GetItemByID : int -&gt; Microsoft.Vbe.Interop.Forms.Control" Usage="controls._GetItemByID ID" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743823)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743823)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.Control</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ID" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="ID">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetItemByIndex">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.Control _GetItemByIndex (int lIndex);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Vbe.Interop.Forms.Control _GetItemByIndex([in]int32 lIndex) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.Controls._GetItemByIndex(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function _GetItemByIndex (lIndex As Integer) As Control" />
+      <MemberSignature Language="F#" Value="abstract member _GetItemByIndex : int -&gt; Microsoft.Vbe.Interop.Forms.Control" Usage="controls._GetItemByIndex lIndex" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743821)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743821)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.Control</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="lIndex" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="lIndex">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetItemByName">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.Control _GetItemByName (string pstr);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Vbe.Interop.Forms.Control _GetItemByName([in]string pstr) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.Controls._GetItemByName(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function _GetItemByName (pstr As String) As Control" />
+      <MemberSignature Language="F#" Value="abstract member _GetItemByName : string -&gt; Microsoft.Vbe.Interop.Forms.Control" Usage="controls._GetItemByName pstr" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743822)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743822)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.Control</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pstr" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="pstr">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Move">
+      <MemberSignature Language="C#" Value="public void _Move (int cx, int cy);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _Move([in]int32 cx, [in]int32 cy) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.Controls._Move(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub _Move (cx As Integer, cy As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _Move : int * int -&gt; unit" Usage="controls._Move (cx, cy)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743812)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743812)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cx" Type="System.Int32" />
+        <Parameter Name="cy" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="cx">To be added.</param>
+        <param name="cy">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.Control Add (string bstrProgID, object Name, object Visible);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Vbe.Interop.Forms.Control Add([in]string bstrProgID, [in]object Name, [in]object Visible) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.Controls.Add(System.String,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (bstrProgID As String, Optional Name As Object, Optional Visible As Object) As Control" />
+      <MemberSignature Language="F#" Value="abstract member Add : string * obj * obj -&gt; Microsoft.Vbe.Interop.Forms.Control" Usage="controls.Add (bstrProgID, Name, Visible)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(66)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(66)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.Control</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrProgID" Type="System.String" />
+        <Parameter Name="Name" Type="System.Object" />
+        <Parameter Name="Visible" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="bstrProgID">To be added.</param>
+        <param name="Name">To be added.</param>
+        <param name="Visible">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AlignToGrid">
+      <MemberSignature Language="C#" Value="public void AlignToGrid ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AlignToGrid() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.Controls.AlignToGrid" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AlignToGrid ()" />
+      <MemberSignature Language="F#" Value="abstract member AlignToGrid : unit -&gt; unit" Usage="controls.AlignToGrid " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743815)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743815)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibFunc(64)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibFunc(64)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BringForward">
+      <MemberSignature Language="C#" Value="public void BringForward ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BringForward() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.Controls.BringForward" />
+      <MemberSignature Language="VB.NET" Value="Public Sub BringForward ()" />
+      <MemberSignature Language="F#" Value="abstract member BringForward : unit -&gt; unit" Usage="controls.BringForward " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743816)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743816)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibFunc(64)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibFunc(64)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BringToFront">
+      <MemberSignature Language="C#" Value="public void BringToFront ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BringToFront() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.Controls.BringToFront" />
+      <MemberSignature Language="VB.NET" Value="Public Sub BringToFront ()" />
+      <MemberSignature Language="F#" Value="abstract member BringToFront : unit -&gt; unit" Usage="controls.BringToFront " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743817)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743817)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibFunc(64)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibFunc(64)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Clear() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.Controls.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit" Usage="controls.Clear " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(62)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(62)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public void Copy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Copy() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.Controls.Copy" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Copy ()" />
+      <MemberSignature Language="F#" Value="abstract member Copy : unit -&gt; unit" Usage="controls.Copy " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743818)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743818)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibFunc(64)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibFunc(64)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.Controls.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.Vbe.Interop.Forms.Controls.Count" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(60)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(60)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(60)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(60)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(1024)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(1024)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Cut">
+      <MemberSignature Language="C#" Value="public void Cut ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Cut() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.Controls.Cut" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Cut ()" />
+      <MemberSignature Language="F#" Value="abstract member Cut : unit -&gt; unit" Usage="controls.Cut " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743819)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743819)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibFunc(64)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibFunc(64)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enum">
+      <MemberSignature Language="C#" Value="public object Enum ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Enum() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.Controls.Enum" />
+      <MemberSignature Language="VB.NET" Value="Public Function Enum () As Object" />
+      <MemberSignature Language="F#" Value="abstract member Enum : unit -&gt; obj" Usage="controls.Enum " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743820)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743820)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.Controls.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="controls.GetEnumerator " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-4)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public object Item (object varg);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Item([in]object varg) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.Controls.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Item (varg As Object) As Object" />
+      <MemberSignature Language="F#" Value="abstract member Item : obj -&gt; obj" Usage="controls.Item varg" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varg" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varg">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public void Move (float cx, float cy);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Move([in]float32 cx, [in]float32 cy) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.Controls.Move(System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Move (cx As Single, cy As Single)" />
+      <MemberSignature Language="F#" Value="abstract member Move : single * single -&gt; unit" Usage="controls.Move (cx, cy)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(63)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(63)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cx" Type="System.Single" />
+        <Parameter Name="cy" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="cx">To be added.</param>
+        <param name="cy">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public void Remove (object varg);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Remove([in]object varg) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.Controls.Remove(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Remove (varg As Object)" />
+      <MemberSignature Language="F#" Value="abstract member Remove : obj -&gt; unit" Usage="controls.Remove varg" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(67)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(67)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varg" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varg">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectAll">
+      <MemberSignature Language="C#" Value="public void SelectAll ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SelectAll() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.Controls.SelectAll" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SelectAll ()" />
+      <MemberSignature Language="F#" Value="abstract member SelectAll : unit -&gt; unit" Usage="controls.SelectAll " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(65)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(65)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibFunc(64)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibFunc(64)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendBackward">
+      <MemberSignature Language="C#" Value="public void SendBackward ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendBackward() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.Controls.SendBackward" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendBackward ()" />
+      <MemberSignature Language="F#" Value="abstract member SendBackward : unit -&gt; unit" Usage="controls.SendBackward " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743824)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743824)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToBack">
+      <MemberSignature Language="C#" Value="public void SendToBack ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendToBack() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.Controls.SendToBack" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendToBack ()" />
+      <MemberSignature Language="F#" Value="abstract member SendToBack : unit -&gt; unit" Usage="controls.SendToBack " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743825)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743825)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

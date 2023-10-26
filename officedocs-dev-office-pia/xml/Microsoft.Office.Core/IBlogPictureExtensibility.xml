@@ -1,9 +1,10 @@
-﻿<Type Name="IBlogPictureExtensibility" FullName="Microsoft.Office.Core.IBlogPictureExtensibility">
+<Type Name="IBlogPictureExtensibility" FullName="Microsoft.Office.Core.IBlogPictureExtensibility">
+  <TypeSignature Language="C++ CLI" Value="public interface class IBlogPictureExtensibility" />
   <TypeSignature Language="C#" Value="public interface IBlogPictureExtensibility" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IBlogPictureExtensibility" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IBlogPictureExtensibility" />
   <TypeSignature Language="VB.NET" Value="Public Interface IBlogPictureExtensibility" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IBlogPictureExtensibility" />
+  <TypeSignature Language="F#" Value="type IBlogPictureExtensibility = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,10 +12,12 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C03C5-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C03C5-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C03C5-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4288)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4288)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -26,11 +29,12 @@
   </Docs>
   <Members>
     <Member MemberName="BlogPictureProviderProperties">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void BlogPictureProviderProperties([Runtime::InteropServices::Out] System::String ^ % BlogPictureProvider, [Runtime::InteropServices::Out] System::String ^ % FriendlyName);" />
       <MemberSignature Language="C#" Value="public void BlogPictureProviderProperties (out string BlogPictureProvider, out string FriendlyName);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BlogPictureProviderProperties([out] string&amp; BlogPictureProvider, [out] string&amp; FriendlyName) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogPictureExtensibility.BlogPictureProviderProperties(System.String@,System.String@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub BlogPictureProviderProperties (ByRef BlogPictureProvider As String, ByRef FriendlyName As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void BlogPictureProviderProperties([Runtime::InteropServices::Out] System::String ^ % BlogPictureProvider, [Runtime::InteropServices::Out] System::String ^ % FriendlyName);" />
+      <MemberSignature Language="F#" Value="abstract member BlogPictureProviderProperties : string * string -&gt; unit" Usage="iBlogPictureExtensibility.BlogPictureProviderProperties (BlogPictureProvider, FriendlyName)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -38,15 +42,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="BlogPictureProvider" Type="System.String&amp;" RefType="out" />
-        <Parameter Name="FriendlyName" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="BlogPictureProvider" Type="System.String" RefType="out" />
+        <Parameter Name="FriendlyName" Type="System.String" RefType="out" />
       </Parameters>
       <Docs>
         <param name="BlogPictureProvider">The ID of the picture provider.</param>
@@ -56,11 +61,12 @@
       </Docs>
     </Member>
     <Member MemberName="CreatePictureAccount">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CreatePictureAccount(System::String ^ Account, System::String ^ BlogProvider, int ParentWindow, System::Object ^ Document);" />
       <MemberSignature Language="C#" Value="public void CreatePictureAccount (string Account, string BlogProvider, int ParentWindow, object Document);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CreatePictureAccount([in]string Account, [in]string BlogProvider, [in]int32 ParentWindow, [in]object Document) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogPictureExtensibility.CreatePictureAccount(System.String,System.String,System.Int32,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub CreatePictureAccount (Account As String, BlogProvider As String, ParentWindow As Integer, Document As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CreatePictureAccount(System::String ^ Account, System::String ^ BlogProvider, int ParentWindow, System::Object ^ Document);" />
+      <MemberSignature Language="F#" Value="abstract member CreatePictureAccount : string * string * int * obj -&gt; unit" Usage="iBlogPictureExtensibility.CreatePictureAccount (Account, BlogProvider, ParentWindow, Document)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -68,7 +74,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -90,11 +97,12 @@
       </Docs>
     </Member>
     <Member MemberName="PublishPicture">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PublishPicture(System::String ^ Account, int ParentWindow, System::Object ^ Document, System::Object ^ Image, [Runtime::InteropServices::Out] System::String ^ % PictureURI, int ImageType);" />
       <MemberSignature Language="C#" Value="public void PublishPicture (string Account, int ParentWindow, object Document, object Image, out string PictureURI, int ImageType);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PublishPicture([in]string Account, [in]int32 ParentWindow, [in]object Document, [in]object Image, [out] string&amp; PictureURI, [in]int32 ImageType) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogPictureExtensibility.PublishPicture(System.String,System.Int32,System.Object,System.Object,System.String@,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub PublishPicture (Account As String, ParentWindow As Integer, Document As Object, Image As Object, ByRef PictureURI As String, ImageType As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PublishPicture(System::String ^ Account, int ParentWindow, System::Object ^ Document, System::Object ^ Image, [Runtime::InteropServices::Out] System::String ^ % PictureURI, int ImageType);" />
+      <MemberSignature Language="F#" Value="abstract member PublishPicture : string * int * obj * obj * string * int -&gt; unit" Usage="iBlogPictureExtensibility.PublishPicture (Account, ParentWindow, Document, Image, PictureURI, ImageType)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -102,7 +110,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -113,7 +122,7 @@
         <Parameter Name="ParentWindow" Type="System.Int32" />
         <Parameter Name="Document" Type="System.Object" />
         <Parameter Name="Image" Type="System.Object" />
-        <Parameter Name="PictureURI" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="PictureURI" Type="System.String" RefType="out" />
         <Parameter Name="ImageType" Type="System.Int32" />
       </Parameters>
       <Docs>

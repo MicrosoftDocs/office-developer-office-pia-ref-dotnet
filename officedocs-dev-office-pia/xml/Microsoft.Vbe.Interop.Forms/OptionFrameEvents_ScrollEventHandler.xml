@@ -1,0 +1,45 @@
+<Type Name="OptionFrameEvents_ScrollEventHandler" FullName="Microsoft.Vbe.Interop.Forms.OptionFrameEvents_ScrollEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void OptionFrameEvents_ScrollEventHandler(fmScrollAction ActionX, fmScrollAction ActionY, float RequestDx, float RequestDy, ReturnSingle ActualDx, ReturnSingle ActualDy);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OptionFrameEvents_ScrollEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_ScrollEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub OptionFrameEvents_ScrollEventHandler(ActionX As fmScrollAction, ActionY As fmScrollAction, RequestDx As Single, RequestDy As Single, ActualDx As ReturnSingle, ActualDy As ReturnSingle)" />
+  <TypeSignature Language="F#" Value="type OptionFrameEvents_ScrollEventHandler = delegate of fmScrollAction * fmScrollAction * single * single * ReturnSingle * ReturnSingle -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComVisible(false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComVisible(false)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(16)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(16)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="ActionX" Type="Microsoft.Vbe.Interop.Forms.fmScrollAction" />
+    <Parameter Name="ActionY" Type="Microsoft.Vbe.Interop.Forms.fmScrollAction" />
+    <Parameter Name="RequestDx" Type="System.Single" />
+    <Parameter Name="RequestDy" Type="System.Single" />
+    <Parameter Name="ActualDx" Type="Microsoft.Vbe.Interop.Forms.ReturnSingle" />
+    <Parameter Name="ActualDy" Type="Microsoft.Vbe.Interop.Forms.ReturnSingle" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="ActionX">To be added.</param>
+    <param name="ActionY">To be added.</param>
+    <param name="RequestDx">To be added.</param>
+    <param name="RequestDy">To be added.</param>
+    <param name="ActualDx">To be added.</param>
+    <param name="ActualDy">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

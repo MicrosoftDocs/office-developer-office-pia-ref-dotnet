@@ -1,0 +1,2347 @@
+<Type Name="TabStripClass" FullName="Microsoft.Vbe.Interop.Forms.TabStripClass">
+  <TypeSignature Language="C#" Value="public class TabStripClass : Microsoft.Vbe.Interop.Forms.TabStrip" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi TabStripClass extends System.Object implements class Microsoft.Vbe.Interop.Forms.ITabStrip, class Microsoft.Vbe.Interop.Forms.TabStrip, class Microsoft.Vbe.Interop.Forms.TabStripEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop.Forms.TabStripClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class TabStripClass&#xA;Implements TabStrip" />
+  <TypeSignature Language="F#" Value="type TabStripClass = class&#xA;    interface ITabStrip&#xA;    interface TabStrip&#xA;    interface TabStripEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Vbe.Interop.Forms.ITabStrip</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Vbe.Interop.Forms.TabStrip</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Vbe.Interop.Forms.TabStripEvents_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ClassInterface(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ClassInterface(0)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Vbe.Interop.Forms.TabStripEvents\0")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Vbe.Interop.Forms.TabStripEvents\0")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("EAE50EB0-4A62-11CE-BED6-00AA00611080")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("EAE50EB0-4A62-11CE-BED6-00AA00611080")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(32)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(32)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="_Font_Reserved">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Vbe.Interop.Forms.NewFont _Font_Reserved { set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Vbe.Interop.Forms.NewFont _Font_Reserved" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass._Font_Reserved" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property _Font_Reserved As NewFont" />
+      <MemberSignature Language="F#" Value="member this._Font_Reserved : Microsoft.Vbe.Interop.Forms.NewFont" Usage="_Font_Reserved" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip._Font_Reserved</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2147483135)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2147483135)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(2147483135)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(2147483135)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.NewFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetClientHeight">
+      <MemberSignature Language="C#" Value="public virtual void _GetClientHeight (out int ClientHeight);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _GetClientHeight([out] int32&amp; ClientHeight) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass._GetClientHeight(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _GetClientHeight (ByRef ClientHeight As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _GetClientHeight : int -&gt; unit&#xA;override this._GetClientHeight : int -&gt; unit" Usage="tabStripClass._GetClientHeight ClientHeight" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ITabStrip._GetClientHeight(System.Int32@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743850)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743850)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ClientHeight" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="ClientHeight">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetClientLeft">
+      <MemberSignature Language="C#" Value="public virtual void _GetClientLeft (out int ClientLeft);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _GetClientLeft([out] int32&amp; ClientLeft) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass._GetClientLeft(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _GetClientLeft (ByRef ClientLeft As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _GetClientLeft : int -&gt; unit&#xA;override this._GetClientLeft : int -&gt; unit" Usage="tabStripClass._GetClientLeft ClientLeft" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ITabStrip._GetClientLeft(System.Int32@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743846)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743846)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ClientLeft" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="ClientLeft">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetClientTop">
+      <MemberSignature Language="C#" Value="public virtual void _GetClientTop (out int ClientTop);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _GetClientTop([out] int32&amp; ClientTop) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass._GetClientTop(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _GetClientTop (ByRef ClientTop As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _GetClientTop : int -&gt; unit&#xA;override this._GetClientTop : int -&gt; unit" Usage="tabStripClass._GetClientTop ClientTop" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ITabStrip._GetClientTop(System.Int32@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743844)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743844)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ClientTop" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="ClientTop">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetClientWidth">
+      <MemberSignature Language="C#" Value="public virtual void _GetClientWidth (out int ClientWidth);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _GetClientWidth([out] int32&amp; ClientWidth) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass._GetClientWidth(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _GetClientWidth (ByRef ClientWidth As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _GetClientWidth : int -&gt; unit&#xA;override this._GetClientWidth : int -&gt; unit" Usage="tabStripClass._GetClientWidth ClientWidth" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ITabStrip._GetClientWidth(System.Int32@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743848)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743848)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ClientWidth" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="ClientWidth">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetTabFixedHeight">
+      <MemberSignature Language="C#" Value="public virtual void _GetTabFixedHeight (out int TabFixedHeight);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _GetTabFixedHeight([out] int32&amp; TabFixedHeight) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass._GetTabFixedHeight(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _GetTabFixedHeight (ByRef TabFixedHeight As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _GetTabFixedHeight : int -&gt; unit&#xA;override this._GetTabFixedHeight : int -&gt; unit" Usage="tabStripClass._GetTabFixedHeight TabFixedHeight" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ITabStrip._GetTabFixedHeight(System.Int32@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743843)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743843)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="TabFixedHeight" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="TabFixedHeight">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetTabFixedWidth">
+      <MemberSignature Language="C#" Value="public virtual void _GetTabFixedWidth (out int TabFixedWidth);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _GetTabFixedWidth([out] int32&amp; TabFixedWidth) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass._GetTabFixedWidth(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _GetTabFixedWidth (ByRef TabFixedWidth As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _GetTabFixedWidth : int -&gt; unit&#xA;override this._GetTabFixedWidth : int -&gt; unit" Usage="tabStripClass._GetTabFixedWidth TabFixedWidth" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ITabStrip._GetTabFixedWidth(System.Int32@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743841)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743841)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="TabFixedWidth" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="TabFixedWidth">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_SetTabFixedHeight">
+      <MemberSignature Language="C#" Value="public virtual void _SetTabFixedHeight (int TabFixedHeight);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _SetTabFixedHeight([in]int32 TabFixedHeight) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass._SetTabFixedHeight(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _SetTabFixedHeight (TabFixedHeight As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _SetTabFixedHeight : int -&gt; unit&#xA;override this._SetTabFixedHeight : int -&gt; unit" Usage="tabStripClass._SetTabFixedHeight TabFixedHeight" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ITabStrip._SetTabFixedHeight(System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743842)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743842)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="TabFixedHeight" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="TabFixedHeight">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_SetTabFixedWidth">
+      <MemberSignature Language="C#" Value="public virtual void _SetTabFixedWidth (int TabFixedWidth);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _SetTabFixedWidth([in]int32 TabFixedWidth) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass._SetTabFixedWidth(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _SetTabFixedWidth (TabFixedWidth As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member _SetTabFixedWidth : int -&gt; unit&#xA;override this._SetTabFixedWidth : int -&gt; unit" Usage="tabStripClass._SetTabFixedWidth TabFixedWidth" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ITabStrip._SetTabFixedWidth(System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743840)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743840)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="TabFixedWidth" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="TabFixedWidth">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_BeforeDragOver">
+      <MemberSignature Language="C#" Value="public virtual void add_BeforeDragOver (Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDragOverEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_BeforeDragOver(class Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDragOverEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.add_BeforeDragOver(Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_BeforeDragOver (unnamedParam1 As TabStripEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_BeforeDragOver : Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDragOverEventHandler -&gt; unit&#xA;override this.add_BeforeDragOver : Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDragOverEventHandler -&gt; unit" Usage="tabStripClass.add_BeforeDragOver unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.add_BeforeDragOver(Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDragOverEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDragOverEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_BeforeDropOrPaste">
+      <MemberSignature Language="C#" Value="public virtual void add_BeforeDropOrPaste (Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDropOrPasteEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_BeforeDropOrPaste(class Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDropOrPasteEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.add_BeforeDropOrPaste(Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_BeforeDropOrPaste (unnamedParam1 As TabStripEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDropOrPasteEventHandler -&gt; unit&#xA;override this.add_BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDropOrPasteEventHandler -&gt; unit" Usage="tabStripClass.add_BeforeDropOrPaste unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.add_BeforeDropOrPaste(Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDropOrPasteEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDropOrPasteEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Change">
+      <MemberSignature Language="C#" Value="public virtual void add_Change (Microsoft.Vbe.Interop.Forms.TabStripEvents_ChangeEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Change(class Microsoft.Vbe.Interop.Forms.TabStripEvents_ChangeEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.add_Change(Microsoft.Vbe.Interop.Forms.TabStripEvents_ChangeEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_Change (unnamedParam1 As TabStripEvents_ChangeEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Change : Microsoft.Vbe.Interop.Forms.TabStripEvents_ChangeEventHandler -&gt; unit&#xA;override this.add_Change : Microsoft.Vbe.Interop.Forms.TabStripEvents_ChangeEventHandler -&gt; unit" Usage="tabStripClass.add_Change unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.add_Change(Microsoft.Vbe.Interop.Forms.TabStripEvents_ChangeEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_ChangeEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Click">
+      <MemberSignature Language="C#" Value="public virtual void add_Click (Microsoft.Vbe.Interop.Forms.TabStripEvents_ClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Click(class Microsoft.Vbe.Interop.Forms.TabStripEvents_ClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.add_Click(Microsoft.Vbe.Interop.Forms.TabStripEvents_ClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_Click (unnamedParam1 As TabStripEvents_ClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Click : Microsoft.Vbe.Interop.Forms.TabStripEvents_ClickEventHandler -&gt; unit&#xA;override this.add_Click : Microsoft.Vbe.Interop.Forms.TabStripEvents_ClickEventHandler -&gt; unit" Usage="tabStripClass.add_Click unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.add_Click(Microsoft.Vbe.Interop.Forms.TabStripEvents_ClickEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_ClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_DblClick">
+      <MemberSignature Language="C#" Value="public virtual void add_DblClick (Microsoft.Vbe.Interop.Forms.TabStripEvents_DblClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_DblClick(class Microsoft.Vbe.Interop.Forms.TabStripEvents_DblClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.add_DblClick(Microsoft.Vbe.Interop.Forms.TabStripEvents_DblClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_DblClick (unnamedParam1 As TabStripEvents_DblClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_DblClick : Microsoft.Vbe.Interop.Forms.TabStripEvents_DblClickEventHandler -&gt; unit&#xA;override this.add_DblClick : Microsoft.Vbe.Interop.Forms.TabStripEvents_DblClickEventHandler -&gt; unit" Usage="tabStripClass.add_DblClick unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.add_DblClick(Microsoft.Vbe.Interop.Forms.TabStripEvents_DblClickEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_DblClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Error">
+      <MemberSignature Language="C#" Value="public virtual void add_Error (Microsoft.Vbe.Interop.Forms.TabStripEvents_ErrorEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Error(class Microsoft.Vbe.Interop.Forms.TabStripEvents_ErrorEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.add_Error(Microsoft.Vbe.Interop.Forms.TabStripEvents_ErrorEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_Error (unnamedParam1 As TabStripEvents_ErrorEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Error : Microsoft.Vbe.Interop.Forms.TabStripEvents_ErrorEventHandler -&gt; unit&#xA;override this.add_Error : Microsoft.Vbe.Interop.Forms.TabStripEvents_ErrorEventHandler -&gt; unit" Usage="tabStripClass.add_Error unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.add_Error(Microsoft.Vbe.Interop.Forms.TabStripEvents_ErrorEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_ErrorEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_KeyDown">
+      <MemberSignature Language="C#" Value="public virtual void add_KeyDown (Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyDownEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_KeyDown(class Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyDownEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.add_KeyDown(Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyDownEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_KeyDown (unnamedParam1 As TabStripEvents_KeyDownEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_KeyDown : Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyDownEventHandler -&gt; unit&#xA;override this.add_KeyDown : Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyDownEventHandler -&gt; unit" Usage="tabStripClass.add_KeyDown unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.add_KeyDown(Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyDownEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyDownEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_KeyPress">
+      <MemberSignature Language="C#" Value="public virtual void add_KeyPress (Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyPressEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_KeyPress(class Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyPressEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.add_KeyPress(Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyPressEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_KeyPress (unnamedParam1 As TabStripEvents_KeyPressEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_KeyPress : Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyPressEventHandler -&gt; unit&#xA;override this.add_KeyPress : Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyPressEventHandler -&gt; unit" Usage="tabStripClass.add_KeyPress unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.add_KeyPress(Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyPressEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyPressEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_KeyUp">
+      <MemberSignature Language="C#" Value="public virtual void add_KeyUp (Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyUpEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_KeyUp(class Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyUpEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.add_KeyUp(Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyUpEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_KeyUp (unnamedParam1 As TabStripEvents_KeyUpEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_KeyUp : Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyUpEventHandler -&gt; unit&#xA;override this.add_KeyUp : Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyUpEventHandler -&gt; unit" Usage="tabStripClass.add_KeyUp unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.add_KeyUp(Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyUpEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyUpEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_MouseDown">
+      <MemberSignature Language="C#" Value="public virtual void add_MouseDown (Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseDownEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_MouseDown(class Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseDownEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.add_MouseDown(Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseDownEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_MouseDown (unnamedParam1 As TabStripEvents_MouseDownEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_MouseDown : Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseDownEventHandler -&gt; unit&#xA;override this.add_MouseDown : Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseDownEventHandler -&gt; unit" Usage="tabStripClass.add_MouseDown unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.add_MouseDown(Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseDownEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseDownEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_MouseMove">
+      <MemberSignature Language="C#" Value="public virtual void add_MouseMove (Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseMoveEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_MouseMove(class Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseMoveEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.add_MouseMove(Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseMoveEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_MouseMove (unnamedParam1 As TabStripEvents_MouseMoveEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_MouseMove : Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseMoveEventHandler -&gt; unit&#xA;override this.add_MouseMove : Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseMoveEventHandler -&gt; unit" Usage="tabStripClass.add_MouseMove unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.add_MouseMove(Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseMoveEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseMoveEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_MouseUp">
+      <MemberSignature Language="C#" Value="public virtual void add_MouseUp (Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseUpEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_MouseUp(class Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseUpEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.add_MouseUp(Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseUpEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_MouseUp (unnamedParam1 As TabStripEvents_MouseUpEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_MouseUp : Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseUpEventHandler -&gt; unit&#xA;override this.add_MouseUp : Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseUpEventHandler -&gt; unit" Usage="tabStripClass.add_MouseUp unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.add_MouseUp(Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseUpEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseUpEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackColor">
+      <MemberSignature Language="C#" Value="public virtual int BackColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 BackColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.BackColor" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property BackColor As Integer" />
+      <MemberSignature Language="F#" Value="member this.BackColor : int with get, set" Usage="BackColor" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.BackColor</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.ComAliasName("Microsoft.Vbe.Interop.Forms.OLE_COLOR")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComAliasName("Microsoft.Vbe.Interop.Forms.OLE_COLOR")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-501)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-501)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-501)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-501)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-501)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-501)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDragOver">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDragOverEventHandler BeforeDragOver;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDragOverEventHandler BeforeDragOver" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.TabStripClass.BeforeDragOver" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event BeforeDragOver As TabStripEvents_BeforeDragOverEventHandler Implements BeforeDragOver" />
+      <MemberSignature Language="F#" Value="member this.BeforeDragOver : Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDragOverEventHandler " Usage="member this.BeforeDragOver : Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDragOverEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.BeforeDragOver</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDragOverEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDropOrPaste">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDropOrPasteEventHandler BeforeDropOrPaste;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDropOrPasteEventHandler BeforeDropOrPaste" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.TabStripClass.BeforeDropOrPaste" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event BeforeDropOrPaste As TabStripEvents_BeforeDropOrPasteEventHandler Implements BeforeDropOrPaste" />
+      <MemberSignature Language="F#" Value="member this.BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDropOrPasteEventHandler " Usage="member this.BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDropOrPasteEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.BeforeDropOrPaste</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDropOrPasteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Change">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.TabStripEvents_ChangeEventHandler Change;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.TabStripEvents_ChangeEventHandler Change" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.TabStripClass.Change" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event Change As TabStripEvents_ChangeEventHandler Implements Change" />
+      <MemberSignature Language="F#" Value="member this.Change : Microsoft.Vbe.Interop.Forms.TabStripEvents_ChangeEventHandler " Usage="member this.Change : Microsoft.Vbe.Interop.Forms.TabStripEvents_ChangeEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.Change</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.TabStripEvents_ChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Click">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.TabStripEvents_ClickEventHandler Click;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.TabStripEvents_ClickEventHandler Click" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.TabStripClass.Click" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event Click As TabStripEvents_ClickEventHandler Implements Click" />
+      <MemberSignature Language="F#" Value="member this.Click : Microsoft.Vbe.Interop.Forms.TabStripEvents_ClickEventHandler " Usage="member this.Click : Microsoft.Vbe.Interop.Forms.TabStripEvents_ClickEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.Click</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.TabStripEvents_ClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClientHeight">
+      <MemberSignature Language="C#" Value="public virtual float ClientHeight { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 ClientHeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.ClientHeight" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ClientHeight As Single" />
+      <MemberSignature Language="F#" Value="member this.ClientHeight : single" Usage="ClientHeight" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.ClientHeight</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(546)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(546)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(546)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(546)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClientLeft">
+      <MemberSignature Language="C#" Value="public virtual float ClientLeft { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 ClientLeft" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.ClientLeft" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ClientLeft As Single" />
+      <MemberSignature Language="F#" Value="member this.ClientLeft : single" Usage="ClientLeft" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.ClientLeft</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(547)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(547)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(547)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(547)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClientTop">
+      <MemberSignature Language="C#" Value="public virtual float ClientTop { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 ClientTop" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.ClientTop" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ClientTop As Single" />
+      <MemberSignature Language="F#" Value="member this.ClientTop : single" Usage="ClientTop" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.ClientTop</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(548)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(548)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(548)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(548)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClientWidth">
+      <MemberSignature Language="C#" Value="public virtual float ClientWidth { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 ClientWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.ClientWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ClientWidth As Single" />
+      <MemberSignature Language="F#" Value="member this.ClientWidth : single" Usage="ClientWidth" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.ClientWidth</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(549)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(549)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(549)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(549)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DblClick">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.TabStripEvents_DblClickEventHandler DblClick;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.TabStripEvents_DblClickEventHandler DblClick" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.TabStripClass.DblClick" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event DblClick As TabStripEvents_DblClickEventHandler Implements DblClick" />
+      <MemberSignature Language="F#" Value="member this.DblClick : Microsoft.Vbe.Interop.Forms.TabStripEvents_DblClickEventHandler " Usage="member this.DblClick : Microsoft.Vbe.Interop.Forms.TabStripEvents_DblClickEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.DblClick</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.TabStripEvents_DblClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public virtual bool Enabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Enabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Enabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Enabled : bool with get, set" Usage="Enabled" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.Enabled</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-514)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-514)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-514)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-514)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-514)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-514)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.TabStripEvents_ErrorEventHandler Error;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.TabStripEvents_ErrorEventHandler Error" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.TabStripClass.Error" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event Error As TabStripEvents_ErrorEventHandler Implements Error" />
+      <MemberSignature Language="F#" Value="member this.Error : Microsoft.Vbe.Interop.Forms.TabStripEvents_ErrorEventHandler " Usage="member this.Error : Microsoft.Vbe.Interop.Forms.TabStripEvents_ErrorEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.Error</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.TabStripEvents_ErrorEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Font">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Vbe.Interop.Forms.NewFont Font { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Vbe.Interop.Forms.NewFont Font" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.Font" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Font As NewFont" />
+      <MemberSignature Language="F#" Value="member this.Font : Microsoft.Vbe.Interop.Forms.NewFont with get, set" Usage="Font" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.Font</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-512)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-512)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-512)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-512)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-512)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-512)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.NewFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontBold">
+      <MemberSignature Language="C#" Value="public virtual bool FontBold { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool FontBold" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.FontBold" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property FontBold As Boolean" />
+      <MemberSignature Language="F#" Value="member this.FontBold : bool with get, set" Usage="FontBold" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.FontBold</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontItalic">
+      <MemberSignature Language="C#" Value="public virtual bool FontItalic { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool FontItalic" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.FontItalic" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property FontItalic As Boolean" />
+      <MemberSignature Language="F#" Value="member this.FontItalic : bool with get, set" Usage="FontItalic" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.FontItalic</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontName">
+      <MemberSignature Language="C#" Value="public virtual string FontName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FontName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.FontName" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property FontName As String" />
+      <MemberSignature Language="F#" Value="member this.FontName : string with get, set" Usage="FontName" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.FontName</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontSize">
+      <MemberSignature Language="C#" Value="public virtual decimal FontSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal FontSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.FontSize" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property FontSize As Decimal" />
+      <MemberSignature Language="F#" Value="member this.FontSize : decimal with get, set" Usage="FontSize" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.FontSize</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontStrikethru">
+      <MemberSignature Language="C#" Value="public virtual bool FontStrikethru { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool FontStrikethru" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.FontStrikethru" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property FontStrikethru As Boolean" />
+      <MemberSignature Language="F#" Value="member this.FontStrikethru : bool with get, set" Usage="FontStrikethru" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.FontStrikethru</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(6)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(6)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(6)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(6)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(6)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(6)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontUnderline">
+      <MemberSignature Language="C#" Value="public virtual bool FontUnderline { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool FontUnderline" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.FontUnderline" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property FontUnderline As Boolean" />
+      <MemberSignature Language="F#" Value="member this.FontUnderline : bool with get, set" Usage="FontUnderline" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.FontUnderline</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontWeight">
+      <MemberSignature Language="C#" Value="public virtual short FontWeight { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int16 FontWeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.FontWeight" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property FontWeight As Short" />
+      <MemberSignature Language="F#" Value="member this.FontWeight : int16 with get, set" Usage="FontWeight" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.FontWeight</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(7)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(7)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(7)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(7)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(7)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(7)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(84)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(84)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int16</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForeColor">
+      <MemberSignature Language="C#" Value="public virtual int ForeColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ForeColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.ForeColor" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property ForeColor As Integer" />
+      <MemberSignature Language="F#" Value="member this.ForeColor : int with get, set" Usage="ForeColor" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.ForeColor</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.ComAliasName("Microsoft.Vbe.Interop.Forms.OLE_COLOR")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComAliasName("Microsoft.Vbe.Interop.Forms.OLE_COLOR")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-513)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-513)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-513)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-513)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-513)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-513)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyDown">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyDownEventHandler KeyDown;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyDownEventHandler KeyDown" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.TabStripClass.KeyDown" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event KeyDown As TabStripEvents_KeyDownEventHandler Implements KeyDown" />
+      <MemberSignature Language="F#" Value="member this.KeyDown : Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyDownEventHandler " Usage="member this.KeyDown : Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyDownEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.KeyDown</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyPress">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyPressEventHandler KeyPress;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyPressEventHandler KeyPress" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.TabStripClass.KeyPress" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event KeyPress As TabStripEvents_KeyPressEventHandler Implements KeyPress" />
+      <MemberSignature Language="F#" Value="member this.KeyPress : Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyPressEventHandler " Usage="member this.KeyPress : Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyPressEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.KeyPress</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyPressEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyUp">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyUpEventHandler KeyUp;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyUpEventHandler KeyUp" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.TabStripClass.KeyUp" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event KeyUp As TabStripEvents_KeyUpEventHandler Implements KeyUp" />
+      <MemberSignature Language="F#" Value="member this.KeyUp : Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyUpEventHandler " Usage="member this.KeyUp : Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyUpEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.KeyUp</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="let_MouseIcon">
+      <MemberSignature Language="C#" Value="public virtual void let_MouseIcon (stdole.StdPicture MouseIcon);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance void let_MouseIcon([in]class stdole.StdPicture MouseIcon) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.let_MouseIcon(stdole.StdPicture)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub let_MouseIcon (MouseIcon As StdPicture)" />
+      <MemberSignature Language="F#" Value="abstract member let_MouseIcon : stdole.StdPicture -&gt; unit&#xA;override this.let_MouseIcon : stdole.StdPicture -&gt; unit" Usage="tabStripClass.let_MouseIcon MouseIcon" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ITabStrip.let_MouseIcon(stdole.StdPicture)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-522)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-522)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="MouseIcon" Type="stdole.StdPicture" />
+      </Parameters>
+      <Docs>
+        <param name="MouseIcon">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseDown">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseDownEventHandler MouseDown;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseDownEventHandler MouseDown" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.TabStripClass.MouseDown" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event MouseDown As TabStripEvents_MouseDownEventHandler Implements MouseDown" />
+      <MemberSignature Language="F#" Value="member this.MouseDown : Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseDownEventHandler " Usage="member this.MouseDown : Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseDownEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.MouseDown</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseIcon">
+      <MemberSignature Language="C#" Value="public virtual stdole.StdPicture MouseIcon { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class stdole.StdPicture MouseIcon" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.MouseIcon" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property MouseIcon As StdPicture" />
+      <MemberSignature Language="F#" Value="member this.MouseIcon : stdole.StdPicture with get, set" Usage="MouseIcon" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.MouseIcon</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-522)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-522)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-522)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-522)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-522)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-522)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>stdole.StdPicture</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseMove">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseMoveEventHandler MouseMove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseMoveEventHandler MouseMove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.TabStripClass.MouseMove" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event MouseMove As TabStripEvents_MouseMoveEventHandler Implements MouseMove" />
+      <MemberSignature Language="F#" Value="member this.MouseMove : Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseMoveEventHandler " Usage="member this.MouseMove : Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseMoveEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.MouseMove</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MousePointer">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Vbe.Interop.Forms.fmMousePointer MousePointer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Vbe.Interop.Forms.fmMousePointer MousePointer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.MousePointer" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property MousePointer As fmMousePointer" />
+      <MemberSignature Language="F#" Value="member this.MousePointer : Microsoft.Vbe.Interop.Forms.fmMousePointer with get, set" Usage="MousePointer" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.MousePointer</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-521)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-521)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-521)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-521)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-521)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-521)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.fmMousePointer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseUp">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseUpEventHandler MouseUp;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseUpEventHandler MouseUp" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.TabStripClass.MouseUp" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event MouseUp As TabStripEvents_MouseUpEventHandler Implements MouseUp" />
+      <MemberSignature Language="F#" Value="member this.MouseUp : Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseUpEventHandler " Usage="member this.MouseUp : Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseUpEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.MouseUp</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MultiRow">
+      <MemberSignature Language="C#" Value="public virtual bool MultiRow { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MultiRow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.MultiRow" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property MultiRow As Boolean" />
+      <MemberSignature Language="F#" Value="member this.MultiRow : bool with get, set" Usage="MultiRow" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.MultiRow</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(514)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(514)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(514)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(514)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(514)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(514)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_BeforeDragOver">
+      <MemberSignature Language="C#" Value="public virtual void remove_BeforeDragOver (Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDragOverEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_BeforeDragOver(class Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDragOverEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.remove_BeforeDragOver(Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_BeforeDragOver (unnamedParam1 As TabStripEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_BeforeDragOver : Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDragOverEventHandler -&gt; unit&#xA;override this.remove_BeforeDragOver : Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDragOverEventHandler -&gt; unit" Usage="tabStripClass.remove_BeforeDragOver unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.remove_BeforeDragOver(Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDragOverEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDragOverEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_BeforeDropOrPaste">
+      <MemberSignature Language="C#" Value="public virtual void remove_BeforeDropOrPaste (Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDropOrPasteEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_BeforeDropOrPaste(class Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDropOrPasteEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.remove_BeforeDropOrPaste(Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_BeforeDropOrPaste (unnamedParam1 As TabStripEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDropOrPasteEventHandler -&gt; unit&#xA;override this.remove_BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDropOrPasteEventHandler -&gt; unit" Usage="tabStripClass.remove_BeforeDropOrPaste unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.remove_BeforeDropOrPaste(Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDropOrPasteEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_BeforeDropOrPasteEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Change">
+      <MemberSignature Language="C#" Value="public virtual void remove_Change (Microsoft.Vbe.Interop.Forms.TabStripEvents_ChangeEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Change(class Microsoft.Vbe.Interop.Forms.TabStripEvents_ChangeEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.remove_Change(Microsoft.Vbe.Interop.Forms.TabStripEvents_ChangeEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_Change (unnamedParam1 As TabStripEvents_ChangeEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Change : Microsoft.Vbe.Interop.Forms.TabStripEvents_ChangeEventHandler -&gt; unit&#xA;override this.remove_Change : Microsoft.Vbe.Interop.Forms.TabStripEvents_ChangeEventHandler -&gt; unit" Usage="tabStripClass.remove_Change unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.remove_Change(Microsoft.Vbe.Interop.Forms.TabStripEvents_ChangeEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_ChangeEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Click">
+      <MemberSignature Language="C#" Value="public virtual void remove_Click (Microsoft.Vbe.Interop.Forms.TabStripEvents_ClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Click(class Microsoft.Vbe.Interop.Forms.TabStripEvents_ClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.remove_Click(Microsoft.Vbe.Interop.Forms.TabStripEvents_ClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_Click (unnamedParam1 As TabStripEvents_ClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Click : Microsoft.Vbe.Interop.Forms.TabStripEvents_ClickEventHandler -&gt; unit&#xA;override this.remove_Click : Microsoft.Vbe.Interop.Forms.TabStripEvents_ClickEventHandler -&gt; unit" Usage="tabStripClass.remove_Click unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.remove_Click(Microsoft.Vbe.Interop.Forms.TabStripEvents_ClickEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_ClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_DblClick">
+      <MemberSignature Language="C#" Value="public virtual void remove_DblClick (Microsoft.Vbe.Interop.Forms.TabStripEvents_DblClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_DblClick(class Microsoft.Vbe.Interop.Forms.TabStripEvents_DblClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.remove_DblClick(Microsoft.Vbe.Interop.Forms.TabStripEvents_DblClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_DblClick (unnamedParam1 As TabStripEvents_DblClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_DblClick : Microsoft.Vbe.Interop.Forms.TabStripEvents_DblClickEventHandler -&gt; unit&#xA;override this.remove_DblClick : Microsoft.Vbe.Interop.Forms.TabStripEvents_DblClickEventHandler -&gt; unit" Usage="tabStripClass.remove_DblClick unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.remove_DblClick(Microsoft.Vbe.Interop.Forms.TabStripEvents_DblClickEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_DblClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Error">
+      <MemberSignature Language="C#" Value="public virtual void remove_Error (Microsoft.Vbe.Interop.Forms.TabStripEvents_ErrorEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Error(class Microsoft.Vbe.Interop.Forms.TabStripEvents_ErrorEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.remove_Error(Microsoft.Vbe.Interop.Forms.TabStripEvents_ErrorEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_Error (unnamedParam1 As TabStripEvents_ErrorEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Error : Microsoft.Vbe.Interop.Forms.TabStripEvents_ErrorEventHandler -&gt; unit&#xA;override this.remove_Error : Microsoft.Vbe.Interop.Forms.TabStripEvents_ErrorEventHandler -&gt; unit" Usage="tabStripClass.remove_Error unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.remove_Error(Microsoft.Vbe.Interop.Forms.TabStripEvents_ErrorEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_ErrorEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_KeyDown">
+      <MemberSignature Language="C#" Value="public virtual void remove_KeyDown (Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyDownEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_KeyDown(class Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyDownEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.remove_KeyDown(Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyDownEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_KeyDown (unnamedParam1 As TabStripEvents_KeyDownEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_KeyDown : Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyDownEventHandler -&gt; unit&#xA;override this.remove_KeyDown : Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyDownEventHandler -&gt; unit" Usage="tabStripClass.remove_KeyDown unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.remove_KeyDown(Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyDownEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyDownEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_KeyPress">
+      <MemberSignature Language="C#" Value="public virtual void remove_KeyPress (Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyPressEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_KeyPress(class Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyPressEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.remove_KeyPress(Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyPressEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_KeyPress (unnamedParam1 As TabStripEvents_KeyPressEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_KeyPress : Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyPressEventHandler -&gt; unit&#xA;override this.remove_KeyPress : Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyPressEventHandler -&gt; unit" Usage="tabStripClass.remove_KeyPress unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.remove_KeyPress(Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyPressEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyPressEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_KeyUp">
+      <MemberSignature Language="C#" Value="public virtual void remove_KeyUp (Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyUpEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_KeyUp(class Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyUpEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.remove_KeyUp(Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyUpEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_KeyUp (unnamedParam1 As TabStripEvents_KeyUpEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_KeyUp : Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyUpEventHandler -&gt; unit&#xA;override this.remove_KeyUp : Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyUpEventHandler -&gt; unit" Usage="tabStripClass.remove_KeyUp unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.remove_KeyUp(Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyUpEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_KeyUpEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_MouseDown">
+      <MemberSignature Language="C#" Value="public virtual void remove_MouseDown (Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseDownEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_MouseDown(class Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseDownEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.remove_MouseDown(Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseDownEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_MouseDown (unnamedParam1 As TabStripEvents_MouseDownEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_MouseDown : Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseDownEventHandler -&gt; unit&#xA;override this.remove_MouseDown : Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseDownEventHandler -&gt; unit" Usage="tabStripClass.remove_MouseDown unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.remove_MouseDown(Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseDownEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseDownEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_MouseMove">
+      <MemberSignature Language="C#" Value="public virtual void remove_MouseMove (Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseMoveEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_MouseMove(class Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseMoveEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.remove_MouseMove(Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseMoveEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_MouseMove (unnamedParam1 As TabStripEvents_MouseMoveEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_MouseMove : Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseMoveEventHandler -&gt; unit&#xA;override this.remove_MouseMove : Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseMoveEventHandler -&gt; unit" Usage="tabStripClass.remove_MouseMove unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.remove_MouseMove(Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseMoveEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseMoveEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_MouseUp">
+      <MemberSignature Language="C#" Value="public virtual void remove_MouseUp (Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseUpEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_MouseUp(class Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseUpEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.TabStripClass.remove_MouseUp(Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseUpEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_MouseUp (unnamedParam1 As TabStripEvents_MouseUpEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_MouseUp : Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseUpEventHandler -&gt; unit&#xA;override this.remove_MouseUp : Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseUpEventHandler -&gt; unit" Usage="tabStripClass.remove_MouseUp unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.TabStripEvents_Event.remove_MouseUp(Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseUpEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.TabStripEvents_MouseUpEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectedItem">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Vbe.Interop.Forms.Tab SelectedItem { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Vbe.Interop.Forms.Tab SelectedItem" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.SelectedItem" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property SelectedItem As Tab" />
+      <MemberSignature Language="F#" Value="member this.SelectedItem : Microsoft.Vbe.Interop.Forms.Tab" Usage="SelectedItem" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.SelectedItem</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(545)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(545)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(545)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(545)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(1024)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(1024)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.Tab</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Style">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Vbe.Interop.Forms.fmTabStyle Style { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Vbe.Interop.Forms.fmTabStyle Style" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.Style" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Style As fmTabStyle" />
+      <MemberSignature Language="F#" Value="member this.Style : Microsoft.Vbe.Interop.Forms.fmTabStyle with get, set" Usage="Style" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.Style</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(513)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(513)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(513)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(513)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(513)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(513)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.fmTabStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TabFixedHeight">
+      <MemberSignature Language="C#" Value="public virtual float TabFixedHeight { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 TabFixedHeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.TabFixedHeight" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property TabFixedHeight As Single" />
+      <MemberSignature Language="F#" Value="member this.TabFixedHeight : single with get, set" Usage="TabFixedHeight" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.TabFixedHeight</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(516)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(516)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(516)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(516)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(516)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(516)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TabFixedWidth">
+      <MemberSignature Language="C#" Value="public virtual float TabFixedWidth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 TabFixedWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.TabFixedWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property TabFixedWidth As Single" />
+      <MemberSignature Language="F#" Value="member this.TabFixedWidth : single with get, set" Usage="TabFixedWidth" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.TabFixedWidth</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(515)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(515)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(515)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(515)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(515)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(515)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TabOrientation">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Vbe.Interop.Forms.fmTabOrientation TabOrientation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Vbe.Interop.Forms.fmTabOrientation TabOrientation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.TabOrientation" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property TabOrientation As fmTabOrientation" />
+      <MemberSignature Language="F#" Value="member this.TabOrientation : Microsoft.Vbe.Interop.Forms.fmTabOrientation with get, set" Usage="TabOrientation" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.TabOrientation</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(512)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(512)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(512)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(512)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(512)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(512)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.fmTabOrientation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tabs">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Vbe.Interop.Forms.Tabs this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Vbe.Interop.Forms.Tabs Tabs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.Tabs" />
+      <MemberSignature Language="VB.NET" Value="Default Public Overridable ReadOnly Property Tabs As Tabs" />
+      <MemberSignature Language="F#" Value="member this.Tabs : Microsoft.Vbe.Interop.Forms.Tabs" Usage="Tabs" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.Tabs</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.Tabs</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public virtual int Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.TabStripClass.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Value As Integer" />
+      <MemberSignature Language="F#" Value="member this.Value : int with get, set" Usage="Value" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.ITabStrip.Value</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(528)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(528)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(528)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(528)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(528)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(528)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

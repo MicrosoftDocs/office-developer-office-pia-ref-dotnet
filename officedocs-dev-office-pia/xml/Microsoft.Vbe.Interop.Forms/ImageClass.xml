@@ -1,0 +1,1322 @@
+<Type Name="ImageClass" FullName="Microsoft.Vbe.Interop.Forms.ImageClass">
+  <TypeSignature Language="C#" Value="public class ImageClass : Microsoft.Vbe.Interop.Forms.Image" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi ImageClass extends System.Object implements class Microsoft.Vbe.Interop.Forms.IImage, class Microsoft.Vbe.Interop.Forms.Image, class Microsoft.Vbe.Interop.Forms.ImageEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop.Forms.ImageClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class ImageClass&#xA;Implements Image" />
+  <TypeSignature Language="F#" Value="type ImageClass = class&#xA;    interface IImage&#xA;    interface Image&#xA;    interface ImageEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Vbe.Interop.Forms.IImage</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Vbe.Interop.Forms.Image</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Vbe.Interop.Forms.ImageEvents_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ClassInterface(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ClassInterface(0)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Vbe.Interop.Forms.ImageEvents\0")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Vbe.Interop.Forms.ImageEvents\0")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("4C599241-6926-101B-9992-00000B65C6F9")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("4C599241-6926-101B-9992-00000B65C6F9")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(34)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(34)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ImageClass ();" />
+      <MemberSignature Language="ILAsm" Value=".method public specialname rtspecialname instance void .ctor() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageClass.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_BeforeDragOver">
+      <MemberSignature Language="C#" Value="public virtual void add_BeforeDragOver (Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_BeforeDragOver(class Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageClass.add_BeforeDragOver(Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_BeforeDragOver (unnamedParam1 As ImageEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_BeforeDragOver : Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler -&gt; unit&#xA;override this.add_BeforeDragOver : Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler -&gt; unit" Usage="imageClass.add_BeforeDragOver unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.add_BeforeDragOver(Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_BeforeDropOrPaste">
+      <MemberSignature Language="C#" Value="public virtual void add_BeforeDropOrPaste (Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_BeforeDropOrPaste(class Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageClass.add_BeforeDropOrPaste(Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_BeforeDropOrPaste (unnamedParam1 As ImageEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler -&gt; unit&#xA;override this.add_BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler -&gt; unit" Usage="imageClass.add_BeforeDropOrPaste unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.add_BeforeDropOrPaste(Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Click">
+      <MemberSignature Language="C#" Value="public virtual void add_Click (Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Click(class Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageClass.add_Click(Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_Click (unnamedParam1 As ImageEvents_ClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Click : Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler -&gt; unit&#xA;override this.add_Click : Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler -&gt; unit" Usage="imageClass.add_Click unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.add_Click(Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_DblClick">
+      <MemberSignature Language="C#" Value="public virtual void add_DblClick (Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_DblClick(class Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageClass.add_DblClick(Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_DblClick (unnamedParam1 As ImageEvents_DblClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_DblClick : Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler -&gt; unit&#xA;override this.add_DblClick : Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler -&gt; unit" Usage="imageClass.add_DblClick unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.add_DblClick(Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Error">
+      <MemberSignature Language="C#" Value="public virtual void add_Error (Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Error(class Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageClass.add_Error(Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_Error (unnamedParam1 As ImageEvents_ErrorEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Error : Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler -&gt; unit&#xA;override this.add_Error : Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler -&gt; unit" Usage="imageClass.add_Error unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.add_Error(Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_MouseDown">
+      <MemberSignature Language="C#" Value="public virtual void add_MouseDown (Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_MouseDown(class Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageClass.add_MouseDown(Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_MouseDown (unnamedParam1 As ImageEvents_MouseDownEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_MouseDown : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler -&gt; unit&#xA;override this.add_MouseDown : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler -&gt; unit" Usage="imageClass.add_MouseDown unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.add_MouseDown(Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_MouseMove">
+      <MemberSignature Language="C#" Value="public virtual void add_MouseMove (Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_MouseMove(class Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageClass.add_MouseMove(Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_MouseMove (unnamedParam1 As ImageEvents_MouseMoveEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_MouseMove : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler -&gt; unit&#xA;override this.add_MouseMove : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler -&gt; unit" Usage="imageClass.add_MouseMove unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.add_MouseMove(Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_MouseUp">
+      <MemberSignature Language="C#" Value="public virtual void add_MouseUp (Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_MouseUp(class Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageClass.add_MouseUp(Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_MouseUp (unnamedParam1 As ImageEvents_MouseUpEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_MouseUp : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler -&gt; unit&#xA;override this.add_MouseUp : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler -&gt; unit" Usage="imageClass.add_MouseUp unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.add_MouseUp(Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoSize">
+      <MemberSignature Language="C#" Value="public virtual bool AutoSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ImageClass.AutoSize" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property AutoSize As Boolean" />
+      <MemberSignature Language="F#" Value="member this.AutoSize : bool with get, set" Usage="AutoSize" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IImage.AutoSize</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-500)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-500)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-500)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-500)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-500)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-500)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackColor">
+      <MemberSignature Language="C#" Value="public virtual int BackColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 BackColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ImageClass.BackColor" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property BackColor As Integer" />
+      <MemberSignature Language="F#" Value="member this.BackColor : int with get, set" Usage="BackColor" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IImage.BackColor</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.ComAliasName("Microsoft.Vbe.Interop.Forms.OLE_COLOR")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComAliasName("Microsoft.Vbe.Interop.Forms.OLE_COLOR")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-501)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-501)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-501)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-501)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-501)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-501)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackStyle">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Vbe.Interop.Forms.fmBackStyle BackStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Vbe.Interop.Forms.fmBackStyle BackStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ImageClass.BackStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property BackStyle As fmBackStyle" />
+      <MemberSignature Language="F#" Value="member this.BackStyle : Microsoft.Vbe.Interop.Forms.fmBackStyle with get, set" Usage="BackStyle" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IImage.BackStyle</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-502)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-502)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-502)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-502)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-502)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-502)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.fmBackStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDragOver">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler BeforeDragOver;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler BeforeDragOver" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ImageClass.BeforeDragOver" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event BeforeDragOver As ImageEvents_BeforeDragOverEventHandler Implements BeforeDragOver" />
+      <MemberSignature Language="F#" Value="member this.BeforeDragOver : Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler " Usage="member this.BeforeDragOver : Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.BeforeDragOver</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDropOrPaste">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler BeforeDropOrPaste;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler BeforeDropOrPaste" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ImageClass.BeforeDropOrPaste" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event BeforeDropOrPaste As ImageEvents_BeforeDropOrPasteEventHandler Implements BeforeDropOrPaste" />
+      <MemberSignature Language="F#" Value="member this.BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler " Usage="member this.BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.BeforeDropOrPaste</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BorderColor">
+      <MemberSignature Language="C#" Value="public virtual int BorderColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 BorderColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ImageClass.BorderColor" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property BorderColor As Integer" />
+      <MemberSignature Language="F#" Value="member this.BorderColor : int with get, set" Usage="BorderColor" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IImage.BorderColor</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.ComAliasName("Microsoft.Vbe.Interop.Forms.OLE_COLOR")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComAliasName("Microsoft.Vbe.Interop.Forms.OLE_COLOR")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-503)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-503)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-503)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-503)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-503)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-503)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BorderStyle">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Vbe.Interop.Forms.fmBorderStyle BorderStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Vbe.Interop.Forms.fmBorderStyle BorderStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ImageClass.BorderStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property BorderStyle As fmBorderStyle" />
+      <MemberSignature Language="F#" Value="member this.BorderStyle : Microsoft.Vbe.Interop.Forms.fmBorderStyle with get, set" Usage="BorderStyle" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IImage.BorderStyle</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-504)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-504)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-504)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-504)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-504)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-504)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.fmBorderStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Click">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler Click;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler Click" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ImageClass.Click" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event Click As ImageEvents_ClickEventHandler Implements Click" />
+      <MemberSignature Language="F#" Value="member this.Click : Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler " Usage="member this.Click : Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.Click</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DblClick">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler DblClick;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler DblClick" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ImageClass.DblClick" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event DblClick As ImageEvents_DblClickEventHandler Implements DblClick" />
+      <MemberSignature Language="F#" Value="member this.DblClick : Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler " Usage="member this.DblClick : Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.DblClick</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public virtual bool Enabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Enabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ImageClass.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Enabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Enabled : bool with get, set" Usage="Enabled" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IImage.Enabled</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-514)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-514)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-514)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-514)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-514)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-514)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler Error;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler Error" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ImageClass.Error" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event Error As ImageEvents_ErrorEventHandler Implements Error" />
+      <MemberSignature Language="F#" Value="member this.Error : Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler " Usage="member this.Error : Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.Error</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="let_MouseIcon">
+      <MemberSignature Language="C#" Value="public virtual void let_MouseIcon (stdole.StdPicture MouseIcon);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance void let_MouseIcon([in]class stdole.StdPicture MouseIcon) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageClass.let_MouseIcon(stdole.StdPicture)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub let_MouseIcon (MouseIcon As StdPicture)" />
+      <MemberSignature Language="F#" Value="abstract member let_MouseIcon : stdole.StdPicture -&gt; unit&#xA;override this.let_MouseIcon : stdole.StdPicture -&gt; unit" Usage="imageClass.let_MouseIcon MouseIcon" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.IImage.let_MouseIcon(stdole.StdPicture)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-522)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-522)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="MouseIcon" Type="stdole.StdPicture" />
+      </Parameters>
+      <Docs>
+        <param name="MouseIcon">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="let_Picture">
+      <MemberSignature Language="C#" Value="public virtual void let_Picture (stdole.StdPicture Picture);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance void let_Picture([in]class stdole.StdPicture Picture) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageClass.let_Picture(stdole.StdPicture)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub let_Picture (Picture As StdPicture)" />
+      <MemberSignature Language="F#" Value="abstract member let_Picture : stdole.StdPicture -&gt; unit&#xA;override this.let_Picture : stdole.StdPicture -&gt; unit" Usage="imageClass.let_Picture Picture" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.IImage.let_Picture(stdole.StdPicture)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-523)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-523)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Picture" Type="stdole.StdPicture" />
+      </Parameters>
+      <Docs>
+        <param name="Picture">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseDown">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler MouseDown;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler MouseDown" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ImageClass.MouseDown" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event MouseDown As ImageEvents_MouseDownEventHandler Implements MouseDown" />
+      <MemberSignature Language="F#" Value="member this.MouseDown : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler " Usage="member this.MouseDown : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.MouseDown</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseIcon">
+      <MemberSignature Language="C#" Value="public virtual stdole.StdPicture MouseIcon { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class stdole.StdPicture MouseIcon" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ImageClass.MouseIcon" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property MouseIcon As StdPicture" />
+      <MemberSignature Language="F#" Value="member this.MouseIcon : stdole.StdPicture with get, set" Usage="MouseIcon" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IImage.MouseIcon</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-522)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-522)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-522)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-522)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-522)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-522)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>stdole.StdPicture</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseMove">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler MouseMove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler MouseMove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ImageClass.MouseMove" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event MouseMove As ImageEvents_MouseMoveEventHandler Implements MouseMove" />
+      <MemberSignature Language="F#" Value="member this.MouseMove : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler " Usage="member this.MouseMove : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.MouseMove</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MousePointer">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Vbe.Interop.Forms.fmMousePointer MousePointer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Vbe.Interop.Forms.fmMousePointer MousePointer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ImageClass.MousePointer" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property MousePointer As fmMousePointer" />
+      <MemberSignature Language="F#" Value="member this.MousePointer : Microsoft.Vbe.Interop.Forms.fmMousePointer with get, set" Usage="MousePointer" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IImage.MousePointer</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-521)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-521)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-521)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-521)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-521)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-521)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.fmMousePointer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseUp">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler MouseUp;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler MouseUp" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ImageClass.MouseUp" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event MouseUp As ImageEvents_MouseUpEventHandler Implements MouseUp" />
+      <MemberSignature Language="F#" Value="member this.MouseUp : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler " Usage="member this.MouseUp : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.MouseUp</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Picture">
+      <MemberSignature Language="C#" Value="public virtual stdole.StdPicture Picture { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class stdole.StdPicture Picture" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ImageClass.Picture" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Picture As StdPicture" />
+      <MemberSignature Language="F#" Value="member this.Picture : stdole.StdPicture with get, set" Usage="Picture" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IImage.Picture</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-523)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-523)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(-523)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(-523)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(-523)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(-523)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>stdole.StdPicture</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PictureAlignment">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Vbe.Interop.Forms.fmPictureAlignment PictureAlignment { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Vbe.Interop.Forms.fmPictureAlignment PictureAlignment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ImageClass.PictureAlignment" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property PictureAlignment As fmPictureAlignment" />
+      <MemberSignature Language="F#" Value="member this.PictureAlignment : Microsoft.Vbe.Interop.Forms.fmPictureAlignment with get, set" Usage="PictureAlignment" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IImage.PictureAlignment</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(26)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(26)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(26)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(26)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(26)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(26)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.fmPictureAlignment</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PictureSizeMode">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Vbe.Interop.Forms.fmPictureSizeMode PictureSizeMode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Vbe.Interop.Forms.fmPictureSizeMode PictureSizeMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ImageClass.PictureSizeMode" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property PictureSizeMode As fmPictureSizeMode" />
+      <MemberSignature Language="F#" Value="member this.PictureSizeMode : Microsoft.Vbe.Interop.Forms.fmPictureSizeMode with get, set" Usage="PictureSizeMode" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IImage.PictureSizeMode</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(27)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(27)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(27)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(27)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(27)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(27)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.fmPictureSizeMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PictureTiling">
+      <MemberSignature Language="C#" Value="public virtual bool PictureTiling { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PictureTiling" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ImageClass.PictureTiling" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property PictureTiling As Boolean" />
+      <MemberSignature Language="F#" Value="member this.PictureTiling : bool with get, set" Usage="PictureTiling" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IImage.PictureTiling</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(28)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(28)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(28)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(28)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(28)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(28)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_BeforeDragOver">
+      <MemberSignature Language="C#" Value="public virtual void remove_BeforeDragOver (Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_BeforeDragOver(class Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageClass.remove_BeforeDragOver(Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_BeforeDragOver (unnamedParam1 As ImageEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_BeforeDragOver : Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler -&gt; unit&#xA;override this.remove_BeforeDragOver : Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler -&gt; unit" Usage="imageClass.remove_BeforeDragOver unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.remove_BeforeDragOver(Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_BeforeDropOrPaste">
+      <MemberSignature Language="C#" Value="public virtual void remove_BeforeDropOrPaste (Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_BeforeDropOrPaste(class Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageClass.remove_BeforeDropOrPaste(Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_BeforeDropOrPaste (unnamedParam1 As ImageEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler -&gt; unit&#xA;override this.remove_BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler -&gt; unit" Usage="imageClass.remove_BeforeDropOrPaste unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.remove_BeforeDropOrPaste(Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Click">
+      <MemberSignature Language="C#" Value="public virtual void remove_Click (Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Click(class Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageClass.remove_Click(Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_Click (unnamedParam1 As ImageEvents_ClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Click : Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler -&gt; unit&#xA;override this.remove_Click : Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler -&gt; unit" Usage="imageClass.remove_Click unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.remove_Click(Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_DblClick">
+      <MemberSignature Language="C#" Value="public virtual void remove_DblClick (Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_DblClick(class Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageClass.remove_DblClick(Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_DblClick (unnamedParam1 As ImageEvents_DblClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_DblClick : Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler -&gt; unit&#xA;override this.remove_DblClick : Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler -&gt; unit" Usage="imageClass.remove_DblClick unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.remove_DblClick(Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Error">
+      <MemberSignature Language="C#" Value="public virtual void remove_Error (Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Error(class Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageClass.remove_Error(Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_Error (unnamedParam1 As ImageEvents_ErrorEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Error : Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler -&gt; unit&#xA;override this.remove_Error : Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler -&gt; unit" Usage="imageClass.remove_Error unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.remove_Error(Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_MouseDown">
+      <MemberSignature Language="C#" Value="public virtual void remove_MouseDown (Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_MouseDown(class Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageClass.remove_MouseDown(Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_MouseDown (unnamedParam1 As ImageEvents_MouseDownEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_MouseDown : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler -&gt; unit&#xA;override this.remove_MouseDown : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler -&gt; unit" Usage="imageClass.remove_MouseDown unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.remove_MouseDown(Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_MouseMove">
+      <MemberSignature Language="C#" Value="public virtual void remove_MouseMove (Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_MouseMove(class Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageClass.remove_MouseMove(Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_MouseMove (unnamedParam1 As ImageEvents_MouseMoveEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_MouseMove : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler -&gt; unit&#xA;override this.remove_MouseMove : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler -&gt; unit" Usage="imageClass.remove_MouseMove unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.remove_MouseMove(Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_MouseUp">
+      <MemberSignature Language="C#" Value="public virtual void remove_MouseUp (Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_MouseUp(class Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageClass.remove_MouseUp(Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_MouseUp (unnamedParam1 As ImageEvents_MouseUpEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_MouseUp : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler -&gt; unit&#xA;override this.remove_MouseUp : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler -&gt; unit" Usage="imageClass.remove_MouseUp unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.remove_MouseUp(Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SpecialEffect">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Vbe.Interop.Forms.fmSpecialEffect SpecialEffect { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Vbe.Interop.Forms.fmSpecialEffect SpecialEffect" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.Forms.ImageClass.SpecialEffect" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property SpecialEffect As fmSpecialEffect" />
+      <MemberSignature Language="F#" Value="member this.SpecialEffect : Microsoft.Vbe.Interop.Forms.fmSpecialEffect with get, set" Usage="SpecialEffect" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop.Forms.IImage.SpecialEffect</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(12)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(12)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(12)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(12)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(12)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(12)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.fmSpecialEffect</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

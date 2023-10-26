@@ -1,9 +1,10 @@
-﻿<Type Name="CustomXMLPartsClass" FullName="Microsoft.Office.Core.CustomXMLPartsClass">
+<Type Name="CustomXMLPartsClass" FullName="Microsoft.Office.Core.CustomXMLPartsClass">
+  <TypeSignature Language="C++ CLI" Value="public ref class CustomXMLPartsClass : Microsoft::Office::Core::CustomXMLParts, System::Collections::IEnumerable" />
   <TypeSignature Language="C#" Value="public class CustomXMLPartsClass : Microsoft.Office.Core.CustomXMLParts, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi CustomXMLPartsClass extends System.Object implements class Microsoft.Office.Core._CustomXMLParts, class Microsoft.Office.Core._CustomXMLPartsEvents_Event, class Microsoft.Office.Core.CustomXMLParts, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CustomXMLPartsClass" />
   <TypeSignature Language="VB.NET" Value="Public Class CustomXMLPartsClass&#xA;Implements CustomXMLParts, IEnumerable" />
-  <TypeSignature Language="C++ CLI" Value="public ref class CustomXMLPartsClass : Microsoft::Office::Core::CustomXMLParts, System::Collections::IEnumerable" />
+  <TypeSignature Language="F#" Value="type CustomXMLPartsClass = class&#xA;    interface _CustomXMLParts&#xA;    interface CustomXMLParts&#xA;    interface _CustomXMLPartsEvents_Event&#xA;    interface IEnumerable" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -13,6 +14,15 @@
   </Base>
   <Interfaces>
     <Interface>
+      <InterfaceName>Microsoft.Office.Core._CustomXMLParts</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._CustomXMLPartsEvents_Event</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+    <Interface>
       <InterfaceName>Microsoft.Office.Core.CustomXMLParts</InterfaceName>
     </Interface>
     <Interface>
@@ -21,13 +31,16 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ClassInterface(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ClassInterface(0)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Office.Core._CustomXMLPartsEvents\0")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Office.Core._CustomXMLPartsEvents\0")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Office.Core._CustomXMLPartsEvents\0")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000CDB0C-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000CDB0C-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000CDB0C-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -40,6 +53,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.CustomXMLPart Add([in]string XML, [in]object SchemaCollection) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomXMLPartsClass.Add(System.String,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function Add (Optional XML As String = &quot;&quot;, Optional SchemaCollection As Object) As CustomXMLPart" />
+      <MemberSignature Language="F#" Value="abstract member Add : string * obj -&gt; Microsoft.Office.Core.CustomXMLPart&#xA;override this.Add : string * obj -&gt; Microsoft.Office.Core.CustomXMLPart" Usage="customXMLPartsClass.Add (XML, SchemaCollection)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CustomXMLParts.Add(System.String,System.Object)</InterfaceMember>
@@ -50,7 +64,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809347)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809347)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -68,12 +83,91 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="add_PartAfterAdd">
+      <MemberSignature Language="C#" Value="public virtual void add_PartAfterAdd (Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_PartAfterAdd(class Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomXMLPartsClass.add_PartAfterAdd(Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_PartAfterAdd (unnamedParam1 As _CustomXMLPartsEvents_PartAfterAddEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_PartAfterAdd : Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler -&gt; unit&#xA;override this.add_PartAfterAdd : Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler -&gt; unit" Usage="customXMLPartsClass.add_PartAfterAdd unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core._CustomXMLPartsEvents_Event.add_PartAfterAdd(Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_PartAfterLoad">
+      <MemberSignature Language="C#" Value="public virtual void add_PartAfterLoad (Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_PartAfterLoad(class Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomXMLPartsClass.add_PartAfterLoad(Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_PartAfterLoad (unnamedParam1 As _CustomXMLPartsEvents_PartAfterLoadEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_PartAfterLoad : Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler -&gt; unit&#xA;override this.add_PartAfterLoad : Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler -&gt; unit" Usage="customXMLPartsClass.add_PartAfterLoad unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core._CustomXMLPartsEvents_Event.add_PartAfterLoad(Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_PartBeforeDelete">
+      <MemberSignature Language="C#" Value="public virtual void add_PartBeforeDelete (Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_PartBeforeDelete(class Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomXMLPartsClass.add_PartBeforeDelete(Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_PartBeforeDelete (unnamedParam1 As _CustomXMLPartsEvents_PartBeforeDeleteEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_PartBeforeDelete : Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler -&gt; unit&#xA;override this.add_PartBeforeDelete : Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler -&gt; unit" Usage="customXMLPartsClass.add_PartBeforeDelete unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core._CustomXMLPartsEvents_Event.add_PartBeforeDelete(Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Application">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Application { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public virtual object Application { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Application" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomXMLPartsClass.Application" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Application As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : obj" Usage="Application" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CustomXMLParts.Application</InterfaceMember>
@@ -84,10 +178,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -100,11 +196,12 @@
       </Docs>
     </Member>
     <Member MemberName="Count">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Count { int get(); };" />
       <MemberSignature Language="C#" Value="public virtual int Count { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomXMLPartsClass.Count" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Count As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Count { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Count" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CustomXMLParts.Count</InterfaceMember>
@@ -115,10 +212,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809345)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809345)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809345)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809345)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -131,11 +230,12 @@
       </Docs>
     </Member>
     <Member MemberName="Creator">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Creator { int get(); };" />
       <MemberSignature Language="C#" Value="public virtual int Creator { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomXMLPartsClass.Creator" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Creator As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Creator" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CustomXMLParts.Creator</InterfaceMember>
@@ -146,10 +246,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -162,11 +264,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::IEnumerator ^ GetEnumerator() = Microsoft::Office::Core::_CustomXMLParts::GetEnumerator;" />
       <MemberSignature Language="C#" Value="public virtual System.Collections.IEnumerator GetEnumerator ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomXMLPartsClass.GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetEnumerator () As IEnumerator" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::IEnumerator ^ GetEnumerator() = Microsoft::Office::Core::_CustomXMLParts::GetEnumerator;" />
+      <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.IEnumerator&#xA;override this.GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="customXMLPartsClass.GetEnumerator " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CustomXMLParts.GetEnumerator</InterfaceMember>
@@ -177,10 +280,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-4)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibFunc(1024)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibFunc(1024)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -194,11 +299,12 @@
       </Docs>
     </Member>
     <Member MemberName="Item">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Core::CustomXMLPart ^ default[System::Object ^] { Microsoft::Office::Core::CustomXMLPart ^ get(System::Object ^ Index); };" />
       <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Core.CustomXMLPart this[object Index] { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.CustomXMLPart Item(object)" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomXMLPartsClass.Item(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Default Public Overridable ReadOnly Property Item(Index As Object) As CustomXMLPart" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Core::CustomXMLPart ^ default[System::Object ^] { Microsoft::Office::Core::CustomXMLPart ^ get(System::Object ^ Index); };" />
+      <MemberSignature Language="F#" Value="member this.Item(obj) : Microsoft.Office.Core.CustomXMLPart" Usage="Item" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CustomXMLParts.Item(System.Object)</InterfaceMember>
@@ -209,10 +315,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -229,11 +337,12 @@
       </Docs>
     </Member>
     <Member MemberName="Parent">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Parent { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public virtual object Parent { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomXMLPartsClass.Parent" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Parent As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Parent" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CustomXMLParts.Parent</InterfaceMember>
@@ -244,10 +353,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809344)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809344)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809344)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809344)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -260,11 +371,12 @@
       </Docs>
     </Member>
     <Member MemberName="PartAfterAdd">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Core::_CustomXMLPartsEvents_PartAfterAddEventHandler ^ PartAfterAdd;" />
       <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler PartAfterAdd;" />
       <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler PartAfterAdd" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core.CustomXMLPartsClass.PartAfterAdd" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event PartAfterAdd As _CustomXMLPartsEvents_PartAfterAddEventHandler Implements PartAfterAdd" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Core::_CustomXMLPartsEvents_PartAfterAddEventHandler ^ PartAfterAdd;" />
+      <MemberSignature Language="F#" Value="member this.PartAfterAdd : Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler " Usage="member this.PartAfterAdd : Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler " />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:Microsoft.Office.Core._CustomXMLPartsEvents_Event.PartAfterAdd</InterfaceMember>
@@ -282,11 +394,12 @@
       </Docs>
     </Member>
     <Member MemberName="PartAfterLoad">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Core::_CustomXMLPartsEvents_PartAfterLoadEventHandler ^ PartAfterLoad;" />
       <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler PartAfterLoad;" />
       <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler PartAfterLoad" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core.CustomXMLPartsClass.PartAfterLoad" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event PartAfterLoad As _CustomXMLPartsEvents_PartAfterLoadEventHandler Implements PartAfterLoad" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Core::_CustomXMLPartsEvents_PartAfterLoadEventHandler ^ PartAfterLoad;" />
+      <MemberSignature Language="F#" Value="member this.PartAfterLoad : Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler " Usage="member this.PartAfterLoad : Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler " />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:Microsoft.Office.Core._CustomXMLPartsEvents_Event.PartAfterLoad</InterfaceMember>
@@ -304,11 +417,12 @@
       </Docs>
     </Member>
     <Member MemberName="PartBeforeDelete">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Core::_CustomXMLPartsEvents_PartBeforeDeleteEventHandler ^ PartBeforeDelete;" />
       <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler PartBeforeDelete;" />
       <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler PartBeforeDelete" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core.CustomXMLPartsClass.PartBeforeDelete" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event PartBeforeDelete As _CustomXMLPartsEvents_PartBeforeDeleteEventHandler Implements PartBeforeDelete" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Core::_CustomXMLPartsEvents_PartBeforeDeleteEventHandler ^ PartBeforeDelete;" />
+      <MemberSignature Language="F#" Value="member this.PartBeforeDelete : Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler " Usage="member this.PartBeforeDelete : Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler " />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:Microsoft.Office.Core._CustomXMLPartsEvents_Event.PartBeforeDelete</InterfaceMember>
@@ -325,12 +439,91 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="remove_PartAfterAdd">
+      <MemberSignature Language="C#" Value="public virtual void remove_PartAfterAdd (Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_PartAfterAdd(class Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomXMLPartsClass.remove_PartAfterAdd(Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_PartAfterAdd (unnamedParam1 As _CustomXMLPartsEvents_PartAfterAddEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_PartAfterAdd : Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler -&gt; unit&#xA;override this.remove_PartAfterAdd : Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler -&gt; unit" Usage="customXMLPartsClass.remove_PartAfterAdd unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core._CustomXMLPartsEvents_Event.remove_PartAfterAdd(Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_PartAfterLoad">
+      <MemberSignature Language="C#" Value="public virtual void remove_PartAfterLoad (Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_PartAfterLoad(class Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomXMLPartsClass.remove_PartAfterLoad(Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_PartAfterLoad (unnamedParam1 As _CustomXMLPartsEvents_PartAfterLoadEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_PartAfterLoad : Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler -&gt; unit&#xA;override this.remove_PartAfterLoad : Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler -&gt; unit" Usage="customXMLPartsClass.remove_PartAfterLoad unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core._CustomXMLPartsEvents_Event.remove_PartAfterLoad(Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_PartBeforeDelete">
+      <MemberSignature Language="C#" Value="public virtual void remove_PartBeforeDelete (Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_PartBeforeDelete(class Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomXMLPartsClass.remove_PartBeforeDelete(Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_PartBeforeDelete (unnamedParam1 As _CustomXMLPartsEvents_PartBeforeDeleteEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_PartBeforeDelete : Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler -&gt; unit&#xA;override this.remove_PartBeforeDelete : Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler -&gt; unit" Usage="customXMLPartsClass.remove_PartBeforeDelete unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core._CustomXMLPartsEvents_Event.remove_PartBeforeDelete(Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="SelectByID">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Core::CustomXMLPart ^ SelectByID(System::String ^ Id) = Microsoft::Office::Core::_CustomXMLParts::SelectByID;" />
       <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Core.CustomXMLPart SelectByID (string Id);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.CustomXMLPart SelectByID([in]string Id) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomXMLPartsClass.SelectByID(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function SelectByID (Id As String) As CustomXMLPart" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Core::CustomXMLPart ^ SelectByID(System::String ^ Id) = Microsoft::Office::Core::_CustomXMLParts::SelectByID;" />
+      <MemberSignature Language="F#" Value="abstract member SelectByID : string -&gt; Microsoft.Office.Core.CustomXMLPart&#xA;override this.SelectByID : string -&gt; Microsoft.Office.Core.CustomXMLPart" Usage="customXMLPartsClass.SelectByID Id" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CustomXMLParts.SelectByID(System.String)</InterfaceMember>
@@ -341,7 +534,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809348)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809348)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -358,11 +552,12 @@
       </Docs>
     </Member>
     <Member MemberName="SelectByNamespace">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Core::CustomXMLParts ^ SelectByNamespace(System::String ^ NamespaceURI) = Microsoft::Office::Core::_CustomXMLParts::SelectByNamespace;" />
       <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Core.CustomXMLParts SelectByNamespace (string NamespaceURI);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.CustomXMLParts SelectByNamespace([in]string NamespaceURI) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomXMLPartsClass.SelectByNamespace(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function SelectByNamespace (NamespaceURI As String) As CustomXMLParts" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Core::CustomXMLParts ^ SelectByNamespace(System::String ^ NamespaceURI) = Microsoft::Office::Core::_CustomXMLParts::SelectByNamespace;" />
+      <MemberSignature Language="F#" Value="abstract member SelectByNamespace : string -&gt; Microsoft.Office.Core.CustomXMLParts&#xA;override this.SelectByNamespace : string -&gt; Microsoft.Office.Core.CustomXMLParts" Usage="customXMLPartsClass.SelectByNamespace NamespaceURI" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CustomXMLParts.SelectByNamespace(System.String)</InterfaceMember>
@@ -373,7 +568,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809349)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809349)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809349)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

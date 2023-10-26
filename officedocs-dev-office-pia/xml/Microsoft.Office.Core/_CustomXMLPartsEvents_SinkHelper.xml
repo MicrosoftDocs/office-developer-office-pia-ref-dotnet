@@ -1,9 +1,10 @@
 <Type Name="_CustomXMLPartsEvents_SinkHelper" FullName="Microsoft.Office.Core._CustomXMLPartsEvents_SinkHelper">
+  <TypeSignature Language="C++ CLI" Value="public ref class _CustomXMLPartsEvents_SinkHelper sealed : Microsoft::Office::Core::_CustomXMLPartsEvents" />
   <TypeSignature Language="C#" Value="public sealed class _CustomXMLPartsEvents_SinkHelper : Microsoft.Office.Core._CustomXMLPartsEvents" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _CustomXMLPartsEvents_SinkHelper extends System.Object implements class Microsoft.Office.Core._CustomXMLPartsEvents" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CustomXMLPartsEvents_SinkHelper" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class _CustomXMLPartsEvents_SinkHelper&#xA;Implements _CustomXMLPartsEvents" />
-  <TypeSignature Language="C++ CLI" Value="public ref class _CustomXMLPartsEvents_SinkHelper sealed : Microsoft::Office::Core::_CustomXMLPartsEvents" />
+  <TypeSignature Language="F#" Value="type _CustomXMLPartsEvents_SinkHelper = class&#xA;    interface _CustomXMLPartsEvents" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -18,10 +19,12 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(System.Runtime.InteropServices.TypeLibTypeFlags.FHidden)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(System.Runtime.InteropServices.TypeLibTypeFlags.FHidden)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(System.Runtime.InteropServices.TypeLibTypeFlags.FHidden)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -30,11 +33,12 @@
   </Docs>
   <Members>
     <Member MemberName="m_dwCookie">
+      <MemberSignature Language="C++ CLI" Value="public: int m_dwCookie;" />
       <MemberSignature Language="C#" Value="public int m_dwCookie;" />
       <MemberSignature Language="ILAsm" Value=".field public int32 m_dwCookie" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core._CustomXMLPartsEvents_SinkHelper.m_dwCookie" />
       <MemberSignature Language="VB.NET" Value="Public m_dwCookie As Integer " />
-      <MemberSignature Language="C++ CLI" Value="public: int m_dwCookie;" />
+      <MemberSignature Language="F#" Value="val mutable m_dwCookie : int" Usage="Microsoft.Office.Core._CustomXMLPartsEvents_SinkHelper.m_dwCookie" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -49,11 +53,12 @@
       </Docs>
     </Member>
     <Member MemberName="m_PartAfterAddDelegate">
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Core::_CustomXMLPartsEvents_PartAfterAddEventHandler ^ m_PartAfterAddDelegate;" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler m_PartAfterAddDelegate;" />
       <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler m_PartAfterAddDelegate" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core._CustomXMLPartsEvents_SinkHelper.m_PartAfterAddDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_PartAfterAddDelegate As _CustomXMLPartsEvents_PartAfterAddEventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Core::_CustomXMLPartsEvents_PartAfterAddEventHandler ^ m_PartAfterAddDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_PartAfterAddDelegate : Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler" Usage="Microsoft.Office.Core._CustomXMLPartsEvents_SinkHelper.m_PartAfterAddDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -68,11 +73,12 @@
       </Docs>
     </Member>
     <Member MemberName="m_PartAfterLoadDelegate">
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Core::_CustomXMLPartsEvents_PartAfterLoadEventHandler ^ m_PartAfterLoadDelegate;" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler m_PartAfterLoadDelegate;" />
       <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler m_PartAfterLoadDelegate" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core._CustomXMLPartsEvents_SinkHelper.m_PartAfterLoadDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_PartAfterLoadDelegate As _CustomXMLPartsEvents_PartAfterLoadEventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Core::_CustomXMLPartsEvents_PartAfterLoadEventHandler ^ m_PartAfterLoadDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_PartAfterLoadDelegate : Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler" Usage="Microsoft.Office.Core._CustomXMLPartsEvents_SinkHelper.m_PartAfterLoadDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -87,11 +93,12 @@
       </Docs>
     </Member>
     <Member MemberName="m_PartBeforeDeleteDelegate">
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Core::_CustomXMLPartsEvents_PartBeforeDeleteEventHandler ^ m_PartBeforeDeleteDelegate;" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler m_PartBeforeDeleteDelegate;" />
       <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler m_PartBeforeDeleteDelegate" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core._CustomXMLPartsEvents_SinkHelper.m_PartBeforeDeleteDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_PartBeforeDeleteDelegate As _CustomXMLPartsEvents_PartBeforeDeleteEventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Core::_CustomXMLPartsEvents_PartBeforeDeleteEventHandler ^ m_PartBeforeDeleteDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_PartBeforeDeleteDelegate : Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler" Usage="Microsoft.Office.Core._CustomXMLPartsEvents_SinkHelper.m_PartBeforeDeleteDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -106,11 +113,12 @@
       </Docs>
     </Member>
     <Member MemberName="PartAfterAdd">
-      <MemberSignature Language="C#" Value="public override void PartAfterAdd (Microsoft.Office.Core.CustomXMLPart );" />
-      <MemberSignature Language="ILAsm" Value=".method public virtual instance void PartAfterAdd(class Microsoft.Office.Core.CustomXMLPart ) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomXMLPartsEvents_SinkHelper.PartAfterAdd(Microsoft.Office.Core.CustomXMLPart)" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Sub PartAfterAdd ( As CustomXMLPart)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void PartAfterAdd(Microsoft::Office::Core::CustomXMLPart ^ );" />
+      <MemberSignature Language="C#" Value="public override void PartAfterAdd (Microsoft.Office.Core.CustomXMLPart unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void PartAfterAdd(class Microsoft.Office.Core.CustomXMLPart unnamedParam1) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomXMLPartsEvents_SinkHelper.PartAfterAdd(Microsoft.Office.Core.CustomXMLPart)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub PartAfterAdd (unnamedParam1 As CustomXMLPart)" />
+      <MemberSignature Language="F#" Value="abstract member PartAfterAdd : Microsoft.Office.Core.CustomXMLPart -&gt; unit&#xA;override this.PartAfterAdd : Microsoft.Office.Core.CustomXMLPart -&gt; unit" Usage="_CustomXMLPartsEvents_SinkHelper.PartAfterAdd unnamedParam1" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CustomXMLPartsEvents.PartAfterAdd(Microsoft.Office.Core.CustomXMLPart)</InterfaceMember>
@@ -123,20 +131,21 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="" Type="Microsoft.Office.Core.CustomXMLPart" />
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core.CustomXMLPart" />
       </Parameters>
       <Docs>
-        <param name="">To be added.</param>
+        <param name="unnamedParam1">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="PartAfterLoad">
-      <MemberSignature Language="C#" Value="public override void PartAfterLoad (Microsoft.Office.Core.CustomXMLPart );" />
-      <MemberSignature Language="ILAsm" Value=".method public virtual instance void PartAfterLoad(class Microsoft.Office.Core.CustomXMLPart ) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomXMLPartsEvents_SinkHelper.PartAfterLoad(Microsoft.Office.Core.CustomXMLPart)" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Sub PartAfterLoad ( As CustomXMLPart)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void PartAfterLoad(Microsoft::Office::Core::CustomXMLPart ^ );" />
+      <MemberSignature Language="C#" Value="public override void PartAfterLoad (Microsoft.Office.Core.CustomXMLPart unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void PartAfterLoad(class Microsoft.Office.Core.CustomXMLPart unnamedParam1) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomXMLPartsEvents_SinkHelper.PartAfterLoad(Microsoft.Office.Core.CustomXMLPart)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub PartAfterLoad (unnamedParam1 As CustomXMLPart)" />
+      <MemberSignature Language="F#" Value="abstract member PartAfterLoad : Microsoft.Office.Core.CustomXMLPart -&gt; unit&#xA;override this.PartAfterLoad : Microsoft.Office.Core.CustomXMLPart -&gt; unit" Usage="_CustomXMLPartsEvents_SinkHelper.PartAfterLoad unnamedParam1" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CustomXMLPartsEvents.PartAfterLoad(Microsoft.Office.Core.CustomXMLPart)</InterfaceMember>
@@ -149,20 +158,21 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="" Type="Microsoft.Office.Core.CustomXMLPart" />
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core.CustomXMLPart" />
       </Parameters>
       <Docs>
-        <param name="">To be added.</param>
+        <param name="unnamedParam1">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="PartBeforeDelete">
-      <MemberSignature Language="C#" Value="public override void PartBeforeDelete (Microsoft.Office.Core.CustomXMLPart );" />
-      <MemberSignature Language="ILAsm" Value=".method public virtual instance void PartBeforeDelete(class Microsoft.Office.Core.CustomXMLPart ) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomXMLPartsEvents_SinkHelper.PartBeforeDelete(Microsoft.Office.Core.CustomXMLPart)" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Sub PartBeforeDelete ( As CustomXMLPart)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void PartBeforeDelete(Microsoft::Office::Core::CustomXMLPart ^ );" />
+      <MemberSignature Language="C#" Value="public override void PartBeforeDelete (Microsoft.Office.Core.CustomXMLPart unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void PartBeforeDelete(class Microsoft.Office.Core.CustomXMLPart unnamedParam1) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomXMLPartsEvents_SinkHelper.PartBeforeDelete(Microsoft.Office.Core.CustomXMLPart)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub PartBeforeDelete (unnamedParam1 As CustomXMLPart)" />
+      <MemberSignature Language="F#" Value="abstract member PartBeforeDelete : Microsoft.Office.Core.CustomXMLPart -&gt; unit&#xA;override this.PartBeforeDelete : Microsoft.Office.Core.CustomXMLPart -&gt; unit" Usage="_CustomXMLPartsEvents_SinkHelper.PartBeforeDelete unnamedParam1" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CustomXMLPartsEvents.PartBeforeDelete(Microsoft.Office.Core.CustomXMLPart)</InterfaceMember>
@@ -175,10 +185,10 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="" Type="Microsoft.Office.Core.CustomXMLPart" />
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core.CustomXMLPart" />
       </Parameters>
       <Docs>
-        <param name="">To be added.</param>
+        <param name="unnamedParam1">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>

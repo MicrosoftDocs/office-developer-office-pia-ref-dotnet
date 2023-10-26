@@ -1,9 +1,10 @@
-﻿<Type Name="FillFormat" FullName="Microsoft.Office.Core.FillFormat">
+<Type Name="FillFormat" FullName="Microsoft.Office.Core.FillFormat">
+  <TypeSignature Language="C++ CLI" Value="public interface class FillFormat : Microsoft::Office::Core::_IMsoDispObj" />
   <TypeSignature Language="C#" Value="public interface FillFormat : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FillFormat implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.FillFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface FillFormat&#xA;Implements _IMsoDispObj" />
-  <TypeSignature Language="C++ CLI" Value="public interface class FillFormat : Microsoft::Office::Core::_IMsoDispObj" />
+  <TypeSignature Language="F#" Value="type FillFormat = interface&#xA;    interface _IMsoDispObj" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -15,10 +16,12 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C0314-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C0314-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C0314-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4304)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4304)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -27,11 +30,12 @@
   </Docs>
   <Members>
     <Member MemberName="Application">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object Application { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Application" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : obj" Usage="Microsoft.Office.Core.FillFormat.Application" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
@@ -42,10 +46,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -58,11 +64,12 @@
       </Docs>
     </Member>
     <Member MemberName="BackColor">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::ColorFormat ^ BackColor { Microsoft::Office::Core::ColorFormat ^ get(); void set(Microsoft::Office::Core::ColorFormat ^ value); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.ColorFormat BackColor { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.ColorFormat BackColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.BackColor" />
       <MemberSignature Language="VB.NET" Value="Public Property BackColor As ColorFormat" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::ColorFormat ^ BackColor { Microsoft::Office::Core::ColorFormat ^ get(); void set(Microsoft::Office::Core::ColorFormat ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.BackColor : Microsoft.Office.Core.ColorFormat with get, set" Usage="Microsoft.Office.Core.FillFormat.BackColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -70,13 +77,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(100)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(100)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(100)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(100)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(100)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(100)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(100)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(100)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -89,11 +99,12 @@
       </Docs>
     </Member>
     <Member MemberName="Background">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Background();" />
       <MemberSignature Language="C#" Value="public void Background ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Background() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.FillFormat.Background" />
       <MemberSignature Language="VB.NET" Value="Public Sub Background ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Background();" />
+      <MemberSignature Language="F#" Value="abstract member Background : unit -&gt; unit" Usage="fillFormat.Background " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -101,7 +112,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(10)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(10)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -114,11 +126,12 @@
       </Docs>
     </Member>
     <Member MemberName="Creator">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
       <MemberSignature Language="C#" Value="public int Creator { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Core.FillFormat.Creator" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
@@ -129,10 +142,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -145,11 +160,12 @@
       </Docs>
     </Member>
     <Member MemberName="ForeColor">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::ColorFormat ^ ForeColor { Microsoft::Office::Core::ColorFormat ^ get(); void set(Microsoft::Office::Core::ColorFormat ^ value); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.ColorFormat ForeColor { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.ColorFormat ForeColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.ForeColor" />
       <MemberSignature Language="VB.NET" Value="Public Property ForeColor As ColorFormat" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::ColorFormat ^ ForeColor { Microsoft::Office::Core::ColorFormat ^ get(); void set(Microsoft::Office::Core::ColorFormat ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ForeColor : Microsoft.Office.Core.ColorFormat with get, set" Usage="Microsoft.Office.Core.FillFormat.ForeColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -157,13 +173,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(101)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(101)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(101)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(101)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(101)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(101)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(101)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(101)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(101)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -176,11 +195,12 @@
       </Docs>
     </Member>
     <Member MemberName="GradientAngle">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float GradientAngle { float get(); void set(float value); };" />
       <MemberSignature Language="C#" Value="public float GradientAngle { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 GradientAngle" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.GradientAngle" />
       <MemberSignature Language="VB.NET" Value="Public Property GradientAngle As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float GradientAngle { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.GradientAngle : single with get, set" Usage="Microsoft.Office.Core.FillFormat.GradientAngle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -188,13 +208,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(123)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(123)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(123)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(123)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(123)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(123)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(123)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(123)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(123)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -207,11 +230,12 @@
       </Docs>
     </Member>
     <Member MemberName="GradientColorType">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoGradientColorType GradientColorType { Microsoft::Office::Core::MsoGradientColorType get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoGradientColorType GradientColorType { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoGradientColorType GradientColorType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.GradientColorType" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GradientColorType As MsoGradientColorType" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoGradientColorType GradientColorType { Microsoft::Office::Core::MsoGradientColorType get(); };" />
+      <MemberSignature Language="F#" Value="member this.GradientColorType : Microsoft.Office.Core.MsoGradientColorType" Usage="Microsoft.Office.Core.FillFormat.GradientColorType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -219,10 +243,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(102)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(102)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(102)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(102)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(102)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(102)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -235,11 +261,12 @@
       </Docs>
     </Member>
     <Member MemberName="GradientDegree">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float GradientDegree { float get(); };" />
       <MemberSignature Language="C#" Value="public float GradientDegree { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 GradientDegree" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.GradientDegree" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GradientDegree As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float GradientDegree { float get(); };" />
+      <MemberSignature Language="F#" Value="member this.GradientDegree : single" Usage="Microsoft.Office.Core.FillFormat.GradientDegree" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -247,10 +274,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(103)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(103)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(103)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(103)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(103)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -263,11 +292,12 @@
       </Docs>
     </Member>
     <Member MemberName="GradientStops">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::GradientStops ^ GradientStops { Microsoft::Office::Core::GradientStops ^ get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.GradientStops GradientStops { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.GradientStops GradientStops" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.GradientStops" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GradientStops As GradientStops" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::GradientStops ^ GradientStops { Microsoft::Office::Core::GradientStops ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GradientStops : Microsoft.Office.Core.GradientStops" Usage="Microsoft.Office.Core.FillFormat.GradientStops" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -275,10 +305,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(114)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(114)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(114)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(114)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(114)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(114)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -291,11 +323,12 @@
       </Docs>
     </Member>
     <Member MemberName="GradientStyle">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoGradientStyle GradientStyle { Microsoft::Office::Core::MsoGradientStyle get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoGradientStyle GradientStyle { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoGradientStyle GradientStyle" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.GradientStyle" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GradientStyle As MsoGradientStyle" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoGradientStyle GradientStyle { Microsoft::Office::Core::MsoGradientStyle get(); };" />
+      <MemberSignature Language="F#" Value="member this.GradientStyle : Microsoft.Office.Core.MsoGradientStyle" Usage="Microsoft.Office.Core.FillFormat.GradientStyle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -303,10 +336,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(104)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(104)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(104)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(104)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(104)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(104)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -319,11 +354,12 @@
       </Docs>
     </Member>
     <Member MemberName="GradientVariant">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int GradientVariant { int get(); };" />
       <MemberSignature Language="C#" Value="public int GradientVariant { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 GradientVariant" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.GradientVariant" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GradientVariant As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int GradientVariant { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.GradientVariant : int" Usage="Microsoft.Office.Core.FillFormat.GradientVariant" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -331,10 +367,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(105)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(105)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(105)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(105)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(105)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(105)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -347,11 +385,12 @@
       </Docs>
     </Member>
     <Member MemberName="OneColorGradient">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OneColorGradient(Microsoft::Office::Core::MsoGradientStyle Style, int Variant, float Degree);" />
       <MemberSignature Language="C#" Value="public void OneColorGradient (Microsoft.Office.Core.MsoGradientStyle Style, int Variant, float Degree);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OneColorGradient([in]valuetype Microsoft.Office.Core.MsoGradientStyle Style, [in]int32 Variant, [in]float32 Degree) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.FillFormat.OneColorGradient(Microsoft.Office.Core.MsoGradientStyle,System.Int32,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Sub OneColorGradient (Style As MsoGradientStyle, Variant As Integer, Degree As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OneColorGradient(Microsoft::Office::Core::MsoGradientStyle Style, int Variant, float Degree);" />
+      <MemberSignature Language="F#" Value="abstract member OneColorGradient : Microsoft.Office.Core.MsoGradientStyle * int * single -&gt; unit" Usage="fillFormat.OneColorGradient (Style, Variant, Degree)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -359,7 +398,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(11)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(11)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -379,11 +419,12 @@
       </Docs>
     </Member>
     <Member MemberName="Parent">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object Parent { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Core.FillFormat.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -391,10 +432,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -407,11 +450,12 @@
       </Docs>
     </Member>
     <Member MemberName="Pattern">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPatternType Pattern { Microsoft::Office::Core::MsoPatternType get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoPatternType Pattern { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoPatternType Pattern" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.Pattern" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Pattern As MsoPatternType" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPatternType Pattern { Microsoft::Office::Core::MsoPatternType get(); };" />
+      <MemberSignature Language="F#" Value="member this.Pattern : Microsoft.Office.Core.MsoPatternType" Usage="Microsoft.Office.Core.FillFormat.Pattern" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -419,10 +463,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(106)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(106)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(106)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(106)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(106)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(106)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -435,11 +481,12 @@
       </Docs>
     </Member>
     <Member MemberName="Patterned">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Patterned(Microsoft::Office::Core::MsoPatternType Pattern);" />
       <MemberSignature Language="C#" Value="public void Patterned (Microsoft.Office.Core.MsoPatternType Pattern);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Patterned([in]valuetype Microsoft.Office.Core.MsoPatternType Pattern) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.FillFormat.Patterned(Microsoft.Office.Core.MsoPatternType)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Patterned (Pattern As MsoPatternType)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Patterned(Microsoft::Office::Core::MsoPatternType Pattern);" />
+      <MemberSignature Language="F#" Value="abstract member Patterned : Microsoft.Office.Core.MsoPatternType -&gt; unit" Usage="fillFormat.Patterned Pattern" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -447,7 +494,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(12)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(12)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -463,11 +511,12 @@
       </Docs>
     </Member>
     <Member MemberName="PictureEffects">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::PictureEffects ^ PictureEffects { Microsoft::Office::Core::PictureEffects ^ get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.PictureEffects PictureEffects { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.PictureEffects PictureEffects" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.PictureEffects" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PictureEffects As PictureEffects" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::PictureEffects ^ PictureEffects { Microsoft::Office::Core::PictureEffects ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PictureEffects : Microsoft.Office.Core.PictureEffects" Usage="Microsoft.Office.Core.FillFormat.PictureEffects" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -475,10 +524,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(122)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(122)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(122)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(122)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(122)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(122)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -491,11 +542,12 @@
       </Docs>
     </Member>
     <Member MemberName="PresetGradient">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PresetGradient(Microsoft::Office::Core::MsoGradientStyle Style, int Variant, Microsoft::Office::Core::MsoPresetGradientType PresetGradientType);" />
       <MemberSignature Language="C#" Value="public void PresetGradient (Microsoft.Office.Core.MsoGradientStyle Style, int Variant, Microsoft.Office.Core.MsoPresetGradientType PresetGradientType);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PresetGradient([in]valuetype Microsoft.Office.Core.MsoGradientStyle Style, [in]int32 Variant, [in]valuetype Microsoft.Office.Core.MsoPresetGradientType PresetGradientType) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.FillFormat.PresetGradient(Microsoft.Office.Core.MsoGradientStyle,System.Int32,Microsoft.Office.Core.MsoPresetGradientType)" />
       <MemberSignature Language="VB.NET" Value="Public Sub PresetGradient (Style As MsoGradientStyle, Variant As Integer, PresetGradientType As MsoPresetGradientType)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PresetGradient(Microsoft::Office::Core::MsoGradientStyle Style, int Variant, Microsoft::Office::Core::MsoPresetGradientType PresetGradientType);" />
+      <MemberSignature Language="F#" Value="abstract member PresetGradient : Microsoft.Office.Core.MsoGradientStyle * int * Microsoft.Office.Core.MsoPresetGradientType -&gt; unit" Usage="fillFormat.PresetGradient (Style, Variant, PresetGradientType)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -503,7 +555,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(13)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(13)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -523,11 +576,12 @@
       </Docs>
     </Member>
     <Member MemberName="PresetGradientType">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPresetGradientType PresetGradientType { Microsoft::Office::Core::MsoPresetGradientType get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoPresetGradientType PresetGradientType { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoPresetGradientType PresetGradientType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.PresetGradientType" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PresetGradientType As MsoPresetGradientType" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPresetGradientType PresetGradientType { Microsoft::Office::Core::MsoPresetGradientType get(); };" />
+      <MemberSignature Language="F#" Value="member this.PresetGradientType : Microsoft.Office.Core.MsoPresetGradientType" Usage="Microsoft.Office.Core.FillFormat.PresetGradientType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -535,10 +589,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(107)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(107)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(107)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(107)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(107)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(107)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -551,11 +607,12 @@
       </Docs>
     </Member>
     <Member MemberName="PresetTexture">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPresetTexture PresetTexture { Microsoft::Office::Core::MsoPresetTexture get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoPresetTexture PresetTexture { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoPresetTexture PresetTexture" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.PresetTexture" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PresetTexture As MsoPresetTexture" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPresetTexture PresetTexture { Microsoft::Office::Core::MsoPresetTexture get(); };" />
+      <MemberSignature Language="F#" Value="member this.PresetTexture : Microsoft.Office.Core.MsoPresetTexture" Usage="Microsoft.Office.Core.FillFormat.PresetTexture" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -563,10 +620,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(108)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(108)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(108)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(108)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(108)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -579,11 +638,12 @@
       </Docs>
     </Member>
     <Member MemberName="PresetTextured">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PresetTextured(Microsoft::Office::Core::MsoPresetTexture PresetTexture);" />
       <MemberSignature Language="C#" Value="public void PresetTextured (Microsoft.Office.Core.MsoPresetTexture PresetTexture);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PresetTextured([in]valuetype Microsoft.Office.Core.MsoPresetTexture PresetTexture) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.FillFormat.PresetTextured(Microsoft.Office.Core.MsoPresetTexture)" />
       <MemberSignature Language="VB.NET" Value="Public Sub PresetTextured (PresetTexture As MsoPresetTexture)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PresetTextured(Microsoft::Office::Core::MsoPresetTexture PresetTexture);" />
+      <MemberSignature Language="F#" Value="abstract member PresetTextured : Microsoft.Office.Core.MsoPresetTexture -&gt; unit" Usage="fillFormat.PresetTextured PresetTexture" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -591,7 +651,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(14)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(14)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -607,11 +668,12 @@
       </Docs>
     </Member>
     <Member MemberName="RotateWithObject">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState RotateWithObject { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState RotateWithObject { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState RotateWithObject" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.RotateWithObject" />
       <MemberSignature Language="VB.NET" Value="Public Property RotateWithObject As MsoTriState" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState RotateWithObject { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberSignature Language="F#" Value="member this.RotateWithObject : Microsoft.Office.Core.MsoTriState with get, set" Usage="Microsoft.Office.Core.FillFormat.RotateWithObject" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -619,13 +681,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(121)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(121)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(121)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(121)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(121)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(121)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(121)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(121)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(121)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -638,11 +703,12 @@
       </Docs>
     </Member>
     <Member MemberName="Solid">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Solid();" />
       <MemberSignature Language="C#" Value="public void Solid ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Solid() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.FillFormat.Solid" />
       <MemberSignature Language="VB.NET" Value="Public Sub Solid ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Solid();" />
+      <MemberSignature Language="F#" Value="abstract member Solid : unit -&gt; unit" Usage="fillFormat.Solid " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -650,7 +716,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(15)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(15)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(15)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -663,11 +730,12 @@
       </Docs>
     </Member>
     <Member MemberName="TextureAlignment">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTextureAlignment TextureAlignment { Microsoft::Office::Core::MsoTextureAlignment get(); void set(Microsoft::Office::Core::MsoTextureAlignment value); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTextureAlignment TextureAlignment { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTextureAlignment TextureAlignment" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.TextureAlignment" />
       <MemberSignature Language="VB.NET" Value="Public Property TextureAlignment As MsoTextureAlignment" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTextureAlignment TextureAlignment { Microsoft::Office::Core::MsoTextureAlignment get(); void set(Microsoft::Office::Core::MsoTextureAlignment value); };" />
+      <MemberSignature Language="F#" Value="member this.TextureAlignment : Microsoft.Office.Core.MsoTextureAlignment with get, set" Usage="Microsoft.Office.Core.FillFormat.TextureAlignment" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -675,13 +743,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(117)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(117)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(117)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(117)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(117)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(117)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(117)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(117)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(117)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -694,11 +765,12 @@
       </Docs>
     </Member>
     <Member MemberName="TextureHorizontalScale">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float TextureHorizontalScale { float get(); void set(float value); };" />
       <MemberSignature Language="C#" Value="public float TextureHorizontalScale { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 TextureHorizontalScale" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.TextureHorizontalScale" />
       <MemberSignature Language="VB.NET" Value="Public Property TextureHorizontalScale As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float TextureHorizontalScale { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.TextureHorizontalScale : single with get, set" Usage="Microsoft.Office.Core.FillFormat.TextureHorizontalScale" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -706,13 +778,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(118)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(118)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(118)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(118)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(118)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(118)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(118)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(118)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(118)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -725,11 +800,12 @@
       </Docs>
     </Member>
     <Member MemberName="TextureName">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TextureName { System::String ^ get(); };" />
       <MemberSignature Language="C#" Value="public string TextureName { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string TextureName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.TextureName" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TextureName As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TextureName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.TextureName : string" Usage="Microsoft.Office.Core.FillFormat.TextureName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -737,10 +813,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(109)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(109)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(109)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(109)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(109)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(109)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -753,11 +831,12 @@
       </Docs>
     </Member>
     <Member MemberName="TextureOffsetX">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float TextureOffsetX { float get(); void set(float value); };" />
       <MemberSignature Language="C#" Value="public float TextureOffsetX { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 TextureOffsetX" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.TextureOffsetX" />
       <MemberSignature Language="VB.NET" Value="Public Property TextureOffsetX As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float TextureOffsetX { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.TextureOffsetX : single with get, set" Usage="Microsoft.Office.Core.FillFormat.TextureOffsetX" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -765,13 +844,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(115)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(115)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(115)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(115)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(115)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(115)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(115)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(115)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(115)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -784,11 +866,12 @@
       </Docs>
     </Member>
     <Member MemberName="TextureOffsetY">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float TextureOffsetY { float get(); void set(float value); };" />
       <MemberSignature Language="C#" Value="public float TextureOffsetY { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 TextureOffsetY" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.TextureOffsetY" />
       <MemberSignature Language="VB.NET" Value="Public Property TextureOffsetY As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float TextureOffsetY { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.TextureOffsetY : single with get, set" Usage="Microsoft.Office.Core.FillFormat.TextureOffsetY" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -796,13 +879,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(116)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(116)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(116)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(116)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(116)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(116)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(116)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(116)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(116)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -815,11 +901,12 @@
       </Docs>
     </Member>
     <Member MemberName="TextureTile">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState TextureTile { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState TextureTile { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState TextureTile" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.TextureTile" />
       <MemberSignature Language="VB.NET" Value="Public Property TextureTile As MsoTriState" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState TextureTile { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberSignature Language="F#" Value="member this.TextureTile : Microsoft.Office.Core.MsoTriState with get, set" Usage="Microsoft.Office.Core.FillFormat.TextureTile" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -827,13 +914,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(120)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(120)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(120)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(120)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(120)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(120)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(120)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(120)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(120)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -846,11 +936,12 @@
       </Docs>
     </Member>
     <Member MemberName="TextureType">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTextureType TextureType { Microsoft::Office::Core::MsoTextureType get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTextureType TextureType { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTextureType TextureType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.TextureType" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TextureType As MsoTextureType" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTextureType TextureType { Microsoft::Office::Core::MsoTextureType get(); };" />
+      <MemberSignature Language="F#" Value="member this.TextureType : Microsoft.Office.Core.MsoTextureType" Usage="Microsoft.Office.Core.FillFormat.TextureType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -858,10 +949,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(110)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(110)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(110)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(110)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(110)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(110)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -874,11 +967,12 @@
       </Docs>
     </Member>
     <Member MemberName="TextureVerticalScale">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float TextureVerticalScale { float get(); void set(float value); };" />
       <MemberSignature Language="C#" Value="public float TextureVerticalScale { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 TextureVerticalScale" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.TextureVerticalScale" />
       <MemberSignature Language="VB.NET" Value="Public Property TextureVerticalScale As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float TextureVerticalScale { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.TextureVerticalScale : single with get, set" Usage="Microsoft.Office.Core.FillFormat.TextureVerticalScale" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -886,13 +980,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(119)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(119)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(119)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(119)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(119)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(119)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(119)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(119)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(119)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -905,11 +1002,12 @@
       </Docs>
     </Member>
     <Member MemberName="Transparency">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Transparency { float get(); void set(float value); };" />
       <MemberSignature Language="C#" Value="public float Transparency { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 Transparency" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.Transparency" />
       <MemberSignature Language="VB.NET" Value="Public Property Transparency As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Transparency { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Transparency : single with get, set" Usage="Microsoft.Office.Core.FillFormat.Transparency" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -917,13 +1015,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(111)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(111)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(111)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(111)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(111)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(111)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(111)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(111)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(111)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -936,11 +1037,12 @@
       </Docs>
     </Member>
     <Member MemberName="TwoColorGradient">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void TwoColorGradient(Microsoft::Office::Core::MsoGradientStyle Style, int Variant);" />
       <MemberSignature Language="C#" Value="public void TwoColorGradient (Microsoft.Office.Core.MsoGradientStyle Style, int Variant);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void TwoColorGradient([in]valuetype Microsoft.Office.Core.MsoGradientStyle Style, [in]int32 Variant) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.FillFormat.TwoColorGradient(Microsoft.Office.Core.MsoGradientStyle,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub TwoColorGradient (Style As MsoGradientStyle, Variant As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void TwoColorGradient(Microsoft::Office::Core::MsoGradientStyle Style, int Variant);" />
+      <MemberSignature Language="F#" Value="abstract member TwoColorGradient : Microsoft.Office.Core.MsoGradientStyle * int -&gt; unit" Usage="fillFormat.TwoColorGradient (Style, Variant)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -948,7 +1050,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(16)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(16)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(16)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -966,11 +1069,12 @@
       </Docs>
     </Member>
     <Member MemberName="Type">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoFillType Type { Microsoft::Office::Core::MsoFillType get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoFillType Type { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoFillType Type" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.Type" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As MsoFillType" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoFillType Type { Microsoft::Office::Core::MsoFillType get(); };" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Office.Core.MsoFillType" Usage="Microsoft.Office.Core.FillFormat.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -978,10 +1082,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(112)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(112)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(112)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(112)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(112)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(112)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -994,11 +1100,12 @@
       </Docs>
     </Member>
     <Member MemberName="UserPicture">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void UserPicture(System::String ^ PictureFile);" />
       <MemberSignature Language="C#" Value="public void UserPicture (string PictureFile);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UserPicture([in]string PictureFile) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.FillFormat.UserPicture(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub UserPicture (PictureFile As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void UserPicture(System::String ^ PictureFile);" />
+      <MemberSignature Language="F#" Value="abstract member UserPicture : string -&gt; unit" Usage="fillFormat.UserPicture PictureFile" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -1006,7 +1113,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(17)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(17)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(17)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1022,11 +1130,12 @@
       </Docs>
     </Member>
     <Member MemberName="UserTextured">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void UserTextured(System::String ^ TextureFile);" />
       <MemberSignature Language="C#" Value="public void UserTextured (string TextureFile);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UserTextured([in]string TextureFile) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.FillFormat.UserTextured(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub UserTextured (TextureFile As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void UserTextured(System::String ^ TextureFile);" />
+      <MemberSignature Language="F#" Value="abstract member UserTextured : string -&gt; unit" Usage="fillFormat.UserTextured TextureFile" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -1034,7 +1143,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(18)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(18)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(18)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1050,11 +1160,12 @@
       </Docs>
     </Member>
     <Member MemberName="Visible">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState Visible { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState Visible { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState Visible" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FillFormat.Visible" />
       <MemberSignature Language="VB.NET" Value="Public Property Visible As MsoTriState" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState Visible { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberSignature Language="F#" Value="member this.Visible : Microsoft.Office.Core.MsoTriState with get, set" Usage="Microsoft.Office.Core.FillFormat.Visible" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -1062,13 +1173,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(113)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(113)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(113)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(113)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(113)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(113)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(113)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(113)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(113)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

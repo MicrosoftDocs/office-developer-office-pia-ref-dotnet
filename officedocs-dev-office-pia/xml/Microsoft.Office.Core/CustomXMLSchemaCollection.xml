@@ -1,9 +1,10 @@
-﻿<Type Name="CustomXMLSchemaCollection" FullName="Microsoft.Office.Core.CustomXMLSchemaCollection">
+<Type Name="CustomXMLSchemaCollection" FullName="Microsoft.Office.Core.CustomXMLSchemaCollection">
+  <TypeSignature Language="C++ CLI" Value="public interface class CustomXMLSchemaCollection : Microsoft::Office::Core::_CustomXMLSchemaCollection" />
   <TypeSignature Language="C#" Value="public interface CustomXMLSchemaCollection : Microsoft.Office.Core._CustomXMLSchemaCollection" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CustomXMLSchemaCollection implements class Microsoft.Office.Core._CustomXMLSchemaCollection" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CustomXMLSchemaCollection" />
   <TypeSignature Language="VB.NET" Value="Public Interface CustomXMLSchemaCollection&#xA;Implements _CustomXMLSchemaCollection" />
-  <TypeSignature Language="C++ CLI" Value="public interface class CustomXMLSchemaCollection : Microsoft::Office::Core::_CustomXMLSchemaCollection" />
+  <TypeSignature Language="F#" Value="type CustomXMLSchemaCollection = interface&#xA;    interface _CustomXMLSchemaCollection" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -12,13 +13,21 @@
     <Interface>
       <InterfaceName>Microsoft.Office.Core._CustomXMLSchemaCollection</InterfaceName>
     </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Core.CustomXMLSchemaCollectionClass))</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Core.CustomXMLSchemaCollectionClass))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Core.CustomXMLSchemaCollectionClass))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000CDB02-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000CDB02-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000CDB02-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

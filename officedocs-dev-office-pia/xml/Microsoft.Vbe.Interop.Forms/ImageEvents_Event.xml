@@ -1,0 +1,552 @@
+<Type Name="ImageEvents_Event" FullName="Microsoft.Vbe.Interop.Forms.ImageEvents_Event">
+  <TypeSignature Language="C#" Value="public interface ImageEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ImageEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop.Forms.ImageEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ImageEvents_Event" />
+  <TypeSignature Language="F#" Value="type ImageEvents_Event = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Vbe.Interop.Forms.ImageEvents), typeof(Microsoft.Vbe.Interop.Forms.ImageEvents_EventProvider))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Vbe.Interop.Forms.ImageEvents), typeof(Microsoft.Vbe.Interop.Forms.ImageEvents_EventProvider))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComVisible(false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComVisible(false)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(16)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(16)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="add_BeforeDragOver">
+      <MemberSignature Language="C#" Value="public void add_BeforeDragOver (Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_BeforeDragOver(class Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.add_BeforeDragOver(Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_BeforeDragOver (unnamedParam1 As ImageEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_BeforeDragOver : Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler -&gt; unit" Usage="imageEvents_Event.add_BeforeDragOver unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_BeforeDropOrPaste">
+      <MemberSignature Language="C#" Value="public void add_BeforeDropOrPaste (Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_BeforeDropOrPaste(class Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.add_BeforeDropOrPaste(Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_BeforeDropOrPaste (unnamedParam1 As ImageEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler -&gt; unit" Usage="imageEvents_Event.add_BeforeDropOrPaste unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Click">
+      <MemberSignature Language="C#" Value="public void add_Click (Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Click(class Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.add_Click(Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_Click (unnamedParam1 As ImageEvents_ClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Click : Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler -&gt; unit" Usage="imageEvents_Event.add_Click unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_DblClick">
+      <MemberSignature Language="C#" Value="public void add_DblClick (Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_DblClick(class Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.add_DblClick(Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_DblClick (unnamedParam1 As ImageEvents_DblClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_DblClick : Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler -&gt; unit" Usage="imageEvents_Event.add_DblClick unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Error">
+      <MemberSignature Language="C#" Value="public void add_Error (Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Error(class Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.add_Error(Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_Error (unnamedParam1 As ImageEvents_ErrorEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Error : Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler -&gt; unit" Usage="imageEvents_Event.add_Error unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_MouseDown">
+      <MemberSignature Language="C#" Value="public void add_MouseDown (Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_MouseDown(class Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.add_MouseDown(Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_MouseDown (unnamedParam1 As ImageEvents_MouseDownEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_MouseDown : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler -&gt; unit" Usage="imageEvents_Event.add_MouseDown unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_MouseMove">
+      <MemberSignature Language="C#" Value="public void add_MouseMove (Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_MouseMove(class Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.add_MouseMove(Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_MouseMove (unnamedParam1 As ImageEvents_MouseMoveEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_MouseMove : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler -&gt; unit" Usage="imageEvents_Event.add_MouseMove unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_MouseUp">
+      <MemberSignature Language="C#" Value="public void add_MouseUp (Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_MouseUp(class Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.add_MouseUp(Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_MouseUp (unnamedParam1 As ImageEvents_MouseUpEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_MouseUp : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler -&gt; unit" Usage="imageEvents_Event.add_MouseUp unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDragOver">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler BeforeDragOver;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler BeforeDragOver" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.BeforeDragOver" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeDragOver As ImageEvents_BeforeDragOverEventHandler " />
+      <MemberSignature Language="F#" Value="member this.BeforeDragOver : Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler " Usage="member this.BeforeDragOver : Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDropOrPaste">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler BeforeDropOrPaste;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler BeforeDropOrPaste" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.BeforeDropOrPaste" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeDropOrPaste As ImageEvents_BeforeDropOrPasteEventHandler " />
+      <MemberSignature Language="F#" Value="member this.BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler " Usage="member this.BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Click">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler Click;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler Click" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.Click" />
+      <MemberSignature Language="VB.NET" Value="Event Click As ImageEvents_ClickEventHandler " />
+      <MemberSignature Language="F#" Value="member this.Click : Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler " Usage="member this.Click : Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DblClick">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler DblClick;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler DblClick" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.DblClick" />
+      <MemberSignature Language="VB.NET" Value="Event DblClick As ImageEvents_DblClickEventHandler " />
+      <MemberSignature Language="F#" Value="member this.DblClick : Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler " Usage="member this.DblClick : Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler Error;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler Error" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.Error" />
+      <MemberSignature Language="VB.NET" Value="Event Error As ImageEvents_ErrorEventHandler " />
+      <MemberSignature Language="F#" Value="member this.Error : Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler " Usage="member this.Error : Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseDown">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler MouseDown;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler MouseDown" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.MouseDown" />
+      <MemberSignature Language="VB.NET" Value="Event MouseDown As ImageEvents_MouseDownEventHandler " />
+      <MemberSignature Language="F#" Value="member this.MouseDown : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler " Usage="member this.MouseDown : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseMove">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler MouseMove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler MouseMove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.MouseMove" />
+      <MemberSignature Language="VB.NET" Value="Event MouseMove As ImageEvents_MouseMoveEventHandler " />
+      <MemberSignature Language="F#" Value="member this.MouseMove : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler " Usage="member this.MouseMove : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseUp">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler MouseUp;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler MouseUp" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.MouseUp" />
+      <MemberSignature Language="VB.NET" Value="Event MouseUp As ImageEvents_MouseUpEventHandler " />
+      <MemberSignature Language="F#" Value="member this.MouseUp : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler " Usage="member this.MouseUp : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_BeforeDragOver">
+      <MemberSignature Language="C#" Value="public void remove_BeforeDragOver (Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_BeforeDragOver(class Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.remove_BeforeDragOver(Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_BeforeDragOver (unnamedParam1 As ImageEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_BeforeDragOver : Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler -&gt; unit" Usage="imageEvents_Event.remove_BeforeDragOver unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDragOverEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_BeforeDropOrPaste">
+      <MemberSignature Language="C#" Value="public void remove_BeforeDropOrPaste (Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_BeforeDropOrPaste(class Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.remove_BeforeDropOrPaste(Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_BeforeDropOrPaste (unnamedParam1 As ImageEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler -&gt; unit" Usage="imageEvents_Event.remove_BeforeDropOrPaste unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_BeforeDropOrPasteEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Click">
+      <MemberSignature Language="C#" Value="public void remove_Click (Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Click(class Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.remove_Click(Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_Click (unnamedParam1 As ImageEvents_ClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Click : Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler -&gt; unit" Usage="imageEvents_Event.remove_Click unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_ClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_DblClick">
+      <MemberSignature Language="C#" Value="public void remove_DblClick (Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_DblClick(class Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.remove_DblClick(Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_DblClick (unnamedParam1 As ImageEvents_DblClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_DblClick : Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler -&gt; unit" Usage="imageEvents_Event.remove_DblClick unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_DblClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Error">
+      <MemberSignature Language="C#" Value="public void remove_Error (Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Error(class Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.remove_Error(Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_Error (unnamedParam1 As ImageEvents_ErrorEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Error : Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler -&gt; unit" Usage="imageEvents_Event.remove_Error unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_ErrorEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_MouseDown">
+      <MemberSignature Language="C#" Value="public void remove_MouseDown (Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_MouseDown(class Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.remove_MouseDown(Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_MouseDown (unnamedParam1 As ImageEvents_MouseDownEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_MouseDown : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler -&gt; unit" Usage="imageEvents_Event.remove_MouseDown unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_MouseDownEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_MouseMove">
+      <MemberSignature Language="C#" Value="public void remove_MouseMove (Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_MouseMove(class Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.remove_MouseMove(Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_MouseMove (unnamedParam1 As ImageEvents_MouseMoveEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_MouseMove : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler -&gt; unit" Usage="imageEvents_Event.remove_MouseMove unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_MouseMoveEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_MouseUp">
+      <MemberSignature Language="C#" Value="public void remove_MouseUp (Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_MouseUp(class Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ImageEvents_Event.remove_MouseUp(Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_MouseUp (unnamedParam1 As ImageEvents_MouseUpEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_MouseUp : Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler -&gt; unit" Usage="imageEvents_Event.remove_MouseUp unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ImageEvents_MouseUpEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,9 +1,10 @@
 <Type Name="_CommandBarButtonEvents_ClickEventHandler" FullName="Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler">
+  <TypeSignature Language="C++ CLI" Value="public delegate void _CommandBarButtonEvents_ClickEventHandler(CommandBarButton ^ Ctrl, [Runtime::InteropServices::Out] bool % CancelDefault);" />
   <TypeSignature Language="C#" Value="public delegate void _CommandBarButtonEvents_ClickEventHandler(CommandBarButton Ctrl, out bool CancelDefault);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _CommandBarButtonEvents_ClickEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub _CommandBarButtonEvents_ClickEventHandler(Ctrl As CommandBarButton, ByRef CancelDefault As Boolean)" />
-  <TypeSignature Language="C++ CLI" Value="public delegate void _CommandBarButtonEvents_ClickEventHandler(CommandBarButton ^ Ctrl, [Runtime::InteropServices::Out] bool % CancelDefault);" />
+  <TypeSignature Language="F#" Value="type _CommandBarButtonEvents_ClickEventHandler = delegate of CommandBarButton * bool -&gt; unit" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -13,15 +14,17 @@
   </Base>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComVisible(false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComVisible(false)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(16)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(16)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Parameters>
     <Parameter Name="Ctrl" Type="Microsoft.Office.Core.CommandBarButton" />
-    <Parameter Name="CancelDefault" Type="System.Boolean&amp;" RefType="out" />
+    <Parameter Name="CancelDefault" Type="System.Boolean" RefType="out" />
   </Parameters>
   <ReturnValue>
     <ReturnType>System.Void</ReturnType>

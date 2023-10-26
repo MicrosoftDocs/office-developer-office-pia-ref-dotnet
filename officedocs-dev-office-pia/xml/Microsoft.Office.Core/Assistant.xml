@@ -1,9 +1,10 @@
-﻿<Type Name="Assistant" FullName="Microsoft.Office.Core.Assistant">
+<Type Name="Assistant" FullName="Microsoft.Office.Core.Assistant">
+  <TypeSignature Language="C++ CLI" Value="public interface class Assistant : Microsoft::Office::Core::_IMsoDispObj" />
   <TypeSignature Language="C#" Value="public interface Assistant : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Assistant implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Assistant" />
   <TypeSignature Language="VB.NET" Value="Public Interface Assistant&#xA;Implements _IMsoDispObj" />
-  <TypeSignature Language="C++ CLI" Value="public interface class Assistant : Microsoft::Office::Core::_IMsoDispObj" />
+  <TypeSignature Language="F#" Value="type Assistant = interface&#xA;    interface _IMsoDispObj" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -15,10 +16,12 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C0322-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C0322-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C0322-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4304)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4304)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -34,6 +37,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ActivateWizard([in]int32 WizardID, [in]valuetype Microsoft.Office.Core.MsoWizardActType act, [in]object Animation) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Assistant.ActivateWizard(System.Int32,Microsoft.Office.Core.MsoWizardActType,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ActivateWizard (WizardID As Integer, act As MsoWizardActType, Optional Animation As Object)" />
+      <MemberSignature Language="F#" Value="abstract member ActivateWizard : int * Microsoft.Office.Core.MsoWizardActType * obj -&gt; unit" Usage="assistant.ActivateWizard (WizardID, act, Animation)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -41,7 +45,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809353)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809353)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809353)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -61,11 +66,12 @@
       </Docs>
     </Member>
     <Member MemberName="Animation">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoAnimationType Animation { Microsoft::Office::Core::MsoAnimationType get(); void set(Microsoft::Office::Core::MsoAnimationType value); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoAnimationType Animation { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoAnimationType Animation" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.Animation" />
       <MemberSignature Language="VB.NET" Value="Public Property Animation As MsoAnimationType" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoAnimationType Animation { Microsoft::Office::Core::MsoAnimationType get(); void set(Microsoft::Office::Core::MsoAnimationType value); };" />
+      <MemberSignature Language="F#" Value="member this.Animation : Microsoft.Office.Core.MsoAnimationType with get, set" Usage="Microsoft.Office.Core.Assistant.Animation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -73,13 +79,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809359)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809359)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809359)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809359)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809359)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809359)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -95,11 +104,12 @@
       </Docs>
     </Member>
     <Member MemberName="Application">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object Application { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Application" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : obj" Usage="Microsoft.Office.Core.Assistant.Application" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
@@ -110,10 +120,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -126,11 +138,12 @@
       </Docs>
     </Member>
     <Member MemberName="AssistWithAlerts">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AssistWithAlerts { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool AssistWithAlerts { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool AssistWithAlerts" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.AssistWithAlerts" />
       <MemberSignature Language="VB.NET" Value="Public Property AssistWithAlerts As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AssistWithAlerts { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.AssistWithAlerts : bool with get, set" Usage="Microsoft.Office.Core.Assistant.AssistWithAlerts" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -138,13 +151,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809367)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809367)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809367)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809367)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809367)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809367)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809367)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809367)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809367)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -158,11 +174,12 @@
       </Docs>
     </Member>
     <Member MemberName="AssistWithHelp">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AssistWithHelp { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool AssistWithHelp { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool AssistWithHelp" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.AssistWithHelp" />
       <MemberSignature Language="VB.NET" Value="Public Property AssistWithHelp As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AssistWithHelp { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.AssistWithHelp : bool with get, set" Usage="Microsoft.Office.Core.Assistant.AssistWithHelp" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -170,13 +187,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809363)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809363)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809363)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809363)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809363)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809363)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809363)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809363)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809363)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -190,11 +210,12 @@
       </Docs>
     </Member>
     <Member MemberName="AssistWithWizards">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AssistWithWizards { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool AssistWithWizards { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool AssistWithWizards" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.AssistWithWizards" />
       <MemberSignature Language="VB.NET" Value="Public Property AssistWithWizards As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AssistWithWizards { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.AssistWithWizards : bool with get, set" Usage="Microsoft.Office.Core.Assistant.AssistWithWizards" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -202,13 +223,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809365)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809365)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809365)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809365)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809365)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809365)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809365)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809365)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809365)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -222,11 +246,12 @@
       </Docs>
     </Member>
     <Member MemberName="BalloonError">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoBalloonErrorType BalloonError { Microsoft::Office::Core::MsoBalloonErrorType get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoBalloonErrorType BalloonError { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoBalloonErrorType BalloonError" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.BalloonError" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BalloonError As MsoBalloonErrorType" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoBalloonErrorType BalloonError { Microsoft::Office::Core::MsoBalloonErrorType get(); };" />
+      <MemberSignature Language="F#" Value="member this.BalloonError : Microsoft.Office.Core.MsoBalloonErrorType" Usage="Microsoft.Office.Core.Assistant.BalloonError" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -234,10 +259,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809356)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809356)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809356)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809356)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809356)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809356)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -250,11 +277,12 @@
       </Docs>
     </Member>
     <Member MemberName="Creator">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
       <MemberSignature Language="C#" Value="public int Creator { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Core.Assistant.Creator" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
@@ -265,10 +293,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -281,11 +311,12 @@
       </Docs>
     </Member>
     <Member MemberName="DoAlert">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int DoAlert(System::String ^ bstrAlertTitle, System::String ^ bstrAlertText, Microsoft::Office::Core::MsoAlertButtonType alb, Microsoft::Office::Core::MsoAlertIconType alc, Microsoft::Office::Core::MsoAlertDefaultType ald, Microsoft::Office::Core::MsoAlertCancelType alq, bool varfSysAlert);" />
       <MemberSignature Language="C#" Value="public int DoAlert (string bstrAlertTitle, string bstrAlertText, Microsoft.Office.Core.MsoAlertButtonType alb, Microsoft.Office.Core.MsoAlertIconType alc, Microsoft.Office.Core.MsoAlertDefaultType ald, Microsoft.Office.Core.MsoAlertCancelType alq, bool varfSysAlert);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 DoAlert([in]string bstrAlertTitle, [in]string bstrAlertText, [in]valuetype Microsoft.Office.Core.MsoAlertButtonType alb, [in]valuetype Microsoft.Office.Core.MsoAlertIconType alc, [in]valuetype Microsoft.Office.Core.MsoAlertDefaultType ald, [in]valuetype Microsoft.Office.Core.MsoAlertCancelType alq, [in]bool varfSysAlert) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Assistant.DoAlert(System.String,System.String,Microsoft.Office.Core.MsoAlertButtonType,Microsoft.Office.Core.MsoAlertIconType,Microsoft.Office.Core.MsoAlertDefaultType,Microsoft.Office.Core.MsoAlertCancelType,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function DoAlert (bstrAlertTitle As String, bstrAlertText As String, alb As MsoAlertButtonType, alc As MsoAlertIconType, ald As MsoAlertDefaultType, alq As MsoAlertCancelType, varfSysAlert As Boolean) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; int DoAlert(System::String ^ bstrAlertTitle, System::String ^ bstrAlertText, Microsoft::Office::Core::MsoAlertButtonType alb, Microsoft::Office::Core::MsoAlertIconType alc, Microsoft::Office::Core::MsoAlertDefaultType ald, Microsoft::Office::Core::MsoAlertCancelType alq, bool varfSysAlert);" />
+      <MemberSignature Language="F#" Value="abstract member DoAlert : string * string * Microsoft.Office.Core.MsoAlertButtonType * Microsoft.Office.Core.MsoAlertIconType * Microsoft.Office.Core.MsoAlertDefaultType * Microsoft.Office.Core.MsoAlertCancelType * bool -&gt; int" Usage="assistant.DoAlert (bstrAlertTitle, bstrAlertText, alb, alc, ald, alq, varfSysAlert)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -293,7 +324,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809393)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809393)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809393)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -327,6 +359,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndWizard([in]int32 WizardID, [in]bool varfSuccess, [in]object Animation) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Assistant.EndWizard(System.Int32,System.Boolean,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndWizard (WizardID As Integer, varfSuccess As Boolean, Optional Animation As Object)" />
+      <MemberSignature Language="F#" Value="abstract member EndWizard : int * bool * obj -&gt; unit" Usage="assistant.EndWizard (WizardID, varfSuccess, Animation)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -334,7 +367,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809352)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809352)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809352)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -355,11 +389,12 @@
       </Docs>
     </Member>
     <Member MemberName="FeatureTips">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FeatureTips { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool FeatureTips { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool FeatureTips" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.FeatureTips" />
       <MemberSignature Language="VB.NET" Value="Public Property FeatureTips As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FeatureTips { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.FeatureTips : bool with get, set" Usage="Microsoft.Office.Core.Assistant.FeatureTips" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -367,13 +402,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809373)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809373)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809373)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809373)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809373)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809373)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809373)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809373)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809373)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -387,11 +425,12 @@
       </Docs>
     </Member>
     <Member MemberName="FileName">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FileName { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="C#" Value="public string FileName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string FileName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.FileName" />
       <MemberSignature Language="VB.NET" Value="Public Property FileName As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FileName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.FileName : string with get, set" Usage="Microsoft.Office.Core.Assistant.FileName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -399,13 +438,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809388)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809388)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809388)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809388)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809388)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809388)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809388)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809388)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809388)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -418,11 +460,12 @@
       </Docs>
     </Member>
     <Member MemberName="GuessHelp">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool GuessHelp { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool GuessHelp { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool GuessHelp" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.GuessHelp" />
       <MemberSignature Language="VB.NET" Value="Public Property GuessHelp As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool GuessHelp { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.GuessHelp : bool with get, set" Usage="Microsoft.Office.Core.Assistant.GuessHelp" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -430,13 +473,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809383)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809383)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809383)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809383)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809383)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809383)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809383)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809383)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809383)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -450,11 +496,12 @@
       </Docs>
     </Member>
     <Member MemberName="Help">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Help();" />
       <MemberSignature Language="C#" Value="public void Help ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Help() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Assistant.Help" />
       <MemberSignature Language="VB.NET" Value="Public Sub Help ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Help();" />
+      <MemberSignature Language="F#" Value="abstract member Help : unit -&gt; unit" Usage="assistant.Help " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -462,7 +509,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809350)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809350)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809350)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -475,11 +523,12 @@
       </Docs>
     </Member>
     <Member MemberName="HighPriorityTips">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HighPriorityTips { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool HighPriorityTips { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool HighPriorityTips" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.HighPriorityTips" />
       <MemberSignature Language="VB.NET" Value="Public Property HighPriorityTips As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HighPriorityTips { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.HighPriorityTips : bool with get, set" Usage="Microsoft.Office.Core.Assistant.HighPriorityTips" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -487,13 +536,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809379)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809379)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809379)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809379)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809379)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809379)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809379)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809379)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809379)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -507,11 +559,12 @@
       </Docs>
     </Member>
     <Member MemberName="Item">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
       <MemberSignature Language="C#" Value="public string this { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Item" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.Item" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Item : string" Usage="Microsoft.Office.Core.Assistant.Item" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -519,10 +572,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -535,11 +590,12 @@
       </Docs>
     </Member>
     <Member MemberName="KeyboardShortcutTips">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool KeyboardShortcutTips { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool KeyboardShortcutTips { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool KeyboardShortcutTips" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.KeyboardShortcutTips" />
       <MemberSignature Language="VB.NET" Value="Public Property KeyboardShortcutTips As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool KeyboardShortcutTips { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.KeyboardShortcutTips : bool with get, set" Usage="Microsoft.Office.Core.Assistant.KeyboardShortcutTips" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -547,13 +603,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809377)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809377)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809377)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809377)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809377)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809377)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809377)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809377)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809377)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -567,11 +626,12 @@
       </Docs>
     </Member>
     <Member MemberName="Left">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Left { int get(); void set(int value); };" />
       <MemberSignature Language="C#" Value="public int Left { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Left" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.Left" />
       <MemberSignature Language="VB.NET" Value="Public Property Left As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Left { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Left : int with get, set" Usage="Microsoft.Office.Core.Assistant.Left" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -579,13 +639,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809348)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809348)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809348)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809348)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809348)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809348)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -598,11 +661,12 @@
       </Docs>
     </Member>
     <Member MemberName="MouseTips">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MouseTips { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool MouseTips { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool MouseTips" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.MouseTips" />
       <MemberSignature Language="VB.NET" Value="Public Property MouseTips As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MouseTips { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.MouseTips : bool with get, set" Usage="Microsoft.Office.Core.Assistant.MouseTips" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -610,13 +674,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809375)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809375)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809375)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809375)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809375)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809375)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809375)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809375)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809375)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -630,11 +697,12 @@
       </Docs>
     </Member>
     <Member MemberName="Move">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Move(int xLeft, int yTop);" />
       <MemberSignature Language="C#" Value="public void Move (int xLeft, int yTop);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Move([in]int32 xLeft, [in]int32 yTop) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Assistant.Move(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Move (xLeft As Integer, yTop As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Move(int xLeft, int yTop);" />
+      <MemberSignature Language="F#" Value="abstract member Move : int * int -&gt; unit" Usage="assistant.Move (xLeft, yTop)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -642,7 +710,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809345)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809345)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -660,11 +729,12 @@
       </Docs>
     </Member>
     <Member MemberName="MoveWhenInTheWay">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MoveWhenInTheWay { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool MoveWhenInTheWay { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool MoveWhenInTheWay" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.MoveWhenInTheWay" />
       <MemberSignature Language="VB.NET" Value="Public Property MoveWhenInTheWay As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MoveWhenInTheWay { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.MoveWhenInTheWay : bool with get, set" Usage="Microsoft.Office.Core.Assistant.MoveWhenInTheWay" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -672,13 +742,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809369)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809369)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809369)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809369)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809369)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809369)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809369)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809369)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809369)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -692,11 +765,12 @@
       </Docs>
     </Member>
     <Member MemberName="Name">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
       <MemberSignature Language="C#" Value="public string Name { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.Name" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Office.Core.Assistant.Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -704,10 +778,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809390)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809390)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809390)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809390)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809390)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809390)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -720,11 +796,12 @@
       </Docs>
     </Member>
     <Member MemberName="NewBalloon">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::Balloon ^ NewBalloon { Microsoft::Office::Core::Balloon ^ get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Balloon NewBalloon { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.Balloon NewBalloon" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.NewBalloon" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NewBalloon As Balloon" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::Balloon ^ NewBalloon { Microsoft::Office::Core::Balloon ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.NewBalloon : Microsoft.Office.Core.Balloon" Usage="Microsoft.Office.Core.Assistant.NewBalloon" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -732,10 +809,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809355)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809355)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809355)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809355)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809355)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809355)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -748,11 +827,12 @@
       </Docs>
     </Member>
     <Member MemberName="On">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool On { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool On { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool On" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.On" />
       <MemberSignature Language="VB.NET" Value="Public Property On As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool On { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.On : bool with get, set" Usage="Microsoft.Office.Core.Assistant.On" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -760,13 +840,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809391)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809391)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809391)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809391)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809391)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809391)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809391)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809391)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809391)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -780,11 +863,12 @@
       </Docs>
     </Member>
     <Member MemberName="Parent">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object Parent { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Core.Assistant.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -792,10 +876,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809344)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809344)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809344)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809344)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -808,11 +894,12 @@
       </Docs>
     </Member>
     <Member MemberName="Reduced">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Reduced { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool Reduced { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool Reduced" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.Reduced" />
       <MemberSignature Language="VB.NET" Value="Public Property Reduced As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Reduced { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Reduced : bool with get, set" Usage="Microsoft.Office.Core.Assistant.Reduced" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -820,13 +907,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809361)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809361)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809361)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809361)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809361)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809361)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809361)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809361)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809361)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -840,11 +930,12 @@
       </Docs>
     </Member>
     <Member MemberName="ResetTips">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ResetTips();" />
       <MemberSignature Language="C#" Value="public void ResetTips ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ResetTips() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Assistant.ResetTips" />
       <MemberSignature Language="VB.NET" Value="Public Sub ResetTips ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ResetTips();" />
+      <MemberSignature Language="F#" Value="abstract member ResetTips : unit -&gt; unit" Usage="assistant.ResetTips " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -852,7 +943,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809354)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809354)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809354)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -865,11 +957,12 @@
       </Docs>
     </Member>
     <Member MemberName="SearchWhenProgramming">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SearchWhenProgramming { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool SearchWhenProgramming { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool SearchWhenProgramming" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.SearchWhenProgramming" />
       <MemberSignature Language="VB.NET" Value="Public Property SearchWhenProgramming As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SearchWhenProgramming { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.SearchWhenProgramming : bool with get, set" Usage="Microsoft.Office.Core.Assistant.SearchWhenProgramming" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -877,13 +970,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809385)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809385)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809385)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809385)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809385)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809385)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809385)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809385)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809385)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -897,11 +993,12 @@
       </Docs>
     </Member>
     <Member MemberName="Sounds">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Sounds { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool Sounds { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool Sounds" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.Sounds" />
       <MemberSignature Language="VB.NET" Value="Public Property Sounds As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Sounds { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Sounds : bool with get, set" Usage="Microsoft.Office.Core.Assistant.Sounds" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -909,13 +1006,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809371)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809371)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809371)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809371)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809371)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809371)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809371)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809371)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809371)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -933,6 +1033,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 StartWizard([in]bool On, [in]string Callback, [in]int32 PrivateX, [in]object Animation, [in]object CustomTeaser, [in]object Top, [in]object Left, [in]object Bottom, [in]object Right) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Assistant.StartWizard(System.Boolean,System.String,System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function StartWizard (On As Boolean, Callback As String, PrivateX As Integer, Optional Animation As Object, Optional CustomTeaser As Object, Optional Top As Object, Optional Left As Object, Optional Bottom As Object, Optional Right As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member StartWizard : bool * string * int * obj * obj * obj * obj * obj * obj -&gt; int" Usage="assistant.StartWizard (On, Callback, PrivateX, Animation, CustomTeaser, Top, Left, Bottom, Right)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -940,7 +1041,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809351)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809351)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809351)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -978,11 +1080,12 @@
       </Docs>
     </Member>
     <Member MemberName="TipOfDay">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TipOfDay { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool TipOfDay { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool TipOfDay" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.TipOfDay" />
       <MemberSignature Language="VB.NET" Value="Public Property TipOfDay As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TipOfDay { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.TipOfDay : bool with get, set" Usage="Microsoft.Office.Core.Assistant.TipOfDay" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -990,13 +1093,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809381)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809381)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809381)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809381)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809381)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809381)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809381)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809381)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809381)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1010,11 +1116,12 @@
       </Docs>
     </Member>
     <Member MemberName="Top">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Top { int get(); void set(int value); };" />
       <MemberSignature Language="C#" Value="public int Top { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Top" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.Top" />
       <MemberSignature Language="VB.NET" Value="Public Property Top As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Top { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Top : int with get, set" Usage="Microsoft.Office.Core.Assistant.Top" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -1022,13 +1129,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809346)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809346)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809346)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809346)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809346)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809346)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1044,11 +1154,12 @@
       </Docs>
     </Member>
     <Member MemberName="Visible">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Visible { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool Visible { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool Visible" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.Visible" />
       <MemberSignature Language="VB.NET" Value="Public Property Visible As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Visible { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Visible : bool with get, set" Usage="Microsoft.Office.Core.Assistant.Visible" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -1056,13 +1167,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809357)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809357)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809357)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809357)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809357)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809357)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809357)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809357)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809357)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

@@ -1,9 +1,10 @@
-﻿<Type Name="IBlogExtensibility" FullName="Microsoft.Office.Core.IBlogExtensibility">
+<Type Name="IBlogExtensibility" FullName="Microsoft.Office.Core.IBlogExtensibility">
+  <TypeSignature Language="C++ CLI" Value="public interface class IBlogExtensibility" />
   <TypeSignature Language="C#" Value="public interface IBlogExtensibility" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IBlogExtensibility" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IBlogExtensibility" />
   <TypeSignature Language="VB.NET" Value="Public Interface IBlogExtensibility" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IBlogExtensibility" />
+  <TypeSignature Language="F#" Value="type IBlogExtensibility = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,10 +12,12 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C03C4-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C03C4-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C03C4-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4288)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4288)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -23,11 +26,12 @@
   </Docs>
   <Members>
     <Member MemberName="BlogProviderProperties">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void BlogProviderProperties([Runtime::InteropServices::Out] System::String ^ % BlogProvider, [Runtime::InteropServices::Out] System::String ^ % FriendlyName, [Runtime::InteropServices::Out] Microsoft::Office::Core::MsoBlogCategorySupport % CategorySupport, [Runtime::InteropServices::Out] bool % Padding);" />
       <MemberSignature Language="C#" Value="public void BlogProviderProperties (out string BlogProvider, out string FriendlyName, out Microsoft.Office.Core.MsoBlogCategorySupport CategorySupport, out bool Padding);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BlogProviderProperties([out] string&amp; BlogProvider, [out] string&amp; FriendlyName, [out] valuetype Microsoft.Office.Core.MsoBlogCategorySupport&amp; CategorySupport, [out] bool&amp; Padding) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.BlogProviderProperties(System.String@,System.String@,Microsoft.Office.Core.MsoBlogCategorySupport@,System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub BlogProviderProperties (ByRef BlogProvider As String, ByRef FriendlyName As String, ByRef CategorySupport As MsoBlogCategorySupport, ByRef Padding As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void BlogProviderProperties([Runtime::InteropServices::Out] System::String ^ % BlogProvider, [Runtime::InteropServices::Out] System::String ^ % FriendlyName, [Runtime::InteropServices::Out] Microsoft::Office::Core::MsoBlogCategorySupport % CategorySupport, [Runtime::InteropServices::Out] bool % Padding);" />
+      <MemberSignature Language="F#" Value="abstract member BlogProviderProperties : string * string * MsoBlogCategorySupport * bool -&gt; unit" Usage="iBlogExtensibility.BlogProviderProperties (BlogProvider, FriendlyName, CategorySupport, Padding)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -35,17 +39,18 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="BlogProvider" Type="System.String&amp;" RefType="out" />
-        <Parameter Name="FriendlyName" Type="System.String&amp;" RefType="out" />
-        <Parameter Name="CategorySupport" Type="Microsoft.Office.Core.MsoBlogCategorySupport&amp;" RefType="out" />
-        <Parameter Name="Padding" Type="System.Boolean&amp;" RefType="out" />
+        <Parameter Name="BlogProvider" Type="System.String" RefType="out" />
+        <Parameter Name="FriendlyName" Type="System.String" RefType="out" />
+        <Parameter Name="CategorySupport" Type="Microsoft.Office.Core.MsoBlogCategorySupport" RefType="out" />
+        <Parameter Name="Padding" Type="System.Boolean" RefType="out" />
       </Parameters>
       <Docs>
         <param name="BlogProvider">The name of the blog provider.</param>
@@ -57,11 +62,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetCategories">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetCategories(System::String ^ Account, int ParentWindow, System::Object ^ Document, [Runtime::InteropServices::Out] Array ^ % Categories);" />
       <MemberSignature Language="C#" Value="public void GetCategories (string Account, int ParentWindow, object Document, out Array Categories);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GetCategories([in]string Account, [in]int32 ParentWindow, [in]object Document, [out] class System.Array&amp; Categories) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.GetCategories(System.String,System.Int32,System.Object,System.Array@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub GetCategories (Account As String, ParentWindow As Integer, Document As Object, ByRef Categories As Array)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetCategories(System::String ^ Account, int ParentWindow, System::Object ^ Document, [Runtime::InteropServices::Out] Array ^ % Categories);" />
+      <MemberSignature Language="F#" Value="abstract member GetCategories : string * int * obj * Array -&gt; unit" Usage="iBlogExtensibility.GetCategories (Account, ParentWindow, Document, Categories)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -69,7 +75,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(8)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(8)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -79,7 +86,7 @@
         <Parameter Name="Account" Type="System.String" />
         <Parameter Name="ParentWindow" Type="System.Int32" />
         <Parameter Name="Document" Type="System.Object" />
-        <Parameter Name="Categories" Type="System.Array&amp;" RefType="out" />
+        <Parameter Name="Categories" Type="System.Array" RefType="out" />
       </Parameters>
       <Docs>
         <param name="Account">Represents the GUID of the account registry key. </param>
@@ -94,11 +101,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetRecentPosts">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetRecentPosts(System::String ^ Account, int ParentWindow, System::Object ^ Document, [Runtime::InteropServices::Out] Array ^ % PostTitles, [Runtime::InteropServices::Out] Array ^ % PostDates, [Runtime::InteropServices::Out] Array ^ % PostIDs);" />
       <MemberSignature Language="C#" Value="public void GetRecentPosts (string Account, int ParentWindow, object Document, out Array PostTitles, out Array PostDates, out Array PostIDs);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GetRecentPosts([in]string Account, [in]int32 ParentWindow, [in]object Document, [out] class System.Array&amp; PostTitles, [out] class System.Array&amp; PostDates, [out] class System.Array&amp; PostIDs) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.GetRecentPosts(System.String,System.Int32,System.Object,System.Array@,System.Array@,System.Array@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub GetRecentPosts (Account As String, ParentWindow As Integer, Document As Object, ByRef PostTitles As Array, ByRef PostDates As Array, ByRef PostIDs As Array)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetRecentPosts(System::String ^ Account, int ParentWindow, System::Object ^ Document, [Runtime::InteropServices::Out] Array ^ % PostTitles, [Runtime::InteropServices::Out] Array ^ % PostDates, [Runtime::InteropServices::Out] Array ^ % PostIDs);" />
+      <MemberSignature Language="F#" Value="abstract member GetRecentPosts : string * int * obj * Array * Array * Array -&gt; unit" Usage="iBlogExtensibility.GetRecentPosts (Account, ParentWindow, Document, PostTitles, PostDates, PostIDs)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -106,7 +114,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -116,9 +125,9 @@
         <Parameter Name="Account" Type="System.String" />
         <Parameter Name="ParentWindow" Type="System.Int32" />
         <Parameter Name="Document" Type="System.Object" />
-        <Parameter Name="PostTitles" Type="System.Array&amp;" RefType="out" />
-        <Parameter Name="PostDates" Type="System.Array&amp;" RefType="out" />
-        <Parameter Name="PostIDs" Type="System.Array&amp;" RefType="out" />
+        <Parameter Name="PostTitles" Type="System.Array" RefType="out" />
+        <Parameter Name="PostDates" Type="System.Array" RefType="out" />
+        <Parameter Name="PostIDs" Type="System.Array" RefType="out" />
       </Parameters>
       <Docs>
         <param name="Account">Represents the GUID of the account registry key. Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</param>
@@ -132,11 +141,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetUserBlogs">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetUserBlogs(System::String ^ Account, int ParentWindow, System::Object ^ Document, [Runtime::InteropServices::Out] Array ^ % BlogNames, [Runtime::InteropServices::Out] Array ^ % BlogIDs, [Runtime::InteropServices::Out] Array ^ % BlogURLs);" />
       <MemberSignature Language="C#" Value="public void GetUserBlogs (string Account, int ParentWindow, object Document, out Array BlogNames, out Array BlogIDs, out Array BlogURLs);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GetUserBlogs([in]string Account, [in]int32 ParentWindow, [in]object Document, [out] class System.Array&amp; BlogNames, [out] class System.Array&amp; BlogIDs, [out] class System.Array&amp; BlogURLs) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.GetUserBlogs(System.String,System.Int32,System.Object,System.Array@,System.Array@,System.Array@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub GetUserBlogs (Account As String, ParentWindow As Integer, Document As Object, ByRef BlogNames As Array, ByRef BlogIDs As Array, ByRef BlogURLs As Array)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetUserBlogs(System::String ^ Account, int ParentWindow, System::Object ^ Document, [Runtime::InteropServices::Out] Array ^ % BlogNames, [Runtime::InteropServices::Out] Array ^ % BlogIDs, [Runtime::InteropServices::Out] Array ^ % BlogURLs);" />
+      <MemberSignature Language="F#" Value="abstract member GetUserBlogs : string * int * obj * Array * Array * Array -&gt; unit" Usage="iBlogExtensibility.GetUserBlogs (Account, ParentWindow, Document, BlogNames, BlogIDs, BlogURLs)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -144,7 +154,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -154,9 +165,9 @@
         <Parameter Name="Account" Type="System.String" />
         <Parameter Name="ParentWindow" Type="System.Int32" />
         <Parameter Name="Document" Type="System.Object" />
-        <Parameter Name="BlogNames" Type="System.Array&amp;" RefType="out" />
-        <Parameter Name="BlogIDs" Type="System.Array&amp;" RefType="out" />
-        <Parameter Name="BlogURLs" Type="System.Array&amp;" RefType="out" />
+        <Parameter Name="BlogNames" Type="System.Array" RefType="out" />
+        <Parameter Name="BlogIDs" Type="System.Array" RefType="out" />
+        <Parameter Name="BlogURLs" Type="System.Array" RefType="out" />
       </Parameters>
       <Docs>
         <param name="Account">Represents the GUID of the account registry key. Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</param>
@@ -170,11 +181,12 @@
       </Docs>
     </Member>
     <Member MemberName="Open">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Open(System::String ^ Account, System::String ^ PostID, int ParentWindow, [Runtime::InteropServices::Out] System::String ^ % xHTML, [Runtime::InteropServices::Out] System::String ^ % Title, [Runtime::InteropServices::Out] System::String ^ % DatePosted, [Runtime::InteropServices::Out] Array ^ % Categories);" />
       <MemberSignature Language="C#" Value="public void Open (string Account, string PostID, int ParentWindow, out string xHTML, out string Title, out string DatePosted, out Array Categories);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Open([in]string Account, [in]string PostID, [in]int32 ParentWindow, [out] string&amp; xHTML, [out] string&amp; Title, [out] string&amp; DatePosted, [out] class System.Array&amp; Categories) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.Open(System.String,System.String,System.Int32,System.String@,System.String@,System.String@,System.Array@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Open (Account As String, PostID As String, ParentWindow As Integer, ByRef xHTML As String, ByRef Title As String, ByRef DatePosted As String, ByRef Categories As Array)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Open(System::String ^ Account, System::String ^ PostID, int ParentWindow, [Runtime::InteropServices::Out] System::String ^ % xHTML, [Runtime::InteropServices::Out] System::String ^ % Title, [Runtime::InteropServices::Out] System::String ^ % DatePosted, [Runtime::InteropServices::Out] Array ^ % Categories);" />
+      <MemberSignature Language="F#" Value="abstract member Open : string * string * int * string * string * string * Array -&gt; unit" Usage="iBlogExtensibility.Open (Account, PostID, ParentWindow, xHTML, Title, DatePosted, Categories)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -182,7 +194,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -192,10 +205,10 @@
         <Parameter Name="Account" Type="System.String" />
         <Parameter Name="PostID" Type="System.String" />
         <Parameter Name="ParentWindow" Type="System.Int32" />
-        <Parameter Name="xHTML" Type="System.String&amp;" RefType="out" />
-        <Parameter Name="Title" Type="System.String&amp;" RefType="out" />
-        <Parameter Name="DatePosted" Type="System.String&amp;" RefType="out" />
-        <Parameter Name="Categories" Type="System.Array&amp;" RefType="out" />
+        <Parameter Name="xHTML" Type="System.String" RefType="out" />
+        <Parameter Name="Title" Type="System.String" RefType="out" />
+        <Parameter Name="DatePosted" Type="System.String" RefType="out" />
+        <Parameter Name="Categories" Type="System.Array" RefType="out" />
       </Parameters>
       <Docs>
         <param name="Account">Represents the GUID of the account registry key. Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</param>
@@ -210,11 +223,12 @@
       </Docs>
     </Member>
     <Member MemberName="PublishPost">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PublishPost(System::String ^ Account, int ParentWindow, System::Object ^ Document, System::String ^ xHTML, System::String ^ Title, System::String ^ DateTime, Array ^ Categories, bool Draft, [Runtime::InteropServices::Out] System::String ^ % PostID, [Runtime::InteropServices::Out] System::String ^ % PublishMessage);" />
       <MemberSignature Language="C#" Value="public void PublishPost (string Account, int ParentWindow, object Document, string xHTML, string Title, string DateTime, Array Categories, bool Draft, out string PostID, out string PublishMessage);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PublishPost([in]string Account, [in]int32 ParentWindow, [in]object Document, [in]string xHTML, [in]string Title, [in]string DateTime, [in]class System.Array Categories, [in]bool Draft, [out] string&amp; PostID, [out] string&amp; PublishMessage) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.PublishPost(System.String,System.Int32,System.Object,System.String,System.String,System.String,System.Array,System.Boolean,System.String@,System.String@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub PublishPost (Account As String, ParentWindow As Integer, Document As Object, xHTML As String, Title As String, DateTime As String, Categories As Array, Draft As Boolean, ByRef PostID As String, ByRef PublishMessage As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PublishPost(System::String ^ Account, int ParentWindow, System::Object ^ Document, System::String ^ xHTML, System::String ^ Title, System::String ^ DateTime, Array ^ Categories, bool Draft, [Runtime::InteropServices::Out] System::String ^ % PostID, [Runtime::InteropServices::Out] System::String ^ % PublishMessage);" />
+      <MemberSignature Language="F#" Value="abstract member PublishPost : string * int * obj * string * string * string * Array * bool * string * string -&gt; unit" Usage="iBlogExtensibility.PublishPost (Account, ParentWindow, Document, xHTML, Title, DateTime, Categories, Draft, PostID, PublishMessage)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -222,7 +236,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(6)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(6)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -237,8 +252,8 @@
         <Parameter Name="DateTime" Type="System.String" />
         <Parameter Name="Categories" Type="System.Array" />
         <Parameter Name="Draft" Type="System.Boolean" />
-        <Parameter Name="PostID" Type="System.String&amp;" RefType="out" />
-        <Parameter Name="PublishMessage" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="PostID" Type="System.String" RefType="out" />
+        <Parameter Name="PublishMessage" Type="System.String" RefType="out" />
       </Parameters>
       <Docs>
         <param name="Account">Represents the GUID of the account registry key. Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</param>
@@ -256,11 +271,12 @@
       </Docs>
     </Member>
     <Member MemberName="RepublishPost">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RepublishPost(System::String ^ Account, int ParentWindow, System::Object ^ Document, System::String ^ PostID, System::String ^ xHTML, System::String ^ Title, System::String ^ DateTime, Array ^ Categories, bool Draft, [Runtime::InteropServices::Out] System::String ^ % PublishMessage);" />
       <MemberSignature Language="C#" Value="public void RepublishPost (string Account, int ParentWindow, object Document, string PostID, string xHTML, string Title, string DateTime, Array Categories, bool Draft, out string PublishMessage);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RepublishPost([in]string Account, [in]int32 ParentWindow, [in]object Document, [in]string PostID, [in]string xHTML, [in]string Title, [in]string DateTime, [in]class System.Array Categories, [in]bool Draft, [out] string&amp; PublishMessage) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.RepublishPost(System.String,System.Int32,System.Object,System.String,System.String,System.String,System.String,System.Array,System.Boolean,System.String@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub RepublishPost (Account As String, ParentWindow As Integer, Document As Object, PostID As String, xHTML As String, Title As String, DateTime As String, Categories As Array, Draft As Boolean, ByRef PublishMessage As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RepublishPost(System::String ^ Account, int ParentWindow, System::Object ^ Document, System::String ^ PostID, System::String ^ xHTML, System::String ^ Title, System::String ^ DateTime, Array ^ Categories, bool Draft, [Runtime::InteropServices::Out] System::String ^ % PublishMessage);" />
+      <MemberSignature Language="F#" Value="abstract member RepublishPost : string * int * obj * string * string * string * string * Array * bool * string -&gt; unit" Usage="iBlogExtensibility.RepublishPost (Account, ParentWindow, Document, PostID, xHTML, Title, DateTime, Categories, Draft, PublishMessage)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -268,7 +284,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(7)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(7)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -284,7 +301,7 @@
         <Parameter Name="DateTime" Type="System.String" />
         <Parameter Name="Categories" Type="System.Array" />
         <Parameter Name="Draft" Type="System.Boolean" />
-        <Parameter Name="PublishMessage" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="PublishMessage" Type="System.String" RefType="out" />
       </Parameters>
       <Docs>
         <param name="Account">Represents the GUID of the account registry key. Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</param>
@@ -302,11 +319,12 @@
       </Docs>
     </Member>
     <Member MemberName="SetupBlogAccount">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetupBlogAccount(System::String ^ Account, int ParentWindow, System::Object ^ Document, bool NewAccount, [Runtime::InteropServices::Out] bool % ShowPictureUI);" />
       <MemberSignature Language="C#" Value="public void SetupBlogAccount (string Account, int ParentWindow, object Document, bool NewAccount, out bool ShowPictureUI);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetupBlogAccount([in]string Account, [in]int32 ParentWindow, [in]object Document, [in]bool NewAccount, [out] bool&amp; ShowPictureUI) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.SetupBlogAccount(System.String,System.Int32,System.Object,System.Boolean,System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetupBlogAccount (Account As String, ParentWindow As Integer, Document As Object, NewAccount As Boolean, ByRef ShowPictureUI As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetupBlogAccount(System::String ^ Account, int ParentWindow, System::Object ^ Document, bool NewAccount, [Runtime::InteropServices::Out] bool % ShowPictureUI);" />
+      <MemberSignature Language="F#" Value="abstract member SetupBlogAccount : string * int * obj * bool * bool -&gt; unit" Usage="iBlogExtensibility.SetupBlogAccount (Account, ParentWindow, Document, NewAccount, ShowPictureUI)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -314,7 +332,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -325,7 +344,7 @@
         <Parameter Name="ParentWindow" Type="System.Int32" />
         <Parameter Name="Document" Type="System.Object" />
         <Parameter Name="NewAccount" Type="System.Boolean" />
-        <Parameter Name="ShowPictureUI" Type="System.Boolean&amp;" RefType="out" />
+        <Parameter Name="ShowPictureUI" Type="System.Boolean" RefType="out" />
       </Parameters>
       <Docs>
         <param name="Account">Represents the GUID of the account registry key. Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</param>

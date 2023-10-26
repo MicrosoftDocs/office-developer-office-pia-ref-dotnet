@@ -1,9 +1,10 @@
-﻿<Type Name="CustomTaskPaneEvents" FullName="Microsoft.Office.Core.CustomTaskPaneEvents">
+<Type Name="CustomTaskPaneEvents" FullName="Microsoft.Office.Core.CustomTaskPaneEvents">
+  <TypeSignature Language="C++ CLI" Value="public interface class CustomTaskPaneEvents" />
   <TypeSignature Language="C#" Value="public interface CustomTaskPaneEvents" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CustomTaskPaneEvents" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CustomTaskPaneEvents" />
   <TypeSignature Language="VB.NET" Value="Public Interface CustomTaskPaneEvents" />
-  <TypeSignature Language="C++ CLI" Value="public interface class CustomTaskPaneEvents" />
+  <TypeSignature Language="F#" Value="type CustomTaskPaneEvents = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,10 +12,12 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("8A64A872-FC6B-4D4A-926E-3A3689562C1C")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("8A64A872-FC6B-4D4A-926E-3A3689562C1C")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("8A64A872-FC6B-4D4A-926E-3A3689562C1C")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4304)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4304)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -23,11 +26,12 @@
   </Docs>
   <Members>
     <Member MemberName="DockPositionStateChange">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DockPositionStateChange(Microsoft::Office::Core::CustomTaskPane ^ CustomTaskPaneInst);" />
       <MemberSignature Language="C#" Value="public void DockPositionStateChange (Microsoft.Office.Core.CustomTaskPane CustomTaskPaneInst);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DockPositionStateChange([in]class Microsoft.Office.Core.CustomTaskPane CustomTaskPaneInst) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomTaskPaneEvents.DockPositionStateChange(Microsoft.Office.Core.CustomTaskPane)" />
       <MemberSignature Language="VB.NET" Value="Public Sub DockPositionStateChange (CustomTaskPaneInst As CustomTaskPane)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DockPositionStateChange(Microsoft::Office::Core::CustomTaskPane ^ CustomTaskPaneInst);" />
+      <MemberSignature Language="F#" Value="abstract member DockPositionStateChange : Microsoft.Office.Core.CustomTaskPane -&gt; unit" Usage="customTaskPaneEvents.DockPositionStateChange CustomTaskPaneInst" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -35,7 +39,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -51,11 +56,12 @@
       </Docs>
     </Member>
     <Member MemberName="VisibleStateChange">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void VisibleStateChange(Microsoft::Office::Core::CustomTaskPane ^ CustomTaskPaneInst);" />
       <MemberSignature Language="C#" Value="public void VisibleStateChange (Microsoft.Office.Core.CustomTaskPane CustomTaskPaneInst);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void VisibleStateChange([in]class Microsoft.Office.Core.CustomTaskPane CustomTaskPaneInst) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomTaskPaneEvents.VisibleStateChange(Microsoft.Office.Core.CustomTaskPane)" />
       <MemberSignature Language="VB.NET" Value="Public Sub VisibleStateChange (CustomTaskPaneInst As CustomTaskPane)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void VisibleStateChange(Microsoft::Office::Core::CustomTaskPane ^ CustomTaskPaneInst);" />
+      <MemberSignature Language="F#" Value="abstract member VisibleStateChange : Microsoft.Office.Core.CustomTaskPane -&gt; unit" Usage="customTaskPaneEvents.VisibleStateChange CustomTaskPaneInst" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -63,7 +69,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

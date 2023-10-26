@@ -1,9 +1,10 @@
 <Type Name="_CustomTaskPaneEvents_Event" FullName="Microsoft.Office.Core._CustomTaskPaneEvents_Event">
+  <TypeSignature Language="C++ CLI" Value="public interface class _CustomTaskPaneEvents_Event" />
   <TypeSignature Language="C#" Value="public interface _CustomTaskPaneEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CustomTaskPaneEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CustomTaskPaneEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CustomTaskPaneEvents_Event" />
-  <TypeSignature Language="C++ CLI" Value="public interface class _CustomTaskPaneEvents_Event" />
+  <TypeSignature Language="F#" Value="type _CustomTaskPaneEvents_Event = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,13 +12,16 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Core._CustomTaskPaneEvents), typeof(Microsoft.Office.Core._CustomTaskPaneEvents_EventProvider))</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Core._CustomTaskPaneEvents), typeof(Microsoft.Office.Core._CustomTaskPaneEvents_EventProvider))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Core._CustomTaskPaneEvents), typeof(Microsoft.Office.Core._CustomTaskPaneEvents_EventProvider))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComVisible(false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComVisible(false)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(16)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(16)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -25,12 +29,59 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="add_DockPositionStateChange">
+      <MemberSignature Language="C#" Value="public void add_DockPositionStateChange (Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_DockPositionStateChange(class Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomTaskPaneEvents_Event.add_DockPositionStateChange(Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_DockPositionStateChange (unnamedParam1 As _CustomTaskPaneEvents_DockPositionStateChangeEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_DockPositionStateChange : Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler -&gt; unit" Usage="_CustomTaskPaneEvents_Event.add_DockPositionStateChange unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_VisibleStateChange">
+      <MemberSignature Language="C#" Value="public void add_VisibleStateChange (Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_VisibleStateChange(class Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomTaskPaneEvents_Event.add_VisibleStateChange(Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_VisibleStateChange (unnamedParam1 As _CustomTaskPaneEvents_VisibleStateChangeEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_VisibleStateChange : Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler -&gt; unit" Usage="_CustomTaskPaneEvents_Event.add_VisibleStateChange unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="DockPositionStateChange">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::_CustomTaskPaneEvents_DockPositionStateChangeEventHandler ^ DockPositionStateChange;" />
       <MemberSignature Language="C#" Value="event Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler DockPositionStateChange;" />
       <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler DockPositionStateChange" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core._CustomTaskPaneEvents_Event.DockPositionStateChange" />
       <MemberSignature Language="VB.NET" Value="Event DockPositionStateChange As _CustomTaskPaneEvents_DockPositionStateChangeEventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::_CustomTaskPaneEvents_DockPositionStateChangeEventHandler ^ DockPositionStateChange;" />
+      <MemberSignature Language="F#" Value="member this.DockPositionStateChange : Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler " Usage="member this.DockPositionStateChange : Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -44,12 +95,59 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="remove_DockPositionStateChange">
+      <MemberSignature Language="C#" Value="public void remove_DockPositionStateChange (Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_DockPositionStateChange(class Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomTaskPaneEvents_Event.remove_DockPositionStateChange(Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_DockPositionStateChange (unnamedParam1 As _CustomTaskPaneEvents_DockPositionStateChangeEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_DockPositionStateChange : Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler -&gt; unit" Usage="_CustomTaskPaneEvents_Event.remove_DockPositionStateChange unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_VisibleStateChange">
+      <MemberSignature Language="C#" Value="public void remove_VisibleStateChange (Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_VisibleStateChange(class Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomTaskPaneEvents_Event.remove_VisibleStateChange(Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_VisibleStateChange (unnamedParam1 As _CustomTaskPaneEvents_VisibleStateChangeEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_VisibleStateChange : Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler -&gt; unit" Usage="_CustomTaskPaneEvents_Event.remove_VisibleStateChange unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="VisibleStateChange">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::_CustomTaskPaneEvents_VisibleStateChangeEventHandler ^ VisibleStateChange;" />
       <MemberSignature Language="C#" Value="event Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler VisibleStateChange;" />
       <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler VisibleStateChange" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core._CustomTaskPaneEvents_Event.VisibleStateChange" />
       <MemberSignature Language="VB.NET" Value="Event VisibleStateChange As _CustomTaskPaneEvents_VisibleStateChangeEventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::_CustomTaskPaneEvents_VisibleStateChangeEventHandler ^ VisibleStateChange;" />
+      <MemberSignature Language="F#" Value="member this.VisibleStateChange : Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler " Usage="member this.VisibleStateChange : Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>

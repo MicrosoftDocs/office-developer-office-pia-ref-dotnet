@@ -1,9 +1,10 @@
-﻿<Type Name="ChartColorFormat" FullName="Microsoft.Office.Core.ChartColorFormat">
+<Type Name="ChartColorFormat" FullName="Microsoft.Office.Core.ChartColorFormat">
+  <TypeSignature Language="C++ CLI" Value="public interface class ChartColorFormat" />
   <TypeSignature Language="C#" Value="public interface ChartColorFormat" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ChartColorFormat" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ChartColorFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface ChartColorFormat" />
-  <TypeSignature Language="C++ CLI" Value="public interface class ChartColorFormat" />
+  <TypeSignature Language="F#" Value="type ChartColorFormat = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,10 +12,12 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C171D-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C171D-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C171D-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4112)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4112)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4112)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -47,11 +50,12 @@
   </Docs>
   <Members>
     <Member MemberName="_Default">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int default { int get(); };" />
       <MemberSignature Language="C#" Value="public int this { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 _Default" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartColorFormat._Default" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property _Default As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int default { int get(); };" />
+      <MemberSignature Language="F#" Value="member this._Default : int" Usage="Microsoft.Office.Core.ChartColorFormat._Default" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -59,10 +63,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(1024)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(1024)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -75,11 +81,12 @@
       </Docs>
     </Member>
     <Member MemberName="Application">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object Application { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Application" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartColorFormat.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : obj" Usage="Microsoft.Office.Core.ChartColorFormat.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -87,7 +94,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(148)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(148)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -102,11 +110,12 @@
       </Docs>
     </Member>
     <Member MemberName="Creator">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
       <MemberSignature Language="C#" Value="public int Creator { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartColorFormat.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Core.ChartColorFormat.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -114,7 +123,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(149)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(149)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -129,11 +139,12 @@
       </Docs>
     </Member>
     <Member MemberName="Parent">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object Parent { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartColorFormat.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Core.ChartColorFormat.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -141,7 +152,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(150)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(150)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -156,11 +168,12 @@
       </Docs>
     </Member>
     <Member MemberName="RGB">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int RGB { int get(); void set(int value); };" />
       <MemberSignature Language="C#" Value="public int RGB { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 RGB" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartColorFormat.RGB" />
       <MemberSignature Language="VB.NET" Value="Public Property RGB As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int RGB { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.RGB : int with get, set" Usage="Microsoft.Office.Core.ChartColorFormat.RGB" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -168,7 +181,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1055)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1055)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1055)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -183,11 +197,12 @@
       </Docs>
     </Member>
     <Member MemberName="SchemeColor">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SchemeColor { int get(); void set(int value); };" />
       <MemberSignature Language="C#" Value="public int SchemeColor { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 SchemeColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartColorFormat.SchemeColor" />
       <MemberSignature Language="VB.NET" Value="Public Property SchemeColor As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SchemeColor { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.SchemeColor : int with get, set" Usage="Microsoft.Office.Core.ChartColorFormat.SchemeColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -195,7 +210,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1646)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1646)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1646)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -209,11 +225,12 @@
       </Docs>
     </Member>
     <Member MemberName="Type">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Type { int get(); };" />
       <MemberSignature Language="C#" Value="public int Type { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Type" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartColorFormat.Type" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Type { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Type : int" Usage="Microsoft.Office.Core.ChartColorFormat.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -221,7 +238,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(108)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(108)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

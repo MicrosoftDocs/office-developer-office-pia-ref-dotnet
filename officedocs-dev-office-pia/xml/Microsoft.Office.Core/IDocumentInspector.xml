@@ -1,9 +1,10 @@
-﻿<Type Name="IDocumentInspector" FullName="Microsoft.Office.Core.IDocumentInspector">
+<Type Name="IDocumentInspector" FullName="Microsoft.Office.Core.IDocumentInspector">
+  <TypeSignature Language="C++ CLI" Value="public interface class IDocumentInspector" />
   <TypeSignature Language="C#" Value="public interface IDocumentInspector" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDocumentInspector" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IDocumentInspector" />
   <TypeSignature Language="VB.NET" Value="Public Interface IDocumentInspector" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IDocumentInspector" />
+  <TypeSignature Language="F#" Value="type IDocumentInspector = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,13 +12,16 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000CD706-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000CD706-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000CD706-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.InterfaceType(1)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.InterfaceType(1)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.InterfaceType(1)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(256)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(256)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(256)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -32,11 +36,12 @@
   </Docs>
   <Members>
     <Member MemberName="Fix">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Fix(System::Object ^ Doc, int hwnd, [Runtime::InteropServices::Out] Microsoft::Office::Core::MsoDocInspectorStatus % Status, [Runtime::InteropServices::Out] System::String ^ % Result);" />
       <MemberSignature Language="C#" Value="public void Fix (object Doc, int hwnd, out Microsoft.Office.Core.MsoDocInspectorStatus Status, out string Result);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Fix([in]object Doc, [in]int32 hwnd, [out] valuetype Microsoft.Office.Core.MsoDocInspectorStatus&amp; Status, [out] string&amp; Result) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IDocumentInspector.Fix(System.Object,System.Int32,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Fix (Doc As Object, hwnd As Integer, ByRef Status As MsoDocInspectorStatus, ByRef Result As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Fix(System::Object ^ Doc, int hwnd, [Runtime::InteropServices::Out] Microsoft::Office::Core::MsoDocInspectorStatus % Status, [Runtime::InteropServices::Out] System::String ^ % Result);" />
+      <MemberSignature Language="F#" Value="abstract member Fix : obj * int * MsoDocInspectorStatus * string -&gt; unit" Usage="iDocumentInspector.Fix (Doc, hwnd, Status, Result)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -48,8 +53,8 @@
       <Parameters>
         <Parameter Name="Doc" Type="System.Object" />
         <Parameter Name="hwnd" Type="System.Int32" />
-        <Parameter Name="Status" Type="Microsoft.Office.Core.MsoDocInspectorStatus&amp;" RefType="out" />
-        <Parameter Name="Result" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="Status" Type="Microsoft.Office.Core.MsoDocInspectorStatus" RefType="out" />
+        <Parameter Name="Result" Type="System.String" RefType="out" />
       </Parameters>
       <Docs>
         <param name="Doc">Specifies nn object representing the container object.</param>
@@ -84,11 +89,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetInfo">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetInfo([Runtime::InteropServices::Out] System::String ^ % Name, [Runtime::InteropServices::Out] System::String ^ % Desc);" />
       <MemberSignature Language="C#" Value="public void GetInfo (out string Name, out string Desc);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GetInfo([out] string&amp; Name, [out] string&amp; Desc) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IDocumentInspector.GetInfo(System.String@,System.String@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub GetInfo (ByRef Name As String, ByRef Desc As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetInfo([Runtime::InteropServices::Out] System::String ^ % Name, [Runtime::InteropServices::Out] System::String ^ % Desc);" />
+      <MemberSignature Language="F#" Value="abstract member GetInfo : string * string -&gt; unit" Usage="iDocumentInspector.GetInfo (Name, Desc)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -98,8 +104,8 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Name" Type="System.String&amp;" RefType="out" />
-        <Parameter Name="Desc" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="Name" Type="System.String" RefType="out" />
+        <Parameter Name="Desc" Type="System.String" RefType="out" />
       </Parameters>
       <Docs>
         <param name="Name">Represents the name of the module.</param>
@@ -109,11 +115,12 @@
       </Docs>
     </Member>
     <Member MemberName="Inspect">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Inspect(System::Object ^ Doc, [Runtime::InteropServices::Out] Microsoft::Office::Core::MsoDocInspectorStatus % Status, [Runtime::InteropServices::Out] System::String ^ % Result, [Runtime::InteropServices::Out] System::String ^ % Action);" />
       <MemberSignature Language="C#" Value="public void Inspect (object Doc, out Microsoft.Office.Core.MsoDocInspectorStatus Status, out string Result, out string Action);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Inspect([in]object Doc, [out] valuetype Microsoft.Office.Core.MsoDocInspectorStatus&amp; Status, [out] string&amp; Result, [out] string&amp; Action) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IDocumentInspector.Inspect(System.Object,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@,System.String@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Inspect (Doc As Object, ByRef Status As MsoDocInspectorStatus, ByRef Result As String, ByRef Action As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Inspect(System::Object ^ Doc, [Runtime::InteropServices::Out] Microsoft::Office::Core::MsoDocInspectorStatus % Status, [Runtime::InteropServices::Out] System::String ^ % Result, [Runtime::InteropServices::Out] System::String ^ % Action);" />
+      <MemberSignature Language="F#" Value="abstract member Inspect : obj * MsoDocInspectorStatus * string * string -&gt; unit" Usage="iDocumentInspector.Inspect (Doc, Status, Result, Action)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -124,9 +131,9 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Doc" Type="System.Object" />
-        <Parameter Name="Status" Type="Microsoft.Office.Core.MsoDocInspectorStatus&amp;" RefType="out" />
-        <Parameter Name="Result" Type="System.String&amp;" RefType="out" />
-        <Parameter Name="Action" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="Status" Type="Microsoft.Office.Core.MsoDocInspectorStatus" RefType="out" />
+        <Parameter Name="Result" Type="System.String" RefType="out" />
+        <Parameter Name="Action" Type="System.String" RefType="out" />
       </Parameters>
       <Docs>
         <param name="Doc">An object representing the container document.</param>

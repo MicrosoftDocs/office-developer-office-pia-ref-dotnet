@@ -1,9 +1,10 @@
-﻿<Type Name="CommandBarButton" FullName="Microsoft.Office.Core.CommandBarButton">
+<Type Name="CommandBarButton" FullName="Microsoft.Office.Core.CommandBarButton">
+  <TypeSignature Language="C++ CLI" Value="public interface class CommandBarButton : Microsoft::Office::Core::_CommandBarButton, Microsoft::Office::Core::_CommandBarButtonEvents_Event" />
   <TypeSignature Language="C#" Value="public interface CommandBarButton : Microsoft.Office.Core._CommandBarButton, Microsoft.Office.Core._CommandBarButtonEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CommandBarButton implements class Microsoft.Office.Core._CommandBarButton, class Microsoft.Office.Core._CommandBarButtonEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CommandBarButton" />
   <TypeSignature Language="VB.NET" Value="Public Interface CommandBarButton&#xA;Implements _CommandBarButton, _CommandBarButtonEvents_Event" />
-  <TypeSignature Language="C++ CLI" Value="public interface class CommandBarButton : Microsoft::Office::Core::_CommandBarButton, Microsoft::Office::Core::_CommandBarButtonEvents_Event" />
+  <TypeSignature Language="F#" Value="type CommandBarButton = interface&#xA;    interface _CommandBarButton&#xA;    interface _CommandBarButtonEvents_Event" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -15,13 +16,24 @@
     <Interface>
       <InterfaceName>Microsoft.Office.Core._CommandBarButtonEvents_Event</InterfaceName>
     </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoOleAccDispObj</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core.CommandBarControl</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core.IAccessible</InterfaceName>
+    </Interface>
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Core.CommandBarButtonClass))</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Core.CommandBarButtonClass))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Core.CommandBarButtonClass))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C030E-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C030E-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C030E-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

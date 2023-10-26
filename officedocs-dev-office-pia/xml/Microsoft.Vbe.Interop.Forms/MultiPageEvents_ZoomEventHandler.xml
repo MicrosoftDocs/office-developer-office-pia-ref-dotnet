@@ -1,0 +1,37 @@
+<Type Name="MultiPageEvents_ZoomEventHandler" FullName="Microsoft.Vbe.Interop.Forms.MultiPageEvents_ZoomEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void MultiPageEvents_ZoomEventHandler(int Index, out short Percent);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MultiPageEvents_ZoomEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop.Forms.MultiPageEvents_ZoomEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub MultiPageEvents_ZoomEventHandler(Index As Integer, ByRef Percent As Short)" />
+  <TypeSignature Language="F#" Value="type MultiPageEvents_ZoomEventHandler = delegate of int * int16 -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComVisible(false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComVisible(false)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(16)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(16)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Index" Type="System.Int32" />
+    <Parameter Name="Percent" Type="System.Int16" RefType="out" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Index">To be added.</param>
+    <param name="Percent">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

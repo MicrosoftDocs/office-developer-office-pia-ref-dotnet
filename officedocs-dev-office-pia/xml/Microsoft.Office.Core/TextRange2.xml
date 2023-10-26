@@ -1,9 +1,10 @@
-﻿<Type Name="TextRange2" FullName="Microsoft.Office.Core.TextRange2">
+<Type Name="TextRange2" FullName="Microsoft.Office.Core.TextRange2">
+  <TypeSignature Language="C++ CLI" Value="public interface class TextRange2 : Microsoft::Office::Core::_IMsoDispObj, System::Collections::IEnumerable" />
   <TypeSignature Language="C#" Value="public interface TextRange2 : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TextRange2 implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.TextRange2" />
   <TypeSignature Language="VB.NET" Value="Public Interface TextRange2&#xA;Implements _IMsoDispObj, IEnumerable" />
-  <TypeSignature Language="C++ CLI" Value="public interface class TextRange2 : Microsoft::Office::Core::_IMsoDispObj, System::Collections::IEnumerable" />
+  <TypeSignature Language="F#" Value="type TextRange2 = interface&#xA;    interface _IMsoDispObj&#xA;    interface IEnumerable" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -18,10 +19,12 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C0397-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C0397-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C0397-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4288)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4288)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -33,11 +36,12 @@
   </Docs>
   <Members>
     <Member MemberName="AddPeriods">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddPeriods();" />
       <MemberSignature Language="C#" Value="public void AddPeriods ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddPeriods() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.AddPeriods" />
       <MemberSignature Language="VB.NET" Value="Public Sub AddPeriods ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddPeriods();" />
+      <MemberSignature Language="F#" Value="abstract member AddPeriods : unit -&gt; unit" Usage="textRange2.AddPeriods " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -45,7 +49,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(29)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(29)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(29)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -58,11 +63,12 @@
       </Docs>
     </Member>
     <Member MemberName="Application">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object Application { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Application" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : obj" Usage="Microsoft.Office.Core.TextRange2.Application" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
@@ -73,10 +79,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -92,11 +100,12 @@
       </Docs>
     </Member>
     <Member MemberName="BoundHeight">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float BoundHeight { float get(); };" />
       <MemberSignature Language="C#" Value="public float BoundHeight { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 BoundHeight" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.BoundHeight" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BoundHeight As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float BoundHeight { float get(); };" />
+      <MemberSignature Language="F#" Value="member this.BoundHeight : single" Usage="Microsoft.Office.Core.TextRange2.BoundHeight" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -104,10 +113,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(17)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(17)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(17)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(17)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(17)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(17)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -125,11 +136,12 @@
       </Docs>
     </Member>
     <Member MemberName="BoundLeft">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float BoundLeft { float get(); };" />
       <MemberSignature Language="C#" Value="public float BoundLeft { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 BoundLeft" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.BoundLeft" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BoundLeft As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float BoundLeft { float get(); };" />
+      <MemberSignature Language="F#" Value="member this.BoundLeft : single" Usage="Microsoft.Office.Core.TextRange2.BoundLeft" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -137,10 +149,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(14)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(14)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(14)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(14)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(14)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -158,11 +172,12 @@
       </Docs>
     </Member>
     <Member MemberName="BoundTop">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float BoundTop { float get(); };" />
       <MemberSignature Language="C#" Value="public float BoundTop { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 BoundTop" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.BoundTop" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BoundTop As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float BoundTop { float get(); };" />
+      <MemberSignature Language="F#" Value="member this.BoundTop : single" Usage="Microsoft.Office.Core.TextRange2.BoundTop" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -170,10 +185,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(15)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(15)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(15)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(15)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(15)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(15)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -191,11 +208,12 @@
       </Docs>
     </Member>
     <Member MemberName="BoundWidth">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float BoundWidth { float get(); };" />
       <MemberSignature Language="C#" Value="public float BoundWidth { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 BoundWidth" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.BoundWidth" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BoundWidth As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float BoundWidth { float get(); };" />
+      <MemberSignature Language="F#" Value="member this.BoundWidth : single" Usage="Microsoft.Office.Core.TextRange2.BoundWidth" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -203,10 +221,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(16)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(16)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(16)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(16)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(16)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(16)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -224,11 +244,12 @@
       </Docs>
     </Member>
     <Member MemberName="ChangeCase">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ChangeCase(Microsoft::Office::Core::MsoTextChangeCase Type);" />
       <MemberSignature Language="C#" Value="public void ChangeCase (Microsoft.Office.Core.MsoTextChangeCase Type);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ChangeCase([in]valuetype Microsoft.Office.Core.MsoTextChangeCase Type) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.ChangeCase(Microsoft.Office.Core.MsoTextChangeCase)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ChangeCase (Type As MsoTextChangeCase)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ChangeCase(Microsoft::Office::Core::MsoTextChangeCase Type);" />
+      <MemberSignature Language="F#" Value="abstract member ChangeCase : Microsoft.Office.Core.MsoTextChangeCase -&gt; unit" Usage="textRange2.ChangeCase Type" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -236,7 +257,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(28)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(28)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(28)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -255,11 +277,12 @@
       </Docs>
     </Member>
     <Member MemberName="Characters">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Characters[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Characters[int Start = -1, int Length = -1] { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextRange2 Characters(int32, int32)" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Characters(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Characters(Optional Start As Integer = -1, Optional Length As Integer = -1) As TextRange2" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Characters[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
+      <MemberSignature Language="F#" Value="member this.Characters(int * int) : Microsoft.Office.Core.TextRange2" Usage="Microsoft.Office.Core.TextRange2.Characters" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -267,10 +290,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(7)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(7)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(7)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(7)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -301,11 +326,12 @@
       </Docs>
     </Member>
     <Member MemberName="Copy">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Copy();" />
       <MemberSignature Language="C#" Value="public void Copy ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Copy() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Copy" />
       <MemberSignature Language="VB.NET" Value="Public Sub Copy ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Copy();" />
+      <MemberSignature Language="F#" Value="abstract member Copy : unit -&gt; unit" Usage="textRange2.Copy " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -313,7 +339,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(24)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(24)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(24)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -326,11 +353,12 @@
       </Docs>
     </Member>
     <Member MemberName="Count">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
       <MemberSignature Language="C#" Value="public int Count { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Count" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.Office.Core.TextRange2.Count" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -338,10 +366,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -358,11 +388,12 @@
       </Docs>
     </Member>
     <Member MemberName="Creator">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
       <MemberSignature Language="C#" Value="public int Creator { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Core.TextRange2.Creator" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
@@ -373,10 +404,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -393,11 +426,12 @@
       </Docs>
     </Member>
     <Member MemberName="Cut">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Cut();" />
       <MemberSignature Language="C#" Value="public void Cut ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Cut() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Cut" />
       <MemberSignature Language="VB.NET" Value="Public Sub Cut ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Cut();" />
+      <MemberSignature Language="F#" Value="abstract member Cut : unit -&gt; unit" Usage="textRange2.Cut " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -405,7 +439,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(23)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(23)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(23)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -418,11 +453,12 @@
       </Docs>
     </Member>
     <Member MemberName="Delete">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
       <MemberSignature Language="C#" Value="public void Delete ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Delete" />
       <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberSignature Language="F#" Value="abstract member Delete : unit -&gt; unit" Usage="textRange2.Delete " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -430,7 +466,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(25)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(25)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(25)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -447,6 +484,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 Find([in]string FindWhat, [in]int32 After, [in]valuetype Microsoft.Office.Core.MsoTriState MatchCase, [in]valuetype Microsoft.Office.Core.MsoTriState WholeWords) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Find(System.String,System.Int32,Microsoft.Office.Core.MsoTriState,Microsoft.Office.Core.MsoTriState)" />
       <MemberSignature Language="VB.NET" Value="Public Function Find (FindWhat As String, Optional After As Integer = 0, Optional MatchCase As MsoTriState = Microsoft.Office.Core.MsoTriState.msoFalse, Optional WholeWords As MsoTriState = Microsoft.Office.Core.MsoTriState.msoFalse) As TextRange2" />
+      <MemberSignature Language="F#" Value="abstract member Find : string * int * Microsoft.Office.Core.MsoTriState * Microsoft.Office.Core.MsoTriState -&gt; Microsoft.Office.Core.TextRange2" Usage="textRange2.Find (FindWhat, After, MatchCase, WholeWords)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -454,7 +492,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(31)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(31)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(31)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -479,11 +518,12 @@
       </Docs>
     </Member>
     <Member MemberName="Font">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::Font2 ^ Font { Microsoft::Office::Core::Font2 ^ get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Font2 Font { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.Font2 Font" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Font" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Font As Font2" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::Font2 ^ Font { Microsoft::Office::Core::Font2 ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Font : Microsoft.Office.Core.Font2" Usage="Microsoft.Office.Core.TextRange2.Font" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -491,10 +531,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(11)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(11)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(11)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(11)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(11)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -510,11 +552,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
       <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="textRange2.GetEnumerator " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
@@ -525,10 +568,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-4)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibFunc(1024)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibFunc(1024)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -546,6 +591,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 InsertAfter([in]string NewText) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.InsertAfter(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function InsertAfter (Optional NewText As String = &quot;&quot;) As TextRange2" />
+      <MemberSignature Language="F#" Value="abstract member InsertAfter : string -&gt; Microsoft.Office.Core.TextRange2" Usage="textRange2.InsertAfter NewText" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -553,7 +599,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(19)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(19)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(19)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -576,6 +623,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 InsertBefore([in]string NewText) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.InsertBefore(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function InsertBefore (Optional NewText As String = &quot;&quot;) As TextRange2" />
+      <MemberSignature Language="F#" Value="abstract member InsertBefore : string -&gt; Microsoft.Office.Core.TextRange2" Usage="textRange2.InsertBefore NewText" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -583,7 +631,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(20)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(20)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -606,6 +655,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 InsertChartField([in]valuetype Microsoft.Office.Core.MsoChartFieldType ChartFieldType, [in]string Formula, [in]int32 Position) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.InsertChartField(Microsoft.Office.Core.MsoChartFieldType,System.String,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function InsertChartField (ChartFieldType As MsoChartFieldType, Optional Formula As String = &quot;&quot;, Optional Position As Integer = -1) As TextRange2" />
+      <MemberSignature Language="F#" Value="abstract member InsertChartField : Microsoft.Office.Core.MsoChartFieldType * string * int -&gt; Microsoft.Office.Core.TextRange2" Usage="textRange2.InsertChartField (ChartFieldType, Formula, Position)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -613,7 +663,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(38)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(38)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(38)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -643,6 +694,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 InsertSymbol([in]string FontName, [in]int32 CharNumber, [in]valuetype Microsoft.Office.Core.MsoTriState Unicode) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.InsertSymbol(System.String,System.Int32,Microsoft.Office.Core.MsoTriState)" />
       <MemberSignature Language="VB.NET" Value="Public Function InsertSymbol (FontName As String, CharNumber As Integer, Optional Unicode As MsoTriState = Microsoft.Office.Core.MsoTriState.msoFalse) As TextRange2" />
+      <MemberSignature Language="F#" Value="abstract member InsertSymbol : string * int * Microsoft.Office.Core.MsoTriState -&gt; Microsoft.Office.Core.TextRange2" Usage="textRange2.InsertSymbol (FontName, CharNumber, Unicode)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -650,7 +702,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(21)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(21)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(21)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -673,11 +726,12 @@
       </Docs>
     </Member>
     <Member MemberName="Item">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::TextRange2 ^ Item(System::Object ^ Index);" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Item (object Index);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 Item([in]object Index) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Item(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function Item (Index As Object) As TextRange2" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::TextRange2 ^ Item(System::Object ^ Index);" />
+      <MemberSignature Language="F#" Value="abstract member Item : obj -&gt; Microsoft.Office.Core.TextRange2" Usage="textRange2.Item Index" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -685,7 +739,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -704,11 +759,12 @@
       </Docs>
     </Member>
     <Member MemberName="LanguageID">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoLanguageID LanguageID { Microsoft::Office::Core::MsoLanguageID get(); void set(Microsoft::Office::Core::MsoLanguageID value); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoLanguageID LanguageID { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoLanguageID LanguageID" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.LanguageID" />
       <MemberSignature Language="VB.NET" Value="Public Property LanguageID As MsoLanguageID" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoLanguageID LanguageID { Microsoft::Office::Core::MsoLanguageID get(); void set(Microsoft::Office::Core::MsoLanguageID value); };" />
+      <MemberSignature Language="F#" Value="member this.LanguageID : Microsoft.Office.Core.MsoLanguageID with get, set" Usage="Microsoft.Office.Core.TextRange2.LanguageID" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -716,13 +772,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(34)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(34)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(34)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(34)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(34)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(34)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(34)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(34)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(34)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -737,11 +796,12 @@
       </Docs>
     </Member>
     <Member MemberName="Length">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Length { int get(); };" />
       <MemberSignature Language="C#" Value="public int Length { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Length" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Length" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Length As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Length { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Length : int" Usage="Microsoft.Office.Core.TextRange2.Length" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -749,10 +809,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(12)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(12)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(12)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(12)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(12)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -767,11 +829,12 @@
       </Docs>
     </Member>
     <Member MemberName="Lines">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Lines[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Lines[int Start = -1, int Length = -1] { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextRange2 Lines(int32, int32)" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Lines(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Lines(Optional Start As Integer = -1, Optional Length As Integer = -1) As TextRange2" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Lines[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
+      <MemberSignature Language="F#" Value="member this.Lines(int * int) : Microsoft.Office.Core.TextRange2" Usage="Microsoft.Office.Core.TextRange2.Lines" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -779,10 +842,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(8)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(8)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(8)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(8)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(8)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -810,11 +875,12 @@
       </Docs>
     </Member>
     <Member MemberName="LtrRun">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void LtrRun();" />
       <MemberSignature Language="C#" Value="public void LtrRun ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void LtrRun() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.LtrRun" />
       <MemberSignature Language="VB.NET" Value="Public Sub LtrRun ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void LtrRun();" />
+      <MemberSignature Language="F#" Value="abstract member LtrRun : unit -&gt; unit" Usage="textRange2.LtrRun " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -822,7 +888,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(36)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(36)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(36)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -835,11 +902,12 @@
       </Docs>
     </Member>
     <Member MemberName="MathZones">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ MathZones[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 MathZones[int Start = -1, int Length = -1] { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextRange2 MathZones(int32, int32)" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.MathZones(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MathZones(Optional Start As Integer = -1, Optional Length As Integer = -1) As TextRange2" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ MathZones[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
+      <MemberSignature Language="F#" Value="member this.MathZones(int * int) : Microsoft.Office.Core.TextRange2" Usage="Microsoft.Office.Core.TextRange2.MathZones" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -847,10 +915,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(37)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(37)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(37)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(37)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(37)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(37)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -869,11 +939,12 @@
       </Docs>
     </Member>
     <Member MemberName="ParagraphFormat">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::ParagraphFormat2 ^ ParagraphFormat { Microsoft::Office::Core::ParagraphFormat2 ^ get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.ParagraphFormat2 ParagraphFormat { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.ParagraphFormat2 ParagraphFormat" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.ParagraphFormat" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParagraphFormat As ParagraphFormat2" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::ParagraphFormat2 ^ ParagraphFormat { Microsoft::Office::Core::ParagraphFormat2 ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ParagraphFormat : Microsoft.Office.Core.ParagraphFormat2" Usage="Microsoft.Office.Core.TextRange2.ParagraphFormat" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -881,10 +952,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(10)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(10)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(10)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(10)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -899,11 +972,12 @@
       </Docs>
     </Member>
     <Member MemberName="Paragraphs">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Paragraphs[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Paragraphs[int Start = -1, int Length = -1] { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextRange2 Paragraphs(int32, int32)" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Paragraphs(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Paragraphs(Optional Start As Integer = -1, Optional Length As Integer = -1) As TextRange2" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Paragraphs[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
+      <MemberSignature Language="F#" Value="member this.Paragraphs(int * int) : Microsoft.Office.Core.TextRange2" Usage="Microsoft.Office.Core.TextRange2.Paragraphs" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -911,10 +985,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -942,11 +1018,12 @@
       </Docs>
     </Member>
     <Member MemberName="Parent">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object Parent { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Core.TextRange2.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -954,10 +1031,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -974,11 +1053,12 @@ Read-only.</summary>
       </Docs>
     </Member>
     <Member MemberName="Paste">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::TextRange2 ^ Paste();" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Paste ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 Paste() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Paste" />
       <MemberSignature Language="VB.NET" Value="Public Function Paste () As TextRange2" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::TextRange2 ^ Paste();" />
+      <MemberSignature Language="F#" Value="abstract member Paste : unit -&gt; Microsoft.Office.Core.TextRange2" Usage="textRange2.Paste " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -986,7 +1066,8 @@ Read-only.</summary>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(26)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(26)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(26)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1002,11 +1083,12 @@ Read-only.</summary>
       </Docs>
     </Member>
     <Member MemberName="PasteSpecial">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::TextRange2 ^ PasteSpecial(Microsoft::Office::Core::MsoClipboardFormat Format);" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 PasteSpecial (Microsoft.Office.Core.MsoClipboardFormat Format);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 PasteSpecial([in]valuetype Microsoft.Office.Core.MsoClipboardFormat Format) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.PasteSpecial(Microsoft.Office.Core.MsoClipboardFormat)" />
       <MemberSignature Language="VB.NET" Value="Public Function PasteSpecial (Format As MsoClipboardFormat) As TextRange2" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::TextRange2 ^ PasteSpecial(Microsoft::Office::Core::MsoClipboardFormat Format);" />
+      <MemberSignature Language="F#" Value="abstract member PasteSpecial : Microsoft.Office.Core.MsoClipboardFormat -&gt; Microsoft.Office.Core.TextRange2" Usage="textRange2.PasteSpecial Format" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -1014,7 +1096,8 @@ Read-only.</summary>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(27)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(27)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(27)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1033,11 +1116,12 @@ Read-only.</summary>
       </Docs>
     </Member>
     <Member MemberName="RemovePeriods">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemovePeriods();" />
       <MemberSignature Language="C#" Value="public void RemovePeriods ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemovePeriods() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.RemovePeriods" />
       <MemberSignature Language="VB.NET" Value="Public Sub RemovePeriods ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemovePeriods();" />
+      <MemberSignature Language="F#" Value="abstract member RemovePeriods : unit -&gt; unit" Usage="textRange2.RemovePeriods " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -1045,7 +1129,8 @@ Read-only.</summary>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(30)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(30)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(30)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1062,6 +1147,7 @@ Read-only.</summary>
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 Replace([in]string FindWhat, [in]string ReplaceWhat, [in]int32 After, [in]valuetype Microsoft.Office.Core.MsoTriState MatchCase, [in]valuetype Microsoft.Office.Core.MsoTriState WholeWords) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Replace(System.String,System.String,System.Int32,Microsoft.Office.Core.MsoTriState,Microsoft.Office.Core.MsoTriState)" />
       <MemberSignature Language="VB.NET" Value="Public Function Replace (FindWhat As String, ReplaceWhat As String, Optional After As Integer = 0, Optional MatchCase As MsoTriState = Microsoft.Office.Core.MsoTriState.msoFalse, Optional WholeWords As MsoTriState = Microsoft.Office.Core.MsoTriState.msoFalse) As TextRange2" />
+      <MemberSignature Language="F#" Value="abstract member Replace : string * string * int * Microsoft.Office.Core.MsoTriState * Microsoft.Office.Core.MsoTriState -&gt; Microsoft.Office.Core.TextRange2" Usage="textRange2.Replace (FindWhat, ReplaceWhat, After, MatchCase, WholeWords)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -1069,7 +1155,8 @@ Read-only.</summary>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(32)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(32)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(32)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1096,11 +1183,12 @@ Read-only.</summary>
       </Docs>
     </Member>
     <Member MemberName="RotatedBounds">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RotatedBounds([Runtime::InteropServices::Out] float % X1, [Runtime::InteropServices::Out] float % Y1, [Runtime::InteropServices::Out] float % X2, [Runtime::InteropServices::Out] float % Y2, [Runtime::InteropServices::Out] float % X3, [Runtime::InteropServices::Out] float % Y3, [Runtime::InteropServices::Out] float % x4, [Runtime::InteropServices::Out] float % y4);" />
       <MemberSignature Language="C#" Value="public void RotatedBounds (out float X1, out float Y1, out float X2, out float Y2, out float X3, out float Y3, out float x4, out float y4);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RotatedBounds([out] float32&amp; X1, [out] float32&amp; Y1, [out] float32&amp; X2, [out] float32&amp; Y2, [out] float32&amp; X3, [out] float32&amp; Y3, [out] float32&amp; x4, [out] float32&amp; y4) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.RotatedBounds(System.Single@,System.Single@,System.Single@,System.Single@,System.Single@,System.Single@,System.Single@,System.Single@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub RotatedBounds (ByRef X1 As Single, ByRef Y1 As Single, ByRef X2 As Single, ByRef Y2 As Single, ByRef X3 As Single, ByRef Y3 As Single, ByRef x4 As Single, ByRef y4 As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RotatedBounds([Runtime::InteropServices::Out] float % X1, [Runtime::InteropServices::Out] float % Y1, [Runtime::InteropServices::Out] float % X2, [Runtime::InteropServices::Out] float % Y2, [Runtime::InteropServices::Out] float % X3, [Runtime::InteropServices::Out] float % Y3, [Runtime::InteropServices::Out] float % x4, [Runtime::InteropServices::Out] float % y4);" />
+      <MemberSignature Language="F#" Value="abstract member RotatedBounds : single * single * single * single * single * single * single * single -&gt; unit" Usage="textRange2.RotatedBounds (X1, Y1, X2, Y2, X3, Y3, x4, y4)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -1108,21 +1196,22 @@ Read-only.</summary>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(33)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(33)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(33)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="X1" Type="System.Single&amp;" RefType="out" />
-        <Parameter Name="Y1" Type="System.Single&amp;" RefType="out" />
-        <Parameter Name="X2" Type="System.Single&amp;" RefType="out" />
-        <Parameter Name="Y2" Type="System.Single&amp;" RefType="out" />
-        <Parameter Name="X3" Type="System.Single&amp;" RefType="out" />
-        <Parameter Name="Y3" Type="System.Single&amp;" RefType="out" />
-        <Parameter Name="x4" Type="System.Single&amp;" RefType="out" />
-        <Parameter Name="y4" Type="System.Single&amp;" RefType="out" />
+        <Parameter Name="X1" Type="System.Single" RefType="out" />
+        <Parameter Name="Y1" Type="System.Single" RefType="out" />
+        <Parameter Name="X2" Type="System.Single" RefType="out" />
+        <Parameter Name="Y2" Type="System.Single" RefType="out" />
+        <Parameter Name="X3" Type="System.Single" RefType="out" />
+        <Parameter Name="Y3" Type="System.Single" RefType="out" />
+        <Parameter Name="x4" Type="System.Single" RefType="out" />
+        <Parameter Name="y4" Type="System.Single" RefType="out" />
       </Parameters>
       <Docs>
         <param name="X1">Returns the position (in points) of the X coordinate of the first vertex of the bounding box for the text within the specified text range.</param>
@@ -1141,11 +1230,12 @@ Read-only.</summary>
       </Docs>
     </Member>
     <Member MemberName="RtlRun">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RtlRun();" />
       <MemberSignature Language="C#" Value="public void RtlRun ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RtlRun() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.RtlRun" />
       <MemberSignature Language="VB.NET" Value="Public Sub RtlRun ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RtlRun();" />
+      <MemberSignature Language="F#" Value="abstract member RtlRun : unit -&gt; unit" Usage="textRange2.RtlRun " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -1153,7 +1243,8 @@ Read-only.</summary>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(35)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(35)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(35)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1166,11 +1257,12 @@ Read-only.</summary>
       </Docs>
     </Member>
     <Member MemberName="Runs">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Runs[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Runs[int Start = -1, int Length = -1] { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextRange2 Runs(int32, int32)" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Runs(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Runs(Optional Start As Integer = -1, Optional Length As Integer = -1) As TextRange2" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Runs[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
+      <MemberSignature Language="F#" Value="member this.Runs(int * int) : Microsoft.Office.Core.TextRange2" Usage="Microsoft.Office.Core.TextRange2.Runs" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -1178,10 +1270,12 @@ Read-only.</summary>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(9)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(9)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(9)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(9)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(9)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1214,11 +1308,12 @@ Read-only.</summary>
       </Docs>
     </Member>
     <Member MemberName="Select">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Select();" />
       <MemberSignature Language="C#" Value="public void Select ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Select() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Select" />
       <MemberSignature Language="VB.NET" Value="Public Sub Select ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Select();" />
+      <MemberSignature Language="F#" Value="abstract member Select : unit -&gt; unit" Usage="textRange2.Select " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -1226,7 +1321,8 @@ Read-only.</summary>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(22)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(22)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(22)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1239,11 +1335,12 @@ Read-only.</summary>
       </Docs>
     </Member>
     <Member MemberName="Sentences">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Sentences[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Sentences[int Start = -1, int Length = -1] { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextRange2 Sentences(int32, int32)" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Sentences(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Sentences(Optional Start As Integer = -1, Optional Length As Integer = -1) As TextRange2" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Sentences[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
+      <MemberSignature Language="F#" Value="member this.Sentences(int * int) : Microsoft.Office.Core.TextRange2" Usage="Microsoft.Office.Core.TextRange2.Sentences" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -1251,10 +1348,12 @@ Read-only.</summary>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1287,11 +1386,12 @@ Read-only.</summary>
       </Docs>
     </Member>
     <Member MemberName="Start">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Start { int get(); };" />
       <MemberSignature Language="C#" Value="public int Start { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Start" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Start" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Start As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Start { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Start : int" Usage="Microsoft.Office.Core.TextRange2.Start" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -1299,10 +1399,12 @@ Read-only.</summary>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(13)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(13)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(13)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(13)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(13)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1317,11 +1419,12 @@ Read-only.</summary>
       </Docs>
     </Member>
     <Member MemberName="Text">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="C#" Value="public string this { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Text" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Text" />
       <MemberSignature Language="VB.NET" Value="Default Public Property Text As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Text : string with get, set" Usage="Microsoft.Office.Core.TextRange2.Text" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -1329,13 +1432,16 @@ Read-only.</summary>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1350,11 +1456,12 @@ Read-only.</summary>
       </Docs>
     </Member>
     <Member MemberName="TrimText">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::TextRange2 ^ TrimText();" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 TrimText ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 TrimText() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.TrimText" />
       <MemberSignature Language="VB.NET" Value="Public Function TrimText () As TextRange2" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::TextRange2 ^ TrimText();" />
+      <MemberSignature Language="F#" Value="abstract member TrimText : unit -&gt; Microsoft.Office.Core.TextRange2" Usage="textRange2.TrimText " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -1362,7 +1469,8 @@ Read-only.</summary>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(18)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(18)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(18)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1378,11 +1486,12 @@ Read-only.</summary>
       </Docs>
     </Member>
     <Member MemberName="Words">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Words[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Words[int Start = -1, int Length = -1] { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextRange2 Words(int32, int32)" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Words(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Words(Optional Start As Integer = -1, Optional Length As Integer = -1) As TextRange2" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Words[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
+      <MemberSignature Language="F#" Value="member this.Words(int * int) : Microsoft.Office.Core.TextRange2" Usage="Microsoft.Office.Core.TextRange2.Words" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -1390,10 +1499,12 @@ Read-only.</summary>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(6)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(6)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(6)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(6)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

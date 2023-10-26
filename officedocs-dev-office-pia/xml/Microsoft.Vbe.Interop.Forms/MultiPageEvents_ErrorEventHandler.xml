@@ -1,0 +1,49 @@
+<Type Name="MultiPageEvents_ErrorEventHandler" FullName="Microsoft.Vbe.Interop.Forms.MultiPageEvents_ErrorEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void MultiPageEvents_ErrorEventHandler(int Index, short Number, ReturnString Description, int SCode, string Source, string HelpFile, int HelpContext, ReturnBoolean CancelDisplay);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MultiPageEvents_ErrorEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop.Forms.MultiPageEvents_ErrorEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub MultiPageEvents_ErrorEventHandler(Index As Integer, Number As Short, Description As ReturnString, SCode As Integer, Source As String, HelpFile As String, HelpContext As Integer, CancelDisplay As ReturnBoolean)" />
+  <TypeSignature Language="F#" Value="type MultiPageEvents_ErrorEventHandler = delegate of int * int16 * ReturnString * int * string * string * int * ReturnBoolean -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComVisible(false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComVisible(false)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(16)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(16)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Index" Type="System.Int32" />
+    <Parameter Name="Number" Type="System.Int16" />
+    <Parameter Name="Description" Type="Microsoft.Vbe.Interop.Forms.ReturnString" />
+    <Parameter Name="SCode" Type="System.Int32" />
+    <Parameter Name="Source" Type="System.String" />
+    <Parameter Name="HelpFile" Type="System.String" />
+    <Parameter Name="HelpContext" Type="System.Int32" />
+    <Parameter Name="CancelDisplay" Type="Microsoft.Vbe.Interop.Forms.ReturnBoolean" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Index">To be added.</param>
+    <param name="Number">To be added.</param>
+    <param name="Description">To be added.</param>
+    <param name="SCode">To be added.</param>
+    <param name="Source">To be added.</param>
+    <param name="HelpFile">To be added.</param>
+    <param name="HelpContext">To be added.</param>
+    <param name="CancelDisplay">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

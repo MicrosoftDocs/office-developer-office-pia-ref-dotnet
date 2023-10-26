@@ -1,0 +1,170 @@
+<Type Name="ISmartTagRecognizer2" FullName="Microsoft.Office.Interop.SmartTag.ISmartTagRecognizer2">
+  <TypeSignature Language="C#" Value="public interface ISmartTagRecognizer2" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISmartTagRecognizer2" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.SmartTag.ISmartTagRecognizer2" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISmartTagRecognizer2" />
+  <TypeSignature Language="F#" Value="type ISmartTagRecognizer2 = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("D4C62D17-6162-41DE-BE24-5B1D3F529CC3")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("D4C62D17-6162-41DE-BE24-5B1D3F529CC3")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4160)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4160)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DisplayPropertyPage">
+      <MemberSignature Language="C#" Value="public void DisplayPropertyPage (int SmartTagID, int LocaleID);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DisplayPropertyPage([in]int32 SmartTagID, [in]int32 LocaleID) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.SmartTag.ISmartTagRecognizer2.DisplayPropertyPage(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DisplayPropertyPage (SmartTagID As Integer, LocaleID As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member DisplayPropertyPage : int * int -&gt; unit" Usage="iSmartTagRecognizer2.DisplayPropertyPage (SmartTagID, LocaleID)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(10)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(10)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SmartTagID" Type="System.Int32" />
+        <Parameter Name="LocaleID" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="SmartTagID">To be added.</param>
+        <param name="LocaleID">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyPage">
+      <MemberSignature Language="C#" Value="public bool PropertyPage[int SmartTagID, int LocaleID] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PropertyPage(int32, int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.SmartTag.ISmartTagRecognizer2.PropertyPage(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PropertyPage(SmartTagID As Integer, LocaleID As Integer) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.PropertyPage(int * int) : bool" Usage="Microsoft.Office.Interop.SmartTag.ISmartTagRecognizer2.PropertyPage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(9)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(9)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(9)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(9)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SmartTagID" Type="System.Int32" />
+        <Parameter Name="LocaleID" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="SmartTagID">To be added.</param>
+        <param name="LocaleID">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Recognize2">
+      <MemberSignature Language="C#" Value="public void Recognize2 (string Text, Microsoft.Office.Interop.SmartTag.IF_TYPE DataType, int LocaleID, Microsoft.Office.Interop.SmartTag.ISmartTagRecognizerSite2 RecognizerSite2, string ApplicationName, Microsoft.Office.Interop.SmartTag.ISmartTagTokenList TokenList);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Recognize2([in]string Text, [in]valuetype Microsoft.Office.Interop.SmartTag.IF_TYPE DataType, [in]int32 LocaleID, [in]class Microsoft.Office.Interop.SmartTag.ISmartTagRecognizerSite2 RecognizerSite2, [in]string ApplicationName, [in]class Microsoft.Office.Interop.SmartTag.ISmartTagTokenList TokenList) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.SmartTag.ISmartTagRecognizer2.Recognize2(System.String,Microsoft.Office.Interop.SmartTag.IF_TYPE,System.Int32,Microsoft.Office.Interop.SmartTag.ISmartTagRecognizerSite2,System.String,Microsoft.Office.Interop.SmartTag.ISmartTagTokenList)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Recognize2 (Text As String, DataType As IF_TYPE, LocaleID As Integer, RecognizerSite2 As ISmartTagRecognizerSite2, ApplicationName As String, TokenList As ISmartTagTokenList)" />
+      <MemberSignature Language="F#" Value="abstract member Recognize2 : string * Microsoft.Office.Interop.SmartTag.IF_TYPE * int * Microsoft.Office.Interop.SmartTag.ISmartTagRecognizerSite2 * string * Microsoft.Office.Interop.SmartTag.ISmartTagTokenList -&gt; unit" Usage="iSmartTagRecognizer2.Recognize2 (Text, DataType, LocaleID, RecognizerSite2, ApplicationName, TokenList)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(8)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(8)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Text" Type="System.String" />
+        <Parameter Name="DataType" Type="Microsoft.Office.Interop.SmartTag.IF_TYPE">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.InteropServices.ComAliasName("Microsoft.Office.Interop.SmartTag.IF_TYPE")]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComAliasName("Microsoft.Office.Interop.SmartTag.IF_TYPE")&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="LocaleID" Type="System.Int32" />
+        <Parameter Name="RecognizerSite2" Type="Microsoft.Office.Interop.SmartTag.ISmartTagRecognizerSite2" />
+        <Parameter Name="ApplicationName" Type="System.String" />
+        <Parameter Name="TokenList" Type="Microsoft.Office.Interop.SmartTag.ISmartTagTokenList" />
+      </Parameters>
+      <Docs>
+        <param name="Text">To be added.</param>
+        <param name="DataType">To be added.</param>
+        <param name="LocaleID">To be added.</param>
+        <param name="RecognizerSite2">To be added.</param>
+        <param name="ApplicationName">To be added.</param>
+        <param name="TokenList">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmartTagInitialize">
+      <MemberSignature Language="C#" Value="public void SmartTagInitialize (string ApplicationName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SmartTagInitialize([in]string ApplicationName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.SmartTag.ISmartTagRecognizer2.SmartTagInitialize(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SmartTagInitialize (ApplicationName As String)" />
+      <MemberSignature Language="F#" Value="abstract member SmartTagInitialize : string -&gt; unit" Usage="iSmartTagRecognizer2.SmartTagInitialize ApplicationName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(16)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(16)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ApplicationName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ApplicationName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

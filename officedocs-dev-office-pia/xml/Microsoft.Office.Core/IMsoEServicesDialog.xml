@@ -1,9 +1,10 @@
-﻿<Type Name="IMsoEServicesDialog" FullName="Microsoft.Office.Core.IMsoEServicesDialog">
+<Type Name="IMsoEServicesDialog" FullName="Microsoft.Office.Core.IMsoEServicesDialog">
+  <TypeSignature Language="C++ CLI" Value="public interface class IMsoEServicesDialog" />
   <TypeSignature Language="C#" Value="public interface IMsoEServicesDialog" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMsoEServicesDialog" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IMsoEServicesDialog" />
   <TypeSignature Language="VB.NET" Value="Public Interface IMsoEServicesDialog" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IMsoEServicesDialog" />
+  <TypeSignature Language="F#" Value="type IMsoEServicesDialog = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,10 +12,12 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C0372-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C0372-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C0372-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4304)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4304)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -23,11 +26,12 @@
   </Docs>
   <Members>
     <Member MemberName="AddTrustedDomain">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddTrustedDomain(System::String ^ Domain);" />
       <MemberSignature Language="C#" Value="public void AddTrustedDomain (string Domain);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddTrustedDomain([in]string Domain) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IMsoEServicesDialog.AddTrustedDomain(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub AddTrustedDomain (Domain As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddTrustedDomain(System::String ^ Domain);" />
+      <MemberSignature Language="F#" Value="abstract member AddTrustedDomain : string -&gt; unit" Usage="iMsoEServicesDialog.AddTrustedDomain Domain" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -35,7 +39,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -51,11 +56,12 @@
       </Docs>
     </Member>
     <Member MemberName="Application">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object Application { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Application" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IMsoEServicesDialog.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : obj" Usage="Microsoft.Office.Core.IMsoEServicesDialog.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -63,10 +69,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743811)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743811)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743811)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743811)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -79,11 +87,12 @@
       </Docs>
     </Member>
     <Member MemberName="ApplicationName">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ApplicationName { System::String ^ get(); };" />
       <MemberSignature Language="C#" Value="public string ApplicationName { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ApplicationName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IMsoEServicesDialog.ApplicationName" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApplicationName As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ApplicationName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ApplicationName : string" Usage="Microsoft.Office.Core.IMsoEServicesDialog.ApplicationName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -91,10 +100,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743810)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743810)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743810)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743810)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -107,11 +118,12 @@
       </Docs>
     </Member>
     <Member MemberName="ClipArt">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ClipArt { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object ClipArt { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object ClipArt" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IMsoEServicesDialog.ClipArt" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ClipArt As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ClipArt { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ClipArt : obj" Usage="Microsoft.Office.Core.IMsoEServicesDialog.ClipArt" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -119,10 +131,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743813)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743813)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743813)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743813)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743813)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743813)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -139,6 +153,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Close([in]bool ApplyWebComponentChanges) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IMsoEServicesDialog.Close(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Close (Optional ApplyWebComponentChanges As Boolean = false)" />
+      <MemberSignature Language="F#" Value="abstract member Close : bool -&gt; unit" Usage="iMsoEServicesDialog.Close ApplyWebComponentChanges" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -146,7 +161,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -162,11 +178,12 @@
       </Docs>
     </Member>
     <Member MemberName="WebComponent">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ WebComponent { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object WebComponent { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object WebComponent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IMsoEServicesDialog.WebComponent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WebComponent As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ WebComponent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.WebComponent : obj" Usage="Microsoft.Office.Core.IMsoEServicesDialog.WebComponent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -174,10 +191,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743812)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743812)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743812)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743812)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

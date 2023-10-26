@@ -1,9 +1,10 @@
-﻿<Type Name="CommandBars" FullName="Microsoft.Office.Core.CommandBars">
+<Type Name="CommandBars" FullName="Microsoft.Office.Core.CommandBars">
+  <TypeSignature Language="C++ CLI" Value="public interface class CommandBars : Microsoft::Office::Core::_CommandBars, Microsoft::Office::Core::_CommandBarsEvents_Event" />
   <TypeSignature Language="C#" Value="public interface CommandBars : Microsoft.Office.Core._CommandBars, Microsoft.Office.Core._CommandBarsEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CommandBars implements class Microsoft.Office.Core._CommandBars, class Microsoft.Office.Core._CommandBarsEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CommandBars" />
   <TypeSignature Language="VB.NET" Value="Public Interface CommandBars&#xA;Implements _CommandBars, _CommandBarsEvents_Event" />
-  <TypeSignature Language="C++ CLI" Value="public interface class CommandBars : Microsoft::Office::Core::_CommandBars, Microsoft::Office::Core::_CommandBarsEvents_Event" />
+  <TypeSignature Language="F#" Value="type CommandBars = interface&#xA;    interface _CommandBars&#xA;    interface _CommandBarsEvents_Event" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -15,13 +16,21 @@
     <Interface>
       <InterfaceName>Microsoft.Office.Core._CommandBarsEvents_Event</InterfaceName>
     </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Core.CommandBarsClass))</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Core.CommandBarsClass))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Core.CommandBarsClass))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C0302-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C0302-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C0302-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

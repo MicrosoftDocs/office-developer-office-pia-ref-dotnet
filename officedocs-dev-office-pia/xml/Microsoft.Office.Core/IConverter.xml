@@ -1,9 +1,10 @@
-﻿<Type Name="IConverter" FullName="Microsoft.Office.Core.IConverter">
+<Type Name="IConverter" FullName="Microsoft.Office.Core.IConverter">
+  <TypeSignature Language="C++ CLI" Value="public interface class IConverter" />
   <TypeSignature Language="C#" Value="public interface IConverter" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IConverter" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IConverter" />
   <TypeSignature Language="VB.NET" Value="Public Interface IConverter" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IConverter" />
+  <TypeSignature Language="F#" Value="type IConverter = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,13 +12,16 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C03D7-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C03D7-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C03D7-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.InterfaceType(1)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.InterfaceType(1)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.InterfaceType(1)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(256)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(256)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(256)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -26,11 +30,12 @@
   </Docs>
   <Members>
     <Member MemberName="HrExport">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HrExport(System::String ^ bstrSourcePath, System::String ^ bstrDestPath, System::String ^ bstrClass, Microsoft::Office::Core::IConverterApplicationPreferences ^ pcap, [Runtime::InteropServices::Out] Microsoft::Office::Core::IConverterPreferences ^ % ppcp, Microsoft::Office::Core::IConverterUICallback ^ pcuic);" />
       <MemberSignature Language="C#" Value="public void HrExport (string bstrSourcePath, string bstrDestPath, string bstrClass, Microsoft.Office.Core.IConverterApplicationPreferences pcap, out Microsoft.Office.Core.IConverterPreferences ppcp, Microsoft.Office.Core.IConverterUICallback pcuic);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void HrExport([in]string bstrSourcePath, [in]string bstrDestPath, [in]string bstrClass, [in]class Microsoft.Office.Core.IConverterApplicationPreferences pcap, [out] class Microsoft.Office.Core.IConverterPreferences&amp; ppcp, [in]class Microsoft.Office.Core.IConverterUICallback pcuic) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IConverter.HrExport(System.String,System.String,System.String,Microsoft.Office.Core.IConverterApplicationPreferences,Microsoft.Office.Core.IConverterPreferences@,Microsoft.Office.Core.IConverterUICallback)" />
       <MemberSignature Language="VB.NET" Value="Public Sub HrExport (bstrSourcePath As String, bstrDestPath As String, bstrClass As String, pcap As IConverterApplicationPreferences, ByRef ppcp As IConverterPreferences, pcuic As IConverterUICallback)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HrExport(System::String ^ bstrSourcePath, System::String ^ bstrDestPath, System::String ^ bstrClass, Microsoft::Office::Core::IConverterApplicationPreferences ^ pcap, [Runtime::InteropServices::Out] Microsoft::Office::Core::IConverterPreferences ^ % ppcp, Microsoft::Office::Core::IConverterUICallback ^ pcuic);" />
+      <MemberSignature Language="F#" Value="abstract member HrExport : string * string * string * Microsoft.Office.Core.IConverterApplicationPreferences * IConverterPreferences * Microsoft.Office.Core.IConverterUICallback -&gt; unit" Usage="iConverter.HrExport (bstrSourcePath, bstrDestPath, bstrClass, pcap, ppcp, pcuic)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -44,7 +49,7 @@
         <Parameter Name="bstrDestPath" Type="System.String" />
         <Parameter Name="bstrClass" Type="System.String" />
         <Parameter Name="pcap" Type="Microsoft.Office.Core.IConverterApplicationPreferences" />
-        <Parameter Name="ppcp" Type="Microsoft.Office.Core.IConverterPreferences&amp;" RefType="out" />
+        <Parameter Name="ppcp" Type="Microsoft.Office.Core.IConverterPreferences" RefType="out" />
         <Parameter Name="pcuic" Type="Microsoft.Office.Core.IConverterUICallback" />
       </Parameters>
       <Docs>
@@ -59,11 +64,12 @@
       </Docs>
     </Member>
     <Member MemberName="HrGetErrorString">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HrGetErrorString(int hrErr, [Runtime::InteropServices::Out] System::String ^ % pbstrErrorMsg, Microsoft::Office::Core::IConverterApplicationPreferences ^ pcap);" />
       <MemberSignature Language="C#" Value="public void HrGetErrorString (int hrErr, out string pbstrErrorMsg, Microsoft.Office.Core.IConverterApplicationPreferences pcap);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void HrGetErrorString([in]int32 hrErr, [out] string&amp; pbstrErrorMsg, [in]class Microsoft.Office.Core.IConverterApplicationPreferences pcap) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IConverter.HrGetErrorString(System.Int32,System.String@,Microsoft.Office.Core.IConverterApplicationPreferences)" />
       <MemberSignature Language="VB.NET" Value="Public Sub HrGetErrorString (hrErr As Integer, ByRef pbstrErrorMsg As String, pcap As IConverterApplicationPreferences)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HrGetErrorString(int hrErr, [Runtime::InteropServices::Out] System::String ^ % pbstrErrorMsg, Microsoft::Office::Core::IConverterApplicationPreferences ^ pcap);" />
+      <MemberSignature Language="F#" Value="abstract member HrGetErrorString : int * string * Microsoft.Office.Core.IConverterApplicationPreferences -&gt; unit" Usage="iConverter.HrGetErrorString (hrErr, pbstrErrorMsg, pcap)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -74,7 +80,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="hrErr" Type="System.Int32" />
-        <Parameter Name="pbstrErrorMsg" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="pbstrErrorMsg" Type="System.String" RefType="out" />
         <Parameter Name="pcap" Type="Microsoft.Office.Core.IConverterApplicationPreferences" />
       </Parameters>
       <Docs>
@@ -86,11 +92,12 @@
       </Docs>
     </Member>
     <Member MemberName="HrGetFormat">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HrGetFormat(System::String ^ bstrPath, [Runtime::InteropServices::Out] System::String ^ % pbstrClass, Microsoft::Office::Core::IConverterApplicationPreferences ^ pcap, [Runtime::InteropServices::Out] Microsoft::Office::Core::IConverterPreferences ^ % ppcp, Microsoft::Office::Core::IConverterUICallback ^ pcuic);" />
       <MemberSignature Language="C#" Value="public void HrGetFormat (string bstrPath, out string pbstrClass, Microsoft.Office.Core.IConverterApplicationPreferences pcap, out Microsoft.Office.Core.IConverterPreferences ppcp, Microsoft.Office.Core.IConverterUICallback pcuic);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void HrGetFormat([in]string bstrPath, [out] string&amp; pbstrClass, [in]class Microsoft.Office.Core.IConverterApplicationPreferences pcap, [out] class Microsoft.Office.Core.IConverterPreferences&amp; ppcp, [in]class Microsoft.Office.Core.IConverterUICallback pcuic) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IConverter.HrGetFormat(System.String,System.String@,Microsoft.Office.Core.IConverterApplicationPreferences,Microsoft.Office.Core.IConverterPreferences@,Microsoft.Office.Core.IConverterUICallback)" />
       <MemberSignature Language="VB.NET" Value="Public Sub HrGetFormat (bstrPath As String, ByRef pbstrClass As String, pcap As IConverterApplicationPreferences, ByRef ppcp As IConverterPreferences, pcuic As IConverterUICallback)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HrGetFormat(System::String ^ bstrPath, [Runtime::InteropServices::Out] System::String ^ % pbstrClass, Microsoft::Office::Core::IConverterApplicationPreferences ^ pcap, [Runtime::InteropServices::Out] Microsoft::Office::Core::IConverterPreferences ^ % ppcp, Microsoft::Office::Core::IConverterUICallback ^ pcuic);" />
+      <MemberSignature Language="F#" Value="abstract member HrGetFormat : string * string * Microsoft.Office.Core.IConverterApplicationPreferences * IConverterPreferences * Microsoft.Office.Core.IConverterUICallback -&gt; unit" Usage="iConverter.HrGetFormat (bstrPath, pbstrClass, pcap, ppcp, pcuic)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -101,9 +108,9 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="bstrPath" Type="System.String" />
-        <Parameter Name="pbstrClass" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="pbstrClass" Type="System.String" RefType="out" />
         <Parameter Name="pcap" Type="Microsoft.Office.Core.IConverterApplicationPreferences" />
-        <Parameter Name="ppcp" Type="Microsoft.Office.Core.IConverterPreferences&amp;" RefType="out" />
+        <Parameter Name="ppcp" Type="Microsoft.Office.Core.IConverterPreferences" RefType="out" />
         <Parameter Name="pcuic" Type="Microsoft.Office.Core.IConverterUICallback" />
       </Parameters>
       <Docs>
@@ -117,11 +124,12 @@
       </Docs>
     </Member>
     <Member MemberName="HrImport">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HrImport(System::String ^ bstrSourcePath, System::String ^ bstrDestPath, Microsoft::Office::Core::IConverterApplicationPreferences ^ pcap, [Runtime::InteropServices::Out] Microsoft::Office::Core::IConverterPreferences ^ % ppcp, Microsoft::Office::Core::IConverterUICallback ^ pcuic);" />
       <MemberSignature Language="C#" Value="public void HrImport (string bstrSourcePath, string bstrDestPath, Microsoft.Office.Core.IConverterApplicationPreferences pcap, out Microsoft.Office.Core.IConverterPreferences ppcp, Microsoft.Office.Core.IConverterUICallback pcuic);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void HrImport([in]string bstrSourcePath, [in]string bstrDestPath, [in]class Microsoft.Office.Core.IConverterApplicationPreferences pcap, [out] class Microsoft.Office.Core.IConverterPreferences&amp; ppcp, [in]class Microsoft.Office.Core.IConverterUICallback pcuic) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IConverter.HrImport(System.String,System.String,Microsoft.Office.Core.IConverterApplicationPreferences,Microsoft.Office.Core.IConverterPreferences@,Microsoft.Office.Core.IConverterUICallback)" />
       <MemberSignature Language="VB.NET" Value="Public Sub HrImport (bstrSourcePath As String, bstrDestPath As String, pcap As IConverterApplicationPreferences, ByRef ppcp As IConverterPreferences, pcuic As IConverterUICallback)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HrImport(System::String ^ bstrSourcePath, System::String ^ bstrDestPath, Microsoft::Office::Core::IConverterApplicationPreferences ^ pcap, [Runtime::InteropServices::Out] Microsoft::Office::Core::IConverterPreferences ^ % ppcp, Microsoft::Office::Core::IConverterUICallback ^ pcuic);" />
+      <MemberSignature Language="F#" Value="abstract member HrImport : string * string * Microsoft.Office.Core.IConverterApplicationPreferences * IConverterPreferences * Microsoft.Office.Core.IConverterUICallback -&gt; unit" Usage="iConverter.HrImport (bstrSourcePath, bstrDestPath, pcap, ppcp, pcuic)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -134,7 +142,7 @@
         <Parameter Name="bstrSourcePath" Type="System.String" />
         <Parameter Name="bstrDestPath" Type="System.String" />
         <Parameter Name="pcap" Type="Microsoft.Office.Core.IConverterApplicationPreferences" />
-        <Parameter Name="ppcp" Type="Microsoft.Office.Core.IConverterPreferences&amp;" RefType="out" />
+        <Parameter Name="ppcp" Type="Microsoft.Office.Core.IConverterPreferences" RefType="out" />
         <Parameter Name="pcuic" Type="Microsoft.Office.Core.IConverterUICallback" />
       </Parameters>
       <Docs>
@@ -148,11 +156,12 @@
       </Docs>
     </Member>
     <Member MemberName="HrInitConverter">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HrInitConverter(Microsoft::Office::Core::IConverterApplicationPreferences ^ pcap, [Runtime::InteropServices::Out] Microsoft::Office::Core::IConverterPreferences ^ % ppcp, Microsoft::Office::Core::IConverterUICallback ^ pcuic);" />
       <MemberSignature Language="C#" Value="public void HrInitConverter (Microsoft.Office.Core.IConverterApplicationPreferences pcap, out Microsoft.Office.Core.IConverterPreferences ppcp, Microsoft.Office.Core.IConverterUICallback pcuic);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void HrInitConverter([in]class Microsoft.Office.Core.IConverterApplicationPreferences pcap, [out] class Microsoft.Office.Core.IConverterPreferences&amp; ppcp, [in]class Microsoft.Office.Core.IConverterUICallback pcuic) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IConverter.HrInitConverter(Microsoft.Office.Core.IConverterApplicationPreferences,Microsoft.Office.Core.IConverterPreferences@,Microsoft.Office.Core.IConverterUICallback)" />
       <MemberSignature Language="VB.NET" Value="Public Sub HrInitConverter (pcap As IConverterApplicationPreferences, ByRef ppcp As IConverterPreferences, pcuic As IConverterUICallback)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HrInitConverter(Microsoft::Office::Core::IConverterApplicationPreferences ^ pcap, [Runtime::InteropServices::Out] Microsoft::Office::Core::IConverterPreferences ^ % ppcp, Microsoft::Office::Core::IConverterUICallback ^ pcuic);" />
+      <MemberSignature Language="F#" Value="abstract member HrInitConverter : Microsoft.Office.Core.IConverterApplicationPreferences * IConverterPreferences * Microsoft.Office.Core.IConverterUICallback -&gt; unit" Usage="iConverter.HrInitConverter (pcap, ppcp, pcuic)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -163,7 +172,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="pcap" Type="Microsoft.Office.Core.IConverterApplicationPreferences" />
-        <Parameter Name="ppcp" Type="Microsoft.Office.Core.IConverterPreferences&amp;" RefType="out" />
+        <Parameter Name="ppcp" Type="Microsoft.Office.Core.IConverterPreferences" RefType="out" />
         <Parameter Name="pcuic" Type="Microsoft.Office.Core.IConverterUICallback" />
       </Parameters>
       <Docs>
@@ -175,11 +184,12 @@
       </Docs>
     </Member>
     <Member MemberName="HrUninitConverter">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HrUninitConverter(Microsoft::Office::Core::IConverterUICallback ^ pcuic);" />
       <MemberSignature Language="C#" Value="public void HrUninitConverter (Microsoft.Office.Core.IConverterUICallback pcuic);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void HrUninitConverter([in]class Microsoft.Office.Core.IConverterUICallback pcuic) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IConverter.HrUninitConverter(Microsoft.Office.Core.IConverterUICallback)" />
       <MemberSignature Language="VB.NET" Value="Public Sub HrUninitConverter (pcuic As IConverterUICallback)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HrUninitConverter(Microsoft::Office::Core::IConverterUICallback ^ pcuic);" />
+      <MemberSignature Language="F#" Value="abstract member HrUninitConverter : Microsoft.Office.Core.IConverterUICallback -&gt; unit" Usage="iConverter.HrUninitConverter pcuic" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>

@@ -1,9 +1,10 @@
-﻿<Type Name="ICustomTaskPaneConsumer" FullName="Microsoft.Office.Core.ICustomTaskPaneConsumer">
+<Type Name="ICustomTaskPaneConsumer" FullName="Microsoft.Office.Core.ICustomTaskPaneConsumer">
+  <TypeSignature Language="C++ CLI" Value="public interface class ICustomTaskPaneConsumer" />
   <TypeSignature Language="C#" Value="public interface ICustomTaskPaneConsumer" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICustomTaskPaneConsumer" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ICustomTaskPaneConsumer" />
   <TypeSignature Language="VB.NET" Value="Public Interface ICustomTaskPaneConsumer" />
-  <TypeSignature Language="C++ CLI" Value="public interface class ICustomTaskPaneConsumer" />
+  <TypeSignature Language="F#" Value="type ICustomTaskPaneConsumer = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,10 +12,12 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C033E-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C033E-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C033E-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4288)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4288)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -27,11 +30,12 @@
   </Docs>
   <Members>
     <Member MemberName="CTPFactoryAvailable">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CTPFactoryAvailable(Microsoft::Office::Core::ICTPFactory ^ CTPFactoryInst);" />
       <MemberSignature Language="C#" Value="public void CTPFactoryAvailable (Microsoft.Office.Core.ICTPFactory CTPFactoryInst);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CTPFactoryAvailable([in]class Microsoft.Office.Core.ICTPFactory CTPFactoryInst) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ICustomTaskPaneConsumer.CTPFactoryAvailable(Microsoft.Office.Core.ICTPFactory)" />
       <MemberSignature Language="VB.NET" Value="Public Sub CTPFactoryAvailable (CTPFactoryInst As ICTPFactory)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CTPFactoryAvailable(Microsoft::Office::Core::ICTPFactory ^ CTPFactoryInst);" />
+      <MemberSignature Language="F#" Value="abstract member CTPFactoryAvailable : Microsoft.Office.Core.ICTPFactory -&gt; unit" Usage="iCustomTaskPaneConsumer.CTPFactoryAvailable CTPFactoryInst" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -39,7 +43,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

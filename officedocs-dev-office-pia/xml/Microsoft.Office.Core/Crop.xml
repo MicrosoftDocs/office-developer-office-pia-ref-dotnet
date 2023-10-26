@@ -1,9 +1,10 @@
-﻿<Type Name="Crop" FullName="Microsoft.Office.Core.Crop">
+<Type Name="Crop" FullName="Microsoft.Office.Core.Crop">
+  <TypeSignature Language="C++ CLI" Value="public interface class Crop : Microsoft::Office::Core::_IMsoDispObj" />
   <TypeSignature Language="C#" Value="public interface Crop : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Crop implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Crop" />
   <TypeSignature Language="VB.NET" Value="Public Interface Crop&#xA;Implements _IMsoDispObj" />
-  <TypeSignature Language="C++ CLI" Value="public interface class Crop : Microsoft::Office::Core::_IMsoDispObj" />
+  <TypeSignature Language="F#" Value="type Crop = interface&#xA;    interface _IMsoDispObj" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -15,10 +16,12 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C03D3-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C03D3-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C03D3-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4288)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4288)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -27,11 +30,12 @@
   </Docs>
   <Members>
     <Member MemberName="Application">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object Application { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Application" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Crop.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : obj" Usage="Microsoft.Office.Core.Crop.Application" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
@@ -42,10 +46,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -61,11 +67,12 @@
       </Docs>
     </Member>
     <Member MemberName="Creator">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
       <MemberSignature Language="C#" Value="public int Creator { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Crop.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Core.Crop.Creator" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
@@ -76,10 +83,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -95,11 +104,12 @@
       </Docs>
     </Member>
     <Member MemberName="PictureHeight">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float PictureHeight { float get(); void set(float value); };" />
       <MemberSignature Language="C#" Value="public float PictureHeight { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 PictureHeight" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Crop.PictureHeight" />
       <MemberSignature Language="VB.NET" Value="Public Property PictureHeight As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float PictureHeight { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.PictureHeight : single with get, set" Usage="Microsoft.Office.Core.Crop.PictureHeight" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -107,13 +117,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(3)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -129,11 +142,12 @@
       </Docs>
     </Member>
     <Member MemberName="PictureOffsetX">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float default { float get(); void set(float value); };" />
       <MemberSignature Language="C#" Value="public float this { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 PictureOffsetX" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Crop.PictureOffsetX" />
       <MemberSignature Language="VB.NET" Value="Default Public Property PictureOffsetX As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float default { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.PictureOffsetX : single with get, set" Usage="Microsoft.Office.Core.Crop.PictureOffsetX" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -141,13 +155,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -163,11 +180,12 @@
       </Docs>
     </Member>
     <Member MemberName="PictureOffsetY">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float PictureOffsetY { float get(); void set(float value); };" />
       <MemberSignature Language="C#" Value="public float PictureOffsetY { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 PictureOffsetY" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Crop.PictureOffsetY" />
       <MemberSignature Language="VB.NET" Value="Public Property PictureOffsetY As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float PictureOffsetY { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.PictureOffsetY : single with get, set" Usage="Microsoft.Office.Core.Crop.PictureOffsetY" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -175,13 +193,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -197,11 +218,12 @@
       </Docs>
     </Member>
     <Member MemberName="PictureWidth">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float PictureWidth { float get(); void set(float value); };" />
       <MemberSignature Language="C#" Value="public float PictureWidth { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 PictureWidth" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Crop.PictureWidth" />
       <MemberSignature Language="VB.NET" Value="Public Property PictureWidth As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float PictureWidth { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.PictureWidth : single with get, set" Usage="Microsoft.Office.Core.Crop.PictureWidth" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -209,13 +231,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(2)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -231,11 +256,12 @@
       </Docs>
     </Member>
     <Member MemberName="ShapeHeight">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float ShapeHeight { float get(); void set(float value); };" />
       <MemberSignature Language="C#" Value="public float ShapeHeight { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 ShapeHeight" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Crop.ShapeHeight" />
       <MemberSignature Language="VB.NET" Value="Public Property ShapeHeight As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float ShapeHeight { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.ShapeHeight : single with get, set" Usage="Microsoft.Office.Core.Crop.ShapeHeight" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -243,13 +269,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(8)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(8)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(8)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(8)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(8)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(8)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(8)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(8)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -265,11 +294,12 @@
       </Docs>
     </Member>
     <Member MemberName="ShapeLeft">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float ShapeLeft { float get(); void set(float value); };" />
       <MemberSignature Language="C#" Value="public float ShapeLeft { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 ShapeLeft" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Crop.ShapeLeft" />
       <MemberSignature Language="VB.NET" Value="Public Property ShapeLeft As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float ShapeLeft { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.ShapeLeft : single with get, set" Usage="Microsoft.Office.Core.Crop.ShapeLeft" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -277,13 +307,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(5)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -299,11 +332,12 @@
       </Docs>
     </Member>
     <Member MemberName="ShapeTop">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float ShapeTop { float get(); void set(float value); };" />
       <MemberSignature Language="C#" Value="public float ShapeTop { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 ShapeTop" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Crop.ShapeTop" />
       <MemberSignature Language="VB.NET" Value="Public Property ShapeTop As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float ShapeTop { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.ShapeTop : single with get, set" Usage="Microsoft.Office.Core.Crop.ShapeTop" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -311,13 +345,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(6)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(6)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(6)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(6)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(6)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(6)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(6)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -333,11 +370,12 @@
       </Docs>
     </Member>
     <Member MemberName="ShapeWidth">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float ShapeWidth { float get(); void set(float value); };" />
       <MemberSignature Language="C#" Value="public float ShapeWidth { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 ShapeWidth" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Crop.ShapeWidth" />
       <MemberSignature Language="VB.NET" Value="Public Property ShapeWidth As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float ShapeWidth { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.ShapeWidth : single with get, set" Usage="Microsoft.Office.Core.Crop.ShapeWidth" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -345,13 +383,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(7)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(7)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(7)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(7)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(7)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(7)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(7)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

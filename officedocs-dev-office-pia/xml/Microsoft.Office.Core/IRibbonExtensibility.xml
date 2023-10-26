@@ -1,9 +1,10 @@
-﻿<Type Name="IRibbonExtensibility" FullName="Microsoft.Office.Core.IRibbonExtensibility">
+<Type Name="IRibbonExtensibility" FullName="Microsoft.Office.Core.IRibbonExtensibility">
+  <TypeSignature Language="C++ CLI" Value="public interface class IRibbonExtensibility" />
   <TypeSignature Language="C#" Value="public interface IRibbonExtensibility" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRibbonExtensibility" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IRibbonExtensibility" />
   <TypeSignature Language="VB.NET" Value="Public Interface IRibbonExtensibility" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IRibbonExtensibility" />
+  <TypeSignature Language="F#" Value="type IRibbonExtensibility = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,10 +12,12 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C0396-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C0396-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C0396-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4160)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4160)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -41,11 +44,12 @@ public string GetCustomUI(string RibbonID)
   </Docs>
   <Members>
     <Member MemberName="GetCustomUI">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetCustomUI(System::String ^ RibbonID);" />
       <MemberSignature Language="C#" Value="public string GetCustomUI (string RibbonID);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetCustomUI([in]string RibbonID) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IRibbonExtensibility.GetCustomUI(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetCustomUI (RibbonID As String) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetCustomUI(System::String ^ RibbonID);" />
+      <MemberSignature Language="F#" Value="abstract member GetCustomUI : string -&gt; string" Usage="iRibbonExtensibility.GetCustomUI RibbonID" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -53,7 +57,8 @@ public string GetCustomUI(string RibbonID)
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

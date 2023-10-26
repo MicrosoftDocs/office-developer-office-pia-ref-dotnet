@@ -1,9 +1,10 @@
-﻿<Type Name="Shapes" FullName="Microsoft.Office.Core.Shapes">
+<Type Name="Shapes" FullName="Microsoft.Office.Core.Shapes">
+  <TypeSignature Language="C++ CLI" Value="public interface class Shapes : Microsoft::Office::Core::_IMsoDispObj, System::Collections::IEnumerable" />
   <TypeSignature Language="C#" Value="public interface Shapes : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Shapes implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Shapes" />
   <TypeSignature Language="VB.NET" Value="Public Interface Shapes&#xA;Implements _IMsoDispObj, IEnumerable" />
-  <TypeSignature Language="C++ CLI" Value="public interface class Shapes : Microsoft::Office::Core::_IMsoDispObj, System::Collections::IEnumerable" />
+  <TypeSignature Language="F#" Value="type Shapes = interface&#xA;    interface _IMsoDispObj&#xA;    interface IEnumerable" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -18,10 +19,12 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C031E-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C031E-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C031E-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4304)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4304)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -30,11 +33,12 @@
   </Docs>
   <Members>
     <Member MemberName="AddCallout">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddCallout(Microsoft::Office::Core::MsoCalloutType Type, float Left, float Top, float Width, float Height);" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Shape AddCallout (Microsoft.Office.Core.MsoCalloutType Type, float Left, float Top, float Width, float Height);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.Shape AddCallout([in]valuetype Microsoft.Office.Core.MsoCalloutType Type, [in]float32 Left, [in]float32 Top, [in]float32 Width, [in]float32 Height) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Shapes.AddCallout(Microsoft.Office.Core.MsoCalloutType,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddCallout (Type As MsoCalloutType, Left As Single, Top As Single, Width As Single, Height As Single) As Shape" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddCallout(Microsoft::Office::Core::MsoCalloutType Type, float Left, float Top, float Width, float Height);" />
+      <MemberSignature Language="F#" Value="abstract member AddCallout : Microsoft.Office.Core.MsoCalloutType * single * single * single * single -&gt; Microsoft.Office.Core.Shape" Usage="shapes.AddCallout (Type, Left, Top, Width, Height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -42,7 +46,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(10)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(10)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -67,11 +72,12 @@
       </Docs>
     </Member>
     <Member MemberName="AddCanvas">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddCanvas(float Left, float Top, float Width, float Height);" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Shape AddCanvas (float Left, float Top, float Width, float Height);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.Shape AddCanvas([in]float32 Left, [in]float32 Top, [in]float32 Width, [in]float32 Height) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Shapes.AddCanvas(System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddCanvas (Left As Single, Top As Single, Width As Single, Height As Single) As Shape" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddCanvas(float Left, float Top, float Width, float Height);" />
+      <MemberSignature Language="F#" Value="abstract member AddCanvas : single * single * single * single -&gt; Microsoft.Office.Core.Shape" Usage="shapes.AddCanvas (Left, Top, Width, Height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -79,10 +85,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(25)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(25)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(25)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibFunc(64)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibFunc(64)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -109,6 +117,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.Shape AddChart([in]valuetype Microsoft.Office.Core.XlChartType Type, [in]float32 Left, [in]float32 Top, [in]float32 Width, [in]float32 Height) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Shapes.AddChart(Microsoft.Office.Core.XlChartType,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddChart (Optional Type As XlChartType = (Microsoft.Office.Core.XlChartType) -1, Optional Left As Single = -1, Optional Top As Single = -1, Optional Width As Single = -1, Optional Height As Single = -1) As Shape" />
+      <MemberSignature Language="F#" Value="abstract member AddChart : Microsoft.Office.Core.XlChartType * single * single * single * single -&gt; Microsoft.Office.Core.Shape" Usage="shapes.AddChart (Type, Left, Top, Width, Height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -116,10 +125,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(26)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(26)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(26)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibFunc(64)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibFunc(64)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -148,6 +159,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.Shape AddChart2([in]int32 Style, [in]valuetype Microsoft.Office.Core.XlChartType Type, [in]float32 Left, [in]float32 Top, [in]float32 Width, [in]float32 Height, [in]bool NewLayout) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Shapes.AddChart2(System.Int32,Microsoft.Office.Core.XlChartType,System.Single,System.Single,System.Single,System.Single,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddChart2 (Optional Style As Integer = -1, Optional Type As XlChartType = (Microsoft.Office.Core.XlChartType) -1, Optional Left As Single = -1, Optional Top As Single = -1, Optional Width As Single = -1, Optional Height As Single = -1, Optional NewLayout As Boolean = false) As Shape" />
+      <MemberSignature Language="F#" Value="abstract member AddChart2 : int * Microsoft.Office.Core.XlChartType * single * single * single * single * bool -&gt; Microsoft.Office.Core.Shape" Usage="shapes.AddChart2 (Style, Type, Left, Top, Width, Height, NewLayout)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -155,7 +167,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(29)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(29)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(29)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -184,11 +197,12 @@
       </Docs>
     </Member>
     <Member MemberName="AddConnector">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddConnector(Microsoft::Office::Core::MsoConnectorType Type, float BeginX, float BeginY, float EndX, float EndY);" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Shape AddConnector (Microsoft.Office.Core.MsoConnectorType Type, float BeginX, float BeginY, float EndX, float EndY);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.Shape AddConnector([in]valuetype Microsoft.Office.Core.MsoConnectorType Type, [in]float32 BeginX, [in]float32 BeginY, [in]float32 EndX, [in]float32 EndY) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Shapes.AddConnector(Microsoft.Office.Core.MsoConnectorType,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddConnector (Type As MsoConnectorType, BeginX As Single, BeginY As Single, EndX As Single, EndY As Single) As Shape" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddConnector(Microsoft::Office::Core::MsoConnectorType Type, float BeginX, float BeginY, float EndX, float EndY);" />
+      <MemberSignature Language="F#" Value="abstract member AddConnector : Microsoft.Office.Core.MsoConnectorType * single * single * single * single -&gt; Microsoft.Office.Core.Shape" Usage="shapes.AddConnector (Type, BeginX, BeginY, EndX, EndY)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -196,7 +210,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(11)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(11)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -221,11 +236,12 @@
       </Docs>
     </Member>
     <Member MemberName="AddCurve">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddCurve(System::Object ^ SafeArrayOfPoints);" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Shape AddCurve (object SafeArrayOfPoints);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.Shape AddCurve([in]object SafeArrayOfPoints) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Shapes.AddCurve(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddCurve (SafeArrayOfPoints As Object) As Shape" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddCurve(System::Object ^ SafeArrayOfPoints);" />
+      <MemberSignature Language="F#" Value="abstract member AddCurve : obj -&gt; Microsoft.Office.Core.Shape" Usage="shapes.AddCurve SafeArrayOfPoints" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -233,7 +249,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(12)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(12)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -250,11 +267,12 @@
       </Docs>
     </Member>
     <Member MemberName="AddDiagram">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddDiagram(Microsoft::Office::Core::MsoDiagramType Type, float Left, float Top, float Width, float Height);" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Shape AddDiagram (Microsoft.Office.Core.MsoDiagramType Type, float Left, float Top, float Width, float Height);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.Shape AddDiagram([in]valuetype Microsoft.Office.Core.MsoDiagramType Type, [in]float32 Left, [in]float32 Top, [in]float32 Width, [in]float32 Height) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Shapes.AddDiagram(Microsoft.Office.Core.MsoDiagramType,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddDiagram (Type As MsoDiagramType, Left As Single, Top As Single, Width As Single, Height As Single) As Shape" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddDiagram(Microsoft::Office::Core::MsoDiagramType Type, float Left, float Top, float Width, float Height);" />
+      <MemberSignature Language="F#" Value="abstract member AddDiagram : Microsoft.Office.Core.MsoDiagramType * single * single * single * single -&gt; Microsoft.Office.Core.Shape" Usage="shapes.AddDiagram (Type, Left, Top, Width, Height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -262,10 +280,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(23)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(23)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(23)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibFunc(64)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibFunc(64)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -290,11 +310,12 @@
       </Docs>
     </Member>
     <Member MemberName="AddLabel">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddLabel(Microsoft::Office::Core::MsoTextOrientation Orientation, float Left, float Top, float Width, float Height);" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Shape AddLabel (Microsoft.Office.Core.MsoTextOrientation Orientation, float Left, float Top, float Width, float Height);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.Shape AddLabel([in]valuetype Microsoft.Office.Core.MsoTextOrientation Orientation, [in]float32 Left, [in]float32 Top, [in]float32 Width, [in]float32 Height) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Shapes.AddLabel(Microsoft.Office.Core.MsoTextOrientation,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddLabel (Orientation As MsoTextOrientation, Left As Single, Top As Single, Width As Single, Height As Single) As Shape" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddLabel(Microsoft::Office::Core::MsoTextOrientation Orientation, float Left, float Top, float Width, float Height);" />
+      <MemberSignature Language="F#" Value="abstract member AddLabel : Microsoft.Office.Core.MsoTextOrientation * single * single * single * single -&gt; Microsoft.Office.Core.Shape" Usage="shapes.AddLabel (Orientation, Left, Top, Width, Height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -302,7 +323,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(13)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(13)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -327,11 +349,12 @@
       </Docs>
     </Member>
     <Member MemberName="AddLine">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddLine(float BeginX, float BeginY, float EndX, float EndY);" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Shape AddLine (float BeginX, float BeginY, float EndX, float EndY);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.Shape AddLine([in]float32 BeginX, [in]float32 BeginY, [in]float32 EndX, [in]float32 EndY) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Shapes.AddLine(System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddLine (BeginX As Single, BeginY As Single, EndX As Single, EndY As Single) As Shape" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddLine(float BeginX, float BeginY, float EndX, float EndY);" />
+      <MemberSignature Language="F#" Value="abstract member AddLine : single * single * single * single -&gt; Microsoft.Office.Core.Shape" Usage="shapes.AddLine (BeginX, BeginY, EndX, EndY)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -339,7 +362,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(14)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(14)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -366,6 +390,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.Shape AddPicture([in]string FileName, [in]valuetype Microsoft.Office.Core.MsoTriState LinkToFile, [in]valuetype Microsoft.Office.Core.MsoTriState SaveWithDocument, [in]float32 Left, [in]float32 Top, [in]float32 Width, [in]float32 Height) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Shapes.AddPicture(System.String,Microsoft.Office.Core.MsoTriState,Microsoft.Office.Core.MsoTriState,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddPicture (FileName As String, LinkToFile As MsoTriState, SaveWithDocument As MsoTriState, Left As Single, Top As Single, Optional Width As Single = -1, Optional Height As Single = -1) As Shape" />
+      <MemberSignature Language="F#" Value="abstract member AddPicture : string * Microsoft.Office.Core.MsoTriState * Microsoft.Office.Core.MsoTriState * single * single * single * single -&gt; Microsoft.Office.Core.Shape" Usage="shapes.AddPicture (FileName, LinkToFile, SaveWithDocument, Left, Top, Width, Height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -373,7 +398,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(15)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(15)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(15)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -406,6 +432,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.Shape AddPicture2([in]string FileName, [in]valuetype Microsoft.Office.Core.MsoTriState LinkToFile, [in]valuetype Microsoft.Office.Core.MsoTriState SaveWithDocument, [in]float32 Left, [in]float32 Top, [in]float32 Width, [in]float32 Height, [in]valuetype Microsoft.Office.Core.MsoPictureCompress Compress) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Shapes.AddPicture2(System.String,Microsoft.Office.Core.MsoTriState,Microsoft.Office.Core.MsoTriState,System.Single,System.Single,System.Single,System.Single,Microsoft.Office.Core.MsoPictureCompress)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddPicture2 (FileName As String, LinkToFile As MsoTriState, SaveWithDocument As MsoTriState, Left As Single, Top As Single, Optional Width As Single = -1, Optional Height As Single = -1, Optional Compress As MsoPictureCompress = Microsoft.Office.Core.MsoPictureCompress.msoPictureCompressDocDefault) As Shape" />
+      <MemberSignature Language="F#" Value="abstract member AddPicture2 : string * Microsoft.Office.Core.MsoTriState * Microsoft.Office.Core.MsoTriState * single * single * single * single * Microsoft.Office.Core.MsoPictureCompress -&gt; Microsoft.Office.Core.Shape" Usage="shapes.AddPicture2 (FileName, LinkToFile, SaveWithDocument, Left, Top, Width, Height, Compress)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -413,7 +440,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(30)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(30)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(30)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -444,11 +472,12 @@
       </Docs>
     </Member>
     <Member MemberName="AddPolyline">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddPolyline(System::Object ^ SafeArrayOfPoints);" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Shape AddPolyline (object SafeArrayOfPoints);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.Shape AddPolyline([in]object SafeArrayOfPoints) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Shapes.AddPolyline(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddPolyline (SafeArrayOfPoints As Object) As Shape" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddPolyline(System::Object ^ SafeArrayOfPoints);" />
+      <MemberSignature Language="F#" Value="abstract member AddPolyline : obj -&gt; Microsoft.Office.Core.Shape" Usage="shapes.AddPolyline SafeArrayOfPoints" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -456,7 +485,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(16)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(16)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(16)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -473,11 +503,12 @@
       </Docs>
     </Member>
     <Member MemberName="AddShape">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddShape(Microsoft::Office::Core::MsoAutoShapeType Type, float Left, float Top, float Width, float Height);" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Shape AddShape (Microsoft.Office.Core.MsoAutoShapeType Type, float Left, float Top, float Width, float Height);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.Shape AddShape([in]valuetype Microsoft.Office.Core.MsoAutoShapeType Type, [in]float32 Left, [in]float32 Top, [in]float32 Width, [in]float32 Height) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Shapes.AddShape(Microsoft.Office.Core.MsoAutoShapeType,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddShape (Type As MsoAutoShapeType, Left As Single, Top As Single, Width As Single, Height As Single) As Shape" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddShape(Microsoft::Office::Core::MsoAutoShapeType Type, float Left, float Top, float Width, float Height);" />
+      <MemberSignature Language="F#" Value="abstract member AddShape : Microsoft.Office.Core.MsoAutoShapeType * single * single * single * single -&gt; Microsoft.Office.Core.Shape" Usage="shapes.AddShape (Type, Left, Top, Width, Height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -485,7 +516,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(17)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(17)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(17)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -514,6 +546,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.Shape AddSmartArt([in]class Microsoft.Office.Core.SmartArtLayout Layout, [in]float32 Left, [in]float32 Top, [in]float32 Width, [in]float32 Height) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Shapes.AddSmartArt(Microsoft.Office.Core.SmartArtLayout,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddSmartArt (Layout As SmartArtLayout, Optional Left As Single = -1, Optional Top As Single = -1, Optional Width As Single = -1, Optional Height As Single = -1) As Shape" />
+      <MemberSignature Language="F#" Value="abstract member AddSmartArt : Microsoft.Office.Core.SmartArtLayout * single * single * single * single -&gt; Microsoft.Office.Core.Shape" Usage="shapes.AddSmartArt (Layout, Left, Top, Width, Height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -521,7 +554,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(28)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(28)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(28)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -546,11 +580,12 @@
       </Docs>
     </Member>
     <Member MemberName="AddTable">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddTable(int NumRows, int NumColumns, float Left, float Top, float Width, float Height);" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Shape AddTable (int NumRows, int NumColumns, float Left, float Top, float Width, float Height);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.Shape AddTable([in]int32 NumRows, [in]int32 NumColumns, [in]float32 Left, [in]float32 Top, [in]float32 Width, [in]float32 Height) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Shapes.AddTable(System.Int32,System.Int32,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddTable (NumRows As Integer, NumColumns As Integer, Left As Single, Top As Single, Width As Single, Height As Single) As Shape" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddTable(int NumRows, int NumColumns, float Left, float Top, float Width, float Height);" />
+      <MemberSignature Language="F#" Value="abstract member AddTable : int * int * single * single * single * single -&gt; Microsoft.Office.Core.Shape" Usage="shapes.AddTable (NumRows, NumColumns, Left, Top, Width, Height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -558,10 +593,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(27)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(27)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(27)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibFunc(64)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibFunc(64)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -588,11 +625,12 @@
       </Docs>
     </Member>
     <Member MemberName="AddTextbox">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddTextbox(Microsoft::Office::Core::MsoTextOrientation Orientation, float Left, float Top, float Width, float Height);" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Shape AddTextbox (Microsoft.Office.Core.MsoTextOrientation Orientation, float Left, float Top, float Width, float Height);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.Shape AddTextbox([in]valuetype Microsoft.Office.Core.MsoTextOrientation Orientation, [in]float32 Left, [in]float32 Top, [in]float32 Width, [in]float32 Height) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Shapes.AddTextbox(Microsoft.Office.Core.MsoTextOrientation,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddTextbox (Orientation As MsoTextOrientation, Left As Single, Top As Single, Width As Single, Height As Single) As Shape" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddTextbox(Microsoft::Office::Core::MsoTextOrientation Orientation, float Left, float Top, float Width, float Height);" />
+      <MemberSignature Language="F#" Value="abstract member AddTextbox : Microsoft.Office.Core.MsoTextOrientation * single * single * single * single -&gt; Microsoft.Office.Core.Shape" Usage="shapes.AddTextbox (Orientation, Left, Top, Width, Height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -600,7 +638,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(19)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(19)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(19)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -625,11 +664,12 @@
       </Docs>
     </Member>
     <Member MemberName="AddTextEffect">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddTextEffect(Microsoft::Office::Core::MsoPresetTextEffect PresetTextEffect, System::String ^ Text, System::String ^ FontName, float FontSize, Microsoft::Office::Core::MsoTriState FontBold, Microsoft::Office::Core::MsoTriState FontItalic, float Left, float Top);" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Shape AddTextEffect (Microsoft.Office.Core.MsoPresetTextEffect PresetTextEffect, string Text, string FontName, float FontSize, Microsoft.Office.Core.MsoTriState FontBold, Microsoft.Office.Core.MsoTriState FontItalic, float Left, float Top);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.Shape AddTextEffect([in]valuetype Microsoft.Office.Core.MsoPresetTextEffect PresetTextEffect, [in]string Text, [in]string FontName, [in]float32 FontSize, [in]valuetype Microsoft.Office.Core.MsoTriState FontBold, [in]valuetype Microsoft.Office.Core.MsoTriState FontItalic, [in]float32 Left, [in]float32 Top) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Shapes.AddTextEffect(Microsoft.Office.Core.MsoPresetTextEffect,System.String,System.String,System.Single,Microsoft.Office.Core.MsoTriState,Microsoft.Office.Core.MsoTriState,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddTextEffect (PresetTextEffect As MsoPresetTextEffect, Text As String, FontName As String, FontSize As Single, FontBold As MsoTriState, FontItalic As MsoTriState, Left As Single, Top As Single) As Shape" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ AddTextEffect(Microsoft::Office::Core::MsoPresetTextEffect PresetTextEffect, System::String ^ Text, System::String ^ FontName, float FontSize, Microsoft::Office::Core::MsoTriState FontBold, Microsoft::Office::Core::MsoTriState FontItalic, float Left, float Top);" />
+      <MemberSignature Language="F#" Value="abstract member AddTextEffect : Microsoft.Office.Core.MsoPresetTextEffect * string * string * single * Microsoft.Office.Core.MsoTriState * Microsoft.Office.Core.MsoTriState * single * single -&gt; Microsoft.Office.Core.Shape" Usage="shapes.AddTextEffect (PresetTextEffect, Text, FontName, FontSize, FontBold, FontItalic, Left, Top)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -637,7 +677,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(18)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(18)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(18)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -668,11 +709,12 @@
       </Docs>
     </Member>
     <Member MemberName="Application">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object Application { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Application" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Shapes.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : obj" Usage="Microsoft.Office.Core.Shapes.Application" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
@@ -683,10 +725,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -699,11 +743,12 @@
       </Docs>
     </Member>
     <Member MemberName="Background">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::Shape ^ Background { Microsoft::Office::Core::Shape ^ get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Shape Background { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.Shape Background" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Shapes.Background" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Background As Shape" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::Shape ^ Background { Microsoft::Office::Core::Shape ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Background : Microsoft.Office.Core.Shape" Usage="Microsoft.Office.Core.Shapes.Background" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -711,10 +756,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(100)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(100)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(100)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(100)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(100)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -727,11 +774,12 @@
       </Docs>
     </Member>
     <Member MemberName="BuildFreeform">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::FreeformBuilder ^ BuildFreeform(Microsoft::Office::Core::MsoEditingType EditingType, float X1, float Y1);" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.FreeformBuilder BuildFreeform (Microsoft.Office.Core.MsoEditingType EditingType, float X1, float Y1);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.FreeformBuilder BuildFreeform([in]valuetype Microsoft.Office.Core.MsoEditingType EditingType, [in]float32 X1, [in]float32 Y1) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Shapes.BuildFreeform(Microsoft.Office.Core.MsoEditingType,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function BuildFreeform (EditingType As MsoEditingType, X1 As Single, Y1 As Single) As FreeformBuilder" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::FreeformBuilder ^ BuildFreeform(Microsoft::Office::Core::MsoEditingType EditingType, float X1, float Y1);" />
+      <MemberSignature Language="F#" Value="abstract member BuildFreeform : Microsoft.Office.Core.MsoEditingType * single * single -&gt; Microsoft.Office.Core.FreeformBuilder" Usage="shapes.BuildFreeform (EditingType, X1, Y1)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -739,7 +787,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(20)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(20)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -760,11 +809,12 @@
       </Docs>
     </Member>
     <Member MemberName="Count">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
       <MemberSignature Language="C#" Value="public int Count { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Shapes.Count" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.Office.Core.Shapes.Count" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -772,10 +822,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -788,11 +840,12 @@
       </Docs>
     </Member>
     <Member MemberName="Creator">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
       <MemberSignature Language="C#" Value="public int Creator { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Shapes.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Core.Shapes.Creator" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
@@ -803,10 +856,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -819,11 +874,12 @@
       </Docs>
     </Member>
     <Member MemberName="Default">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::Shape ^ Default { Microsoft::Office::Core::Shape ^ get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Shape Default { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.Shape Default" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Shapes.Default" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Default As Shape" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::Shape ^ Default { Microsoft::Office::Core::Shape ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Default : Microsoft.Office.Core.Shape" Usage="Microsoft.Office.Core.Shapes.Default" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -831,10 +887,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(101)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(101)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(101)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(101)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(101)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(101)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -847,11 +905,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
       <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Shapes.GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="shapes.GetEnumerator " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
@@ -862,10 +921,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-4)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibFunc(1024)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibFunc(1024)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -879,11 +940,12 @@
       </Docs>
     </Member>
     <Member MemberName="Item">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ Item(System::Object ^ Index);" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Shape Item (object Index);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.Shape Item([in]object Index) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Shapes.Item(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function Item (Index As Object) As Shape" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Shape ^ Item(System::Object ^ Index);" />
+      <MemberSignature Language="F#" Value="abstract member Item : obj -&gt; Microsoft.Office.Core.Shape" Usage="shapes.Item Index" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -891,7 +953,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -908,11 +971,12 @@
       </Docs>
     </Member>
     <Member MemberName="Parent">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object Parent { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Shapes.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Core.Shapes.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -920,10 +984,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -936,11 +1002,12 @@
       </Docs>
     </Member>
     <Member MemberName="Range">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::ShapeRange ^ Range(System::Object ^ Index);" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.ShapeRange Range (object Index);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.ShapeRange Range([in]object Index) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Shapes.Range(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function Range (Index As Object) As ShapeRange" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::ShapeRange ^ Range(System::Object ^ Index);" />
+      <MemberSignature Language="F#" Value="abstract member Range : obj -&gt; Microsoft.Office.Core.ShapeRange" Usage="shapes.Range Index" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -948,7 +1015,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(21)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(21)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(21)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -965,11 +1033,12 @@
       </Docs>
     </Member>
     <Member MemberName="SelectAll">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SelectAll();" />
       <MemberSignature Language="C#" Value="public void SelectAll ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SelectAll() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Shapes.SelectAll" />
       <MemberSignature Language="VB.NET" Value="Public Sub SelectAll ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SelectAll();" />
+      <MemberSignature Language="F#" Value="abstract member SelectAll : unit -&gt; unit" Usage="shapes.SelectAll " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -977,7 +1046,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(22)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(22)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(22)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

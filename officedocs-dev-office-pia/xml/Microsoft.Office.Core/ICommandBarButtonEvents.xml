@@ -1,9 +1,10 @@
-﻿<Type Name="ICommandBarButtonEvents" FullName="Microsoft.Office.Core.ICommandBarButtonEvents">
+<Type Name="ICommandBarButtonEvents" FullName="Microsoft.Office.Core.ICommandBarButtonEvents">
+  <TypeSignature Language="C++ CLI" Value="public interface class ICommandBarButtonEvents" />
   <TypeSignature Language="C#" Value="public interface ICommandBarButtonEvents" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICommandBarButtonEvents" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ICommandBarButtonEvents" />
   <TypeSignature Language="VB.NET" Value="Public Interface ICommandBarButtonEvents" />
-  <TypeSignature Language="C++ CLI" Value="public interface class ICommandBarButtonEvents" />
+  <TypeSignature Language="F#" Value="type ICommandBarButtonEvents = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,10 +12,12 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("55F88890-7708-11D1-ACEB-006008961DA5")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("55F88890-7708-11D1-ACEB-006008961DA5")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("55F88890-7708-11D1-ACEB-006008961DA5")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4304)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4304)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -23,11 +26,12 @@
   </Docs>
   <Members>
     <Member MemberName="Click">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Click(Microsoft::Office::Core::CommandBarButton ^ Ctrl, [Runtime::InteropServices::Out] bool % CancelDefault);" />
       <MemberSignature Language="C#" Value="public void Click (Microsoft.Office.Core.CommandBarButton Ctrl, out bool CancelDefault);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Click([in]class Microsoft.Office.Core.CommandBarButton Ctrl, [out] bool&amp; CancelDefault) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ICommandBarButtonEvents.Click(Microsoft.Office.Core.CommandBarButton,System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Click (Ctrl As CommandBarButton, ByRef CancelDefault As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Click(Microsoft::Office::Core::CommandBarButton ^ Ctrl, [Runtime::InteropServices::Out] bool % CancelDefault);" />
+      <MemberSignature Language="F#" Value="abstract member Click : Microsoft.Office.Core.CommandBarButton * bool -&gt; unit" Usage="iCommandBarButtonEvents.Click (Ctrl, CancelDefault)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -35,7 +39,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -43,7 +48,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Ctrl" Type="Microsoft.Office.Core.CommandBarButton" />
-        <Parameter Name="CancelDefault" Type="System.Boolean&amp;" RefType="out" />
+        <Parameter Name="CancelDefault" Type="System.Boolean" RefType="out" />
       </Parameters>
       <Docs>
         <param name="Ctrl">To be added.</param>
