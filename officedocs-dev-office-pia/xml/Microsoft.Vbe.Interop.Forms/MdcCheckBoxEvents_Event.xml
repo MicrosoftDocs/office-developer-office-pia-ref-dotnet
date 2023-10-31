@@ -1,0 +1,812 @@
+<Type Name="MdcCheckBoxEvents_Event" FullName="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event">
+  <TypeSignature Language="C#" Value="public interface MdcCheckBoxEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MdcCheckBoxEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface MdcCheckBoxEvents_Event" />
+  <TypeSignature Language="F#" Value="type MdcCheckBoxEvents_Event = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents), typeof(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_EventProvider))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents), typeof(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_EventProvider))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComVisible(false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComVisible(false)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(16)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(16)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="add_BeforeDragOver">
+      <MemberSignature Language="C#" Value="public void add_BeforeDragOver (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDragOverEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_BeforeDragOver(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDragOverEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.add_BeforeDragOver(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_BeforeDragOver (unnamedParam1 As MdcCheckBoxEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_BeforeDragOver : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDragOverEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.add_BeforeDragOver unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDragOverEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_BeforeDropOrPaste">
+      <MemberSignature Language="C#" Value="public void add_BeforeDropOrPaste (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDropOrPasteEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_BeforeDropOrPaste(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDropOrPasteEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.add_BeforeDropOrPaste(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_BeforeDropOrPaste (unnamedParam1 As MdcCheckBoxEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDropOrPasteEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.add_BeforeDropOrPaste unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDropOrPasteEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Change">
+      <MemberSignature Language="C#" Value="public void add_Change (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ChangeEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Change(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ChangeEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.add_Change(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ChangeEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_Change (unnamedParam1 As MdcCheckBoxEvents_ChangeEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Change : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ChangeEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.add_Change unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ChangeEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Click">
+      <MemberSignature Language="C#" Value="public void add_Click (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Click(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.add_Click(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_Click (unnamedParam1 As MdcCheckBoxEvents_ClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Click : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ClickEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.add_Click unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_DblClick">
+      <MemberSignature Language="C#" Value="public void add_DblClick (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_DblClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_DblClick(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_DblClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.add_DblClick(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_DblClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_DblClick (unnamedParam1 As MdcCheckBoxEvents_DblClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_DblClick : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_DblClickEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.add_DblClick unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_DblClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Error">
+      <MemberSignature Language="C#" Value="public void add_Error (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ErrorEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Error(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ErrorEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.add_Error(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ErrorEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_Error (unnamedParam1 As MdcCheckBoxEvents_ErrorEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Error : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ErrorEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.add_Error unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ErrorEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_KeyDown">
+      <MemberSignature Language="C#" Value="public void add_KeyDown (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyDownEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_KeyDown(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyDownEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.add_KeyDown(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyDownEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_KeyDown (unnamedParam1 As MdcCheckBoxEvents_KeyDownEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_KeyDown : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyDownEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.add_KeyDown unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyDownEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_KeyPress">
+      <MemberSignature Language="C#" Value="public void add_KeyPress (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyPressEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_KeyPress(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyPressEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.add_KeyPress(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyPressEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_KeyPress (unnamedParam1 As MdcCheckBoxEvents_KeyPressEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_KeyPress : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyPressEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.add_KeyPress unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyPressEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_KeyUp">
+      <MemberSignature Language="C#" Value="public void add_KeyUp (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyUpEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_KeyUp(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyUpEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.add_KeyUp(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyUpEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_KeyUp (unnamedParam1 As MdcCheckBoxEvents_KeyUpEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_KeyUp : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyUpEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.add_KeyUp unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyUpEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_MouseDown">
+      <MemberSignature Language="C#" Value="public void add_MouseDown (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseDownEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_MouseDown(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseDownEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.add_MouseDown(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseDownEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_MouseDown (unnamedParam1 As MdcCheckBoxEvents_MouseDownEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_MouseDown : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseDownEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.add_MouseDown unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseDownEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_MouseMove">
+      <MemberSignature Language="C#" Value="public void add_MouseMove (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseMoveEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_MouseMove(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseMoveEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.add_MouseMove(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseMoveEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_MouseMove (unnamedParam1 As MdcCheckBoxEvents_MouseMoveEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_MouseMove : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseMoveEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.add_MouseMove unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseMoveEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_MouseUp">
+      <MemberSignature Language="C#" Value="public void add_MouseUp (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseUpEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_MouseUp(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseUpEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.add_MouseUp(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseUpEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_MouseUp (unnamedParam1 As MdcCheckBoxEvents_MouseUpEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_MouseUp : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseUpEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.add_MouseUp unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseUpEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDragOver">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDragOverEventHandler BeforeDragOver;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDragOverEventHandler BeforeDragOver" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.BeforeDragOver" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeDragOver As MdcCheckBoxEvents_BeforeDragOverEventHandler " />
+      <MemberSignature Language="F#" Value="member this.BeforeDragOver : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDragOverEventHandler " Usage="member this.BeforeDragOver : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDragOverEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDragOverEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDropOrPaste">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDropOrPasteEventHandler BeforeDropOrPaste;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDropOrPasteEventHandler BeforeDropOrPaste" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.BeforeDropOrPaste" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeDropOrPaste As MdcCheckBoxEvents_BeforeDropOrPasteEventHandler " />
+      <MemberSignature Language="F#" Value="member this.BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDropOrPasteEventHandler " Usage="member this.BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDropOrPasteEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDropOrPasteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Change">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ChangeEventHandler Change;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ChangeEventHandler Change" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.Change" />
+      <MemberSignature Language="VB.NET" Value="Event Change As MdcCheckBoxEvents_ChangeEventHandler " />
+      <MemberSignature Language="F#" Value="member this.Change : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ChangeEventHandler " Usage="member this.Change : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ChangeEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Click">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ClickEventHandler Click;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ClickEventHandler Click" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.Click" />
+      <MemberSignature Language="VB.NET" Value="Event Click As MdcCheckBoxEvents_ClickEventHandler " />
+      <MemberSignature Language="F#" Value="member this.Click : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ClickEventHandler " Usage="member this.Click : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ClickEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DblClick">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_DblClickEventHandler DblClick;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_DblClickEventHandler DblClick" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.DblClick" />
+      <MemberSignature Language="VB.NET" Value="Event DblClick As MdcCheckBoxEvents_DblClickEventHandler " />
+      <MemberSignature Language="F#" Value="member this.DblClick : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_DblClickEventHandler " Usage="member this.DblClick : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_DblClickEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_DblClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ErrorEventHandler Error;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ErrorEventHandler Error" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.Error" />
+      <MemberSignature Language="VB.NET" Value="Event Error As MdcCheckBoxEvents_ErrorEventHandler " />
+      <MemberSignature Language="F#" Value="member this.Error : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ErrorEventHandler " Usage="member this.Error : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ErrorEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ErrorEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyDown">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyDownEventHandler KeyDown;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyDownEventHandler KeyDown" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.KeyDown" />
+      <MemberSignature Language="VB.NET" Value="Event KeyDown As MdcCheckBoxEvents_KeyDownEventHandler " />
+      <MemberSignature Language="F#" Value="member this.KeyDown : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyDownEventHandler " Usage="member this.KeyDown : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyDownEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyPress">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyPressEventHandler KeyPress;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyPressEventHandler KeyPress" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.KeyPress" />
+      <MemberSignature Language="VB.NET" Value="Event KeyPress As MdcCheckBoxEvents_KeyPressEventHandler " />
+      <MemberSignature Language="F#" Value="member this.KeyPress : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyPressEventHandler " Usage="member this.KeyPress : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyPressEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyPressEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyUp">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyUpEventHandler KeyUp;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyUpEventHandler KeyUp" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.KeyUp" />
+      <MemberSignature Language="VB.NET" Value="Event KeyUp As MdcCheckBoxEvents_KeyUpEventHandler " />
+      <MemberSignature Language="F#" Value="member this.KeyUp : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyUpEventHandler " Usage="member this.KeyUp : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyUpEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseDown">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseDownEventHandler MouseDown;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseDownEventHandler MouseDown" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.MouseDown" />
+      <MemberSignature Language="VB.NET" Value="Event MouseDown As MdcCheckBoxEvents_MouseDownEventHandler " />
+      <MemberSignature Language="F#" Value="member this.MouseDown : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseDownEventHandler " Usage="member this.MouseDown : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseDownEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseMove">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseMoveEventHandler MouseMove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseMoveEventHandler MouseMove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.MouseMove" />
+      <MemberSignature Language="VB.NET" Value="Event MouseMove As MdcCheckBoxEvents_MouseMoveEventHandler " />
+      <MemberSignature Language="F#" Value="member this.MouseMove : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseMoveEventHandler " Usage="member this.MouseMove : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseMoveEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseUp">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseUpEventHandler MouseUp;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseUpEventHandler MouseUp" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.MouseUp" />
+      <MemberSignature Language="VB.NET" Value="Event MouseUp As MdcCheckBoxEvents_MouseUpEventHandler " />
+      <MemberSignature Language="F#" Value="member this.MouseUp : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseUpEventHandler " Usage="member this.MouseUp : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseUpEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_BeforeDragOver">
+      <MemberSignature Language="C#" Value="public void remove_BeforeDragOver (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDragOverEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_BeforeDragOver(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDragOverEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.remove_BeforeDragOver(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_BeforeDragOver (unnamedParam1 As MdcCheckBoxEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_BeforeDragOver : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDragOverEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.remove_BeforeDragOver unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDragOverEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_BeforeDropOrPaste">
+      <MemberSignature Language="C#" Value="public void remove_BeforeDropOrPaste (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDropOrPasteEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_BeforeDropOrPaste(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDropOrPasteEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.remove_BeforeDropOrPaste(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_BeforeDropOrPaste (unnamedParam1 As MdcCheckBoxEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDropOrPasteEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.remove_BeforeDropOrPaste unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_BeforeDropOrPasteEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Change">
+      <MemberSignature Language="C#" Value="public void remove_Change (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ChangeEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Change(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ChangeEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.remove_Change(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ChangeEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_Change (unnamedParam1 As MdcCheckBoxEvents_ChangeEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Change : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ChangeEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.remove_Change unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ChangeEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Click">
+      <MemberSignature Language="C#" Value="public void remove_Click (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Click(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.remove_Click(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_Click (unnamedParam1 As MdcCheckBoxEvents_ClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Click : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ClickEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.remove_Click unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_DblClick">
+      <MemberSignature Language="C#" Value="public void remove_DblClick (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_DblClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_DblClick(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_DblClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.remove_DblClick(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_DblClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_DblClick (unnamedParam1 As MdcCheckBoxEvents_DblClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_DblClick : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_DblClickEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.remove_DblClick unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_DblClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Error">
+      <MemberSignature Language="C#" Value="public void remove_Error (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ErrorEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Error(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ErrorEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.remove_Error(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ErrorEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_Error (unnamedParam1 As MdcCheckBoxEvents_ErrorEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Error : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ErrorEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.remove_Error unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_ErrorEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_KeyDown">
+      <MemberSignature Language="C#" Value="public void remove_KeyDown (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyDownEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_KeyDown(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyDownEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.remove_KeyDown(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyDownEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_KeyDown (unnamedParam1 As MdcCheckBoxEvents_KeyDownEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_KeyDown : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyDownEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.remove_KeyDown unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyDownEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_KeyPress">
+      <MemberSignature Language="C#" Value="public void remove_KeyPress (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyPressEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_KeyPress(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyPressEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.remove_KeyPress(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyPressEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_KeyPress (unnamedParam1 As MdcCheckBoxEvents_KeyPressEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_KeyPress : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyPressEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.remove_KeyPress unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyPressEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_KeyUp">
+      <MemberSignature Language="C#" Value="public void remove_KeyUp (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyUpEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_KeyUp(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyUpEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.remove_KeyUp(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyUpEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_KeyUp (unnamedParam1 As MdcCheckBoxEvents_KeyUpEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_KeyUp : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyUpEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.remove_KeyUp unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_KeyUpEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_MouseDown">
+      <MemberSignature Language="C#" Value="public void remove_MouseDown (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseDownEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_MouseDown(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseDownEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.remove_MouseDown(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseDownEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_MouseDown (unnamedParam1 As MdcCheckBoxEvents_MouseDownEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_MouseDown : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseDownEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.remove_MouseDown unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseDownEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_MouseMove">
+      <MemberSignature Language="C#" Value="public void remove_MouseMove (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseMoveEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_MouseMove(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseMoveEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.remove_MouseMove(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseMoveEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_MouseMove (unnamedParam1 As MdcCheckBoxEvents_MouseMoveEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_MouseMove : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseMoveEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.remove_MouseMove unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseMoveEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_MouseUp">
+      <MemberSignature Language="C#" Value="public void remove_MouseUp (Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseUpEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_MouseUp(class Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseUpEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_Event.remove_MouseUp(Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseUpEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_MouseUp (unnamedParam1 As MdcCheckBoxEvents_MouseUpEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_MouseUp : Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseUpEventHandler -&gt; unit" Usage="mdcCheckBoxEvents_Event.remove_MouseUp unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.MdcCheckBoxEvents_MouseUpEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

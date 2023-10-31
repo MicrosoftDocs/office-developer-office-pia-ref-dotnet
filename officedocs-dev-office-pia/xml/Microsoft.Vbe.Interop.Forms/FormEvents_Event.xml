@@ -1,0 +1,1072 @@
+<Type Name="FormEvents_Event" FullName="Microsoft.Vbe.Interop.Forms.FormEvents_Event">
+  <TypeSignature Language="C#" Value="public interface FormEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FormEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop.Forms.FormEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface FormEvents_Event" />
+  <TypeSignature Language="F#" Value="type FormEvents_Event = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Vbe.Interop.Forms.FormEvents), typeof(Microsoft.Vbe.Interop.Forms.FormEvents_EventProvider))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Vbe.Interop.Forms.FormEvents), typeof(Microsoft.Vbe.Interop.Forms.FormEvents_EventProvider))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComVisible(false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComVisible(false)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(16)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(16)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="add_AddControl">
+      <MemberSignature Language="C#" Value="public void add_AddControl (Microsoft.Vbe.Interop.Forms.FormEvents_AddControlEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_AddControl(class Microsoft.Vbe.Interop.Forms.FormEvents_AddControlEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.add_AddControl(Microsoft.Vbe.Interop.Forms.FormEvents_AddControlEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_AddControl (unnamedParam1 As FormEvents_AddControlEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_AddControl : Microsoft.Vbe.Interop.Forms.FormEvents_AddControlEventHandler -&gt; unit" Usage="formEvents_Event.add_AddControl unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_AddControlEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_BeforeDragOver">
+      <MemberSignature Language="C#" Value="public void add_BeforeDragOver (Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDragOverEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_BeforeDragOver(class Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDragOverEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.add_BeforeDragOver(Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_BeforeDragOver (unnamedParam1 As FormEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_BeforeDragOver : Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDragOverEventHandler -&gt; unit" Usage="formEvents_Event.add_BeforeDragOver unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDragOverEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_BeforeDropOrPaste">
+      <MemberSignature Language="C#" Value="public void add_BeforeDropOrPaste (Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDropOrPasteEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_BeforeDropOrPaste(class Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDropOrPasteEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.add_BeforeDropOrPaste(Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_BeforeDropOrPaste (unnamedParam1 As FormEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDropOrPasteEventHandler -&gt; unit" Usage="formEvents_Event.add_BeforeDropOrPaste unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDropOrPasteEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Click">
+      <MemberSignature Language="C#" Value="public void add_Click (Microsoft.Vbe.Interop.Forms.FormEvents_ClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Click(class Microsoft.Vbe.Interop.Forms.FormEvents_ClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.add_Click(Microsoft.Vbe.Interop.Forms.FormEvents_ClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_Click (unnamedParam1 As FormEvents_ClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Click : Microsoft.Vbe.Interop.Forms.FormEvents_ClickEventHandler -&gt; unit" Usage="formEvents_Event.add_Click unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_ClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_DblClick">
+      <MemberSignature Language="C#" Value="public void add_DblClick (Microsoft.Vbe.Interop.Forms.FormEvents_DblClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_DblClick(class Microsoft.Vbe.Interop.Forms.FormEvents_DblClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.add_DblClick(Microsoft.Vbe.Interop.Forms.FormEvents_DblClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_DblClick (unnamedParam1 As FormEvents_DblClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_DblClick : Microsoft.Vbe.Interop.Forms.FormEvents_DblClickEventHandler -&gt; unit" Usage="formEvents_Event.add_DblClick unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_DblClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Error">
+      <MemberSignature Language="C#" Value="public void add_Error (Microsoft.Vbe.Interop.Forms.FormEvents_ErrorEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Error(class Microsoft.Vbe.Interop.Forms.FormEvents_ErrorEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.add_Error(Microsoft.Vbe.Interop.Forms.FormEvents_ErrorEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_Error (unnamedParam1 As FormEvents_ErrorEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Error : Microsoft.Vbe.Interop.Forms.FormEvents_ErrorEventHandler -&gt; unit" Usage="formEvents_Event.add_Error unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_ErrorEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_KeyDown">
+      <MemberSignature Language="C#" Value="public void add_KeyDown (Microsoft.Vbe.Interop.Forms.FormEvents_KeyDownEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_KeyDown(class Microsoft.Vbe.Interop.Forms.FormEvents_KeyDownEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.add_KeyDown(Microsoft.Vbe.Interop.Forms.FormEvents_KeyDownEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_KeyDown (unnamedParam1 As FormEvents_KeyDownEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_KeyDown : Microsoft.Vbe.Interop.Forms.FormEvents_KeyDownEventHandler -&gt; unit" Usage="formEvents_Event.add_KeyDown unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_KeyDownEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_KeyPress">
+      <MemberSignature Language="C#" Value="public void add_KeyPress (Microsoft.Vbe.Interop.Forms.FormEvents_KeyPressEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_KeyPress(class Microsoft.Vbe.Interop.Forms.FormEvents_KeyPressEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.add_KeyPress(Microsoft.Vbe.Interop.Forms.FormEvents_KeyPressEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_KeyPress (unnamedParam1 As FormEvents_KeyPressEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_KeyPress : Microsoft.Vbe.Interop.Forms.FormEvents_KeyPressEventHandler -&gt; unit" Usage="formEvents_Event.add_KeyPress unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_KeyPressEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_KeyUp">
+      <MemberSignature Language="C#" Value="public void add_KeyUp (Microsoft.Vbe.Interop.Forms.FormEvents_KeyUpEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_KeyUp(class Microsoft.Vbe.Interop.Forms.FormEvents_KeyUpEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.add_KeyUp(Microsoft.Vbe.Interop.Forms.FormEvents_KeyUpEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_KeyUp (unnamedParam1 As FormEvents_KeyUpEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_KeyUp : Microsoft.Vbe.Interop.Forms.FormEvents_KeyUpEventHandler -&gt; unit" Usage="formEvents_Event.add_KeyUp unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_KeyUpEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Layout">
+      <MemberSignature Language="C#" Value="public void add_Layout (Microsoft.Vbe.Interop.Forms.FormEvents_LayoutEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Layout(class Microsoft.Vbe.Interop.Forms.FormEvents_LayoutEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.add_Layout(Microsoft.Vbe.Interop.Forms.FormEvents_LayoutEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_Layout (unnamedParam1 As FormEvents_LayoutEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Layout : Microsoft.Vbe.Interop.Forms.FormEvents_LayoutEventHandler -&gt; unit" Usage="formEvents_Event.add_Layout unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_LayoutEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_MouseDown">
+      <MemberSignature Language="C#" Value="public void add_MouseDown (Microsoft.Vbe.Interop.Forms.FormEvents_MouseDownEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_MouseDown(class Microsoft.Vbe.Interop.Forms.FormEvents_MouseDownEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.add_MouseDown(Microsoft.Vbe.Interop.Forms.FormEvents_MouseDownEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_MouseDown (unnamedParam1 As FormEvents_MouseDownEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_MouseDown : Microsoft.Vbe.Interop.Forms.FormEvents_MouseDownEventHandler -&gt; unit" Usage="formEvents_Event.add_MouseDown unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_MouseDownEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_MouseMove">
+      <MemberSignature Language="C#" Value="public void add_MouseMove (Microsoft.Vbe.Interop.Forms.FormEvents_MouseMoveEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_MouseMove(class Microsoft.Vbe.Interop.Forms.FormEvents_MouseMoveEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.add_MouseMove(Microsoft.Vbe.Interop.Forms.FormEvents_MouseMoveEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_MouseMove (unnamedParam1 As FormEvents_MouseMoveEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_MouseMove : Microsoft.Vbe.Interop.Forms.FormEvents_MouseMoveEventHandler -&gt; unit" Usage="formEvents_Event.add_MouseMove unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_MouseMoveEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_MouseUp">
+      <MemberSignature Language="C#" Value="public void add_MouseUp (Microsoft.Vbe.Interop.Forms.FormEvents_MouseUpEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_MouseUp(class Microsoft.Vbe.Interop.Forms.FormEvents_MouseUpEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.add_MouseUp(Microsoft.Vbe.Interop.Forms.FormEvents_MouseUpEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_MouseUp (unnamedParam1 As FormEvents_MouseUpEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_MouseUp : Microsoft.Vbe.Interop.Forms.FormEvents_MouseUpEventHandler -&gt; unit" Usage="formEvents_Event.add_MouseUp unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_MouseUpEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_RemoveControl">
+      <MemberSignature Language="C#" Value="public void add_RemoveControl (Microsoft.Vbe.Interop.Forms.FormEvents_RemoveControlEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_RemoveControl(class Microsoft.Vbe.Interop.Forms.FormEvents_RemoveControlEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.add_RemoveControl(Microsoft.Vbe.Interop.Forms.FormEvents_RemoveControlEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_RemoveControl (unnamedParam1 As FormEvents_RemoveControlEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_RemoveControl : Microsoft.Vbe.Interop.Forms.FormEvents_RemoveControlEventHandler -&gt; unit" Usage="formEvents_Event.add_RemoveControl unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_RemoveControlEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Scroll">
+      <MemberSignature Language="C#" Value="public void add_Scroll (Microsoft.Vbe.Interop.Forms.FormEvents_ScrollEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Scroll(class Microsoft.Vbe.Interop.Forms.FormEvents_ScrollEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.add_Scroll(Microsoft.Vbe.Interop.Forms.FormEvents_ScrollEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_Scroll (unnamedParam1 As FormEvents_ScrollEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Scroll : Microsoft.Vbe.Interop.Forms.FormEvents_ScrollEventHandler -&gt; unit" Usage="formEvents_Event.add_Scroll unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_ScrollEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Zoom">
+      <MemberSignature Language="C#" Value="public void add_Zoom (Microsoft.Vbe.Interop.Forms.FormEvents_ZoomEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Zoom(class Microsoft.Vbe.Interop.Forms.FormEvents_ZoomEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.add_Zoom(Microsoft.Vbe.Interop.Forms.FormEvents_ZoomEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_Zoom (unnamedParam1 As FormEvents_ZoomEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Zoom : Microsoft.Vbe.Interop.Forms.FormEvents_ZoomEventHandler -&gt; unit" Usage="formEvents_Event.add_Zoom unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_ZoomEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddControl">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.FormEvents_AddControlEventHandler AddControl;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.FormEvents_AddControlEventHandler AddControl" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.FormEvents_Event.AddControl" />
+      <MemberSignature Language="VB.NET" Value="Event AddControl As FormEvents_AddControlEventHandler " />
+      <MemberSignature Language="F#" Value="member this.AddControl : Microsoft.Vbe.Interop.Forms.FormEvents_AddControlEventHandler " Usage="member this.AddControl : Microsoft.Vbe.Interop.Forms.FormEvents_AddControlEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.FormEvents_AddControlEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDragOver">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDragOverEventHandler BeforeDragOver;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDragOverEventHandler BeforeDragOver" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.FormEvents_Event.BeforeDragOver" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeDragOver As FormEvents_BeforeDragOverEventHandler " />
+      <MemberSignature Language="F#" Value="member this.BeforeDragOver : Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDragOverEventHandler " Usage="member this.BeforeDragOver : Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDragOverEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDragOverEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDropOrPaste">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDropOrPasteEventHandler BeforeDropOrPaste;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDropOrPasteEventHandler BeforeDropOrPaste" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.FormEvents_Event.BeforeDropOrPaste" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeDropOrPaste As FormEvents_BeforeDropOrPasteEventHandler " />
+      <MemberSignature Language="F#" Value="member this.BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDropOrPasteEventHandler " Usage="member this.BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDropOrPasteEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDropOrPasteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Click">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.FormEvents_ClickEventHandler Click;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.FormEvents_ClickEventHandler Click" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.FormEvents_Event.Click" />
+      <MemberSignature Language="VB.NET" Value="Event Click As FormEvents_ClickEventHandler " />
+      <MemberSignature Language="F#" Value="member this.Click : Microsoft.Vbe.Interop.Forms.FormEvents_ClickEventHandler " Usage="member this.Click : Microsoft.Vbe.Interop.Forms.FormEvents_ClickEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.FormEvents_ClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DblClick">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.FormEvents_DblClickEventHandler DblClick;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.FormEvents_DblClickEventHandler DblClick" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.FormEvents_Event.DblClick" />
+      <MemberSignature Language="VB.NET" Value="Event DblClick As FormEvents_DblClickEventHandler " />
+      <MemberSignature Language="F#" Value="member this.DblClick : Microsoft.Vbe.Interop.Forms.FormEvents_DblClickEventHandler " Usage="member this.DblClick : Microsoft.Vbe.Interop.Forms.FormEvents_DblClickEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.FormEvents_DblClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.FormEvents_ErrorEventHandler Error;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.FormEvents_ErrorEventHandler Error" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.FormEvents_Event.Error" />
+      <MemberSignature Language="VB.NET" Value="Event Error As FormEvents_ErrorEventHandler " />
+      <MemberSignature Language="F#" Value="member this.Error : Microsoft.Vbe.Interop.Forms.FormEvents_ErrorEventHandler " Usage="member this.Error : Microsoft.Vbe.Interop.Forms.FormEvents_ErrorEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.FormEvents_ErrorEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyDown">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.FormEvents_KeyDownEventHandler KeyDown;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.FormEvents_KeyDownEventHandler KeyDown" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.FormEvents_Event.KeyDown" />
+      <MemberSignature Language="VB.NET" Value="Event KeyDown As FormEvents_KeyDownEventHandler " />
+      <MemberSignature Language="F#" Value="member this.KeyDown : Microsoft.Vbe.Interop.Forms.FormEvents_KeyDownEventHandler " Usage="member this.KeyDown : Microsoft.Vbe.Interop.Forms.FormEvents_KeyDownEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.FormEvents_KeyDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyPress">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.FormEvents_KeyPressEventHandler KeyPress;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.FormEvents_KeyPressEventHandler KeyPress" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.FormEvents_Event.KeyPress" />
+      <MemberSignature Language="VB.NET" Value="Event KeyPress As FormEvents_KeyPressEventHandler " />
+      <MemberSignature Language="F#" Value="member this.KeyPress : Microsoft.Vbe.Interop.Forms.FormEvents_KeyPressEventHandler " Usage="member this.KeyPress : Microsoft.Vbe.Interop.Forms.FormEvents_KeyPressEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.FormEvents_KeyPressEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyUp">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.FormEvents_KeyUpEventHandler KeyUp;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.FormEvents_KeyUpEventHandler KeyUp" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.FormEvents_Event.KeyUp" />
+      <MemberSignature Language="VB.NET" Value="Event KeyUp As FormEvents_KeyUpEventHandler " />
+      <MemberSignature Language="F#" Value="member this.KeyUp : Microsoft.Vbe.Interop.Forms.FormEvents_KeyUpEventHandler " Usage="member this.KeyUp : Microsoft.Vbe.Interop.Forms.FormEvents_KeyUpEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.FormEvents_KeyUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Layout">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.FormEvents_LayoutEventHandler Layout;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.FormEvents_LayoutEventHandler Layout" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.FormEvents_Event.Layout" />
+      <MemberSignature Language="VB.NET" Value="Event Layout As FormEvents_LayoutEventHandler " />
+      <MemberSignature Language="F#" Value="member this.Layout : Microsoft.Vbe.Interop.Forms.FormEvents_LayoutEventHandler " Usage="member this.Layout : Microsoft.Vbe.Interop.Forms.FormEvents_LayoutEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.FormEvents_LayoutEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseDown">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.FormEvents_MouseDownEventHandler MouseDown;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.FormEvents_MouseDownEventHandler MouseDown" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.FormEvents_Event.MouseDown" />
+      <MemberSignature Language="VB.NET" Value="Event MouseDown As FormEvents_MouseDownEventHandler " />
+      <MemberSignature Language="F#" Value="member this.MouseDown : Microsoft.Vbe.Interop.Forms.FormEvents_MouseDownEventHandler " Usage="member this.MouseDown : Microsoft.Vbe.Interop.Forms.FormEvents_MouseDownEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.FormEvents_MouseDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseMove">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.FormEvents_MouseMoveEventHandler MouseMove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.FormEvents_MouseMoveEventHandler MouseMove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.FormEvents_Event.MouseMove" />
+      <MemberSignature Language="VB.NET" Value="Event MouseMove As FormEvents_MouseMoveEventHandler " />
+      <MemberSignature Language="F#" Value="member this.MouseMove : Microsoft.Vbe.Interop.Forms.FormEvents_MouseMoveEventHandler " Usage="member this.MouseMove : Microsoft.Vbe.Interop.Forms.FormEvents_MouseMoveEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.FormEvents_MouseMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseUp">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.FormEvents_MouseUpEventHandler MouseUp;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.FormEvents_MouseUpEventHandler MouseUp" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.FormEvents_Event.MouseUp" />
+      <MemberSignature Language="VB.NET" Value="Event MouseUp As FormEvents_MouseUpEventHandler " />
+      <MemberSignature Language="F#" Value="member this.MouseUp : Microsoft.Vbe.Interop.Forms.FormEvents_MouseUpEventHandler " Usage="member this.MouseUp : Microsoft.Vbe.Interop.Forms.FormEvents_MouseUpEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.FormEvents_MouseUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_AddControl">
+      <MemberSignature Language="C#" Value="public void remove_AddControl (Microsoft.Vbe.Interop.Forms.FormEvents_AddControlEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_AddControl(class Microsoft.Vbe.Interop.Forms.FormEvents_AddControlEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.remove_AddControl(Microsoft.Vbe.Interop.Forms.FormEvents_AddControlEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_AddControl (unnamedParam1 As FormEvents_AddControlEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_AddControl : Microsoft.Vbe.Interop.Forms.FormEvents_AddControlEventHandler -&gt; unit" Usage="formEvents_Event.remove_AddControl unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_AddControlEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_BeforeDragOver">
+      <MemberSignature Language="C#" Value="public void remove_BeforeDragOver (Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDragOverEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_BeforeDragOver(class Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDragOverEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.remove_BeforeDragOver(Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_BeforeDragOver (unnamedParam1 As FormEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_BeforeDragOver : Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDragOverEventHandler -&gt; unit" Usage="formEvents_Event.remove_BeforeDragOver unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDragOverEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_BeforeDropOrPaste">
+      <MemberSignature Language="C#" Value="public void remove_BeforeDropOrPaste (Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDropOrPasteEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_BeforeDropOrPaste(class Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDropOrPasteEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.remove_BeforeDropOrPaste(Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_BeforeDropOrPaste (unnamedParam1 As FormEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDropOrPasteEventHandler -&gt; unit" Usage="formEvents_Event.remove_BeforeDropOrPaste unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_BeforeDropOrPasteEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Click">
+      <MemberSignature Language="C#" Value="public void remove_Click (Microsoft.Vbe.Interop.Forms.FormEvents_ClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Click(class Microsoft.Vbe.Interop.Forms.FormEvents_ClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.remove_Click(Microsoft.Vbe.Interop.Forms.FormEvents_ClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_Click (unnamedParam1 As FormEvents_ClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Click : Microsoft.Vbe.Interop.Forms.FormEvents_ClickEventHandler -&gt; unit" Usage="formEvents_Event.remove_Click unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_ClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_DblClick">
+      <MemberSignature Language="C#" Value="public void remove_DblClick (Microsoft.Vbe.Interop.Forms.FormEvents_DblClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_DblClick(class Microsoft.Vbe.Interop.Forms.FormEvents_DblClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.remove_DblClick(Microsoft.Vbe.Interop.Forms.FormEvents_DblClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_DblClick (unnamedParam1 As FormEvents_DblClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_DblClick : Microsoft.Vbe.Interop.Forms.FormEvents_DblClickEventHandler -&gt; unit" Usage="formEvents_Event.remove_DblClick unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_DblClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Error">
+      <MemberSignature Language="C#" Value="public void remove_Error (Microsoft.Vbe.Interop.Forms.FormEvents_ErrorEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Error(class Microsoft.Vbe.Interop.Forms.FormEvents_ErrorEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.remove_Error(Microsoft.Vbe.Interop.Forms.FormEvents_ErrorEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_Error (unnamedParam1 As FormEvents_ErrorEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Error : Microsoft.Vbe.Interop.Forms.FormEvents_ErrorEventHandler -&gt; unit" Usage="formEvents_Event.remove_Error unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_ErrorEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_KeyDown">
+      <MemberSignature Language="C#" Value="public void remove_KeyDown (Microsoft.Vbe.Interop.Forms.FormEvents_KeyDownEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_KeyDown(class Microsoft.Vbe.Interop.Forms.FormEvents_KeyDownEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.remove_KeyDown(Microsoft.Vbe.Interop.Forms.FormEvents_KeyDownEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_KeyDown (unnamedParam1 As FormEvents_KeyDownEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_KeyDown : Microsoft.Vbe.Interop.Forms.FormEvents_KeyDownEventHandler -&gt; unit" Usage="formEvents_Event.remove_KeyDown unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_KeyDownEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_KeyPress">
+      <MemberSignature Language="C#" Value="public void remove_KeyPress (Microsoft.Vbe.Interop.Forms.FormEvents_KeyPressEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_KeyPress(class Microsoft.Vbe.Interop.Forms.FormEvents_KeyPressEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.remove_KeyPress(Microsoft.Vbe.Interop.Forms.FormEvents_KeyPressEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_KeyPress (unnamedParam1 As FormEvents_KeyPressEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_KeyPress : Microsoft.Vbe.Interop.Forms.FormEvents_KeyPressEventHandler -&gt; unit" Usage="formEvents_Event.remove_KeyPress unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_KeyPressEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_KeyUp">
+      <MemberSignature Language="C#" Value="public void remove_KeyUp (Microsoft.Vbe.Interop.Forms.FormEvents_KeyUpEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_KeyUp(class Microsoft.Vbe.Interop.Forms.FormEvents_KeyUpEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.remove_KeyUp(Microsoft.Vbe.Interop.Forms.FormEvents_KeyUpEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_KeyUp (unnamedParam1 As FormEvents_KeyUpEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_KeyUp : Microsoft.Vbe.Interop.Forms.FormEvents_KeyUpEventHandler -&gt; unit" Usage="formEvents_Event.remove_KeyUp unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_KeyUpEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Layout">
+      <MemberSignature Language="C#" Value="public void remove_Layout (Microsoft.Vbe.Interop.Forms.FormEvents_LayoutEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Layout(class Microsoft.Vbe.Interop.Forms.FormEvents_LayoutEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.remove_Layout(Microsoft.Vbe.Interop.Forms.FormEvents_LayoutEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_Layout (unnamedParam1 As FormEvents_LayoutEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Layout : Microsoft.Vbe.Interop.Forms.FormEvents_LayoutEventHandler -&gt; unit" Usage="formEvents_Event.remove_Layout unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_LayoutEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_MouseDown">
+      <MemberSignature Language="C#" Value="public void remove_MouseDown (Microsoft.Vbe.Interop.Forms.FormEvents_MouseDownEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_MouseDown(class Microsoft.Vbe.Interop.Forms.FormEvents_MouseDownEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.remove_MouseDown(Microsoft.Vbe.Interop.Forms.FormEvents_MouseDownEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_MouseDown (unnamedParam1 As FormEvents_MouseDownEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_MouseDown : Microsoft.Vbe.Interop.Forms.FormEvents_MouseDownEventHandler -&gt; unit" Usage="formEvents_Event.remove_MouseDown unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_MouseDownEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_MouseMove">
+      <MemberSignature Language="C#" Value="public void remove_MouseMove (Microsoft.Vbe.Interop.Forms.FormEvents_MouseMoveEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_MouseMove(class Microsoft.Vbe.Interop.Forms.FormEvents_MouseMoveEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.remove_MouseMove(Microsoft.Vbe.Interop.Forms.FormEvents_MouseMoveEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_MouseMove (unnamedParam1 As FormEvents_MouseMoveEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_MouseMove : Microsoft.Vbe.Interop.Forms.FormEvents_MouseMoveEventHandler -&gt; unit" Usage="formEvents_Event.remove_MouseMove unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_MouseMoveEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_MouseUp">
+      <MemberSignature Language="C#" Value="public void remove_MouseUp (Microsoft.Vbe.Interop.Forms.FormEvents_MouseUpEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_MouseUp(class Microsoft.Vbe.Interop.Forms.FormEvents_MouseUpEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.remove_MouseUp(Microsoft.Vbe.Interop.Forms.FormEvents_MouseUpEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_MouseUp (unnamedParam1 As FormEvents_MouseUpEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_MouseUp : Microsoft.Vbe.Interop.Forms.FormEvents_MouseUpEventHandler -&gt; unit" Usage="formEvents_Event.remove_MouseUp unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_MouseUpEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_RemoveControl">
+      <MemberSignature Language="C#" Value="public void remove_RemoveControl (Microsoft.Vbe.Interop.Forms.FormEvents_RemoveControlEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_RemoveControl(class Microsoft.Vbe.Interop.Forms.FormEvents_RemoveControlEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.remove_RemoveControl(Microsoft.Vbe.Interop.Forms.FormEvents_RemoveControlEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_RemoveControl (unnamedParam1 As FormEvents_RemoveControlEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_RemoveControl : Microsoft.Vbe.Interop.Forms.FormEvents_RemoveControlEventHandler -&gt; unit" Usage="formEvents_Event.remove_RemoveControl unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_RemoveControlEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Scroll">
+      <MemberSignature Language="C#" Value="public void remove_Scroll (Microsoft.Vbe.Interop.Forms.FormEvents_ScrollEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Scroll(class Microsoft.Vbe.Interop.Forms.FormEvents_ScrollEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.remove_Scroll(Microsoft.Vbe.Interop.Forms.FormEvents_ScrollEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_Scroll (unnamedParam1 As FormEvents_ScrollEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Scroll : Microsoft.Vbe.Interop.Forms.FormEvents_ScrollEventHandler -&gt; unit" Usage="formEvents_Event.remove_Scroll unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_ScrollEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Zoom">
+      <MemberSignature Language="C#" Value="public void remove_Zoom (Microsoft.Vbe.Interop.Forms.FormEvents_ZoomEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Zoom(class Microsoft.Vbe.Interop.Forms.FormEvents_ZoomEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.FormEvents_Event.remove_Zoom(Microsoft.Vbe.Interop.Forms.FormEvents_ZoomEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_Zoom (unnamedParam1 As FormEvents_ZoomEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Zoom : Microsoft.Vbe.Interop.Forms.FormEvents_ZoomEventHandler -&gt; unit" Usage="formEvents_Event.remove_Zoom unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.FormEvents_ZoomEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveControl">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.FormEvents_RemoveControlEventHandler RemoveControl;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.FormEvents_RemoveControlEventHandler RemoveControl" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.FormEvents_Event.RemoveControl" />
+      <MemberSignature Language="VB.NET" Value="Event RemoveControl As FormEvents_RemoveControlEventHandler " />
+      <MemberSignature Language="F#" Value="member this.RemoveControl : Microsoft.Vbe.Interop.Forms.FormEvents_RemoveControlEventHandler " Usage="member this.RemoveControl : Microsoft.Vbe.Interop.Forms.FormEvents_RemoveControlEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.FormEvents_RemoveControlEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Scroll">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.FormEvents_ScrollEventHandler Scroll;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.FormEvents_ScrollEventHandler Scroll" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.FormEvents_Event.Scroll" />
+      <MemberSignature Language="VB.NET" Value="Event Scroll As FormEvents_ScrollEventHandler " />
+      <MemberSignature Language="F#" Value="member this.Scroll : Microsoft.Vbe.Interop.Forms.FormEvents_ScrollEventHandler " Usage="member this.Scroll : Microsoft.Vbe.Interop.Forms.FormEvents_ScrollEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.FormEvents_ScrollEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Zoom">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.FormEvents_ZoomEventHandler Zoom;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.FormEvents_ZoomEventHandler Zoom" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.FormEvents_Event.Zoom" />
+      <MemberSignature Language="VB.NET" Value="Event Zoom As FormEvents_ZoomEventHandler " />
+      <MemberSignature Language="F#" Value="member this.Zoom : Microsoft.Vbe.Interop.Forms.FormEvents_ZoomEventHandler " Usage="member this.Zoom : Microsoft.Vbe.Interop.Forms.FormEvents_ZoomEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.FormEvents_ZoomEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

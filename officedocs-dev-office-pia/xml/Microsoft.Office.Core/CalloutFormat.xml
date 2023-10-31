@@ -1,9 +1,10 @@
-﻿<Type Name="CalloutFormat" FullName="Microsoft.Office.Core.CalloutFormat">
+<Type Name="CalloutFormat" FullName="Microsoft.Office.Core.CalloutFormat">
+  <TypeSignature Language="C++ CLI" Value="public interface class CalloutFormat : Microsoft::Office::Core::_IMsoDispObj" />
   <TypeSignature Language="C#" Value="public interface CalloutFormat : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CalloutFormat implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CalloutFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface CalloutFormat&#xA;Implements _IMsoDispObj" />
-  <TypeSignature Language="C++ CLI" Value="public interface class CalloutFormat : Microsoft::Office::Core::_IMsoDispObj" />
+  <TypeSignature Language="F#" Value="type CalloutFormat = interface&#xA;    interface _IMsoDispObj" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -15,10 +16,12 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C0311-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C0311-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C0311-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4304)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4304)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -27,11 +30,12 @@
   </Docs>
   <Members>
     <Member MemberName="Accent">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState Accent { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState Accent { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState Accent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CalloutFormat.Accent" />
       <MemberSignature Language="VB.NET" Value="Public Property Accent As MsoTriState" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState Accent { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberSignature Language="F#" Value="member this.Accent : Microsoft.Office.Core.MsoTriState with get, set" Usage="Microsoft.Office.Core.CalloutFormat.Accent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -39,13 +43,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(100)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(100)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(100)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(100)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(100)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(100)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(100)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(100)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -58,11 +65,12 @@
       </Docs>
     </Member>
     <Member MemberName="Angle">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoCalloutAngleType Angle { Microsoft::Office::Core::MsoCalloutAngleType get(); void set(Microsoft::Office::Core::MsoCalloutAngleType value); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoCalloutAngleType Angle { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoCalloutAngleType Angle" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CalloutFormat.Angle" />
       <MemberSignature Language="VB.NET" Value="Public Property Angle As MsoCalloutAngleType" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoCalloutAngleType Angle { Microsoft::Office::Core::MsoCalloutAngleType get(); void set(Microsoft::Office::Core::MsoCalloutAngleType value); };" />
+      <MemberSignature Language="F#" Value="member this.Angle : Microsoft.Office.Core.MsoCalloutAngleType with get, set" Usage="Microsoft.Office.Core.CalloutFormat.Angle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -70,13 +78,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(101)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(101)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(101)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(101)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(101)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(101)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(101)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(101)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(101)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -89,11 +100,12 @@
       </Docs>
     </Member>
     <Member MemberName="Application">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object Application { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Application" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CalloutFormat.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : obj" Usage="Microsoft.Office.Core.CalloutFormat.Application" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
@@ -104,10 +116,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -120,11 +134,12 @@
       </Docs>
     </Member>
     <Member MemberName="AutoAttach">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState AutoAttach { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState AutoAttach { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState AutoAttach" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CalloutFormat.AutoAttach" />
       <MemberSignature Language="VB.NET" Value="Public Property AutoAttach As MsoTriState" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState AutoAttach { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberSignature Language="F#" Value="member this.AutoAttach : Microsoft.Office.Core.MsoTriState with get, set" Usage="Microsoft.Office.Core.CalloutFormat.AutoAttach" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -132,13 +147,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(102)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(102)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(102)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(102)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(102)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(102)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(102)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(102)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(102)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -151,11 +169,12 @@
       </Docs>
     </Member>
     <Member MemberName="AutoLength">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState AutoLength { Microsoft::Office::Core::MsoTriState get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState AutoLength { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState AutoLength" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CalloutFormat.AutoLength" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoLength As MsoTriState" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState AutoLength { Microsoft::Office::Core::MsoTriState get(); };" />
+      <MemberSignature Language="F#" Value="member this.AutoLength : Microsoft.Office.Core.MsoTriState" Usage="Microsoft.Office.Core.CalloutFormat.AutoLength" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -163,10 +182,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(103)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(103)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(103)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(103)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(103)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -179,11 +200,12 @@
       </Docs>
     </Member>
     <Member MemberName="AutomaticLength">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AutomaticLength();" />
       <MemberSignature Language="C#" Value="public void AutomaticLength ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AutomaticLength() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CalloutFormat.AutomaticLength" />
       <MemberSignature Language="VB.NET" Value="Public Sub AutomaticLength ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AutomaticLength();" />
+      <MemberSignature Language="F#" Value="abstract member AutomaticLength : unit -&gt; unit" Usage="calloutFormat.AutomaticLength " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -191,7 +213,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(10)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(10)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -204,11 +227,12 @@
       </Docs>
     </Member>
     <Member MemberName="Border">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState Border { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState Border { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState Border" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CalloutFormat.Border" />
       <MemberSignature Language="VB.NET" Value="Public Property Border As MsoTriState" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState Border { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberSignature Language="F#" Value="member this.Border : Microsoft.Office.Core.MsoTriState with get, set" Usage="Microsoft.Office.Core.CalloutFormat.Border" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -216,13 +240,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(104)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(104)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(104)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(104)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(104)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(104)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(104)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(104)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(104)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -235,11 +262,12 @@
       </Docs>
     </Member>
     <Member MemberName="Creator">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
       <MemberSignature Language="C#" Value="public int Creator { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CalloutFormat.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Core.CalloutFormat.Creator" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
@@ -250,10 +278,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -266,11 +296,12 @@
       </Docs>
     </Member>
     <Member MemberName="CustomDrop">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CustomDrop(float Drop);" />
       <MemberSignature Language="C#" Value="public void CustomDrop (float Drop);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CustomDrop([in]float32 Drop) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CalloutFormat.CustomDrop(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Sub CustomDrop (Drop As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CustomDrop(float Drop);" />
+      <MemberSignature Language="F#" Value="abstract member CustomDrop : single -&gt; unit" Usage="calloutFormat.CustomDrop Drop" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -278,7 +309,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(11)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(11)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -294,11 +326,12 @@
       </Docs>
     </Member>
     <Member MemberName="CustomLength">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CustomLength(float Length);" />
       <MemberSignature Language="C#" Value="public void CustomLength (float Length);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CustomLength([in]float32 Length) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CalloutFormat.CustomLength(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Sub CustomLength (Length As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CustomLength(float Length);" />
+      <MemberSignature Language="F#" Value="abstract member CustomLength : single -&gt; unit" Usage="calloutFormat.CustomLength Length" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -306,7 +339,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(12)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(12)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -322,11 +356,12 @@
       </Docs>
     </Member>
     <Member MemberName="Drop">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Drop { float get(); };" />
       <MemberSignature Language="C#" Value="public float Drop { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 Drop" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CalloutFormat.Drop" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Drop As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Drop { float get(); };" />
+      <MemberSignature Language="F#" Value="member this.Drop : single" Usage="Microsoft.Office.Core.CalloutFormat.Drop" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -334,10 +369,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(105)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(105)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(105)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(105)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(105)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(105)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -350,11 +387,12 @@
       </Docs>
     </Member>
     <Member MemberName="DropType">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoCalloutDropType DropType { Microsoft::Office::Core::MsoCalloutDropType get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoCalloutDropType DropType { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoCalloutDropType DropType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CalloutFormat.DropType" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DropType As MsoCalloutDropType" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoCalloutDropType DropType { Microsoft::Office::Core::MsoCalloutDropType get(); };" />
+      <MemberSignature Language="F#" Value="member this.DropType : Microsoft.Office.Core.MsoCalloutDropType" Usage="Microsoft.Office.Core.CalloutFormat.DropType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -362,10 +400,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(106)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(106)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(106)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(106)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(106)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(106)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -378,11 +418,12 @@
       </Docs>
     </Member>
     <Member MemberName="Gap">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Gap { float get(); void set(float value); };" />
       <MemberSignature Language="C#" Value="public float Gap { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 Gap" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CalloutFormat.Gap" />
       <MemberSignature Language="VB.NET" Value="Public Property Gap As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Gap { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Gap : single with get, set" Usage="Microsoft.Office.Core.CalloutFormat.Gap" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -390,13 +431,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(107)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(107)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(107)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(107)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(107)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(107)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(107)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(107)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(107)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -409,11 +453,12 @@
       </Docs>
     </Member>
     <Member MemberName="Length">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Length { float get(); };" />
       <MemberSignature Language="C#" Value="public float Length { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 Length" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CalloutFormat.Length" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Length As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Length { float get(); };" />
+      <MemberSignature Language="F#" Value="member this.Length : single" Usage="Microsoft.Office.Core.CalloutFormat.Length" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -421,10 +466,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(108)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(108)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(108)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(108)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(108)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -437,11 +484,12 @@
       </Docs>
     </Member>
     <Member MemberName="Parent">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object Parent { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CalloutFormat.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Core.CalloutFormat.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -449,10 +497,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -465,11 +515,12 @@
       </Docs>
     </Member>
     <Member MemberName="PresetDrop">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PresetDrop(Microsoft::Office::Core::MsoCalloutDropType DropType);" />
       <MemberSignature Language="C#" Value="public void PresetDrop (Microsoft.Office.Core.MsoCalloutDropType DropType);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PresetDrop([in]valuetype Microsoft.Office.Core.MsoCalloutDropType DropType) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CalloutFormat.PresetDrop(Microsoft.Office.Core.MsoCalloutDropType)" />
       <MemberSignature Language="VB.NET" Value="Public Sub PresetDrop (DropType As MsoCalloutDropType)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PresetDrop(Microsoft::Office::Core::MsoCalloutDropType DropType);" />
+      <MemberSignature Language="F#" Value="abstract member PresetDrop : Microsoft.Office.Core.MsoCalloutDropType -&gt; unit" Usage="calloutFormat.PresetDrop DropType" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -477,7 +528,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(13)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(13)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -493,11 +545,12 @@
       </Docs>
     </Member>
     <Member MemberName="Type">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoCalloutType Type { Microsoft::Office::Core::MsoCalloutType get(); void set(Microsoft::Office::Core::MsoCalloutType value); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoCalloutType Type { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoCalloutType Type" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CalloutFormat.Type" />
       <MemberSignature Language="VB.NET" Value="Public Property Type As MsoCalloutType" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoCalloutType Type { Microsoft::Office::Core::MsoCalloutType get(); void set(Microsoft::Office::Core::MsoCalloutType value); };" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Office.Core.MsoCalloutType with get, set" Usage="Microsoft.Office.Core.CalloutFormat.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -505,13 +558,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(109)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(109)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(109)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(109)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(109)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(109)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(109)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(109)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(109)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

@@ -1,9 +1,10 @@
 <Type Name="_CommandBarButtonEvents_Event" FullName="Microsoft.Office.Core._CommandBarButtonEvents_Event">
+  <TypeSignature Language="C++ CLI" Value="public interface class _CommandBarButtonEvents_Event" />
   <TypeSignature Language="C#" Value="public interface _CommandBarButtonEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CommandBarButtonEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CommandBarButtonEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CommandBarButtonEvents_Event" />
-  <TypeSignature Language="C++ CLI" Value="public interface class _CommandBarButtonEvents_Event" />
+  <TypeSignature Language="F#" Value="type _CommandBarButtonEvents_Event = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,13 +12,16 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Core._CommandBarButtonEvents), typeof(Microsoft.Office.Core._CommandBarButtonEvents_EventProvider))</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Core._CommandBarButtonEvents), typeof(Microsoft.Office.Core._CommandBarButtonEvents_EventProvider))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Core._CommandBarButtonEvents), typeof(Microsoft.Office.Core._CommandBarButtonEvents_EventProvider))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComVisible(false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComVisible(false)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(16)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(16)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -25,12 +29,36 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="add_Click">
+      <MemberSignature Language="C#" Value="public void add_Click (Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Click(class Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButtonEvents_Event.add_Click(Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_Click (unnamedParam1 As _CommandBarButtonEvents_ClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Click : Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler -&gt; unit" Usage="_CommandBarButtonEvents_Event.add_Click unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Click">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::_CommandBarButtonEvents_ClickEventHandler ^ Click;" />
       <MemberSignature Language="C#" Value="event Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler Click;" />
       <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler Click" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core._CommandBarButtonEvents_Event.Click" />
       <MemberSignature Language="VB.NET" Value="Event Click As _CommandBarButtonEvents_ClickEventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::_CommandBarButtonEvents_ClickEventHandler ^ Click;" />
+      <MemberSignature Language="F#" Value="member this.Click : Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler " Usage="member this.Click : Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -41,6 +69,29 @@
       </ReturnValue>
       <Docs>
         <summary>Occurs when the user clicks a <see cref="T:Microsoft.Office.Core.CommandBarButton" /> object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Click">
+      <MemberSignature Language="C#" Value="public void remove_Click (Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Click(class Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButtonEvents_Event.remove_Click(Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_Click (unnamedParam1 As _CommandBarButtonEvents_ClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Click : Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler -&gt; unit" Usage="_CommandBarButtonEvents_Event.remove_Click unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

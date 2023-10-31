@@ -1,9 +1,10 @@
-﻿<Type Name="ICTPFactory" FullName="Microsoft.Office.Core.ICTPFactory">
+<Type Name="ICTPFactory" FullName="Microsoft.Office.Core.ICTPFactory">
+  <TypeSignature Language="C++ CLI" Value="public interface class ICTPFactory" />
   <TypeSignature Language="C#" Value="public interface ICTPFactory" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICTPFactory" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ICTPFactory" />
   <TypeSignature Language="VB.NET" Value="Public Interface ICTPFactory" />
-  <TypeSignature Language="C++ CLI" Value="public interface class ICTPFactory" />
+  <TypeSignature Language="F#" Value="type ICTPFactory = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,10 +12,12 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C033D-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C033D-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C033D-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4288)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4288)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -31,6 +34,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.CustomTaskPane CreateCTP([in]string CTPAxID, [in]string CTPTitle, [in]object CTPParentWindow) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ICTPFactory.CreateCTP(System.String,System.String,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateCTP (CTPAxID As String, CTPTitle As String, Optional CTPParentWindow As Object) As CustomTaskPane" />
+      <MemberSignature Language="F#" Value="abstract member CreateCTP : string * string * obj -&gt; Microsoft.Office.Core.CustomTaskPane" Usage="iCTPFactory.CreateCTP (CTPAxID, CTPTitle, CTPParentWindow)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -38,7 +42,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

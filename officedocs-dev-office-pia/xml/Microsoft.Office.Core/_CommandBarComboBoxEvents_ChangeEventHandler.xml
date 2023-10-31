@@ -1,9 +1,10 @@
 <Type Name="_CommandBarComboBoxEvents_ChangeEventHandler" FullName="Microsoft.Office.Core._CommandBarComboBoxEvents_ChangeEventHandler">
+  <TypeSignature Language="C++ CLI" Value="public delegate void _CommandBarComboBoxEvents_ChangeEventHandler(CommandBarComboBox ^ Ctrl);" />
   <TypeSignature Language="C#" Value="public delegate void _CommandBarComboBoxEvents_ChangeEventHandler(CommandBarComboBox Ctrl);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _CommandBarComboBoxEvents_ChangeEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CommandBarComboBoxEvents_ChangeEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub _CommandBarComboBoxEvents_ChangeEventHandler(Ctrl As CommandBarComboBox)" />
-  <TypeSignature Language="C++ CLI" Value="public delegate void _CommandBarComboBoxEvents_ChangeEventHandler(CommandBarComboBox ^ Ctrl);" />
+  <TypeSignature Language="F#" Value="type _CommandBarComboBoxEvents_ChangeEventHandler = delegate of CommandBarComboBox -&gt; unit" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -13,10 +14,12 @@
   </Base>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComVisible(false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComVisible(false)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(16)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(16)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Parameters>

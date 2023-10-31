@@ -1,0 +1,328 @@
+<Type Name="SpinbuttonEvents" FullName="Microsoft.Vbe.Interop.Forms.SpinbuttonEvents">
+  <TypeSignature Language="C#" Value="public interface SpinbuttonEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SpinbuttonEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop.Forms.SpinbuttonEvents" />
+  <TypeSignature Language="VB.NET" Value="Public Interface SpinbuttonEvents" />
+  <TypeSignature Language="F#" Value="type SpinbuttonEvents = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("79176FB2-B7F2-11CE-97EF-00AA006D2776")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("79176FB2-B7F2-11CE-97EF-00AA006D2776")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.InterfaceType(2)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.InterfaceType(2)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4112)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4112)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeforeDragOver">
+      <MemberSignature Language="C#" Value="public void BeforeDragOver (Microsoft.Vbe.Interop.Forms.ReturnBoolean Cancel, Microsoft.Vbe.Interop.Forms.DataObject Data, float X, float Y, Microsoft.Vbe.Interop.Forms.fmDragState DragState, Microsoft.Vbe.Interop.Forms.ReturnEffect Effect, short Shift);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BeforeDragOver([in]class Microsoft.Vbe.Interop.Forms.ReturnBoolean Cancel, [in]class Microsoft.Vbe.Interop.Forms.DataObject Data, [in]float32 X, [in]float32 Y, [in]valuetype Microsoft.Vbe.Interop.Forms.fmDragState DragState, [in]class Microsoft.Vbe.Interop.Forms.ReturnEffect Effect, [in]int16 Shift) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.SpinbuttonEvents.BeforeDragOver(Microsoft.Vbe.Interop.Forms.ReturnBoolean,Microsoft.Vbe.Interop.Forms.DataObject,System.Single,System.Single,Microsoft.Vbe.Interop.Forms.fmDragState,Microsoft.Vbe.Interop.Forms.ReturnEffect,System.Int16)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub BeforeDragOver (Cancel As ReturnBoolean, Data As DataObject, X As Single, Y As Single, DragState As fmDragState, Effect As ReturnEffect, Shift As Short)" />
+      <MemberSignature Language="F#" Value="abstract member BeforeDragOver : Microsoft.Vbe.Interop.Forms.ReturnBoolean * Microsoft.Vbe.Interop.Forms.DataObject * single * single * Microsoft.Vbe.Interop.Forms.fmDragState * Microsoft.Vbe.Interop.Forms.ReturnEffect * int16 -&gt; unit" Usage="spinbuttonEvents.BeforeDragOver (Cancel, Data, X, Y, DragState, Effect, Shift)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Cancel" Type="Microsoft.Vbe.Interop.Forms.ReturnBoolean" />
+        <Parameter Name="Data" Type="Microsoft.Vbe.Interop.Forms.DataObject" />
+        <Parameter Name="X" Type="System.Single" />
+        <Parameter Name="Y" Type="System.Single" />
+        <Parameter Name="DragState" Type="Microsoft.Vbe.Interop.Forms.fmDragState" />
+        <Parameter Name="Effect" Type="Microsoft.Vbe.Interop.Forms.ReturnEffect" />
+        <Parameter Name="Shift" Type="System.Int16" />
+      </Parameters>
+      <Docs>
+        <param name="Cancel">To be added.</param>
+        <param name="Data">To be added.</param>
+        <param name="X">To be added.</param>
+        <param name="Y">To be added.</param>
+        <param name="DragState">To be added.</param>
+        <param name="Effect">To be added.</param>
+        <param name="Shift">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDropOrPaste">
+      <MemberSignature Language="C#" Value="public void BeforeDropOrPaste (Microsoft.Vbe.Interop.Forms.ReturnBoolean Cancel, Microsoft.Vbe.Interop.Forms.fmAction Action, Microsoft.Vbe.Interop.Forms.DataObject Data, float X, float Y, Microsoft.Vbe.Interop.Forms.ReturnEffect Effect, short Shift);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BeforeDropOrPaste([in]class Microsoft.Vbe.Interop.Forms.ReturnBoolean Cancel, [in]valuetype Microsoft.Vbe.Interop.Forms.fmAction Action, [in]class Microsoft.Vbe.Interop.Forms.DataObject Data, [in]float32 X, [in]float32 Y, [in]class Microsoft.Vbe.Interop.Forms.ReturnEffect Effect, [in]int16 Shift) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.SpinbuttonEvents.BeforeDropOrPaste(Microsoft.Vbe.Interop.Forms.ReturnBoolean,Microsoft.Vbe.Interop.Forms.fmAction,Microsoft.Vbe.Interop.Forms.DataObject,System.Single,System.Single,Microsoft.Vbe.Interop.Forms.ReturnEffect,System.Int16)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub BeforeDropOrPaste (Cancel As ReturnBoolean, Action As fmAction, Data As DataObject, X As Single, Y As Single, Effect As ReturnEffect, Shift As Short)" />
+      <MemberSignature Language="F#" Value="abstract member BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.ReturnBoolean * Microsoft.Vbe.Interop.Forms.fmAction * Microsoft.Vbe.Interop.Forms.DataObject * single * single * Microsoft.Vbe.Interop.Forms.ReturnEffect * int16 -&gt; unit" Usage="spinbuttonEvents.BeforeDropOrPaste (Cancel, Action, Data, X, Y, Effect, Shift)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Cancel" Type="Microsoft.Vbe.Interop.Forms.ReturnBoolean" />
+        <Parameter Name="Action" Type="Microsoft.Vbe.Interop.Forms.fmAction" />
+        <Parameter Name="Data" Type="Microsoft.Vbe.Interop.Forms.DataObject" />
+        <Parameter Name="X" Type="System.Single" />
+        <Parameter Name="Y" Type="System.Single" />
+        <Parameter Name="Effect" Type="Microsoft.Vbe.Interop.Forms.ReturnEffect" />
+        <Parameter Name="Shift" Type="System.Int16" />
+      </Parameters>
+      <Docs>
+        <param name="Cancel">To be added.</param>
+        <param name="Action">To be added.</param>
+        <param name="Data">To be added.</param>
+        <param name="X">To be added.</param>
+        <param name="Y">To be added.</param>
+        <param name="Effect">To be added.</param>
+        <param name="Shift">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Change">
+      <MemberSignature Language="C#" Value="public void Change ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Change() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.SpinbuttonEvents.Change" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Change ()" />
+      <MemberSignature Language="F#" Value="abstract member Change : unit -&gt; unit" Usage="spinbuttonEvents.Change " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibFunc(512)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibFunc(512)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="public void Error (short Number, Microsoft.Vbe.Interop.Forms.ReturnString Description, int SCode, string Source, string HelpFile, int HelpContext, Microsoft.Vbe.Interop.Forms.ReturnBoolean CancelDisplay);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Error([in]int16 Number, [in]class Microsoft.Vbe.Interop.Forms.ReturnString Description, [in]int32 SCode, [in]string Source, [in]string HelpFile, [in]int32 HelpContext, [in]class Microsoft.Vbe.Interop.Forms.ReturnBoolean CancelDisplay) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.SpinbuttonEvents.Error(System.Int16,Microsoft.Vbe.Interop.Forms.ReturnString,System.Int32,System.String,System.String,System.Int32,Microsoft.Vbe.Interop.Forms.ReturnBoolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Error (Number As Short, Description As ReturnString, SCode As Integer, Source As String, HelpFile As String, HelpContext As Integer, CancelDisplay As ReturnBoolean)" />
+      <MemberSignature Language="F#" Value="abstract member Error : int16 * Microsoft.Vbe.Interop.Forms.ReturnString * int * string * string * int * Microsoft.Vbe.Interop.Forms.ReturnBoolean -&gt; unit" Usage="spinbuttonEvents.Error (Number, Description, SCode, Source, HelpFile, HelpContext, CancelDisplay)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-608)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-608)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Number" Type="System.Int16" />
+        <Parameter Name="Description" Type="Microsoft.Vbe.Interop.Forms.ReturnString" />
+        <Parameter Name="SCode" Type="System.Int32" />
+        <Parameter Name="Source" Type="System.String" />
+        <Parameter Name="HelpFile" Type="System.String" />
+        <Parameter Name="HelpContext" Type="System.Int32" />
+        <Parameter Name="CancelDisplay" Type="Microsoft.Vbe.Interop.Forms.ReturnBoolean" />
+      </Parameters>
+      <Docs>
+        <param name="Number">To be added.</param>
+        <param name="Description">To be added.</param>
+        <param name="SCode">To be added.</param>
+        <param name="Source">To be added.</param>
+        <param name="HelpFile">To be added.</param>
+        <param name="HelpContext">To be added.</param>
+        <param name="CancelDisplay">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyDown">
+      <MemberSignature Language="C#" Value="public void KeyDown (Microsoft.Vbe.Interop.Forms.ReturnInteger KeyCode, short Shift);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void KeyDown([in]class Microsoft.Vbe.Interop.Forms.ReturnInteger KeyCode, [in]int16 Shift) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.SpinbuttonEvents.KeyDown(Microsoft.Vbe.Interop.Forms.ReturnInteger,System.Int16)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub KeyDown (KeyCode As ReturnInteger, Shift As Short)" />
+      <MemberSignature Language="F#" Value="abstract member KeyDown : Microsoft.Vbe.Interop.Forms.ReturnInteger * int16 -&gt; unit" Usage="spinbuttonEvents.KeyDown (KeyCode, Shift)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-602)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-602)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="KeyCode" Type="Microsoft.Vbe.Interop.Forms.ReturnInteger" />
+        <Parameter Name="Shift" Type="System.Int16" />
+      </Parameters>
+      <Docs>
+        <param name="KeyCode">To be added.</param>
+        <param name="Shift">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyPress">
+      <MemberSignature Language="C#" Value="public void KeyPress (Microsoft.Vbe.Interop.Forms.ReturnInteger KeyAscii);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void KeyPress([in]class Microsoft.Vbe.Interop.Forms.ReturnInteger KeyAscii) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.SpinbuttonEvents.KeyPress(Microsoft.Vbe.Interop.Forms.ReturnInteger)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub KeyPress (KeyAscii As ReturnInteger)" />
+      <MemberSignature Language="F#" Value="abstract member KeyPress : Microsoft.Vbe.Interop.Forms.ReturnInteger -&gt; unit" Usage="spinbuttonEvents.KeyPress KeyAscii" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-603)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-603)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="KeyAscii" Type="Microsoft.Vbe.Interop.Forms.ReturnInteger" />
+      </Parameters>
+      <Docs>
+        <param name="KeyAscii">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyUp">
+      <MemberSignature Language="C#" Value="public void KeyUp (Microsoft.Vbe.Interop.Forms.ReturnInteger KeyCode, short Shift);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void KeyUp([in]class Microsoft.Vbe.Interop.Forms.ReturnInteger KeyCode, [in]int16 Shift) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.SpinbuttonEvents.KeyUp(Microsoft.Vbe.Interop.Forms.ReturnInteger,System.Int16)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub KeyUp (KeyCode As ReturnInteger, Shift As Short)" />
+      <MemberSignature Language="F#" Value="abstract member KeyUp : Microsoft.Vbe.Interop.Forms.ReturnInteger * int16 -&gt; unit" Usage="spinbuttonEvents.KeyUp (KeyCode, Shift)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-604)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-604)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="KeyCode" Type="Microsoft.Vbe.Interop.Forms.ReturnInteger" />
+        <Parameter Name="Shift" Type="System.Int16" />
+      </Parameters>
+      <Docs>
+        <param name="KeyCode">To be added.</param>
+        <param name="Shift">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SpinDown">
+      <MemberSignature Language="C#" Value="public void SpinDown ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SpinDown() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.SpinbuttonEvents.SpinDown" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SpinDown ()" />
+      <MemberSignature Language="F#" Value="abstract member SpinDown : unit -&gt; unit" Usage="spinbuttonEvents.SpinDown " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(6)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(6)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SpinUp">
+      <MemberSignature Language="C#" Value="public void SpinUp ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SpinUp() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.SpinbuttonEvents.SpinUp" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SpinUp ()" />
+      <MemberSignature Language="F#" Value="abstract member SpinUp : unit -&gt; unit" Usage="spinbuttonEvents.SpinUp " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

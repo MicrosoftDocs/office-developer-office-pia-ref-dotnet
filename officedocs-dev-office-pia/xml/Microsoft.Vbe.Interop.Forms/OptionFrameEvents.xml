@@ -1,0 +1,566 @@
+<Type Name="OptionFrameEvents" FullName="Microsoft.Vbe.Interop.Forms.OptionFrameEvents">
+  <TypeSignature Language="C#" Value="public interface OptionFrameEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OptionFrameEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop.Forms.OptionFrameEvents" />
+  <TypeSignature Language="VB.NET" Value="Public Interface OptionFrameEvents" />
+  <TypeSignature Language="F#" Value="type OptionFrameEvents = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("CF3F94A0-F546-11CE-9BCE-00AA00608E01")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("CF3F94A0-F546-11CE-9BCE-00AA00608E01")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.InterfaceType(2)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.InterfaceType(2)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4112)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4112)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddControl">
+      <MemberSignature Language="C#" Value="public void AddControl (Microsoft.Vbe.Interop.Forms.Control Control);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddControl([in]class Microsoft.Vbe.Interop.Forms.Control Control) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.AddControl(Microsoft.Vbe.Interop.Forms.Control)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddControl (Control As Control)" />
+      <MemberSignature Language="F#" Value="abstract member AddControl : Microsoft.Vbe.Interop.Forms.Control -&gt; unit" Usage="optionFrameEvents.AddControl Control" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(768)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(768)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Control" Type="Microsoft.Vbe.Interop.Forms.Control" />
+      </Parameters>
+      <Docs>
+        <param name="Control">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDragOver">
+      <MemberSignature Language="C#" Value="public void BeforeDragOver (Microsoft.Vbe.Interop.Forms.ReturnBoolean Cancel, Microsoft.Vbe.Interop.Forms.Control Control, Microsoft.Vbe.Interop.Forms.DataObject Data, float X, float Y, Microsoft.Vbe.Interop.Forms.fmDragState State, Microsoft.Vbe.Interop.Forms.ReturnEffect Effect, short Shift);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BeforeDragOver([in]class Microsoft.Vbe.Interop.Forms.ReturnBoolean Cancel, [in]class Microsoft.Vbe.Interop.Forms.Control Control, [in]class Microsoft.Vbe.Interop.Forms.DataObject Data, [in]float32 X, [in]float32 Y, [in]valuetype Microsoft.Vbe.Interop.Forms.fmDragState State, [in]class Microsoft.Vbe.Interop.Forms.ReturnEffect Effect, [in]int16 Shift) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.BeforeDragOver(Microsoft.Vbe.Interop.Forms.ReturnBoolean,Microsoft.Vbe.Interop.Forms.Control,Microsoft.Vbe.Interop.Forms.DataObject,System.Single,System.Single,Microsoft.Vbe.Interop.Forms.fmDragState,Microsoft.Vbe.Interop.Forms.ReturnEffect,System.Int16)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub BeforeDragOver (Cancel As ReturnBoolean, Control As Control, Data As DataObject, X As Single, Y As Single, State As fmDragState, Effect As ReturnEffect, Shift As Short)" />
+      <MemberSignature Language="F#" Value="abstract member BeforeDragOver : Microsoft.Vbe.Interop.Forms.ReturnBoolean * Microsoft.Vbe.Interop.Forms.Control * Microsoft.Vbe.Interop.Forms.DataObject * single * single * Microsoft.Vbe.Interop.Forms.fmDragState * Microsoft.Vbe.Interop.Forms.ReturnEffect * int16 -&gt; unit" Usage="optionFrameEvents.BeforeDragOver (Cancel, Control, Data, X, Y, State, Effect, Shift)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Cancel" Type="Microsoft.Vbe.Interop.Forms.ReturnBoolean" />
+        <Parameter Name="Control" Type="Microsoft.Vbe.Interop.Forms.Control" />
+        <Parameter Name="Data" Type="Microsoft.Vbe.Interop.Forms.DataObject" />
+        <Parameter Name="X" Type="System.Single" />
+        <Parameter Name="Y" Type="System.Single" />
+        <Parameter Name="State" Type="Microsoft.Vbe.Interop.Forms.fmDragState" />
+        <Parameter Name="Effect" Type="Microsoft.Vbe.Interop.Forms.ReturnEffect" />
+        <Parameter Name="Shift" Type="System.Int16" />
+      </Parameters>
+      <Docs>
+        <param name="Cancel">To be added.</param>
+        <param name="Control">To be added.</param>
+        <param name="Data">To be added.</param>
+        <param name="X">To be added.</param>
+        <param name="Y">To be added.</param>
+        <param name="State">To be added.</param>
+        <param name="Effect">To be added.</param>
+        <param name="Shift">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDropOrPaste">
+      <MemberSignature Language="C#" Value="public void BeforeDropOrPaste (Microsoft.Vbe.Interop.Forms.ReturnBoolean Cancel, Microsoft.Vbe.Interop.Forms.Control Control, Microsoft.Vbe.Interop.Forms.fmAction Action, Microsoft.Vbe.Interop.Forms.DataObject Data, float X, float Y, Microsoft.Vbe.Interop.Forms.ReturnEffect Effect, short Shift);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BeforeDropOrPaste([in]class Microsoft.Vbe.Interop.Forms.ReturnBoolean Cancel, [in]class Microsoft.Vbe.Interop.Forms.Control Control, [in]valuetype Microsoft.Vbe.Interop.Forms.fmAction Action, [in]class Microsoft.Vbe.Interop.Forms.DataObject Data, [in]float32 X, [in]float32 Y, [in]class Microsoft.Vbe.Interop.Forms.ReturnEffect Effect, [in]int16 Shift) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.BeforeDropOrPaste(Microsoft.Vbe.Interop.Forms.ReturnBoolean,Microsoft.Vbe.Interop.Forms.Control,Microsoft.Vbe.Interop.Forms.fmAction,Microsoft.Vbe.Interop.Forms.DataObject,System.Single,System.Single,Microsoft.Vbe.Interop.Forms.ReturnEffect,System.Int16)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub BeforeDropOrPaste (Cancel As ReturnBoolean, Control As Control, Action As fmAction, Data As DataObject, X As Single, Y As Single, Effect As ReturnEffect, Shift As Short)" />
+      <MemberSignature Language="F#" Value="abstract member BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.ReturnBoolean * Microsoft.Vbe.Interop.Forms.Control * Microsoft.Vbe.Interop.Forms.fmAction * Microsoft.Vbe.Interop.Forms.DataObject * single * single * Microsoft.Vbe.Interop.Forms.ReturnEffect * int16 -&gt; unit" Usage="optionFrameEvents.BeforeDropOrPaste (Cancel, Control, Action, Data, X, Y, Effect, Shift)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Cancel" Type="Microsoft.Vbe.Interop.Forms.ReturnBoolean" />
+        <Parameter Name="Control" Type="Microsoft.Vbe.Interop.Forms.Control" />
+        <Parameter Name="Action" Type="Microsoft.Vbe.Interop.Forms.fmAction" />
+        <Parameter Name="Data" Type="Microsoft.Vbe.Interop.Forms.DataObject" />
+        <Parameter Name="X" Type="System.Single" />
+        <Parameter Name="Y" Type="System.Single" />
+        <Parameter Name="Effect" Type="Microsoft.Vbe.Interop.Forms.ReturnEffect" />
+        <Parameter Name="Shift" Type="System.Int16" />
+      </Parameters>
+      <Docs>
+        <param name="Cancel">To be added.</param>
+        <param name="Control">To be added.</param>
+        <param name="Action">To be added.</param>
+        <param name="Data">To be added.</param>
+        <param name="X">To be added.</param>
+        <param name="Y">To be added.</param>
+        <param name="Effect">To be added.</param>
+        <param name="Shift">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Click">
+      <MemberSignature Language="C#" Value="public void Click ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Click() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.Click" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Click ()" />
+      <MemberSignature Language="F#" Value="abstract member Click : unit -&gt; unit" Usage="optionFrameEvents.Click " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-600)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-600)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibFunc(512)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibFunc(512)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DblClick">
+      <MemberSignature Language="C#" Value="public void DblClick (Microsoft.Vbe.Interop.Forms.ReturnBoolean Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DblClick([in]class Microsoft.Vbe.Interop.Forms.ReturnBoolean Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.DblClick(Microsoft.Vbe.Interop.Forms.ReturnBoolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DblClick (Cancel As ReturnBoolean)" />
+      <MemberSignature Language="F#" Value="abstract member DblClick : Microsoft.Vbe.Interop.Forms.ReturnBoolean -&gt; unit" Usage="optionFrameEvents.DblClick Cancel" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-601)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-601)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Cancel" Type="Microsoft.Vbe.Interop.Forms.ReturnBoolean" />
+      </Parameters>
+      <Docs>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="public void Error (short Number, Microsoft.Vbe.Interop.Forms.ReturnString Description, int SCode, string Source, string HelpFile, int HelpContext, Microsoft.Vbe.Interop.Forms.ReturnBoolean CancelDisplay);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Error([in]int16 Number, [in]class Microsoft.Vbe.Interop.Forms.ReturnString Description, [in]int32 SCode, [in]string Source, [in]string HelpFile, [in]int32 HelpContext, [in]class Microsoft.Vbe.Interop.Forms.ReturnBoolean CancelDisplay) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.Error(System.Int16,Microsoft.Vbe.Interop.Forms.ReturnString,System.Int32,System.String,System.String,System.Int32,Microsoft.Vbe.Interop.Forms.ReturnBoolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Error (Number As Short, Description As ReturnString, SCode As Integer, Source As String, HelpFile As String, HelpContext As Integer, CancelDisplay As ReturnBoolean)" />
+      <MemberSignature Language="F#" Value="abstract member Error : int16 * Microsoft.Vbe.Interop.Forms.ReturnString * int * string * string * int * Microsoft.Vbe.Interop.Forms.ReturnBoolean -&gt; unit" Usage="optionFrameEvents.Error (Number, Description, SCode, Source, HelpFile, HelpContext, CancelDisplay)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-608)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-608)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Number" Type="System.Int16" />
+        <Parameter Name="Description" Type="Microsoft.Vbe.Interop.Forms.ReturnString" />
+        <Parameter Name="SCode" Type="System.Int32" />
+        <Parameter Name="Source" Type="System.String" />
+        <Parameter Name="HelpFile" Type="System.String" />
+        <Parameter Name="HelpContext" Type="System.Int32" />
+        <Parameter Name="CancelDisplay" Type="Microsoft.Vbe.Interop.Forms.ReturnBoolean" />
+      </Parameters>
+      <Docs>
+        <param name="Number">To be added.</param>
+        <param name="Description">To be added.</param>
+        <param name="SCode">To be added.</param>
+        <param name="Source">To be added.</param>
+        <param name="HelpFile">To be added.</param>
+        <param name="HelpContext">To be added.</param>
+        <param name="CancelDisplay">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyDown">
+      <MemberSignature Language="C#" Value="public void KeyDown (Microsoft.Vbe.Interop.Forms.ReturnInteger KeyCode, short Shift);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void KeyDown([in]class Microsoft.Vbe.Interop.Forms.ReturnInteger KeyCode, [in]int16 Shift) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.KeyDown(Microsoft.Vbe.Interop.Forms.ReturnInteger,System.Int16)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub KeyDown (KeyCode As ReturnInteger, Shift As Short)" />
+      <MemberSignature Language="F#" Value="abstract member KeyDown : Microsoft.Vbe.Interop.Forms.ReturnInteger * int16 -&gt; unit" Usage="optionFrameEvents.KeyDown (KeyCode, Shift)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-602)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-602)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="KeyCode" Type="Microsoft.Vbe.Interop.Forms.ReturnInteger" />
+        <Parameter Name="Shift" Type="System.Int16" />
+      </Parameters>
+      <Docs>
+        <param name="KeyCode">To be added.</param>
+        <param name="Shift">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyPress">
+      <MemberSignature Language="C#" Value="public void KeyPress (Microsoft.Vbe.Interop.Forms.ReturnInteger KeyAscii);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void KeyPress([in]class Microsoft.Vbe.Interop.Forms.ReturnInteger KeyAscii) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.KeyPress(Microsoft.Vbe.Interop.Forms.ReturnInteger)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub KeyPress (KeyAscii As ReturnInteger)" />
+      <MemberSignature Language="F#" Value="abstract member KeyPress : Microsoft.Vbe.Interop.Forms.ReturnInteger -&gt; unit" Usage="optionFrameEvents.KeyPress KeyAscii" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-603)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-603)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="KeyAscii" Type="Microsoft.Vbe.Interop.Forms.ReturnInteger" />
+      </Parameters>
+      <Docs>
+        <param name="KeyAscii">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyUp">
+      <MemberSignature Language="C#" Value="public void KeyUp (Microsoft.Vbe.Interop.Forms.ReturnInteger KeyCode, short Shift);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void KeyUp([in]class Microsoft.Vbe.Interop.Forms.ReturnInteger KeyCode, [in]int16 Shift) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.KeyUp(Microsoft.Vbe.Interop.Forms.ReturnInteger,System.Int16)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub KeyUp (KeyCode As ReturnInteger, Shift As Short)" />
+      <MemberSignature Language="F#" Value="abstract member KeyUp : Microsoft.Vbe.Interop.Forms.ReturnInteger * int16 -&gt; unit" Usage="optionFrameEvents.KeyUp (KeyCode, Shift)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-604)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-604)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="KeyCode" Type="Microsoft.Vbe.Interop.Forms.ReturnInteger" />
+        <Parameter Name="Shift" Type="System.Int16" />
+      </Parameters>
+      <Docs>
+        <param name="KeyCode">To be added.</param>
+        <param name="Shift">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Layout">
+      <MemberSignature Language="C#" Value="public void Layout ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Layout() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.Layout" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Layout ()" />
+      <MemberSignature Language="F#" Value="abstract member Layout : unit -&gt; unit" Usage="optionFrameEvents.Layout " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(770)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(770)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseDown">
+      <MemberSignature Language="C#" Value="public void MouseDown (short Button, short Shift, float X, float Y);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MouseDown([in]int16 Button, [in]int16 Shift, [in]float32 X, [in]float32 Y) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.MouseDown(System.Int16,System.Int16,System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MouseDown (Button As Short, Shift As Short, X As Single, Y As Single)" />
+      <MemberSignature Language="F#" Value="abstract member MouseDown : int16 * int16 * single * single -&gt; unit" Usage="optionFrameEvents.MouseDown (Button, Shift, X, Y)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-605)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-605)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Button" Type="System.Int16" />
+        <Parameter Name="Shift" Type="System.Int16" />
+        <Parameter Name="X" Type="System.Single" />
+        <Parameter Name="Y" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Button">To be added.</param>
+        <param name="Shift">To be added.</param>
+        <param name="X">To be added.</param>
+        <param name="Y">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseMove">
+      <MemberSignature Language="C#" Value="public void MouseMove (short Button, short Shift, float X, float Y);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MouseMove([in]int16 Button, [in]int16 Shift, [in]float32 X, [in]float32 Y) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.MouseMove(System.Int16,System.Int16,System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MouseMove (Button As Short, Shift As Short, X As Single, Y As Single)" />
+      <MemberSignature Language="F#" Value="abstract member MouseMove : int16 * int16 * single * single -&gt; unit" Usage="optionFrameEvents.MouseMove (Button, Shift, X, Y)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-606)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-606)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Button" Type="System.Int16" />
+        <Parameter Name="Shift" Type="System.Int16" />
+        <Parameter Name="X" Type="System.Single" />
+        <Parameter Name="Y" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Button">To be added.</param>
+        <param name="Shift">To be added.</param>
+        <param name="X">To be added.</param>
+        <param name="Y">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseUp">
+      <MemberSignature Language="C#" Value="public void MouseUp (short Button, short Shift, float X, float Y);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MouseUp([in]int16 Button, [in]int16 Shift, [in]float32 X, [in]float32 Y) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.MouseUp(System.Int16,System.Int16,System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MouseUp (Button As Short, Shift As Short, X As Single, Y As Single)" />
+      <MemberSignature Language="F#" Value="abstract member MouseUp : int16 * int16 * single * single -&gt; unit" Usage="optionFrameEvents.MouseUp (Button, Shift, X, Y)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-607)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-607)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Button" Type="System.Int16" />
+        <Parameter Name="Shift" Type="System.Int16" />
+        <Parameter Name="X" Type="System.Single" />
+        <Parameter Name="Y" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Button">To be added.</param>
+        <param name="Shift">To be added.</param>
+        <param name="X">To be added.</param>
+        <param name="Y">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveControl">
+      <MemberSignature Language="C#" Value="public void RemoveControl (Microsoft.Vbe.Interop.Forms.Control Control);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemoveControl([in]class Microsoft.Vbe.Interop.Forms.Control Control) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.RemoveControl(Microsoft.Vbe.Interop.Forms.Control)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveControl (Control As Control)" />
+      <MemberSignature Language="F#" Value="abstract member RemoveControl : Microsoft.Vbe.Interop.Forms.Control -&gt; unit" Usage="optionFrameEvents.RemoveControl Control" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(771)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(771)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Control" Type="Microsoft.Vbe.Interop.Forms.Control" />
+      </Parameters>
+      <Docs>
+        <param name="Control">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Scroll">
+      <MemberSignature Language="C#" Value="public void Scroll (Microsoft.Vbe.Interop.Forms.fmScrollAction ActionX, Microsoft.Vbe.Interop.Forms.fmScrollAction ActionY, float RequestDx, float RequestDy, Microsoft.Vbe.Interop.Forms.ReturnSingle ActualDx, Microsoft.Vbe.Interop.Forms.ReturnSingle ActualDy);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Scroll([in]valuetype Microsoft.Vbe.Interop.Forms.fmScrollAction ActionX, [in]valuetype Microsoft.Vbe.Interop.Forms.fmScrollAction ActionY, [in]float32 RequestDx, [in]float32 RequestDy, [in]class Microsoft.Vbe.Interop.Forms.ReturnSingle ActualDx, [in]class Microsoft.Vbe.Interop.Forms.ReturnSingle ActualDy) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.Scroll(Microsoft.Vbe.Interop.Forms.fmScrollAction,Microsoft.Vbe.Interop.Forms.fmScrollAction,System.Single,System.Single,Microsoft.Vbe.Interop.Forms.ReturnSingle,Microsoft.Vbe.Interop.Forms.ReturnSingle)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Scroll (ActionX As fmScrollAction, ActionY As fmScrollAction, RequestDx As Single, RequestDy As Single, ActualDx As ReturnSingle, ActualDy As ReturnSingle)" />
+      <MemberSignature Language="F#" Value="abstract member Scroll : Microsoft.Vbe.Interop.Forms.fmScrollAction * Microsoft.Vbe.Interop.Forms.fmScrollAction * single * single * Microsoft.Vbe.Interop.Forms.ReturnSingle * Microsoft.Vbe.Interop.Forms.ReturnSingle -&gt; unit" Usage="optionFrameEvents.Scroll (ActionX, ActionY, RequestDx, RequestDy, ActualDx, ActualDy)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(772)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(772)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ActionX" Type="Microsoft.Vbe.Interop.Forms.fmScrollAction" />
+        <Parameter Name="ActionY" Type="Microsoft.Vbe.Interop.Forms.fmScrollAction" />
+        <Parameter Name="RequestDx" Type="System.Single" />
+        <Parameter Name="RequestDy" Type="System.Single" />
+        <Parameter Name="ActualDx" Type="Microsoft.Vbe.Interop.Forms.ReturnSingle" />
+        <Parameter Name="ActualDy" Type="Microsoft.Vbe.Interop.Forms.ReturnSingle" />
+      </Parameters>
+      <Docs>
+        <param name="ActionX">To be added.</param>
+        <param name="ActionY">To be added.</param>
+        <param name="RequestDx">To be added.</param>
+        <param name="RequestDy">To be added.</param>
+        <param name="ActualDx">To be added.</param>
+        <param name="ActualDy">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Zoom">
+      <MemberSignature Language="C#" Value="public void Zoom (out short Percent);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Zoom([out] int16&amp; Percent) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.Zoom(System.Int16@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Zoom (ByRef Percent As Short)" />
+      <MemberSignature Language="F#" Value="abstract member Zoom : int16 -&gt; unit" Usage="optionFrameEvents.Zoom Percent" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(773)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(773)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Percent" Type="System.Int16" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Percent">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

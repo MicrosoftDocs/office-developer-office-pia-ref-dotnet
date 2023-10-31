@@ -1,0 +1,97 @@
+<Type Name="WHTMLControlEvents2_Event" FullName="Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2_Event">
+  <TypeSignature Language="C#" Value="public interface WHTMLControlEvents2_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract WHTMLControlEvents2_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface WHTMLControlEvents2_Event" />
+  <TypeSignature Language="F#" Value="type WHTMLControlEvents2_Event = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2), typeof(Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2_EventProvider))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2), typeof(Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2_EventProvider))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComVisible(false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComVisible(false)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(16)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(16)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="add_Click">
+      <MemberSignature Language="C#" Value="public void add_Click (Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2_ClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Click(class Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2_ClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2_Event.add_Click(Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2_ClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_Click (unnamedParam1 As WHTMLControlEvents2_ClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Click : Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2_ClickEventHandler -&gt; unit" Usage="wHTMLControlEvents2_Event.add_Click unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2_ClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Click">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2_ClickEventHandler Click;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2_ClickEventHandler Click" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2_Event.Click" />
+      <MemberSignature Language="VB.NET" Value="Event Click As WHTMLControlEvents2_ClickEventHandler " />
+      <MemberSignature Language="F#" Value="member this.Click : Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2_ClickEventHandler " Usage="member this.Click : Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2_ClickEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2_ClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Click">
+      <MemberSignature Language="C#" Value="public void remove_Click (Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2_ClickEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Click(class Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2_ClickEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2_Event.remove_Click(Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2_ClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_Click (unnamedParam1 As WHTMLControlEvents2_ClickEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Click : Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2_ClickEventHandler -&gt; unit" Usage="wHTMLControlEvents2_Event.remove_Click unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.WHTMLControlEvents2_ClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

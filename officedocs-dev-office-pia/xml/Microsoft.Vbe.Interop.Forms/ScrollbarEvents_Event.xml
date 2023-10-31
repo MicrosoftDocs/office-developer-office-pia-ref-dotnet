@@ -1,0 +1,552 @@
+<Type Name="ScrollbarEvents_Event" FullName="Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event">
+  <TypeSignature Language="C#" Value="public interface ScrollbarEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ScrollbarEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ScrollbarEvents_Event" />
+  <TypeSignature Language="F#" Value="type ScrollbarEvents_Event = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Vbe.Interop.Forms.ScrollbarEvents), typeof(Microsoft.Vbe.Interop.Forms.ScrollbarEvents_EventProvider))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Vbe.Interop.Forms.ScrollbarEvents), typeof(Microsoft.Vbe.Interop.Forms.ScrollbarEvents_EventProvider))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComVisible(false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComVisible(false)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(16)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(16)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="add_BeforeDragOver">
+      <MemberSignature Language="C#" Value="public void add_BeforeDragOver (Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDragOverEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_BeforeDragOver(class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDragOverEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.add_BeforeDragOver(Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_BeforeDragOver (unnamedParam1 As ScrollbarEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_BeforeDragOver : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDragOverEventHandler -&gt; unit" Usage="scrollbarEvents_Event.add_BeforeDragOver unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDragOverEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_BeforeDropOrPaste">
+      <MemberSignature Language="C#" Value="public void add_BeforeDropOrPaste (Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDropOrPasteEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_BeforeDropOrPaste(class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDropOrPasteEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.add_BeforeDropOrPaste(Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_BeforeDropOrPaste (unnamedParam1 As ScrollbarEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDropOrPasteEventHandler -&gt; unit" Usage="scrollbarEvents_Event.add_BeforeDropOrPaste unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDropOrPasteEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Change">
+      <MemberSignature Language="C#" Value="public void add_Change (Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ChangeEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Change(class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ChangeEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.add_Change(Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ChangeEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_Change (unnamedParam1 As ScrollbarEvents_ChangeEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Change : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ChangeEventHandler -&gt; unit" Usage="scrollbarEvents_Event.add_Change unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ChangeEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Error">
+      <MemberSignature Language="C#" Value="public void add_Error (Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ErrorEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Error(class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ErrorEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.add_Error(Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ErrorEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_Error (unnamedParam1 As ScrollbarEvents_ErrorEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Error : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ErrorEventHandler -&gt; unit" Usage="scrollbarEvents_Event.add_Error unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ErrorEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_KeyDown">
+      <MemberSignature Language="C#" Value="public void add_KeyDown (Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyDownEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_KeyDown(class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyDownEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.add_KeyDown(Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyDownEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_KeyDown (unnamedParam1 As ScrollbarEvents_KeyDownEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_KeyDown : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyDownEventHandler -&gt; unit" Usage="scrollbarEvents_Event.add_KeyDown unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyDownEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_KeyPress">
+      <MemberSignature Language="C#" Value="public void add_KeyPress (Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyPressEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_KeyPress(class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyPressEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.add_KeyPress(Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyPressEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_KeyPress (unnamedParam1 As ScrollbarEvents_KeyPressEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_KeyPress : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyPressEventHandler -&gt; unit" Usage="scrollbarEvents_Event.add_KeyPress unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyPressEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_KeyUp">
+      <MemberSignature Language="C#" Value="public void add_KeyUp (Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyUpEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_KeyUp(class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyUpEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.add_KeyUp(Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyUpEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_KeyUp (unnamedParam1 As ScrollbarEvents_KeyUpEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_KeyUp : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyUpEventHandler -&gt; unit" Usage="scrollbarEvents_Event.add_KeyUp unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyUpEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Scroll">
+      <MemberSignature Language="C#" Value="public void add_Scroll (Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ScrollEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Scroll(class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ScrollEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.add_Scroll(Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ScrollEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_Scroll (unnamedParam1 As ScrollbarEvents_ScrollEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Scroll : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ScrollEventHandler -&gt; unit" Usage="scrollbarEvents_Event.add_Scroll unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ScrollEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDragOver">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDragOverEventHandler BeforeDragOver;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDragOverEventHandler BeforeDragOver" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.BeforeDragOver" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeDragOver As ScrollbarEvents_BeforeDragOverEventHandler " />
+      <MemberSignature Language="F#" Value="member this.BeforeDragOver : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDragOverEventHandler " Usage="member this.BeforeDragOver : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDragOverEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDragOverEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDropOrPaste">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDropOrPasteEventHandler BeforeDropOrPaste;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDropOrPasteEventHandler BeforeDropOrPaste" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.BeforeDropOrPaste" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeDropOrPaste As ScrollbarEvents_BeforeDropOrPasteEventHandler " />
+      <MemberSignature Language="F#" Value="member this.BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDropOrPasteEventHandler " Usage="member this.BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDropOrPasteEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDropOrPasteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Change">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ChangeEventHandler Change;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ChangeEventHandler Change" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.Change" />
+      <MemberSignature Language="VB.NET" Value="Event Change As ScrollbarEvents_ChangeEventHandler " />
+      <MemberSignature Language="F#" Value="member this.Change : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ChangeEventHandler " Usage="member this.Change : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ChangeEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ErrorEventHandler Error;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ErrorEventHandler Error" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.Error" />
+      <MemberSignature Language="VB.NET" Value="Event Error As ScrollbarEvents_ErrorEventHandler " />
+      <MemberSignature Language="F#" Value="member this.Error : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ErrorEventHandler " Usage="member this.Error : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ErrorEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ErrorEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyDown">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyDownEventHandler KeyDown;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyDownEventHandler KeyDown" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.KeyDown" />
+      <MemberSignature Language="VB.NET" Value="Event KeyDown As ScrollbarEvents_KeyDownEventHandler " />
+      <MemberSignature Language="F#" Value="member this.KeyDown : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyDownEventHandler " Usage="member this.KeyDown : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyDownEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyPress">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyPressEventHandler KeyPress;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyPressEventHandler KeyPress" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.KeyPress" />
+      <MemberSignature Language="VB.NET" Value="Event KeyPress As ScrollbarEvents_KeyPressEventHandler " />
+      <MemberSignature Language="F#" Value="member this.KeyPress : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyPressEventHandler " Usage="member this.KeyPress : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyPressEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyPressEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyUp">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyUpEventHandler KeyUp;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyUpEventHandler KeyUp" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.KeyUp" />
+      <MemberSignature Language="VB.NET" Value="Event KeyUp As ScrollbarEvents_KeyUpEventHandler " />
+      <MemberSignature Language="F#" Value="member this.KeyUp : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyUpEventHandler " Usage="member this.KeyUp : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyUpEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_BeforeDragOver">
+      <MemberSignature Language="C#" Value="public void remove_BeforeDragOver (Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDragOverEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_BeforeDragOver(class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDragOverEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.remove_BeforeDragOver(Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_BeforeDragOver (unnamedParam1 As ScrollbarEvents_BeforeDragOverEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_BeforeDragOver : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDragOverEventHandler -&gt; unit" Usage="scrollbarEvents_Event.remove_BeforeDragOver unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDragOverEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_BeforeDropOrPaste">
+      <MemberSignature Language="C#" Value="public void remove_BeforeDropOrPaste (Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDropOrPasteEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_BeforeDropOrPaste(class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDropOrPasteEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.remove_BeforeDropOrPaste(Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_BeforeDropOrPaste (unnamedParam1 As ScrollbarEvents_BeforeDropOrPasteEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDropOrPasteEventHandler -&gt; unit" Usage="scrollbarEvents_Event.remove_BeforeDropOrPaste unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ScrollbarEvents_BeforeDropOrPasteEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Change">
+      <MemberSignature Language="C#" Value="public void remove_Change (Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ChangeEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Change(class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ChangeEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.remove_Change(Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ChangeEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_Change (unnamedParam1 As ScrollbarEvents_ChangeEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Change : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ChangeEventHandler -&gt; unit" Usage="scrollbarEvents_Event.remove_Change unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ChangeEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Error">
+      <MemberSignature Language="C#" Value="public void remove_Error (Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ErrorEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Error(class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ErrorEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.remove_Error(Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ErrorEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_Error (unnamedParam1 As ScrollbarEvents_ErrorEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Error : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ErrorEventHandler -&gt; unit" Usage="scrollbarEvents_Event.remove_Error unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ErrorEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_KeyDown">
+      <MemberSignature Language="C#" Value="public void remove_KeyDown (Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyDownEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_KeyDown(class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyDownEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.remove_KeyDown(Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyDownEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_KeyDown (unnamedParam1 As ScrollbarEvents_KeyDownEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_KeyDown : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyDownEventHandler -&gt; unit" Usage="scrollbarEvents_Event.remove_KeyDown unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyDownEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_KeyPress">
+      <MemberSignature Language="C#" Value="public void remove_KeyPress (Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyPressEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_KeyPress(class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyPressEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.remove_KeyPress(Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyPressEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_KeyPress (unnamedParam1 As ScrollbarEvents_KeyPressEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_KeyPress : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyPressEventHandler -&gt; unit" Usage="scrollbarEvents_Event.remove_KeyPress unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyPressEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_KeyUp">
+      <MemberSignature Language="C#" Value="public void remove_KeyUp (Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyUpEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_KeyUp(class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyUpEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.remove_KeyUp(Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyUpEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_KeyUp (unnamedParam1 As ScrollbarEvents_KeyUpEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_KeyUp : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyUpEventHandler -&gt; unit" Usage="scrollbarEvents_Event.remove_KeyUp unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ScrollbarEvents_KeyUpEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Scroll">
+      <MemberSignature Language="C#" Value="public void remove_Scroll (Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ScrollEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Scroll(class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ScrollEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.remove_Scroll(Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ScrollEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_Scroll (unnamedParam1 As ScrollbarEvents_ScrollEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Scroll : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ScrollEventHandler -&gt; unit" Usage="scrollbarEvents_Event.remove_Scroll unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ScrollEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Scroll">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ScrollEventHandler Scroll;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ScrollEventHandler Scroll" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ScrollbarEvents_Event.Scroll" />
+      <MemberSignature Language="VB.NET" Value="Event Scroll As ScrollbarEvents_ScrollEventHandler " />
+      <MemberSignature Language="F#" Value="member this.Scroll : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ScrollEventHandler " Usage="member this.Scroll : Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ScrollEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ScrollbarEvents_ScrollEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

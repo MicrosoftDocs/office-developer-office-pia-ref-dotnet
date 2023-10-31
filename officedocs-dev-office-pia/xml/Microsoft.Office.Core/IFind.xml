@@ -1,9 +1,10 @@
-﻿<Type Name="IFind" FullName="Microsoft.Office.Core.IFind">
+<Type Name="IFind" FullName="Microsoft.Office.Core.IFind">
+  <TypeSignature Language="C++ CLI" Value="public interface class IFind" />
   <TypeSignature Language="C#" Value="public interface IFind" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFind" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IFind" />
   <TypeSignature Language="VB.NET" Value="Public Interface IFind" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IFind" />
+  <TypeSignature Language="F#" Value="type IFind = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,10 +12,12 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C0337-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C0337-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C0337-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4304)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4304)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -23,11 +26,12 @@
   </Docs>
   <Members>
     <Member MemberName="Author">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Author { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="C#" Value="public string Author { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Author" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.Author" />
       <MemberSignature Language="VB.NET" Value="Public Property Author As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Author { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Author : string with get, set" Usage="Microsoft.Office.Core.IFind.Author" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -35,13 +39,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743812)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743812)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743812)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743812)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610743812)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610743812)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -54,11 +61,12 @@
       </Docs>
     </Member>
     <Member MemberName="DateCreatedFrom">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ DateCreatedFrom { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="C#" Value="public object DateCreatedFrom { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object DateCreatedFrom" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.DateCreatedFrom" />
       <MemberSignature Language="VB.NET" Value="Public Property DateCreatedFrom As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ DateCreatedFrom { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.DateCreatedFrom : obj with get, set" Usage="Microsoft.Office.Core.IFind.DateCreatedFrom" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -66,13 +74,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743822)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743822)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743822)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743822)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743822)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743822)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743822)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610743822)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610743822)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -85,11 +96,12 @@
       </Docs>
     </Member>
     <Member MemberName="DateCreatedTo">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ DateCreatedTo { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="C#" Value="public object DateCreatedTo { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object DateCreatedTo" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.DateCreatedTo" />
       <MemberSignature Language="VB.NET" Value="Public Property DateCreatedTo As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ DateCreatedTo { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.DateCreatedTo : obj with get, set" Usage="Microsoft.Office.Core.IFind.DateCreatedTo" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -97,13 +109,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743823)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743823)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743823)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743823)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743823)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743823)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743823)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610743823)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610743823)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -116,11 +131,12 @@
       </Docs>
     </Member>
     <Member MemberName="DateSavedFrom">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ DateSavedFrom { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="C#" Value="public object DateSavedFrom { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object DateSavedFrom" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.DateSavedFrom" />
       <MemberSignature Language="VB.NET" Value="Public Property DateSavedFrom As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ DateSavedFrom { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.DateSavedFrom : obj with get, set" Usage="Microsoft.Office.Core.IFind.DateSavedFrom" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -128,13 +144,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743819)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743819)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743819)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743819)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743819)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743819)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743819)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610743819)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610743819)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -147,11 +166,12 @@
       </Docs>
     </Member>
     <Member MemberName="DateSavedTo">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ DateSavedTo { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="C#" Value="public object DateSavedTo { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object DateSavedTo" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.DateSavedTo" />
       <MemberSignature Language="VB.NET" Value="Public Property DateSavedTo As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ DateSavedTo { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.DateSavedTo : obj with get, set" Usage="Microsoft.Office.Core.IFind.DateSavedTo" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -159,13 +179,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743820)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743820)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743820)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743820)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743820)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743820)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743820)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610743820)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610743820)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -178,11 +201,12 @@
       </Docs>
     </Member>
     <Member MemberName="Delete">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete(System::String ^ bstrQueryName);" />
       <MemberSignature Language="C#" Value="public void Delete (string bstrQueryName);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete([in]string bstrQueryName) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IFind.Delete(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Delete (bstrQueryName As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete(System::String ^ bstrQueryName);" />
+      <MemberSignature Language="F#" Value="abstract member Delete : string -&gt; unit" Usage="iFind.Delete bstrQueryName" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -190,7 +214,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743853)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743853)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743853)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -206,11 +231,12 @@
       </Docs>
     </Member>
     <Member MemberName="Execute">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Execute();" />
       <MemberSignature Language="C#" Value="public void Execute ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Execute() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IFind.Execute" />
       <MemberSignature Language="VB.NET" Value="Public Sub Execute ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Execute();" />
+      <MemberSignature Language="F#" Value="abstract member Execute : unit -&gt; unit" Usage="iFind.Execute " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -218,7 +244,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743850)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743850)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743850)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -231,11 +258,12 @@
       </Docs>
     </Member>
     <Member MemberName="FileType">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int FileType { int get(); void set(int value); };" />
       <MemberSignature Language="C#" Value="public int FileType { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 FileType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.FileType" />
       <MemberSignature Language="VB.NET" Value="Public Property FileType As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int FileType { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.FileType : int with get, set" Usage="Microsoft.Office.Core.IFind.FileType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -243,13 +271,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743854)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743854)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743854)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743854)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743854)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743854)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743854)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610743854)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610743854)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -262,11 +293,12 @@
       </Docs>
     </Member>
     <Member MemberName="Keywords">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Keywords { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="C#" Value="public string Keywords { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Keywords" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.Keywords" />
       <MemberSignature Language="VB.NET" Value="Public Property Keywords As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Keywords { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Keywords : string with get, set" Usage="Microsoft.Office.Core.IFind.Keywords" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -274,13 +306,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743813)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743813)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743813)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743813)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743813)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743813)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743813)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610743813)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610743813)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -293,11 +328,12 @@
       </Docs>
     </Member>
     <Member MemberName="ListBy">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoFileFindListBy ListBy { Microsoft::Office::Core::MsoFileFindListBy get(); void set(Microsoft::Office::Core::MsoFileFindListBy value); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoFileFindListBy ListBy { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoFileFindListBy ListBy" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.ListBy" />
       <MemberSignature Language="VB.NET" Value="Public Property ListBy As MsoFileFindListBy" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoFileFindListBy ListBy { Microsoft::Office::Core::MsoFileFindListBy get(); void set(Microsoft::Office::Core::MsoFileFindListBy value); };" />
+      <MemberSignature Language="F#" Value="member this.ListBy : Microsoft.Office.Core.MsoFileFindListBy with get, set" Usage="Microsoft.Office.Core.IFind.ListBy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -305,13 +341,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743826)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743826)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743826)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743826)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743826)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743826)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743826)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610743826)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610743826)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -324,11 +363,12 @@
       </Docs>
     </Member>
     <Member MemberName="Load">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load(System::String ^ bstrQueryName);" />
       <MemberSignature Language="C#" Value="public void Load (string bstrQueryName);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Load([in]string bstrQueryName) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IFind.Load(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Load (bstrQueryName As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load(System::String ^ bstrQueryName);" />
+      <MemberSignature Language="F#" Value="abstract member Load : string -&gt; unit" Usage="iFind.Load bstrQueryName" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -336,7 +376,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743851)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743851)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743851)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -352,11 +393,12 @@
       </Docs>
     </Member>
     <Member MemberName="MatchCase">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MatchCase { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool MatchCase { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool MatchCase" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.MatchCase" />
       <MemberSignature Language="VB.NET" Value="Public Property MatchCase As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MatchCase { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.MatchCase : bool with get, set" Usage="Microsoft.Office.Core.IFind.MatchCase" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -364,13 +406,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743816)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743816)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743816)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743816)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743816)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743816)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743816)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610743816)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610743816)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -383,11 +428,12 @@
       </Docs>
     </Member>
     <Member MemberName="Name">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="C#" Value="public string Name { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.Name" />
       <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.Office.Core.IFind.Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -395,13 +441,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -414,11 +463,12 @@
       </Docs>
     </Member>
     <Member MemberName="Options">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoFileFindOptions Options { Microsoft::Office::Core::MsoFileFindOptions get(); void set(Microsoft::Office::Core::MsoFileFindOptions value); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoFileFindOptions Options { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoFileFindOptions Options" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.Options" />
       <MemberSignature Language="VB.NET" Value="Public Property Options As MsoFileFindOptions" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoFileFindOptions Options { Microsoft::Office::Core::MsoFileFindOptions get(); void set(Microsoft::Office::Core::MsoFileFindOptions value); };" />
+      <MemberSignature Language="F#" Value="member this.Options : Microsoft.Office.Core.MsoFileFindOptions with get, set" Usage="Microsoft.Office.Core.IFind.Options" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -426,13 +476,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743815)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743815)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743815)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743815)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743815)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743815)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743815)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610743815)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610743815)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -445,11 +498,12 @@
       </Docs>
     </Member>
     <Member MemberName="PatternMatch">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PatternMatch { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool PatternMatch { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool PatternMatch" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.PatternMatch" />
       <MemberSignature Language="VB.NET" Value="Public Property PatternMatch As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PatternMatch { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.PatternMatch : bool with get, set" Usage="Microsoft.Office.Core.IFind.PatternMatch" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -457,13 +511,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743818)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743818)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743818)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743818)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743818)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743818)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743818)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610743818)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610743818)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -476,11 +533,12 @@
       </Docs>
     </Member>
     <Member MemberName="Results">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::IFoundFiles ^ Results { Microsoft::Office::Core::IFoundFiles ^ get(); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.IFoundFiles Results { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.IFoundFiles Results" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.Results" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Results As IFoundFiles" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::IFoundFiles ^ Results { Microsoft::Office::Core::IFoundFiles ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Results : Microsoft.Office.Core.IFoundFiles" Usage="Microsoft.Office.Core.IFind.Results" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -488,10 +546,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743828)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743828)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743828)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743828)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743828)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743828)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -504,11 +564,12 @@
       </Docs>
     </Member>
     <Member MemberName="Save">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(System::String ^ bstrQueryName);" />
       <MemberSignature Language="C#" Value="public void Save (string bstrQueryName);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Save([in]string bstrQueryName) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IFind.Save(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Save (bstrQueryName As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(System::String ^ bstrQueryName);" />
+      <MemberSignature Language="F#" Value="abstract member Save : string -&gt; unit" Usage="iFind.Save bstrQueryName" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -516,7 +577,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743852)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743852)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743852)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -532,11 +594,12 @@
       </Docs>
     </Member>
     <Member MemberName="SavedBy">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SavedBy { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="C#" Value="public string SavedBy { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string SavedBy" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.SavedBy" />
       <MemberSignature Language="VB.NET" Value="Public Property SavedBy As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SavedBy { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.SavedBy : string with get, set" Usage="Microsoft.Office.Core.IFind.SavedBy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -544,13 +607,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743821)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743821)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743821)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743821)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743821)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743821)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743821)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610743821)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610743821)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -563,11 +629,12 @@
       </Docs>
     </Member>
     <Member MemberName="SearchPath">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="C#" Value="public string this { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string SearchPath" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.SearchPath" />
       <MemberSignature Language="VB.NET" Value="Default Public Property SearchPath As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.SearchPath : string with get, set" Usage="Microsoft.Office.Core.IFind.SearchPath" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -575,13 +642,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -594,11 +664,12 @@
       </Docs>
     </Member>
     <Member MemberName="SelectedFile">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SelectedFile { int get(); void set(int value); };" />
       <MemberSignature Language="C#" Value="public int SelectedFile { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 SelectedFile" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.SelectedFile" />
       <MemberSignature Language="VB.NET" Value="Public Property SelectedFile As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SelectedFile { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.SelectedFile : int with get, set" Usage="Microsoft.Office.Core.IFind.SelectedFile" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -606,13 +677,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743827)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743827)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743827)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743827)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743827)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743827)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743827)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610743827)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610743827)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -625,11 +699,12 @@
       </Docs>
     </Member>
     <Member MemberName="Show">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int Show();" />
       <MemberSignature Language="C#" Value="public int Show ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 Show() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IFind.Show" />
       <MemberSignature Language="VB.NET" Value="Public Function Show () As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; int Show();" />
+      <MemberSignature Language="F#" Value="abstract member Show : unit -&gt; int" Usage="iFind.Show " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -637,7 +712,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743829)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743829)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743829)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -651,11 +727,12 @@
       </Docs>
     </Member>
     <Member MemberName="SortBy">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoFileFindSortBy SortBy { Microsoft::Office::Core::MsoFileFindSortBy get(); void set(Microsoft::Office::Core::MsoFileFindSortBy value); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoFileFindSortBy SortBy { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoFileFindSortBy SortBy" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.SortBy" />
       <MemberSignature Language="VB.NET" Value="Public Property SortBy As MsoFileFindSortBy" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoFileFindSortBy SortBy { Microsoft::Office::Core::MsoFileFindSortBy get(); void set(Microsoft::Office::Core::MsoFileFindSortBy value); };" />
+      <MemberSignature Language="F#" Value="member this.SortBy : Microsoft.Office.Core.MsoFileFindSortBy with get, set" Usage="Microsoft.Office.Core.IFind.SortBy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -663,13 +740,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743825)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743825)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743825)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743825)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743825)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743825)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743825)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610743825)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610743825)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -682,11 +762,12 @@
       </Docs>
     </Member>
     <Member MemberName="SubDir">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SubDir { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public bool SubDir { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool SubDir" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.SubDir" />
       <MemberSignature Language="VB.NET" Value="Public Property SubDir As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SubDir { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.SubDir : bool with get, set" Usage="Microsoft.Office.Core.IFind.SubDir" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -694,13 +775,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743810)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743810)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743810)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743810)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610743810)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610743810)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -713,11 +797,12 @@
       </Docs>
     </Member>
     <Member MemberName="Subject">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="C#" Value="public string Subject { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.Subject" />
       <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Subject : string with get, set" Usage="Microsoft.Office.Core.IFind.Subject" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -725,13 +810,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743814)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743814)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743814)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743814)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743814)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743814)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743814)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610743814)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610743814)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -744,11 +832,12 @@
       </Docs>
     </Member>
     <Member MemberName="Text">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Text { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="C#" Value="public string Text { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Text" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.Text" />
       <MemberSignature Language="VB.NET" Value="Public Property Text As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Text { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Text : string with get, set" Usage="Microsoft.Office.Core.IFind.Text" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -756,13 +845,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743817)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743817)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743817)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743817)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743817)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743817)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743817)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610743817)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610743817)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -775,11 +867,12 @@
       </Docs>
     </Member>
     <Member MemberName="Title">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="C#" Value="public string Title { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Title" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.Title" />
       <MemberSignature Language="VB.NET" Value="Public Property Title As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Title : string with get, set" Usage="Microsoft.Office.Core.IFind.Title" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -787,13 +880,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743811)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743811)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743811)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743811)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610743811)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610743811)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -806,11 +902,12 @@
       </Docs>
     </Member>
     <Member MemberName="View">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoFileFindView View { Microsoft::Office::Core::MsoFileFindView get(); void set(Microsoft::Office::Core::MsoFileFindView value); };" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoFileFindView View { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoFileFindView View" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.View" />
       <MemberSignature Language="VB.NET" Value="Public Property View As MsoFileFindView" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoFileFindView View { Microsoft::Office::Core::MsoFileFindView get(); void set(Microsoft::Office::Core::MsoFileFindView value); };" />
+      <MemberSignature Language="F#" Value="member this.View : Microsoft.Office.Core.MsoFileFindView with get, set" Usage="Microsoft.Office.Core.IFind.View" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -818,13 +915,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743824)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743824)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743824)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743824)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743824)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743824)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743824)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610743824)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610743824)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

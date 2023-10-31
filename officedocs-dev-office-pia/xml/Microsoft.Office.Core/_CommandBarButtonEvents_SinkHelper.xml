@@ -1,9 +1,10 @@
 <Type Name="_CommandBarButtonEvents_SinkHelper" FullName="Microsoft.Office.Core._CommandBarButtonEvents_SinkHelper">
+  <TypeSignature Language="C++ CLI" Value="public ref class _CommandBarButtonEvents_SinkHelper sealed : Microsoft::Office::Core::_CommandBarButtonEvents" />
   <TypeSignature Language="C#" Value="public sealed class _CommandBarButtonEvents_SinkHelper : Microsoft.Office.Core._CommandBarButtonEvents" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _CommandBarButtonEvents_SinkHelper extends System.Object implements class Microsoft.Office.Core._CommandBarButtonEvents" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CommandBarButtonEvents_SinkHelper" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class _CommandBarButtonEvents_SinkHelper&#xA;Implements _CommandBarButtonEvents" />
-  <TypeSignature Language="C++ CLI" Value="public ref class _CommandBarButtonEvents_SinkHelper sealed : Microsoft::Office::Core::_CommandBarButtonEvents" />
+  <TypeSignature Language="F#" Value="type _CommandBarButtonEvents_SinkHelper = class&#xA;    interface _CommandBarButtonEvents" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -18,10 +19,12 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(System.Runtime.InteropServices.TypeLibTypeFlags.FHidden)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(System.Runtime.InteropServices.TypeLibTypeFlags.FHidden)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(System.Runtime.InteropServices.TypeLibTypeFlags.FHidden)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -30,11 +33,12 @@
   </Docs>
   <Members>
     <Member MemberName="Click">
-      <MemberSignature Language="C#" Value="public override void Click (Microsoft.Office.Core.CommandBarButton , ref bool );" />
-      <MemberSignature Language="ILAsm" Value=".method public virtual instance void Click(class Microsoft.Office.Core.CommandBarButton , bool&amp; ) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButtonEvents_SinkHelper.Click(Microsoft.Office.Core.CommandBarButton,System.Boolean@)" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Click ( As CommandBarButton, ByRef  As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Click(Microsoft::Office::Core::CommandBarButton ^ , bool % );" />
+      <MemberSignature Language="C#" Value="public override void Click (Microsoft.Office.Core.CommandBarButton unnamedParam1, ref bool unnamedParam2);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void Click(class Microsoft.Office.Core.CommandBarButton unnamedParam1, bool&amp; unnamedParam2) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButtonEvents_SinkHelper.Click(Microsoft.Office.Core.CommandBarButton,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Click (unnamedParam1 As CommandBarButton, ByRef unnamedParam2 As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Click : Microsoft.Office.Core.CommandBarButton * bool -&gt; unit&#xA;override this.Click : Microsoft.Office.Core.CommandBarButton * bool -&gt; unit" Usage="_CommandBarButtonEvents_SinkHelper.Click (unnamedParam1, unnamedParam2)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CommandBarButtonEvents.Click(Microsoft.Office.Core.CommandBarButton,System.Boolean@)</InterfaceMember>
@@ -47,22 +51,23 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="" Type="Microsoft.Office.Core.CommandBarButton" />
-        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core.CommandBarButton" />
+        <Parameter Name="unnamedParam2" Type="System.Boolean" RefType="ref" />
       </Parameters>
       <Docs>
-        <param name="">To be added.</param>
-        <param name="">To be added.</param>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="m_ClickDelegate">
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Core::_CommandBarButtonEvents_ClickEventHandler ^ m_ClickDelegate;" />
       <MemberSignature Language="C#" Value="public Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler m_ClickDelegate;" />
       <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler m_ClickDelegate" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core._CommandBarButtonEvents_SinkHelper.m_ClickDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_ClickDelegate As _CommandBarButtonEvents_ClickEventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Core::_CommandBarButtonEvents_ClickEventHandler ^ m_ClickDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_ClickDelegate : Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler" Usage="Microsoft.Office.Core._CommandBarButtonEvents_SinkHelper.m_ClickDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -77,11 +82,12 @@
       </Docs>
     </Member>
     <Member MemberName="m_dwCookie">
+      <MemberSignature Language="C++ CLI" Value="public: int m_dwCookie;" />
       <MemberSignature Language="C#" Value="public int m_dwCookie;" />
       <MemberSignature Language="ILAsm" Value=".field public int32 m_dwCookie" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core._CommandBarButtonEvents_SinkHelper.m_dwCookie" />
       <MemberSignature Language="VB.NET" Value="Public m_dwCookie As Integer " />
-      <MemberSignature Language="C++ CLI" Value="public: int m_dwCookie;" />
+      <MemberSignature Language="F#" Value="val mutable m_dwCookie : int" Usage="Microsoft.Office.Core._CommandBarButtonEvents_SinkHelper.m_dwCookie" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>

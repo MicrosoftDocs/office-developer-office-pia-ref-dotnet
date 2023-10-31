@@ -1,9 +1,10 @@
-﻿<Type Name="ICustomXMLPartEvents" FullName="Microsoft.Office.Core.ICustomXMLPartEvents">
+<Type Name="ICustomXMLPartEvents" FullName="Microsoft.Office.Core.ICustomXMLPartEvents">
+  <TypeSignature Language="C++ CLI" Value="public interface class ICustomXMLPartEvents" />
   <TypeSignature Language="C#" Value="public interface ICustomXMLPartEvents" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICustomXMLPartEvents" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ICustomXMLPartEvents" />
   <TypeSignature Language="VB.NET" Value="Public Interface ICustomXMLPartEvents" />
-  <TypeSignature Language="C++ CLI" Value="public interface class ICustomXMLPartEvents" />
+  <TypeSignature Language="F#" Value="type ICustomXMLPartEvents = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,10 +12,12 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000CDB06-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000CDB06-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000CDB06-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4304)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4304)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -23,11 +26,12 @@
   </Docs>
   <Members>
     <Member MemberName="NodeAfterDelete">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void NodeAfterDelete(Microsoft::Office::Core::CustomXMLNode ^ OldNode, Microsoft::Office::Core::CustomXMLNode ^ OldParentNode, Microsoft::Office::Core::CustomXMLNode ^ OldNextSibling, bool InUndoRedo);" />
       <MemberSignature Language="C#" Value="public void NodeAfterDelete (Microsoft.Office.Core.CustomXMLNode OldNode, Microsoft.Office.Core.CustomXMLNode OldParentNode, Microsoft.Office.Core.CustomXMLNode OldNextSibling, bool InUndoRedo);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NodeAfterDelete([in]class Microsoft.Office.Core.CustomXMLNode OldNode, [in]class Microsoft.Office.Core.CustomXMLNode OldParentNode, [in]class Microsoft.Office.Core.CustomXMLNode OldNextSibling, [in]bool InUndoRedo) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ICustomXMLPartEvents.NodeAfterDelete(Microsoft.Office.Core.CustomXMLNode,Microsoft.Office.Core.CustomXMLNode,Microsoft.Office.Core.CustomXMLNode,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub NodeAfterDelete (OldNode As CustomXMLNode, OldParentNode As CustomXMLNode, OldNextSibling As CustomXMLNode, InUndoRedo As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void NodeAfterDelete(Microsoft::Office::Core::CustomXMLNode ^ OldNode, Microsoft::Office::Core::CustomXMLNode ^ OldParentNode, Microsoft::Office::Core::CustomXMLNode ^ OldNextSibling, bool InUndoRedo);" />
+      <MemberSignature Language="F#" Value="abstract member NodeAfterDelete : Microsoft.Office.Core.CustomXMLNode * Microsoft.Office.Core.CustomXMLNode * Microsoft.Office.Core.CustomXMLNode * bool -&gt; unit" Usage="iCustomXMLPartEvents.NodeAfterDelete (OldNode, OldParentNode, OldNextSibling, InUndoRedo)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -35,7 +39,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -57,11 +62,12 @@
       </Docs>
     </Member>
     <Member MemberName="NodeAfterInsert">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void NodeAfterInsert(Microsoft::Office::Core::CustomXMLNode ^ NewNode, bool InUndoRedo);" />
       <MemberSignature Language="C#" Value="public void NodeAfterInsert (Microsoft.Office.Core.CustomXMLNode NewNode, bool InUndoRedo);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NodeAfterInsert([in]class Microsoft.Office.Core.CustomXMLNode NewNode, [in]bool InUndoRedo) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ICustomXMLPartEvents.NodeAfterInsert(Microsoft.Office.Core.CustomXMLNode,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub NodeAfterInsert (NewNode As CustomXMLNode, InUndoRedo As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void NodeAfterInsert(Microsoft::Office::Core::CustomXMLNode ^ NewNode, bool InUndoRedo);" />
+      <MemberSignature Language="F#" Value="abstract member NodeAfterInsert : Microsoft.Office.Core.CustomXMLNode * bool -&gt; unit" Usage="iCustomXMLPartEvents.NodeAfterInsert (NewNode, InUndoRedo)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -69,7 +75,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -87,11 +94,12 @@
       </Docs>
     </Member>
     <Member MemberName="NodeAfterReplace">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void NodeAfterReplace(Microsoft::Office::Core::CustomXMLNode ^ OldNode, Microsoft::Office::Core::CustomXMLNode ^ NewNode, bool InUndoRedo);" />
       <MemberSignature Language="C#" Value="public void NodeAfterReplace (Microsoft.Office.Core.CustomXMLNode OldNode, Microsoft.Office.Core.CustomXMLNode NewNode, bool InUndoRedo);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NodeAfterReplace([in]class Microsoft.Office.Core.CustomXMLNode OldNode, [in]class Microsoft.Office.Core.CustomXMLNode NewNode, [in]bool InUndoRedo) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ICustomXMLPartEvents.NodeAfterReplace(Microsoft.Office.Core.CustomXMLNode,Microsoft.Office.Core.CustomXMLNode,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub NodeAfterReplace (OldNode As CustomXMLNode, NewNode As CustomXMLNode, InUndoRedo As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void NodeAfterReplace(Microsoft::Office::Core::CustomXMLNode ^ OldNode, Microsoft::Office::Core::CustomXMLNode ^ NewNode, bool InUndoRedo);" />
+      <MemberSignature Language="F#" Value="abstract member NodeAfterReplace : Microsoft.Office.Core.CustomXMLNode * Microsoft.Office.Core.CustomXMLNode * bool -&gt; unit" Usage="iCustomXMLPartEvents.NodeAfterReplace (OldNode, NewNode, InUndoRedo)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -99,7 +107,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

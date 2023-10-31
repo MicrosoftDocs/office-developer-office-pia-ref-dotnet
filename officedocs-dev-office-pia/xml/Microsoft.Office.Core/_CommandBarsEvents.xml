@@ -1,9 +1,10 @@
 <Type Name="_CommandBarsEvents" FullName="Microsoft.Office.Core._CommandBarsEvents">
+  <TypeSignature Language="C++ CLI" Value="public interface class _CommandBarsEvents" />
   <TypeSignature Language="C#" Value="public interface _CommandBarsEvents" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CommandBarsEvents" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CommandBarsEvents" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CommandBarsEvents" />
-  <TypeSignature Language="C++ CLI" Value="public interface class _CommandBarsEvents" />
+  <TypeSignature Language="F#" Value="type _CommandBarsEvents = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,13 +12,16 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C0352-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C0352-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C0352-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.InterfaceType(2)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.InterfaceType(2)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4112)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4112)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4112)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -26,11 +30,12 @@
   </Docs>
   <Members>
     <Member MemberName="OnUpdate">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnUpdate();" />
       <MemberSignature Language="C#" Value="public void OnUpdate ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnUpdate() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarsEvents.OnUpdate" />
       <MemberSignature Language="VB.NET" Value="Public Sub OnUpdate ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnUpdate();" />
+      <MemberSignature Language="F#" Value="abstract member OnUpdate : unit -&gt; unit" Usage="_CommandBarsEvents.OnUpdate " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -38,7 +43,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

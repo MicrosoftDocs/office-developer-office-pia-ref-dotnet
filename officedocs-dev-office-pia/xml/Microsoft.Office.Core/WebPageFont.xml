@@ -1,9 +1,10 @@
-﻿<Type Name="WebPageFont" FullName="Microsoft.Office.Core.WebPageFont">
+<Type Name="WebPageFont" FullName="Microsoft.Office.Core.WebPageFont">
+  <TypeSignature Language="C++ CLI" Value="public interface class WebPageFont : Microsoft::Office::Core::_IMsoDispObj" />
   <TypeSignature Language="C#" Value="public interface WebPageFont : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract WebPageFont implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.WebPageFont" />
   <TypeSignature Language="VB.NET" Value="Public Interface WebPageFont&#xA;Implements _IMsoDispObj" />
-  <TypeSignature Language="C++ CLI" Value="public interface class WebPageFont : Microsoft::Office::Core::_IMsoDispObj" />
+  <TypeSignature Language="F#" Value="type WebPageFont = interface&#xA;    interface _IMsoDispObj" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -15,10 +16,12 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C0913-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C0913-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C0913-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4288)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4288)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -30,11 +33,12 @@
   </Docs>
   <Members>
     <Member MemberName="Application">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object Application { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Application" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.WebPageFont.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : obj" Usage="Microsoft.Office.Core.WebPageFont.Application" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
@@ -45,10 +49,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -61,11 +67,12 @@
       </Docs>
     </Member>
     <Member MemberName="Creator">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
       <MemberSignature Language="C#" Value="public int Creator { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.WebPageFont.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Core.WebPageFont.Creator" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
@@ -76,10 +83,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -97,11 +106,12 @@
       </Docs>
     </Member>
     <Member MemberName="FixedWidthFont">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FixedWidthFont { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="C#" Value="public string FixedWidthFont { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string FixedWidthFont" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.WebPageFont.FixedWidthFont" />
       <MemberSignature Language="VB.NET" Value="Public Property FixedWidthFont As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FixedWidthFont { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.FixedWidthFont : string with get, set" Usage="Microsoft.Office.Core.WebPageFont.FixedWidthFont" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -109,13 +119,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(12)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(12)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(12)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(12)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(12)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(12)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(12)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(12)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -131,11 +144,12 @@
       </Docs>
     </Member>
     <Member MemberName="FixedWidthFontSize">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float FixedWidthFontSize { float get(); void set(float value); };" />
       <MemberSignature Language="C#" Value="public float FixedWidthFontSize { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 FixedWidthFontSize" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.WebPageFont.FixedWidthFontSize" />
       <MemberSignature Language="VB.NET" Value="Public Property FixedWidthFontSize As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float FixedWidthFontSize { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.FixedWidthFontSize : single with get, set" Usage="Microsoft.Office.Core.WebPageFont.FixedWidthFontSize" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -143,13 +157,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(13)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(13)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(13)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(13)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(13)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(13)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(13)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(13)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -165,11 +182,12 @@
       </Docs>
     </Member>
     <Member MemberName="ProportionalFont">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ProportionalFont { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="C#" Value="public string ProportionalFont { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ProportionalFont" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.WebPageFont.ProportionalFont" />
       <MemberSignature Language="VB.NET" Value="Public Property ProportionalFont As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ProportionalFont { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ProportionalFont : string with get, set" Usage="Microsoft.Office.Core.WebPageFont.ProportionalFont" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -177,13 +195,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(10)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(10)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(10)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(10)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(10)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(10)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(10)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -199,11 +220,12 @@
       </Docs>
     </Member>
     <Member MemberName="ProportionalFontSize">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float ProportionalFontSize { float get(); void set(float value); };" />
       <MemberSignature Language="C#" Value="public float ProportionalFontSize { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 ProportionalFontSize" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.WebPageFont.ProportionalFontSize" />
       <MemberSignature Language="VB.NET" Value="Public Property ProportionalFontSize As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float ProportionalFontSize { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.ProportionalFontSize : single with get, set" Usage="Microsoft.Office.Core.WebPageFont.ProportionalFontSize" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -211,13 +233,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(11)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(11)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(11)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(11)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(11)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(11)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(11)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(11)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

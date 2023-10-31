@@ -1,0 +1,398 @@
+<Type Name="CodePaneClass" FullName="Microsoft.Vbe.Interop.CodePaneClass">
+  <TypeSignature Language="C#" Value="public class CodePaneClass : Microsoft.Vbe.Interop.CodePane" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi CodePaneClass extends System.Object implements class Microsoft.Vbe.Interop._CodePane, class Microsoft.Vbe.Interop.CodePane" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop.CodePaneClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class CodePaneClass&#xA;Implements CodePane" />
+  <TypeSignature Language="F#" Value="type CodePaneClass = class&#xA;    interface _CodePane&#xA;    interface CodePane" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Vbe.Interop._CodePane</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Vbe.Interop.CodePane</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ClassInterface(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ClassInterface(0)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("0002E178-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("0002E178-0000-0000-C000-000000000046")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(2)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(2)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CodePaneClass ();" />
+      <MemberSignature Language="ILAsm" Value=".method public specialname rtspecialname instance void .ctor() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.CodePaneClass.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CodeModule">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Vbe.Interop.CodeModule CodeModule { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Vbe.Interop.CodeModule CodeModule" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.CodePaneClass.CodeModule" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property CodeModule As CodeModule" />
+      <MemberSignature Language="F#" Value="member this.CodeModule : Microsoft.Vbe.Interop.CodeModule" Usage="CodeModule" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop._CodePane.CodeModule</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743816)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743816)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743816)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743816)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.CodeModule</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CodePaneView">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Vbe.Interop.vbext_CodePaneview CodePaneView { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Vbe.Interop.vbext_CodePaneview CodePaneView" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.CodePaneClass.CodePaneView" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property CodePaneView As vbext_CodePaneview" />
+      <MemberSignature Language="F#" Value="member this.CodePaneView : Microsoft.Vbe.Interop.vbext_CodePaneview" Usage="CodePaneView" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop._CodePane.CodePaneView</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743818)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743818)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743818)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743818)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.vbext_CodePaneview</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Collection">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Vbe.Interop.CodePanes Collection { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Vbe.Interop.CodePanes Collection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.CodePaneClass.Collection" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Collection As CodePanes" />
+      <MemberSignature Language="F#" Value="member this.Collection : Microsoft.Vbe.Interop.CodePanes" Usage="Collection" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop._CodePane.Collection</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.CodePanes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CountOfVisibleLines">
+      <MemberSignature Language="C#" Value="public virtual int CountOfVisibleLines { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 CountOfVisibleLines" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.CodePaneClass.CountOfVisibleLines" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property CountOfVisibleLines As Integer" />
+      <MemberSignature Language="F#" Value="member this.CountOfVisibleLines : int" Usage="CountOfVisibleLines" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop._CodePane.CountOfVisibleLines</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743815)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743815)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743815)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743815)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSelection">
+      <MemberSignature Language="C#" Value="public virtual void GetSelection (out int StartLine, out int StartColumn, out int EndLine, out int EndColumn);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GetSelection([out] int32&amp; StartLine, [out] int32&amp; StartColumn, [out] int32&amp; EndLine, [out] int32&amp; EndColumn) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.CodePaneClass.GetSelection(System.Int32@,System.Int32@,System.Int32@,System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub GetSelection (ByRef StartLine As Integer, ByRef StartColumn As Integer, ByRef EndLine As Integer, ByRef EndColumn As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member GetSelection : int * int * int * int -&gt; unit&#xA;override this.GetSelection : int * int * int * int -&gt; unit" Usage="codePaneClass.GetSelection (StartLine, StartColumn, EndLine, EndColumn)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop._CodePane.GetSelection(System.Int32@,System.Int32@,System.Int32@,System.Int32@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743811)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743811)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="StartLine" Type="System.Int32" RefType="out" />
+        <Parameter Name="StartColumn" Type="System.Int32" RefType="out" />
+        <Parameter Name="EndLine" Type="System.Int32" RefType="out" />
+        <Parameter Name="EndColumn" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="StartLine">To be added.</param>
+        <param name="StartColumn">To be added.</param>
+        <param name="EndLine">To be added.</param>
+        <param name="EndColumn">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSelection">
+      <MemberSignature Language="C#" Value="public virtual void SetSelection (int StartLine, int StartColumn, int EndLine, int EndColumn);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetSelection([in]int32 StartLine, [in]int32 StartColumn, [in]int32 EndLine, [in]int32 EndColumn) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.CodePaneClass.SetSelection(System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub SetSelection (StartLine As Integer, StartColumn As Integer, EndLine As Integer, EndColumn As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member SetSelection : int * int * int * int -&gt; unit&#xA;override this.SetSelection : int * int * int * int -&gt; unit" Usage="codePaneClass.SetSelection (StartLine, StartColumn, EndLine, EndColumn)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop._CodePane.SetSelection(System.Int32,System.Int32,System.Int32,System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743812)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743812)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="StartLine" Type="System.Int32" />
+        <Parameter Name="StartColumn" Type="System.Int32" />
+        <Parameter Name="EndLine" Type="System.Int32" />
+        <Parameter Name="EndColumn" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="StartLine">To be added.</param>
+        <param name="StartColumn">To be added.</param>
+        <param name="EndLine">To be added.</param>
+        <param name="EndColumn">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Show">
+      <MemberSignature Language="C#" Value="public virtual void Show ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Show() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.CodePaneClass.Show" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Show ()" />
+      <MemberSignature Language="F#" Value="abstract member Show : unit -&gt; unit&#xA;override this.Show : unit -&gt; unit" Usage="codePaneClass.Show " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop._CodePane.Show</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743817)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743817)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TopLine">
+      <MemberSignature Language="C#" Value="public virtual int TopLine { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TopLine" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.CodePaneClass.TopLine" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property TopLine As Integer" />
+      <MemberSignature Language="F#" Value="member this.TopLine : int with get, set" Usage="TopLine" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop._CodePane.TopLine</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743813)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743813)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743813)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743813)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610743813)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610743813)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VBE">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Vbe.Interop.VBE VBE { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Vbe.Interop.VBE VBE" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.CodePaneClass.VBE" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property VBE As VBE" />
+      <MemberSignature Language="F#" Value="member this.VBE : Microsoft.Vbe.Interop.VBE" Usage="VBE" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop._CodePane.VBE</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.VBE</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Window">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Vbe.Interop.Window Window { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Vbe.Interop.Window Window" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.CodePaneClass.Window" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Window As Window" />
+      <MemberSignature Language="F#" Value="member this.Window : Microsoft.Vbe.Interop.Window" Usage="Window" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop._CodePane.Window</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743810)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743810)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743810)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743810)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Window</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

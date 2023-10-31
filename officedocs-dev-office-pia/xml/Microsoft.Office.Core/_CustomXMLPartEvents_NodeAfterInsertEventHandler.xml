@@ -1,9 +1,10 @@
 <Type Name="_CustomXMLPartEvents_NodeAfterInsertEventHandler" FullName="Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterInsertEventHandler">
+  <TypeSignature Language="C++ CLI" Value="public delegate void _CustomXMLPartEvents_NodeAfterInsertEventHandler(CustomXMLNode ^ NewNode, bool InUndoRedo);" />
   <TypeSignature Language="C#" Value="public delegate void _CustomXMLPartEvents_NodeAfterInsertEventHandler(CustomXMLNode NewNode, bool InUndoRedo);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _CustomXMLPartEvents_NodeAfterInsertEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterInsertEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub _CustomXMLPartEvents_NodeAfterInsertEventHandler(NewNode As CustomXMLNode, InUndoRedo As Boolean)" />
-  <TypeSignature Language="C++ CLI" Value="public delegate void _CustomXMLPartEvents_NodeAfterInsertEventHandler(CustomXMLNode ^ NewNode, bool InUndoRedo);" />
+  <TypeSignature Language="F#" Value="type _CustomXMLPartEvents_NodeAfterInsertEventHandler = delegate of CustomXMLNode * bool -&gt; unit" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -13,10 +14,12 @@
   </Base>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComVisible(false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComVisible(false)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(16)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(16)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Parameters>

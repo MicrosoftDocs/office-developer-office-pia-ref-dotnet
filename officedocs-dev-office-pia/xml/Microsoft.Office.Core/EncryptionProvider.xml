@@ -1,9 +1,10 @@
-﻿<Type Name="EncryptionProvider" FullName="Microsoft.Office.Core.EncryptionProvider">
+<Type Name="EncryptionProvider" FullName="Microsoft.Office.Core.EncryptionProvider">
+  <TypeSignature Language="C++ CLI" Value="public interface class EncryptionProvider" />
   <TypeSignature Language="C#" Value="public interface EncryptionProvider" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract EncryptionProvider" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.EncryptionProvider" />
   <TypeSignature Language="VB.NET" Value="Public Interface EncryptionProvider" />
-  <TypeSignature Language="C++ CLI" Value="public interface class EncryptionProvider" />
+  <TypeSignature Language="F#" Value="type EncryptionProvider = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,10 +12,12 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000CD809-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000CD809-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000CD809-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4160)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4160)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -26,11 +29,12 @@
   </Docs>
   <Members>
     <Member MemberName="Authenticate">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int Authenticate(System::Object ^ ParentWindow, System::Object ^ EncryptionData, [Runtime::InteropServices::Out] System::UInt32 % PermissionsMask);" />
       <MemberSignature Language="C#" Value="public int Authenticate (object ParentWindow, object EncryptionData, out uint PermissionsMask);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 Authenticate([in]object ParentWindow, [in]object EncryptionData, [out] unsigned int32&amp; PermissionsMask) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.EncryptionProvider.Authenticate(System.Object,System.Object,System.UInt32@)" />
       <MemberSignature Language="VB.NET" Value="Public Function Authenticate (ParentWindow As Object, EncryptionData As Object, ByRef PermissionsMask As UInteger) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; int Authenticate(System::Object ^ ParentWindow, System::Object ^ EncryptionData, [Runtime::InteropServices::Out] System::UInt32 % PermissionsMask);" />
+      <MemberSignature Language="F#" Value="abstract member Authenticate : obj * obj * uint32 -&gt; int" Usage="encryptionProvider.Authenticate (ParentWindow, EncryptionData, PermissionsMask)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -38,7 +42,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743810)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743810)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -47,7 +52,7 @@
       <Parameters>
         <Parameter Name="ParentWindow" Type="System.Object" />
         <Parameter Name="EncryptionData" Type="System.Object" />
-        <Parameter Name="PermissionsMask" Type="System.UInt32&amp;" RefType="out" />
+        <Parameter Name="PermissionsMask" Type="System.UInt32" RefType="out" />
       </Parameters>
       <Docs>
         <param name="ParentWindow">Specifies the window that is called to display the encryption settings.</param>
@@ -66,11 +71,12 @@ For example, a password encryption provider  would prompt for the user's passwor
       </Docs>
     </Member>
     <Member MemberName="CloneSession">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int CloneSession(int SessionHandle);" />
       <MemberSignature Language="C#" Value="public int CloneSession (int SessionHandle);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 CloneSession([in]int32 SessionHandle) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.EncryptionProvider.CloneSession(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function CloneSession (SessionHandle As Integer) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; int CloneSession(int SessionHandle);" />
+      <MemberSignature Language="F#" Value="abstract member CloneSession : int -&gt; int" Usage="encryptionProvider.CloneSession SessionHandle" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -78,7 +84,8 @@ For example, a password encryption provider  would prompt for the user's passwor
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743811)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743811)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -100,11 +107,12 @@ For example, a password encryption provider  would prompt for the user's passwor
       </Docs>
     </Member>
     <Member MemberName="DecryptStream">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DecryptStream(int SessionHandle, System::String ^ StreamName, System::Object ^ EncryptedStream, System::Object ^ UnencryptedStream);" />
       <MemberSignature Language="C#" Value="public void DecryptStream (int SessionHandle, string StreamName, object EncryptedStream, object UnencryptedStream);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DecryptStream([in]int32 SessionHandle, [in]string StreamName, [in]object EncryptedStream, [in]object UnencryptedStream) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.EncryptionProvider.DecryptStream(System.Int32,System.String,System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub DecryptStream (SessionHandle As Integer, StreamName As String, EncryptedStream As Object, UnencryptedStream As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DecryptStream(int SessionHandle, System::String ^ StreamName, System::Object ^ EncryptedStream, System::Object ^ UnencryptedStream);" />
+      <MemberSignature Language="F#" Value="abstract member DecryptStream : int * string * obj * obj -&gt; unit" Usage="encryptionProvider.DecryptStream (SessionHandle, StreamName, EncryptedStream, UnencryptedStream)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -112,7 +120,8 @@ For example, a password encryption provider  would prompt for the user's passwor
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743815)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743815)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743815)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -137,11 +146,12 @@ For example, a password encryption provider  would prompt for the user's passwor
       </Docs>
     </Member>
     <Member MemberName="EncryptStream">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EncryptStream(int SessionHandle, System::String ^ StreamName, System::Object ^ UnencryptedStream, System::Object ^ EncryptedStream);" />
       <MemberSignature Language="C#" Value="public void EncryptStream (int SessionHandle, string StreamName, object UnencryptedStream, object EncryptedStream);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EncryptStream([in]int32 SessionHandle, [in]string StreamName, [in]object UnencryptedStream, [in]object EncryptedStream) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.EncryptionProvider.EncryptStream(System.Int32,System.String,System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EncryptStream (SessionHandle As Integer, StreamName As String, UnencryptedStream As Object, EncryptedStream As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EncryptStream(int SessionHandle, System::String ^ StreamName, System::Object ^ UnencryptedStream, System::Object ^ EncryptedStream);" />
+      <MemberSignature Language="F#" Value="abstract member EncryptStream : int * string * obj * obj -&gt; unit" Usage="encryptionProvider.EncryptStream (SessionHandle, StreamName, UnencryptedStream, EncryptedStream)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -149,7 +159,8 @@ For example, a password encryption provider  would prompt for the user's passwor
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743814)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743814)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743814)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -174,11 +185,12 @@ For example, a password encryption provider  would prompt for the user's passwor
       </Docs>
     </Member>
     <Member MemberName="EndSession">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndSession(int SessionHandle);" />
       <MemberSignature Language="C#" Value="public void EndSession (int SessionHandle);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndSession([in]int32 SessionHandle) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.EncryptionProvider.EndSession(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndSession (SessionHandle As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndSession(int SessionHandle);" />
+      <MemberSignature Language="F#" Value="abstract member EndSession : int -&gt; unit" Usage="encryptionProvider.EndSession SessionHandle" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -186,7 +198,8 @@ For example, a password encryption provider  would prompt for the user's passwor
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743812)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743812)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -205,11 +218,12 @@ For example, a password encryption provider  would prompt for the user's passwor
       </Docs>
     </Member>
     <Member MemberName="GetProviderDetail">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetProviderDetail(Microsoft::Office::Core::EncryptionProviderDetail encprovdet);" />
       <MemberSignature Language="C#" Value="public object GetProviderDetail (Microsoft.Office.Core.EncryptionProviderDetail encprovdet);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetProviderDetail([in]valuetype Microsoft.Office.Core.EncryptionProviderDetail encprovdet) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.EncryptionProvider.GetProviderDetail(Microsoft.Office.Core.EncryptionProviderDetail)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetProviderDetail (encprovdet As EncryptionProviderDetail) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetProviderDetail(Microsoft::Office::Core::EncryptionProviderDetail encprovdet);" />
+      <MemberSignature Language="F#" Value="abstract member GetProviderDetail : Microsoft.Office.Core.EncryptionProviderDetail -&gt; obj" Usage="encryptionProvider.GetProviderDetail encprovdet" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -217,7 +231,8 @@ For example, a password encryption provider  would prompt for the user's passwor
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -237,11 +252,12 @@ For example, a password encryption provider  would prompt for the user's passwor
       </Docs>
     </Member>
     <Member MemberName="NewSession">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int NewSession(System::Object ^ ParentWindow);" />
       <MemberSignature Language="C#" Value="public int NewSession (object ParentWindow);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 NewSession([in]object ParentWindow) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.EncryptionProvider.NewSession(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function NewSession (ParentWindow As Object) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; int NewSession(System::Object ^ ParentWindow);" />
+      <MemberSignature Language="F#" Value="abstract member NewSession : obj -&gt; int" Usage="encryptionProvider.NewSession ParentWindow" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -249,7 +265,8 @@ For example, a password encryption provider  would prompt for the user's passwor
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -271,11 +288,12 @@ For example, a password encryption provider  would prompt for the user's passwor
       </Docs>
     </Member>
     <Member MemberName="Save">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int Save(int SessionHandle, System::Object ^ EncryptionData);" />
       <MemberSignature Language="C#" Value="public int Save (int SessionHandle, object EncryptionData);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 Save([in]int32 SessionHandle, [in]object EncryptionData) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.EncryptionProvider.Save(System.Int32,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function Save (SessionHandle As Integer, EncryptionData As Object) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; int Save(int SessionHandle, System::Object ^ EncryptionData);" />
+      <MemberSignature Language="F#" Value="abstract member Save : int * obj -&gt; int" Usage="encryptionProvider.Save (SessionHandle, EncryptionData)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -283,7 +301,8 @@ For example, a password encryption provider  would prompt for the user's passwor
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743813)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743813)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743813)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -307,11 +326,12 @@ For example, a password encryption provider  would prompt for the user's passwor
       </Docs>
     </Member>
     <Member MemberName="ShowSettings">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowSettings(int SessionHandle, System::Object ^ ParentWindow, bool ReadOnly, [Runtime::InteropServices::Out] bool % Remove);" />
       <MemberSignature Language="C#" Value="public void ShowSettings (int SessionHandle, object ParentWindow, bool ReadOnly, out bool Remove);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowSettings([in]int32 SessionHandle, [in]object ParentWindow, [in]bool ReadOnly, [out] bool&amp; Remove) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.EncryptionProvider.ShowSettings(System.Int32,System.Object,System.Boolean,System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ShowSettings (SessionHandle As Integer, ParentWindow As Object, ReadOnly As Boolean, ByRef Remove As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowSettings(int SessionHandle, System::Object ^ ParentWindow, bool ReadOnly, [Runtime::InteropServices::Out] bool % Remove);" />
+      <MemberSignature Language="F#" Value="abstract member ShowSettings : int * obj * bool * bool -&gt; unit" Usage="encryptionProvider.ShowSettings (SessionHandle, ParentWindow, ReadOnly, Remove)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -319,7 +339,8 @@ For example, a password encryption provider  would prompt for the user's passwor
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743816)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743816)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743816)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -329,7 +350,7 @@ For example, a password encryption provider  would prompt for the user's passwor
         <Parameter Name="SessionHandle" Type="System.Int32" />
         <Parameter Name="ParentWindow" Type="System.Object" />
         <Parameter Name="ReadOnly" Type="System.Boolean" />
-        <Parameter Name="Remove" Type="System.Boolean&amp;" RefType="out" />
+        <Parameter Name="Remove" Type="System.Boolean" RefType="out" />
       </Parameters>
       <Docs>
         <param name="SessionHandle">The ID of the current session.</param>

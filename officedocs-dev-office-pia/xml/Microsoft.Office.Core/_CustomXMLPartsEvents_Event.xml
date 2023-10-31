@@ -1,9 +1,10 @@
 <Type Name="_CustomXMLPartsEvents_Event" FullName="Microsoft.Office.Core._CustomXMLPartsEvents_Event">
+  <TypeSignature Language="C++ CLI" Value="public interface class _CustomXMLPartsEvents_Event" />
   <TypeSignature Language="C#" Value="public interface _CustomXMLPartsEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CustomXMLPartsEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CustomXMLPartsEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CustomXMLPartsEvents_Event" />
-  <TypeSignature Language="C++ CLI" Value="public interface class _CustomXMLPartsEvents_Event" />
+  <TypeSignature Language="F#" Value="type _CustomXMLPartsEvents_Event = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,13 +12,16 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Core._CustomXMLPartsEvents), typeof(Microsoft.Office.Core._CustomXMLPartsEvents_EventProvider))</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Core._CustomXMLPartsEvents), typeof(Microsoft.Office.Core._CustomXMLPartsEvents_EventProvider))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Core._CustomXMLPartsEvents), typeof(Microsoft.Office.Core._CustomXMLPartsEvents_EventProvider))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComVisible(false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComVisible(false)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(16)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(16)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -25,12 +29,82 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="add_PartAfterAdd">
+      <MemberSignature Language="C#" Value="public void add_PartAfterAdd (Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_PartAfterAdd(class Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomXMLPartsEvents_Event.add_PartAfterAdd(Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_PartAfterAdd (unnamedParam1 As _CustomXMLPartsEvents_PartAfterAddEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_PartAfterAdd : Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler -&gt; unit" Usage="_CustomXMLPartsEvents_Event.add_PartAfterAdd unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_PartAfterLoad">
+      <MemberSignature Language="C#" Value="public void add_PartAfterLoad (Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_PartAfterLoad(class Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomXMLPartsEvents_Event.add_PartAfterLoad(Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_PartAfterLoad (unnamedParam1 As _CustomXMLPartsEvents_PartAfterLoadEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_PartAfterLoad : Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler -&gt; unit" Usage="_CustomXMLPartsEvents_Event.add_PartAfterLoad unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_PartBeforeDelete">
+      <MemberSignature Language="C#" Value="public void add_PartBeforeDelete (Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_PartBeforeDelete(class Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomXMLPartsEvents_Event.add_PartBeforeDelete(Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_PartBeforeDelete (unnamedParam1 As _CustomXMLPartsEvents_PartBeforeDeleteEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_PartBeforeDelete : Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler -&gt; unit" Usage="_CustomXMLPartsEvents_Event.add_PartBeforeDelete unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="PartAfterAdd">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::_CustomXMLPartsEvents_PartAfterAddEventHandler ^ PartAfterAdd;" />
       <MemberSignature Language="C#" Value="event Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler PartAfterAdd;" />
       <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler PartAfterAdd" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core._CustomXMLPartsEvents_Event.PartAfterAdd" />
       <MemberSignature Language="VB.NET" Value="Event PartAfterAdd As _CustomXMLPartsEvents_PartAfterAddEventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::_CustomXMLPartsEvents_PartAfterAddEventHandler ^ PartAfterAdd;" />
+      <MemberSignature Language="F#" Value="member this.PartAfterAdd : Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler " Usage="member this.PartAfterAdd : Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -45,11 +119,12 @@
       </Docs>
     </Member>
     <Member MemberName="PartAfterLoad">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::_CustomXMLPartsEvents_PartAfterLoadEventHandler ^ PartAfterLoad;" />
       <MemberSignature Language="C#" Value="event Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler PartAfterLoad;" />
       <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler PartAfterLoad" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core._CustomXMLPartsEvents_Event.PartAfterLoad" />
       <MemberSignature Language="VB.NET" Value="Event PartAfterLoad As _CustomXMLPartsEvents_PartAfterLoadEventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::_CustomXMLPartsEvents_PartAfterLoadEventHandler ^ PartAfterLoad;" />
+      <MemberSignature Language="F#" Value="member this.PartAfterLoad : Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler " Usage="member this.PartAfterLoad : Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -64,11 +139,12 @@
       </Docs>
     </Member>
     <Member MemberName="PartBeforeDelete">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::_CustomXMLPartsEvents_PartBeforeDeleteEventHandler ^ PartBeforeDelete;" />
       <MemberSignature Language="C#" Value="event Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler PartBeforeDelete;" />
       <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler PartBeforeDelete" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core._CustomXMLPartsEvents_Event.PartBeforeDelete" />
       <MemberSignature Language="VB.NET" Value="Event PartBeforeDelete As _CustomXMLPartsEvents_PartBeforeDeleteEventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::_CustomXMLPartsEvents_PartBeforeDeleteEventHandler ^ PartBeforeDelete;" />
+      <MemberSignature Language="F#" Value="member this.PartBeforeDelete : Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler " Usage="member this.PartBeforeDelete : Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -79,6 +155,75 @@
       </ReturnValue>
       <Docs>
         <summary>Occurs just before a <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> object is deleted from the <see cref="T:Microsoft.Office.Core._CustomXMLParts" /> collection.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_PartAfterAdd">
+      <MemberSignature Language="C#" Value="public void remove_PartAfterAdd (Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_PartAfterAdd(class Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomXMLPartsEvents_Event.remove_PartAfterAdd(Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_PartAfterAdd (unnamedParam1 As _CustomXMLPartsEvents_PartAfterAddEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_PartAfterAdd : Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler -&gt; unit" Usage="_CustomXMLPartsEvents_Event.remove_PartAfterAdd unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_PartAfterLoad">
+      <MemberSignature Language="C#" Value="public void remove_PartAfterLoad (Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_PartAfterLoad(class Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomXMLPartsEvents_Event.remove_PartAfterLoad(Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_PartAfterLoad (unnamedParam1 As _CustomXMLPartsEvents_PartAfterLoadEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_PartAfterLoad : Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler -&gt; unit" Usage="_CustomXMLPartsEvents_Event.remove_PartAfterLoad unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_PartBeforeDelete">
+      <MemberSignature Language="C#" Value="public void remove_PartBeforeDelete (Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_PartBeforeDelete(class Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomXMLPartsEvents_Event.remove_PartBeforeDelete(Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_PartBeforeDelete (unnamedParam1 As _CustomXMLPartsEvents_PartBeforeDeleteEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_PartBeforeDelete : Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler -&gt; unit" Usage="_CustomXMLPartsEvents_Event.remove_PartBeforeDelete unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

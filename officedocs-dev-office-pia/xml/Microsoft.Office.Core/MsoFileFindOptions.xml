@@ -1,9 +1,10 @@
-﻿<Type Name="MsoFileFindOptions" FullName="Microsoft.Office.Core.MsoFileFindOptions">
+<Type Name="MsoFileFindOptions" FullName="Microsoft.Office.Core.MsoFileFindOptions">
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoFileFindOptions" />
   <TypeSignature Language="C#" Value="public enum MsoFileFindOptions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFileFindOptions extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFileFindOptions" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoFileFindOptions" />
-  <TypeSignature Language="C++ CLI" Value="public enum class MsoFileFindOptions" />
+  <TypeSignature Language="F#" Value="type MsoFileFindOptions = " />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -13,7 +14,8 @@
   </Base>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(16)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(16)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -22,11 +24,12 @@
   </Docs>
   <Members>
     <Member MemberName="msoOptionsAdd">
+      <MemberSignature Language="C++ CLI" Value="msoOptionsAdd" />
       <MemberSignature Language="C#" Value="msoOptionsAdd" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileFindOptions msoOptionsAdd = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileFindOptions.msoOptionsAdd" />
       <MemberSignature Language="VB.NET" Value="msoOptionsAdd" />
-      <MemberSignature Language="C++ CLI" Value="msoOptionsAdd" />
+      <MemberSignature Language="F#" Value="msoOptionsAdd = 2" Usage="Microsoft.Office.Core.MsoFileFindOptions.msoOptionsAdd" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -41,11 +44,12 @@
       </Docs>
     </Member>
     <Member MemberName="msoOptionsNew">
+      <MemberSignature Language="C++ CLI" Value="msoOptionsNew" />
       <MemberSignature Language="C#" Value="msoOptionsNew" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileFindOptions msoOptionsNew = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileFindOptions.msoOptionsNew" />
       <MemberSignature Language="VB.NET" Value="msoOptionsNew" />
-      <MemberSignature Language="C++ CLI" Value="msoOptionsNew" />
+      <MemberSignature Language="F#" Value="msoOptionsNew = 1" Usage="Microsoft.Office.Core.MsoFileFindOptions.msoOptionsNew" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -60,11 +64,12 @@
       </Docs>
     </Member>
     <Member MemberName="msoOptionsWithin">
+      <MemberSignature Language="C++ CLI" Value="msoOptionsWithin" />
       <MemberSignature Language="C#" Value="msoOptionsWithin" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileFindOptions msoOptionsWithin = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileFindOptions.msoOptionsWithin" />
       <MemberSignature Language="VB.NET" Value="msoOptionsWithin" />
-      <MemberSignature Language="C++ CLI" Value="msoOptionsWithin" />
+      <MemberSignature Language="F#" Value="msoOptionsWithin = 3" Usage="Microsoft.Office.Core.MsoFileFindOptions.msoOptionsWithin" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>

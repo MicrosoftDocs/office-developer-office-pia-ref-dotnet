@@ -1,0 +1,213 @@
+<Type Name="ReferencesEventsClass" FullName="Microsoft.Vbe.Interop.ReferencesEventsClass">
+  <TypeSignature Language="C#" Value="public class ReferencesEventsClass : Microsoft.Vbe.Interop.ReferencesEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi ReferencesEventsClass extends System.Object implements class Microsoft.Vbe.Interop._dispReferencesEvents_Event, class Microsoft.Vbe.Interop._ReferencesEvents, class Microsoft.Vbe.Interop.ReferencesEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop.ReferencesEventsClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class ReferencesEventsClass&#xA;Implements ReferencesEvents" />
+  <TypeSignature Language="F#" Value="type ReferencesEventsClass = class&#xA;    interface _ReferencesEvents&#xA;    interface ReferencesEvents&#xA;    interface _dispReferencesEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Vbe.Interop._dispReferencesEvents_Event</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Vbe.Interop._ReferencesEvents</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Vbe.Interop.ReferencesEvents</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ClassInterface(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ClassInterface(0)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Vbe.Interop._dispReferencesEvents\0")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Vbe.Interop._dispReferencesEvents\0")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("0002E119-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("0002E119-0000-0000-C000-000000000046")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(2)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(2)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ReferencesEventsClass ();" />
+      <MemberSignature Language="ILAsm" Value=".method public specialname rtspecialname instance void .ctor() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.ReferencesEventsClass.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_ItemAdded">
+      <MemberSignature Language="C#" Value="public virtual void add_ItemAdded (Microsoft.Vbe.Interop._dispReferencesEvents_ItemAddedEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_ItemAdded(class Microsoft.Vbe.Interop._dispReferencesEvents_ItemAddedEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.ReferencesEventsClass.add_ItemAdded(Microsoft.Vbe.Interop._dispReferencesEvents_ItemAddedEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_ItemAdded (unnamedParam1 As _dispReferencesEvents_ItemAddedEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_ItemAdded : Microsoft.Vbe.Interop._dispReferencesEvents_ItemAddedEventHandler -&gt; unit&#xA;override this.add_ItemAdded : Microsoft.Vbe.Interop._dispReferencesEvents_ItemAddedEventHandler -&gt; unit" Usage="referencesEventsClass.add_ItemAdded unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop._dispReferencesEvents_Event.add_ItemAdded(Microsoft.Vbe.Interop._dispReferencesEvents_ItemAddedEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop._dispReferencesEvents_ItemAddedEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_ItemRemoved">
+      <MemberSignature Language="C#" Value="public virtual void add_ItemRemoved (Microsoft.Vbe.Interop._dispReferencesEvents_ItemRemovedEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_ItemRemoved(class Microsoft.Vbe.Interop._dispReferencesEvents_ItemRemovedEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.ReferencesEventsClass.add_ItemRemoved(Microsoft.Vbe.Interop._dispReferencesEvents_ItemRemovedEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_ItemRemoved (unnamedParam1 As _dispReferencesEvents_ItemRemovedEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_ItemRemoved : Microsoft.Vbe.Interop._dispReferencesEvents_ItemRemovedEventHandler -&gt; unit&#xA;override this.add_ItemRemoved : Microsoft.Vbe.Interop._dispReferencesEvents_ItemRemovedEventHandler -&gt; unit" Usage="referencesEventsClass.add_ItemRemoved unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop._dispReferencesEvents_Event.add_ItemRemoved(Microsoft.Vbe.Interop._dispReferencesEvents_ItemRemovedEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop._dispReferencesEvents_ItemRemovedEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemAdded">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop._dispReferencesEvents_ItemAddedEventHandler ItemAdded;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop._dispReferencesEvents_ItemAddedEventHandler ItemAdded" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.ReferencesEventsClass.ItemAdded" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event ItemAdded As _dispReferencesEvents_ItemAddedEventHandler Implements ItemAdded" />
+      <MemberSignature Language="F#" Value="member this.ItemAdded : Microsoft.Vbe.Interop._dispReferencesEvents_ItemAddedEventHandler " Usage="member this.ItemAdded : Microsoft.Vbe.Interop._dispReferencesEvents_ItemAddedEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop._dispReferencesEvents_Event.ItemAdded</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop._dispReferencesEvents_ItemAddedEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemRemoved">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Vbe.Interop._dispReferencesEvents_ItemRemovedEventHandler ItemRemoved;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop._dispReferencesEvents_ItemRemovedEventHandler ItemRemoved" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.ReferencesEventsClass.ItemRemoved" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event ItemRemoved As _dispReferencesEvents_ItemRemovedEventHandler Implements ItemRemoved" />
+      <MemberSignature Language="F#" Value="member this.ItemRemoved : Microsoft.Vbe.Interop._dispReferencesEvents_ItemRemovedEventHandler " Usage="member this.ItemRemoved : Microsoft.Vbe.Interop._dispReferencesEvents_ItemRemovedEventHandler " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Vbe.Interop._dispReferencesEvents_Event.ItemRemoved</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop._dispReferencesEvents_ItemRemovedEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_ItemAdded">
+      <MemberSignature Language="C#" Value="public virtual void remove_ItemAdded (Microsoft.Vbe.Interop._dispReferencesEvents_ItemAddedEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_ItemAdded(class Microsoft.Vbe.Interop._dispReferencesEvents_ItemAddedEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.ReferencesEventsClass.remove_ItemAdded(Microsoft.Vbe.Interop._dispReferencesEvents_ItemAddedEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_ItemAdded (unnamedParam1 As _dispReferencesEvents_ItemAddedEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_ItemAdded : Microsoft.Vbe.Interop._dispReferencesEvents_ItemAddedEventHandler -&gt; unit&#xA;override this.remove_ItemAdded : Microsoft.Vbe.Interop._dispReferencesEvents_ItemAddedEventHandler -&gt; unit" Usage="referencesEventsClass.remove_ItemAdded unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop._dispReferencesEvents_Event.remove_ItemAdded(Microsoft.Vbe.Interop._dispReferencesEvents_ItemAddedEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop._dispReferencesEvents_ItemAddedEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_ItemRemoved">
+      <MemberSignature Language="C#" Value="public virtual void remove_ItemRemoved (Microsoft.Vbe.Interop._dispReferencesEvents_ItemRemovedEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_ItemRemoved(class Microsoft.Vbe.Interop._dispReferencesEvents_ItemRemovedEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.ReferencesEventsClass.remove_ItemRemoved(Microsoft.Vbe.Interop._dispReferencesEvents_ItemRemovedEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_ItemRemoved (unnamedParam1 As _dispReferencesEvents_ItemRemovedEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_ItemRemoved : Microsoft.Vbe.Interop._dispReferencesEvents_ItemRemovedEventHandler -&gt; unit&#xA;override this.remove_ItemRemoved : Microsoft.Vbe.Interop._dispReferencesEvents_ItemRemovedEventHandler -&gt; unit" Usage="referencesEventsClass.remove_ItemRemoved unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop._dispReferencesEvents_Event.remove_ItemRemoved(Microsoft.Vbe.Interop._dispReferencesEvents_ItemRemovedEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop._dispReferencesEvents_ItemRemovedEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
