@@ -1,0 +1,220 @@
+<Type Name="ISmartTagAction2" FullName="Microsoft.Office.Interop.SmartTag.ISmartTagAction2">
+  <TypeSignature Language="C#" Value="public interface ISmartTagAction2" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISmartTagAction2" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.SmartTag.ISmartTagAction2" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISmartTagAction2" />
+  <TypeSignature Language="F#" Value="type ISmartTagAction2 = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("5073BDEB-E480-4024-887E-22923C004444")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("5073BDEB-E480-4024-887E-22923C004444")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4160)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4160)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="InvokeVerb2">
+      <MemberSignature Language="C#" Value="public void InvokeVerb2 (int VerbID, string ApplicationName, object Target, Microsoft.Office.Interop.SmartTag.ISmartTagProperties Properties, string Text, string Xml, int LocaleID);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InvokeVerb2([in]int32 VerbID, [in]string ApplicationName, [in]object Target, [in]class Microsoft.Office.Interop.SmartTag.ISmartTagProperties Properties, [in]string Text, [in]string Xml, [in]int32 LocaleID) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.SmartTag.ISmartTagAction2.InvokeVerb2(System.Int32,System.String,System.Object,Microsoft.Office.Interop.SmartTag.ISmartTagProperties,System.String,System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub InvokeVerb2 (VerbID As Integer, ApplicationName As String, Target As Object, Properties As ISmartTagProperties, Text As String, Xml As String, LocaleID As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member InvokeVerb2 : int * string * obj * Microsoft.Office.Interop.SmartTag.ISmartTagProperties * string * string * int -&gt; unit" Usage="iSmartTagAction2.InvokeVerb2 (VerbID, ApplicationName, Target, Properties, Text, Xml, LocaleID)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(13)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(13)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="VerbID" Type="System.Int32" />
+        <Parameter Name="ApplicationName" Type="System.String" />
+        <Parameter Name="Target" Type="System.Object" />
+        <Parameter Name="Properties" Type="Microsoft.Office.Interop.SmartTag.ISmartTagProperties" />
+        <Parameter Name="Text" Type="System.String" />
+        <Parameter Name="Xml" Type="System.String" />
+        <Parameter Name="LocaleID" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="VerbID">To be added.</param>
+        <param name="ApplicationName">To be added.</param>
+        <param name="Target">To be added.</param>
+        <param name="Properties">To be added.</param>
+        <param name="Text">To be added.</param>
+        <param name="Xml">To be added.</param>
+        <param name="LocaleID">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCaptionDynamic">
+      <MemberSignature Language="C#" Value="public bool IsCaptionDynamic[int VerbID, string ApplicationName, int LocaleID] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsCaptionDynamic(int32, string, int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.SmartTag.ISmartTagAction2.IsCaptionDynamic(System.Int32,System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsCaptionDynamic(VerbID As Integer, ApplicationName As String, LocaleID As Integer) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsCaptionDynamic(int * string * int) : bool" Usage="Microsoft.Office.Interop.SmartTag.ISmartTagAction2.IsCaptionDynamic" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(14)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(14)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(14)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(14)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="VerbID" Type="System.Int32" />
+        <Parameter Name="ApplicationName" Type="System.String" />
+        <Parameter Name="LocaleID" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="VerbID">To be added.</param>
+        <param name="ApplicationName">To be added.</param>
+        <param name="LocaleID">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowSmartTagIndicator">
+      <MemberSignature Language="C#" Value="public bool ShowSmartTagIndicator[int VerbID, string ApplicationName, int LocaleID] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowSmartTagIndicator(int32, string, int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.SmartTag.ISmartTagAction2.ShowSmartTagIndicator(System.Int32,System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ShowSmartTagIndicator(VerbID As Integer, ApplicationName As String, LocaleID As Integer) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ShowSmartTagIndicator(int * string * int) : bool" Usage="Microsoft.Office.Interop.SmartTag.ISmartTagAction2.ShowSmartTagIndicator" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(15)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(15)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(15)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(15)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="VerbID" Type="System.Int32" />
+        <Parameter Name="ApplicationName" Type="System.String" />
+        <Parameter Name="LocaleID" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="VerbID">To be added.</param>
+        <param name="ApplicationName">To be added.</param>
+        <param name="LocaleID">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmartTagInitialize">
+      <MemberSignature Language="C#" Value="public void SmartTagInitialize (string ApplicationName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SmartTagInitialize([in]string ApplicationName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.SmartTag.ISmartTagAction2.SmartTagInitialize(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SmartTagInitialize (ApplicationName As String)" />
+      <MemberSignature Language="F#" Value="abstract member SmartTagInitialize : string -&gt; unit" Usage="iSmartTagAction2.SmartTagInitialize ApplicationName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(16)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(16)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ApplicationName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ApplicationName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VerbCaptionFromID2">
+      <MemberSignature Language="C#" Value="public string VerbCaptionFromID2[int VerbID, string ApplicationName, int LocaleID, Microsoft.Office.Interop.SmartTag.ISmartTagProperties Properties, string Text, string Xml, object Target] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string VerbCaptionFromID2(int32, string, int32, class Microsoft.Office.Interop.SmartTag.ISmartTagProperties, string, string, object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.SmartTag.ISmartTagAction2.VerbCaptionFromID2(System.Int32,System.String,System.Int32,Microsoft.Office.Interop.SmartTag.ISmartTagProperties,System.String,System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VerbCaptionFromID2(VerbID As Integer, ApplicationName As String, LocaleID As Integer, Properties As ISmartTagProperties, Text As String, Xml As String, Target As Object) As String" />
+      <MemberSignature Language="F#" Value="member this.VerbCaptionFromID2(int * string * int * Microsoft.Office.Interop.SmartTag.ISmartTagProperties * string * string * obj) : string" Usage="Microsoft.Office.Interop.SmartTag.ISmartTagAction2.VerbCaptionFromID2" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(12)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(12)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(12)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(12)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="VerbID" Type="System.Int32" />
+        <Parameter Name="ApplicationName" Type="System.String" />
+        <Parameter Name="LocaleID" Type="System.Int32" />
+        <Parameter Name="Properties" Type="Microsoft.Office.Interop.SmartTag.ISmartTagProperties" />
+        <Parameter Name="Text" Type="System.String" />
+        <Parameter Name="Xml" Type="System.String" />
+        <Parameter Name="Target" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="VerbID">To be added.</param>
+        <param name="ApplicationName">To be added.</param>
+        <param name="LocaleID">To be added.</param>
+        <param name="Properties">To be added.</param>
+        <param name="Text">To be added.</param>
+        <param name="Xml">To be added.</param>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

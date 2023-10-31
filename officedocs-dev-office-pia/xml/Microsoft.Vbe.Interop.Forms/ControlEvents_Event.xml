@@ -1,0 +1,292 @@
+<Type Name="ControlEvents_Event" FullName="Microsoft.Vbe.Interop.Forms.ControlEvents_Event">
+  <TypeSignature Language="C#" Value="public interface ControlEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ControlEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop.Forms.ControlEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ControlEvents_Event" />
+  <TypeSignature Language="F#" Value="type ControlEvents_Event = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Vbe.Interop.Forms.ControlEvents), typeof(Microsoft.Vbe.Interop.Forms.ControlEvents_EventProvider))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Vbe.Interop.Forms.ControlEvents), typeof(Microsoft.Vbe.Interop.Forms.ControlEvents_EventProvider))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComVisible(false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComVisible(false)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(16)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(16)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="add_AfterUpdate">
+      <MemberSignature Language="C#" Value="public void add_AfterUpdate (Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_AfterUpdate(class Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.add_AfterUpdate(Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_AfterUpdate (unnamedParam1 As ControlEvents_AfterUpdateEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_AfterUpdate : Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler -&gt; unit" Usage="controlEvents_Event.add_AfterUpdate unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_BeforeUpdate">
+      <MemberSignature Language="C#" Value="public void add_BeforeUpdate (Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_BeforeUpdate(class Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.add_BeforeUpdate(Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_BeforeUpdate (unnamedParam1 As ControlEvents_BeforeUpdateEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_BeforeUpdate : Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler -&gt; unit" Usage="controlEvents_Event.add_BeforeUpdate unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Enter">
+      <MemberSignature Language="C#" Value="public void add_Enter (Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Enter(class Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.add_Enter(Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_Enter (unnamedParam1 As ControlEvents_EnterEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Enter : Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler -&gt; unit" Usage="controlEvents_Event.add_Enter unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Exit">
+      <MemberSignature Language="C#" Value="public void add_Exit (Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Exit(class Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.add_Exit(Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_Exit (unnamedParam1 As ControlEvents_ExitEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Exit : Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler -&gt; unit" Usage="controlEvents_Event.add_Exit unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AfterUpdate">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler AfterUpdate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler AfterUpdate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.AfterUpdate" />
+      <MemberSignature Language="VB.NET" Value="Event AfterUpdate As ControlEvents_AfterUpdateEventHandler " />
+      <MemberSignature Language="F#" Value="member this.AfterUpdate : Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler " Usage="member this.AfterUpdate : Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeUpdate">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler BeforeUpdate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler BeforeUpdate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.BeforeUpdate" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeUpdate As ControlEvents_BeforeUpdateEventHandler " />
+      <MemberSignature Language="F#" Value="member this.BeforeUpdate : Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler " Usage="member this.BeforeUpdate : Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enter">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler Enter;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler Enter" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.Enter" />
+      <MemberSignature Language="VB.NET" Value="Event Enter As ControlEvents_EnterEventHandler " />
+      <MemberSignature Language="F#" Value="member this.Enter : Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler " Usage="member this.Enter : Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exit">
+      <MemberSignature Language="C#" Value="event Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler Exit;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler Exit" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.Exit" />
+      <MemberSignature Language="VB.NET" Value="Event Exit As ControlEvents_ExitEventHandler " />
+      <MemberSignature Language="F#" Value="member this.Exit : Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler " Usage="member this.Exit : Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_AfterUpdate">
+      <MemberSignature Language="C#" Value="public void remove_AfterUpdate (Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_AfterUpdate(class Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.remove_AfterUpdate(Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_AfterUpdate (unnamedParam1 As ControlEvents_AfterUpdateEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_AfterUpdate : Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler -&gt; unit" Usage="controlEvents_Event.remove_AfterUpdate unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ControlEvents_AfterUpdateEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_BeforeUpdate">
+      <MemberSignature Language="C#" Value="public void remove_BeforeUpdate (Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_BeforeUpdate(class Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.remove_BeforeUpdate(Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_BeforeUpdate (unnamedParam1 As ControlEvents_BeforeUpdateEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_BeforeUpdate : Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler -&gt; unit" Usage="controlEvents_Event.remove_BeforeUpdate unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ControlEvents_BeforeUpdateEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Enter">
+      <MemberSignature Language="C#" Value="public void remove_Enter (Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Enter(class Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.remove_Enter(Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_Enter (unnamedParam1 As ControlEvents_EnterEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Enter : Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler -&gt; unit" Usage="controlEvents_Event.remove_Enter unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ControlEvents_EnterEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Exit">
+      <MemberSignature Language="C#" Value="public void remove_Exit (Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Exit(class Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.ControlEvents_Event.remove_Exit(Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_Exit (unnamedParam1 As ControlEvents_ExitEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Exit : Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler -&gt; unit" Usage="controlEvents_Event.remove_Exit unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ControlEvents_ExitEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

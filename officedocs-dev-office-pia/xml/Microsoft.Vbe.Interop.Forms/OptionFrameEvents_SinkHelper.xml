@@ -1,0 +1,840 @@
+<Type Name="OptionFrameEvents_SinkHelper" FullName="Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper">
+  <TypeSignature Language="C#" Value="public sealed class OptionFrameEvents_SinkHelper : Microsoft.Vbe.Interop.Forms.OptionFrameEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OptionFrameEvents_SinkHelper extends System.Object implements class Microsoft.Vbe.Interop.Forms.OptionFrameEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class OptionFrameEvents_SinkHelper&#xA;Implements OptionFrameEvents" />
+  <TypeSignature Language="F#" Value="type OptionFrameEvents_SinkHelper = class&#xA;    interface OptionFrameEvents" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Vbe.Interop.Forms.OptionFrameEvents</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(System.Runtime.InteropServices.TypeLibTypeFlags.FHidden)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(System.Runtime.InteropServices.TypeLibTypeFlags.FHidden)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddControl">
+      <MemberSignature Language="C#" Value="public override void AddControl (Microsoft.Vbe.Interop.Forms.Control unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void AddControl(class Microsoft.Vbe.Interop.Forms.Control unnamedParam1) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.AddControl(Microsoft.Vbe.Interop.Forms.Control)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub AddControl (unnamedParam1 As Control)" />
+      <MemberSignature Language="F#" Value="abstract member AddControl : Microsoft.Vbe.Interop.Forms.Control -&gt; unit&#xA;override this.AddControl : Microsoft.Vbe.Interop.Forms.Control -&gt; unit" Usage="optionFrameEvents_SinkHelper.AddControl unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.AddControl(Microsoft.Vbe.Interop.Forms.Control)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.Control" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDragOver">
+      <MemberSignature Language="C#" Value="public override void BeforeDragOver (Microsoft.Vbe.Interop.Forms.ReturnBoolean unnamedParam1, Microsoft.Vbe.Interop.Forms.Control unnamedParam2, Microsoft.Vbe.Interop.Forms.DataObject unnamedParam3, float unnamedParam4, float unnamedParam5, Microsoft.Vbe.Interop.Forms.fmDragState unnamedParam6, Microsoft.Vbe.Interop.Forms.ReturnEffect unnamedParam7, short unnamedParam8);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void BeforeDragOver(class Microsoft.Vbe.Interop.Forms.ReturnBoolean unnamedParam1, class Microsoft.Vbe.Interop.Forms.Control unnamedParam2, class Microsoft.Vbe.Interop.Forms.DataObject unnamedParam3, float32 unnamedParam4, float32 unnamedParam5, valuetype Microsoft.Vbe.Interop.Forms.fmDragState unnamedParam6, class Microsoft.Vbe.Interop.Forms.ReturnEffect unnamedParam7, int16 unnamedParam8) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.BeforeDragOver(Microsoft.Vbe.Interop.Forms.ReturnBoolean,Microsoft.Vbe.Interop.Forms.Control,Microsoft.Vbe.Interop.Forms.DataObject,System.Single,System.Single,Microsoft.Vbe.Interop.Forms.fmDragState,Microsoft.Vbe.Interop.Forms.ReturnEffect,System.Int16)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub BeforeDragOver (unnamedParam1 As ReturnBoolean, unnamedParam2 As Control, unnamedParam3 As DataObject, unnamedParam4 As Single, unnamedParam5 As Single, unnamedParam6 As fmDragState, unnamedParam7 As ReturnEffect, unnamedParam8 As Short)" />
+      <MemberSignature Language="F#" Value="abstract member BeforeDragOver : Microsoft.Vbe.Interop.Forms.ReturnBoolean * Microsoft.Vbe.Interop.Forms.Control * Microsoft.Vbe.Interop.Forms.DataObject * single * single * Microsoft.Vbe.Interop.Forms.fmDragState * Microsoft.Vbe.Interop.Forms.ReturnEffect * int16 -&gt; unit&#xA;override this.BeforeDragOver : Microsoft.Vbe.Interop.Forms.ReturnBoolean * Microsoft.Vbe.Interop.Forms.Control * Microsoft.Vbe.Interop.Forms.DataObject * single * single * Microsoft.Vbe.Interop.Forms.fmDragState * Microsoft.Vbe.Interop.Forms.ReturnEffect * int16 -&gt; unit" Usage="optionFrameEvents_SinkHelper.BeforeDragOver (unnamedParam1, unnamedParam2, unnamedParam3, unnamedParam4, unnamedParam5, unnamedParam6, unnamedParam7, unnamedParam8)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.BeforeDragOver(Microsoft.Vbe.Interop.Forms.ReturnBoolean,Microsoft.Vbe.Interop.Forms.Control,Microsoft.Vbe.Interop.Forms.DataObject,System.Single,System.Single,Microsoft.Vbe.Interop.Forms.fmDragState,Microsoft.Vbe.Interop.Forms.ReturnEffect,System.Int16)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ReturnBoolean" />
+        <Parameter Name="unnamedParam2" Type="Microsoft.Vbe.Interop.Forms.Control" />
+        <Parameter Name="unnamedParam3" Type="Microsoft.Vbe.Interop.Forms.DataObject" />
+        <Parameter Name="unnamedParam4" Type="System.Single" />
+        <Parameter Name="unnamedParam5" Type="System.Single" />
+        <Parameter Name="unnamedParam6" Type="Microsoft.Vbe.Interop.Forms.fmDragState" />
+        <Parameter Name="unnamedParam7" Type="Microsoft.Vbe.Interop.Forms.ReturnEffect" />
+        <Parameter Name="unnamedParam8" Type="System.Int16" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
+        <param name="unnamedParam3">To be added.</param>
+        <param name="unnamedParam4">To be added.</param>
+        <param name="unnamedParam5">To be added.</param>
+        <param name="unnamedParam6">To be added.</param>
+        <param name="unnamedParam7">To be added.</param>
+        <param name="unnamedParam8">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDropOrPaste">
+      <MemberSignature Language="C#" Value="public override void BeforeDropOrPaste (Microsoft.Vbe.Interop.Forms.ReturnBoolean unnamedParam1, Microsoft.Vbe.Interop.Forms.Control unnamedParam2, Microsoft.Vbe.Interop.Forms.fmAction unnamedParam3, Microsoft.Vbe.Interop.Forms.DataObject unnamedParam4, float unnamedParam5, float unnamedParam6, Microsoft.Vbe.Interop.Forms.ReturnEffect unnamedParam7, short unnamedParam8);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void BeforeDropOrPaste(class Microsoft.Vbe.Interop.Forms.ReturnBoolean unnamedParam1, class Microsoft.Vbe.Interop.Forms.Control unnamedParam2, valuetype Microsoft.Vbe.Interop.Forms.fmAction unnamedParam3, class Microsoft.Vbe.Interop.Forms.DataObject unnamedParam4, float32 unnamedParam5, float32 unnamedParam6, class Microsoft.Vbe.Interop.Forms.ReturnEffect unnamedParam7, int16 unnamedParam8) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.BeforeDropOrPaste(Microsoft.Vbe.Interop.Forms.ReturnBoolean,Microsoft.Vbe.Interop.Forms.Control,Microsoft.Vbe.Interop.Forms.fmAction,Microsoft.Vbe.Interop.Forms.DataObject,System.Single,System.Single,Microsoft.Vbe.Interop.Forms.ReturnEffect,System.Int16)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub BeforeDropOrPaste (unnamedParam1 As ReturnBoolean, unnamedParam2 As Control, unnamedParam3 As fmAction, unnamedParam4 As DataObject, unnamedParam5 As Single, unnamedParam6 As Single, unnamedParam7 As ReturnEffect, unnamedParam8 As Short)" />
+      <MemberSignature Language="F#" Value="abstract member BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.ReturnBoolean * Microsoft.Vbe.Interop.Forms.Control * Microsoft.Vbe.Interop.Forms.fmAction * Microsoft.Vbe.Interop.Forms.DataObject * single * single * Microsoft.Vbe.Interop.Forms.ReturnEffect * int16 -&gt; unit&#xA;override this.BeforeDropOrPaste : Microsoft.Vbe.Interop.Forms.ReturnBoolean * Microsoft.Vbe.Interop.Forms.Control * Microsoft.Vbe.Interop.Forms.fmAction * Microsoft.Vbe.Interop.Forms.DataObject * single * single * Microsoft.Vbe.Interop.Forms.ReturnEffect * int16 -&gt; unit" Usage="optionFrameEvents_SinkHelper.BeforeDropOrPaste (unnamedParam1, unnamedParam2, unnamedParam3, unnamedParam4, unnamedParam5, unnamedParam6, unnamedParam7, unnamedParam8)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.BeforeDropOrPaste(Microsoft.Vbe.Interop.Forms.ReturnBoolean,Microsoft.Vbe.Interop.Forms.Control,Microsoft.Vbe.Interop.Forms.fmAction,Microsoft.Vbe.Interop.Forms.DataObject,System.Single,System.Single,Microsoft.Vbe.Interop.Forms.ReturnEffect,System.Int16)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ReturnBoolean" />
+        <Parameter Name="unnamedParam2" Type="Microsoft.Vbe.Interop.Forms.Control" />
+        <Parameter Name="unnamedParam3" Type="Microsoft.Vbe.Interop.Forms.fmAction" />
+        <Parameter Name="unnamedParam4" Type="Microsoft.Vbe.Interop.Forms.DataObject" />
+        <Parameter Name="unnamedParam5" Type="System.Single" />
+        <Parameter Name="unnamedParam6" Type="System.Single" />
+        <Parameter Name="unnamedParam7" Type="Microsoft.Vbe.Interop.Forms.ReturnEffect" />
+        <Parameter Name="unnamedParam8" Type="System.Int16" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
+        <param name="unnamedParam3">To be added.</param>
+        <param name="unnamedParam4">To be added.</param>
+        <param name="unnamedParam5">To be added.</param>
+        <param name="unnamedParam6">To be added.</param>
+        <param name="unnamedParam7">To be added.</param>
+        <param name="unnamedParam8">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Click">
+      <MemberSignature Language="C#" Value="public override void Click ();" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void Click() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.Click" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Click ()" />
+      <MemberSignature Language="F#" Value="abstract member Click : unit -&gt; unit&#xA;override this.Click : unit -&gt; unit" Usage="optionFrameEvents_SinkHelper.Click " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.Click</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DblClick">
+      <MemberSignature Language="C#" Value="public override void DblClick (Microsoft.Vbe.Interop.Forms.ReturnBoolean unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void DblClick(class Microsoft.Vbe.Interop.Forms.ReturnBoolean unnamedParam1) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.DblClick(Microsoft.Vbe.Interop.Forms.ReturnBoolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub DblClick (unnamedParam1 As ReturnBoolean)" />
+      <MemberSignature Language="F#" Value="abstract member DblClick : Microsoft.Vbe.Interop.Forms.ReturnBoolean -&gt; unit&#xA;override this.DblClick : Microsoft.Vbe.Interop.Forms.ReturnBoolean -&gt; unit" Usage="optionFrameEvents_SinkHelper.DblClick unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.DblClick(Microsoft.Vbe.Interop.Forms.ReturnBoolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ReturnBoolean" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="public override void Error (short unnamedParam1, Microsoft.Vbe.Interop.Forms.ReturnString unnamedParam2, int unnamedParam3, string unnamedParam4, string unnamedParam5, int unnamedParam6, Microsoft.Vbe.Interop.Forms.ReturnBoolean unnamedParam7);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void Error(int16 unnamedParam1, class Microsoft.Vbe.Interop.Forms.ReturnString unnamedParam2, int32 unnamedParam3, string unnamedParam4, string unnamedParam5, int32 unnamedParam6, class Microsoft.Vbe.Interop.Forms.ReturnBoolean unnamedParam7) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.Error(System.Int16,Microsoft.Vbe.Interop.Forms.ReturnString,System.Int32,System.String,System.String,System.Int32,Microsoft.Vbe.Interop.Forms.ReturnBoolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Error (unnamedParam1 As Short, unnamedParam2 As ReturnString, unnamedParam3 As Integer, unnamedParam4 As String, unnamedParam5 As String, unnamedParam6 As Integer, unnamedParam7 As ReturnBoolean)" />
+      <MemberSignature Language="F#" Value="abstract member Error : int16 * Microsoft.Vbe.Interop.Forms.ReturnString * int * string * string * int * Microsoft.Vbe.Interop.Forms.ReturnBoolean -&gt; unit&#xA;override this.Error : int16 * Microsoft.Vbe.Interop.Forms.ReturnString * int * string * string * int * Microsoft.Vbe.Interop.Forms.ReturnBoolean -&gt; unit" Usage="optionFrameEvents_SinkHelper.Error (unnamedParam1, unnamedParam2, unnamedParam3, unnamedParam4, unnamedParam5, unnamedParam6, unnamedParam7)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.Error(System.Int16,Microsoft.Vbe.Interop.Forms.ReturnString,System.Int32,System.String,System.String,System.Int32,Microsoft.Vbe.Interop.Forms.ReturnBoolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="System.Int16" />
+        <Parameter Name="unnamedParam2" Type="Microsoft.Vbe.Interop.Forms.ReturnString" />
+        <Parameter Name="unnamedParam3" Type="System.Int32" />
+        <Parameter Name="unnamedParam4" Type="System.String" />
+        <Parameter Name="unnamedParam5" Type="System.String" />
+        <Parameter Name="unnamedParam6" Type="System.Int32" />
+        <Parameter Name="unnamedParam7" Type="Microsoft.Vbe.Interop.Forms.ReturnBoolean" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
+        <param name="unnamedParam3">To be added.</param>
+        <param name="unnamedParam4">To be added.</param>
+        <param name="unnamedParam5">To be added.</param>
+        <param name="unnamedParam6">To be added.</param>
+        <param name="unnamedParam7">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyDown">
+      <MemberSignature Language="C#" Value="public override void KeyDown (Microsoft.Vbe.Interop.Forms.ReturnInteger unnamedParam1, short unnamedParam2);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void KeyDown(class Microsoft.Vbe.Interop.Forms.ReturnInteger unnamedParam1, int16 unnamedParam2) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.KeyDown(Microsoft.Vbe.Interop.Forms.ReturnInteger,System.Int16)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub KeyDown (unnamedParam1 As ReturnInteger, unnamedParam2 As Short)" />
+      <MemberSignature Language="F#" Value="abstract member KeyDown : Microsoft.Vbe.Interop.Forms.ReturnInteger * int16 -&gt; unit&#xA;override this.KeyDown : Microsoft.Vbe.Interop.Forms.ReturnInteger * int16 -&gt; unit" Usage="optionFrameEvents_SinkHelper.KeyDown (unnamedParam1, unnamedParam2)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.KeyDown(Microsoft.Vbe.Interop.Forms.ReturnInteger,System.Int16)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ReturnInteger" />
+        <Parameter Name="unnamedParam2" Type="System.Int16" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyPress">
+      <MemberSignature Language="C#" Value="public override void KeyPress (Microsoft.Vbe.Interop.Forms.ReturnInteger unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void KeyPress(class Microsoft.Vbe.Interop.Forms.ReturnInteger unnamedParam1) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.KeyPress(Microsoft.Vbe.Interop.Forms.ReturnInteger)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub KeyPress (unnamedParam1 As ReturnInteger)" />
+      <MemberSignature Language="F#" Value="abstract member KeyPress : Microsoft.Vbe.Interop.Forms.ReturnInteger -&gt; unit&#xA;override this.KeyPress : Microsoft.Vbe.Interop.Forms.ReturnInteger -&gt; unit" Usage="optionFrameEvents_SinkHelper.KeyPress unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.KeyPress(Microsoft.Vbe.Interop.Forms.ReturnInteger)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ReturnInteger" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyUp">
+      <MemberSignature Language="C#" Value="public override void KeyUp (Microsoft.Vbe.Interop.Forms.ReturnInteger unnamedParam1, short unnamedParam2);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void KeyUp(class Microsoft.Vbe.Interop.Forms.ReturnInteger unnamedParam1, int16 unnamedParam2) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.KeyUp(Microsoft.Vbe.Interop.Forms.ReturnInteger,System.Int16)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub KeyUp (unnamedParam1 As ReturnInteger, unnamedParam2 As Short)" />
+      <MemberSignature Language="F#" Value="abstract member KeyUp : Microsoft.Vbe.Interop.Forms.ReturnInteger * int16 -&gt; unit&#xA;override this.KeyUp : Microsoft.Vbe.Interop.Forms.ReturnInteger * int16 -&gt; unit" Usage="optionFrameEvents_SinkHelper.KeyUp (unnamedParam1, unnamedParam2)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.KeyUp(Microsoft.Vbe.Interop.Forms.ReturnInteger,System.Int16)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ReturnInteger" />
+        <Parameter Name="unnamedParam2" Type="System.Int16" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Layout">
+      <MemberSignature Language="C#" Value="public override void Layout ();" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void Layout() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.Layout" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Layout ()" />
+      <MemberSignature Language="F#" Value="abstract member Layout : unit -&gt; unit&#xA;override this.Layout : unit -&gt; unit" Usage="optionFrameEvents_SinkHelper.Layout " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.Layout</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_AddControlDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.OptionFrameEvents_AddControlEventHandler m_AddControlDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.OptionFrameEvents_AddControlEventHandler m_AddControlDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_AddControlDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_AddControlDelegate As OptionFrameEvents_AddControlEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_AddControlDelegate : Microsoft.Vbe.Interop.Forms.OptionFrameEvents_AddControlEventHandler" Usage="Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_AddControlDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.OptionFrameEvents_AddControlEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_BeforeDragOverDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.OptionFrameEvents_BeforeDragOverEventHandler m_BeforeDragOverDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.OptionFrameEvents_BeforeDragOverEventHandler m_BeforeDragOverDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_BeforeDragOverDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_BeforeDragOverDelegate As OptionFrameEvents_BeforeDragOverEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_BeforeDragOverDelegate : Microsoft.Vbe.Interop.Forms.OptionFrameEvents_BeforeDragOverEventHandler" Usage="Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_BeforeDragOverDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.OptionFrameEvents_BeforeDragOverEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_BeforeDropOrPasteDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.OptionFrameEvents_BeforeDropOrPasteEventHandler m_BeforeDropOrPasteDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.OptionFrameEvents_BeforeDropOrPasteEventHandler m_BeforeDropOrPasteDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_BeforeDropOrPasteDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_BeforeDropOrPasteDelegate As OptionFrameEvents_BeforeDropOrPasteEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_BeforeDropOrPasteDelegate : Microsoft.Vbe.Interop.Forms.OptionFrameEvents_BeforeDropOrPasteEventHandler" Usage="Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_BeforeDropOrPasteDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.OptionFrameEvents_BeforeDropOrPasteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_ClickDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.OptionFrameEvents_ClickEventHandler m_ClickDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.OptionFrameEvents_ClickEventHandler m_ClickDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_ClickDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_ClickDelegate As OptionFrameEvents_ClickEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_ClickDelegate : Microsoft.Vbe.Interop.Forms.OptionFrameEvents_ClickEventHandler" Usage="Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_ClickDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.OptionFrameEvents_ClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_DblClickDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.OptionFrameEvents_DblClickEventHandler m_DblClickDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.OptionFrameEvents_DblClickEventHandler m_DblClickDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_DblClickDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_DblClickDelegate As OptionFrameEvents_DblClickEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_DblClickDelegate : Microsoft.Vbe.Interop.Forms.OptionFrameEvents_DblClickEventHandler" Usage="Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_DblClickDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.OptionFrameEvents_DblClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_dwCookie">
+      <MemberSignature Language="C#" Value="public int m_dwCookie;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 m_dwCookie" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_dwCookie" />
+      <MemberSignature Language="VB.NET" Value="Public m_dwCookie As Integer " />
+      <MemberSignature Language="F#" Value="val mutable m_dwCookie : int" Usage="Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_dwCookie" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_ErrorDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.OptionFrameEvents_ErrorEventHandler m_ErrorDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.OptionFrameEvents_ErrorEventHandler m_ErrorDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_ErrorDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_ErrorDelegate As OptionFrameEvents_ErrorEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_ErrorDelegate : Microsoft.Vbe.Interop.Forms.OptionFrameEvents_ErrorEventHandler" Usage="Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_ErrorDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.OptionFrameEvents_ErrorEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_KeyDownDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.OptionFrameEvents_KeyDownEventHandler m_KeyDownDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.OptionFrameEvents_KeyDownEventHandler m_KeyDownDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_KeyDownDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_KeyDownDelegate As OptionFrameEvents_KeyDownEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_KeyDownDelegate : Microsoft.Vbe.Interop.Forms.OptionFrameEvents_KeyDownEventHandler" Usage="Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_KeyDownDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.OptionFrameEvents_KeyDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_KeyPressDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.OptionFrameEvents_KeyPressEventHandler m_KeyPressDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.OptionFrameEvents_KeyPressEventHandler m_KeyPressDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_KeyPressDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_KeyPressDelegate As OptionFrameEvents_KeyPressEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_KeyPressDelegate : Microsoft.Vbe.Interop.Forms.OptionFrameEvents_KeyPressEventHandler" Usage="Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_KeyPressDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.OptionFrameEvents_KeyPressEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_KeyUpDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.OptionFrameEvents_KeyUpEventHandler m_KeyUpDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.OptionFrameEvents_KeyUpEventHandler m_KeyUpDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_KeyUpDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_KeyUpDelegate As OptionFrameEvents_KeyUpEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_KeyUpDelegate : Microsoft.Vbe.Interop.Forms.OptionFrameEvents_KeyUpEventHandler" Usage="Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_KeyUpDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.OptionFrameEvents_KeyUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_LayoutDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.OptionFrameEvents_LayoutEventHandler m_LayoutDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.OptionFrameEvents_LayoutEventHandler m_LayoutDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_LayoutDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_LayoutDelegate As OptionFrameEvents_LayoutEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_LayoutDelegate : Microsoft.Vbe.Interop.Forms.OptionFrameEvents_LayoutEventHandler" Usage="Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_LayoutDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.OptionFrameEvents_LayoutEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_MouseDownDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.OptionFrameEvents_MouseDownEventHandler m_MouseDownDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.OptionFrameEvents_MouseDownEventHandler m_MouseDownDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_MouseDownDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_MouseDownDelegate As OptionFrameEvents_MouseDownEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_MouseDownDelegate : Microsoft.Vbe.Interop.Forms.OptionFrameEvents_MouseDownEventHandler" Usage="Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_MouseDownDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.OptionFrameEvents_MouseDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_MouseMoveDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.OptionFrameEvents_MouseMoveEventHandler m_MouseMoveDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.OptionFrameEvents_MouseMoveEventHandler m_MouseMoveDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_MouseMoveDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_MouseMoveDelegate As OptionFrameEvents_MouseMoveEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_MouseMoveDelegate : Microsoft.Vbe.Interop.Forms.OptionFrameEvents_MouseMoveEventHandler" Usage="Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_MouseMoveDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.OptionFrameEvents_MouseMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_MouseUpDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.OptionFrameEvents_MouseUpEventHandler m_MouseUpDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.OptionFrameEvents_MouseUpEventHandler m_MouseUpDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_MouseUpDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_MouseUpDelegate As OptionFrameEvents_MouseUpEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_MouseUpDelegate : Microsoft.Vbe.Interop.Forms.OptionFrameEvents_MouseUpEventHandler" Usage="Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_MouseUpDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.OptionFrameEvents_MouseUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_RemoveControlDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.OptionFrameEvents_RemoveControlEventHandler m_RemoveControlDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.OptionFrameEvents_RemoveControlEventHandler m_RemoveControlDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_RemoveControlDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_RemoveControlDelegate As OptionFrameEvents_RemoveControlEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_RemoveControlDelegate : Microsoft.Vbe.Interop.Forms.OptionFrameEvents_RemoveControlEventHandler" Usage="Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_RemoveControlDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.OptionFrameEvents_RemoveControlEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_ScrollDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.OptionFrameEvents_ScrollEventHandler m_ScrollDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.OptionFrameEvents_ScrollEventHandler m_ScrollDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_ScrollDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_ScrollDelegate As OptionFrameEvents_ScrollEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_ScrollDelegate : Microsoft.Vbe.Interop.Forms.OptionFrameEvents_ScrollEventHandler" Usage="Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_ScrollDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.OptionFrameEvents_ScrollEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_ZoomDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.OptionFrameEvents_ZoomEventHandler m_ZoomDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.OptionFrameEvents_ZoomEventHandler m_ZoomDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_ZoomDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_ZoomDelegate As OptionFrameEvents_ZoomEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_ZoomDelegate : Microsoft.Vbe.Interop.Forms.OptionFrameEvents_ZoomEventHandler" Usage="Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.m_ZoomDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.OptionFrameEvents_ZoomEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseDown">
+      <MemberSignature Language="C#" Value="public override void MouseDown (short unnamedParam1, short unnamedParam2, float unnamedParam3, float unnamedParam4);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void MouseDown(int16 unnamedParam1, int16 unnamedParam2, float32 unnamedParam3, float32 unnamedParam4) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.MouseDown(System.Int16,System.Int16,System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub MouseDown (unnamedParam1 As Short, unnamedParam2 As Short, unnamedParam3 As Single, unnamedParam4 As Single)" />
+      <MemberSignature Language="F#" Value="abstract member MouseDown : int16 * int16 * single * single -&gt; unit&#xA;override this.MouseDown : int16 * int16 * single * single -&gt; unit" Usage="optionFrameEvents_SinkHelper.MouseDown (unnamedParam1, unnamedParam2, unnamedParam3, unnamedParam4)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.MouseDown(System.Int16,System.Int16,System.Single,System.Single)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="System.Int16" />
+        <Parameter Name="unnamedParam2" Type="System.Int16" />
+        <Parameter Name="unnamedParam3" Type="System.Single" />
+        <Parameter Name="unnamedParam4" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
+        <param name="unnamedParam3">To be added.</param>
+        <param name="unnamedParam4">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseMove">
+      <MemberSignature Language="C#" Value="public override void MouseMove (short unnamedParam1, short unnamedParam2, float unnamedParam3, float unnamedParam4);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void MouseMove(int16 unnamedParam1, int16 unnamedParam2, float32 unnamedParam3, float32 unnamedParam4) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.MouseMove(System.Int16,System.Int16,System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub MouseMove (unnamedParam1 As Short, unnamedParam2 As Short, unnamedParam3 As Single, unnamedParam4 As Single)" />
+      <MemberSignature Language="F#" Value="abstract member MouseMove : int16 * int16 * single * single -&gt; unit&#xA;override this.MouseMove : int16 * int16 * single * single -&gt; unit" Usage="optionFrameEvents_SinkHelper.MouseMove (unnamedParam1, unnamedParam2, unnamedParam3, unnamedParam4)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.MouseMove(System.Int16,System.Int16,System.Single,System.Single)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="System.Int16" />
+        <Parameter Name="unnamedParam2" Type="System.Int16" />
+        <Parameter Name="unnamedParam3" Type="System.Single" />
+        <Parameter Name="unnamedParam4" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
+        <param name="unnamedParam3">To be added.</param>
+        <param name="unnamedParam4">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseUp">
+      <MemberSignature Language="C#" Value="public override void MouseUp (short unnamedParam1, short unnamedParam2, float unnamedParam3, float unnamedParam4);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void MouseUp(int16 unnamedParam1, int16 unnamedParam2, float32 unnamedParam3, float32 unnamedParam4) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.MouseUp(System.Int16,System.Int16,System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub MouseUp (unnamedParam1 As Short, unnamedParam2 As Short, unnamedParam3 As Single, unnamedParam4 As Single)" />
+      <MemberSignature Language="F#" Value="abstract member MouseUp : int16 * int16 * single * single -&gt; unit&#xA;override this.MouseUp : int16 * int16 * single * single -&gt; unit" Usage="optionFrameEvents_SinkHelper.MouseUp (unnamedParam1, unnamedParam2, unnamedParam3, unnamedParam4)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.MouseUp(System.Int16,System.Int16,System.Single,System.Single)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="System.Int16" />
+        <Parameter Name="unnamedParam2" Type="System.Int16" />
+        <Parameter Name="unnamedParam3" Type="System.Single" />
+        <Parameter Name="unnamedParam4" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
+        <param name="unnamedParam3">To be added.</param>
+        <param name="unnamedParam4">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveControl">
+      <MemberSignature Language="C#" Value="public override void RemoveControl (Microsoft.Vbe.Interop.Forms.Control unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void RemoveControl(class Microsoft.Vbe.Interop.Forms.Control unnamedParam1) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.RemoveControl(Microsoft.Vbe.Interop.Forms.Control)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub RemoveControl (unnamedParam1 As Control)" />
+      <MemberSignature Language="F#" Value="abstract member RemoveControl : Microsoft.Vbe.Interop.Forms.Control -&gt; unit&#xA;override this.RemoveControl : Microsoft.Vbe.Interop.Forms.Control -&gt; unit" Usage="optionFrameEvents_SinkHelper.RemoveControl unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.RemoveControl(Microsoft.Vbe.Interop.Forms.Control)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.Control" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Scroll">
+      <MemberSignature Language="C#" Value="public override void Scroll (Microsoft.Vbe.Interop.Forms.fmScrollAction unnamedParam1, Microsoft.Vbe.Interop.Forms.fmScrollAction unnamedParam2, float unnamedParam3, float unnamedParam4, Microsoft.Vbe.Interop.Forms.ReturnSingle unnamedParam5, Microsoft.Vbe.Interop.Forms.ReturnSingle unnamedParam6);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void Scroll(valuetype Microsoft.Vbe.Interop.Forms.fmScrollAction unnamedParam1, valuetype Microsoft.Vbe.Interop.Forms.fmScrollAction unnamedParam2, float32 unnamedParam3, float32 unnamedParam4, class Microsoft.Vbe.Interop.Forms.ReturnSingle unnamedParam5, class Microsoft.Vbe.Interop.Forms.ReturnSingle unnamedParam6) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.Scroll(Microsoft.Vbe.Interop.Forms.fmScrollAction,Microsoft.Vbe.Interop.Forms.fmScrollAction,System.Single,System.Single,Microsoft.Vbe.Interop.Forms.ReturnSingle,Microsoft.Vbe.Interop.Forms.ReturnSingle)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Scroll (unnamedParam1 As fmScrollAction, unnamedParam2 As fmScrollAction, unnamedParam3 As Single, unnamedParam4 As Single, unnamedParam5 As ReturnSingle, unnamedParam6 As ReturnSingle)" />
+      <MemberSignature Language="F#" Value="abstract member Scroll : Microsoft.Vbe.Interop.Forms.fmScrollAction * Microsoft.Vbe.Interop.Forms.fmScrollAction * single * single * Microsoft.Vbe.Interop.Forms.ReturnSingle * Microsoft.Vbe.Interop.Forms.ReturnSingle -&gt; unit&#xA;override this.Scroll : Microsoft.Vbe.Interop.Forms.fmScrollAction * Microsoft.Vbe.Interop.Forms.fmScrollAction * single * single * Microsoft.Vbe.Interop.Forms.ReturnSingle * Microsoft.Vbe.Interop.Forms.ReturnSingle -&gt; unit" Usage="optionFrameEvents_SinkHelper.Scroll (unnamedParam1, unnamedParam2, unnamedParam3, unnamedParam4, unnamedParam5, unnamedParam6)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.Scroll(Microsoft.Vbe.Interop.Forms.fmScrollAction,Microsoft.Vbe.Interop.Forms.fmScrollAction,System.Single,System.Single,Microsoft.Vbe.Interop.Forms.ReturnSingle,Microsoft.Vbe.Interop.Forms.ReturnSingle)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.fmScrollAction" />
+        <Parameter Name="unnamedParam2" Type="Microsoft.Vbe.Interop.Forms.fmScrollAction" />
+        <Parameter Name="unnamedParam3" Type="System.Single" />
+        <Parameter Name="unnamedParam4" Type="System.Single" />
+        <Parameter Name="unnamedParam5" Type="Microsoft.Vbe.Interop.Forms.ReturnSingle" />
+        <Parameter Name="unnamedParam6" Type="Microsoft.Vbe.Interop.Forms.ReturnSingle" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
+        <param name="unnamedParam3">To be added.</param>
+        <param name="unnamedParam4">To be added.</param>
+        <param name="unnamedParam5">To be added.</param>
+        <param name="unnamedParam6">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Zoom">
+      <MemberSignature Language="C#" Value="public override void Zoom (ref short unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void Zoom(int16&amp; unnamedParam1) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents_SinkHelper.Zoom(System.Int16@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Zoom (ByRef unnamedParam1 As Short)" />
+      <MemberSignature Language="F#" Value="abstract member Zoom : int16 -&gt; unit&#xA;override this.Zoom : int16 -&gt; unit" Usage="optionFrameEvents_SinkHelper.Zoom unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.OptionFrameEvents.Zoom(System.Int16@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="System.Int16" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

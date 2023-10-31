@@ -1,9 +1,10 @@
-﻿<Type Name="CommandBarsClass" FullName="Microsoft.Office.Core.CommandBarsClass">
+<Type Name="CommandBarsClass" FullName="Microsoft.Office.Core.CommandBarsClass">
+  <TypeSignature Language="C++ CLI" Value="public ref class CommandBarsClass : Microsoft::Office::Core::CommandBars, System::Collections::IEnumerable" />
   <TypeSignature Language="C#" Value="public class CommandBarsClass : Microsoft.Office.Core.CommandBars, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi CommandBarsClass extends System.Object implements class Microsoft.Office.Core._CommandBars, class Microsoft.Office.Core._CommandBarsEvents_Event, class Microsoft.Office.Core.CommandBars, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CommandBarsClass" />
   <TypeSignature Language="VB.NET" Value="Public Class CommandBarsClass&#xA;Implements CommandBars, IEnumerable" />
-  <TypeSignature Language="C++ CLI" Value="public ref class CommandBarsClass : Microsoft::Office::Core::CommandBars, System::Collections::IEnumerable" />
+  <TypeSignature Language="F#" Value="type CommandBarsClass = class&#xA;    interface _CommandBars&#xA;    interface CommandBars&#xA;    interface _CommandBarsEvents_Event&#xA;    interface IEnumerable" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -13,6 +14,15 @@
   </Base>
   <Interfaces>
     <Interface>
+      <InterfaceName>Microsoft.Office.Core._CommandBars</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._CommandBarsEvents_Event</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+    <Interface>
       <InterfaceName>Microsoft.Office.Core.CommandBars</InterfaceName>
     </Interface>
     <Interface>
@@ -21,13 +31,16 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ClassInterface(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ClassInterface(0)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Office.Core._CommandBarsEvents\0")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Office.Core._CommandBarsEvents\0")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Office.Core._CommandBarsEvents\0")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("55F88893-7708-11D1-ACEB-006008961DA5")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("55F88893-7708-11D1-ACEB-006008961DA5")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("55F88893-7708-11D1-ACEB-006008961DA5")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -36,11 +49,12 @@
   </Docs>
   <Members>
     <Member MemberName="ActionControl">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Core::CommandBarControl ^ ActionControl { Microsoft::Office::Core::CommandBarControl ^ get(); };" />
       <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Core.CommandBarControl ActionControl { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.CommandBarControl ActionControl" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CommandBarsClass.ActionControl" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ActionControl As CommandBarControl" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Core::CommandBarControl ^ ActionControl { Microsoft::Office::Core::CommandBarControl ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ActionControl : Microsoft.Office.Core.CommandBarControl" Usage="ActionControl" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CommandBars.ActionControl</InterfaceMember>
@@ -51,10 +65,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809344)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809344)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809344)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809344)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -67,11 +83,12 @@
       </Docs>
     </Member>
     <Member MemberName="ActiveMenuBar">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Core::CommandBar ^ ActiveMenuBar { Microsoft::Office::Core::CommandBar ^ get(); };" />
       <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Core.CommandBar ActiveMenuBar { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.CommandBar ActiveMenuBar" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CommandBarsClass.ActiveMenuBar" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ActiveMenuBar As CommandBar" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Core::CommandBar ^ ActiveMenuBar { Microsoft::Office::Core::CommandBar ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ActiveMenuBar : Microsoft.Office.Core.CommandBar" Usage="ActiveMenuBar" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CommandBars.ActiveMenuBar</InterfaceMember>
@@ -82,10 +99,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809345)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809345)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809345)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809345)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -98,11 +117,12 @@
       </Docs>
     </Member>
     <Member MemberName="AdaptiveMenus">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool AdaptiveMenus { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public virtual bool AdaptiveMenus { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool AdaptiveMenus" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CommandBarsClass.AdaptiveMenus" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property AdaptiveMenus As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool AdaptiveMenus { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.AdaptiveMenus : bool with get, set" Usage="AdaptiveMenus" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CommandBars.AdaptiveMenus</InterfaceMember>
@@ -113,13 +133,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809363)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809363)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809363)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809363)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809363)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809363)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809363)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809363)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809363)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -136,6 +159,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.CommandBar Add([in]object Name, [in]object Position, [in]object MenuBar, [in]object Temporary) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CommandBarsClass.Add(System.Object,System.Object,System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function Add (Optional Name As Object, Optional Position As Object, Optional MenuBar As Object, Optional Temporary As Object) As CommandBar" />
+      <MemberSignature Language="F#" Value="abstract member Add : obj * obj * obj * obj -&gt; Microsoft.Office.Core.CommandBar&#xA;override this.Add : obj * obj * obj * obj -&gt; Microsoft.Office.Core.CommandBar" Usage="commandBarsClass.Add (Name, Position, MenuBar, Temporary)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CommandBars.Add(System.Object,System.Object,System.Object,System.Object)</InterfaceMember>
@@ -146,7 +170,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809346)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809346)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -168,11 +193,38 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="add_OnUpdate">
+      <MemberSignature Language="C#" Value="public virtual void add_OnUpdate (Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_OnUpdate(class Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CommandBarsClass.add_OnUpdate(Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_OnUpdate (unnamedParam1 As _CommandBarsEvents_OnUpdateEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_OnUpdate : Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler -&gt; unit&#xA;override this.add_OnUpdate : Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler -&gt; unit" Usage="commandBarsClass.add_OnUpdate unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core._CommandBarsEvents_Event.add_OnUpdate(Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="AddEx">
       <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Core.CommandBar AddEx (object TbidOrName, object Position, object MenuBar, object Temporary, object TbtrProtection);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.CommandBar AddEx([in]object TbidOrName, [in]object Position, [in]object MenuBar, [in]object Temporary, [in]object TbtrProtection) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CommandBarsClass.AddEx(System.Object,System.Object,System.Object,System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function AddEx (Optional TbidOrName As Object, Optional Position As Object, Optional MenuBar As Object, Optional Temporary As Object, Optional TbtrProtection As Object) As CommandBar" />
+      <MemberSignature Language="F#" Value="abstract member AddEx : obj * obj * obj * obj * obj -&gt; Microsoft.Office.Core.CommandBar&#xA;override this.AddEx : obj * obj * obj * obj * obj -&gt; Microsoft.Office.Core.CommandBar" Usage="commandBarsClass.AddEx (TbidOrName, Position, MenuBar, Temporary, TbtrProtection)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CommandBars.AddEx(System.Object,System.Object,System.Object,System.Object,System.Object)</InterfaceMember>
@@ -183,10 +235,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809366)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809366)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809366)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibFunc(64)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibFunc(64)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -211,11 +265,12 @@
       </Docs>
     </Member>
     <Member MemberName="Application">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Application { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public virtual object Application { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Application" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CommandBarsClass.Application" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Application As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : obj" Usage="Application" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CommandBars.Application</InterfaceMember>
@@ -226,10 +281,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -242,11 +299,12 @@
       </Docs>
     </Member>
     <Member MemberName="CommitRenderingTransaction">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void CommitRenderingTransaction(int hwnd) = Microsoft::Office::Core::_CommandBars::CommitRenderingTransaction;" />
       <MemberSignature Language="C#" Value="public virtual void CommitRenderingTransaction (int hwnd);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CommitRenderingTransaction([in]int32 hwnd) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CommandBarsClass.CommitRenderingTransaction(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub CommitRenderingTransaction (hwnd As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void CommitRenderingTransaction(int hwnd) = Microsoft::Office::Core::_CommandBars::CommitRenderingTransaction;" />
+      <MemberSignature Language="F#" Value="abstract member CommitRenderingTransaction : int -&gt; unit&#xA;override this.CommitRenderingTransaction : int -&gt; unit" Usage="commandBarsClass.CommitRenderingTransaction hwnd" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CommandBars.CommitRenderingTransaction(System.Int32)</InterfaceMember>
@@ -257,7 +315,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809381)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809381)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809381)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -273,11 +332,12 @@
       </Docs>
     </Member>
     <Member MemberName="Count">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Count { int get(); };" />
       <MemberSignature Language="C#" Value="public virtual int Count { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CommandBarsClass.Count" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Count As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Count { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Count" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CommandBars.Count</InterfaceMember>
@@ -288,10 +348,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809347)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809347)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809347)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809347)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -304,11 +366,12 @@
       </Docs>
     </Member>
     <Member MemberName="Creator">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Creator { int get(); };" />
       <MemberSignature Language="C#" Value="public virtual int Creator { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CommandBarsClass.Creator" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Creator As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Creator" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CommandBars.Creator</InterfaceMember>
@@ -319,10 +382,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -335,11 +400,12 @@
       </Docs>
     </Member>
     <Member MemberName="DisableAskAQuestionDropdown">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool DisableAskAQuestionDropdown { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public virtual bool DisableAskAQuestionDropdown { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool DisableAskAQuestionDropdown" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CommandBarsClass.DisableAskAQuestionDropdown" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property DisableAskAQuestionDropdown As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool DisableAskAQuestionDropdown { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.DisableAskAQuestionDropdown : bool with get, set" Usage="DisableAskAQuestionDropdown" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CommandBars.DisableAskAQuestionDropdown</InterfaceMember>
@@ -350,13 +416,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809371)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809371)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809371)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809371)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809371)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809371)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809371)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809371)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809371)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -369,11 +438,12 @@
       </Docs>
     </Member>
     <Member MemberName="DisableCustomize">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool DisableCustomize { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public virtual bool DisableCustomize { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool DisableCustomize" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CommandBarsClass.DisableCustomize" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property DisableCustomize As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool DisableCustomize { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.DisableCustomize : bool with get, set" Usage="DisableCustomize" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CommandBars.DisableCustomize</InterfaceMember>
@@ -384,13 +454,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809369)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809369)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809369)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809369)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809369)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809369)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809369)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809369)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809369)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -403,11 +476,12 @@
       </Docs>
     </Member>
     <Member MemberName="DisplayFonts">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool DisplayFonts { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public virtual bool DisplayFonts { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool DisplayFonts" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CommandBarsClass.DisplayFonts" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property DisplayFonts As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool DisplayFonts { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.DisplayFonts : bool with get, set" Usage="DisplayFonts" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CommandBars.DisplayFonts</InterfaceMember>
@@ -418,13 +492,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809367)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809367)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809367)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809367)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809367)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809367)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809367)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809367)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809367)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -437,11 +514,12 @@
       </Docs>
     </Member>
     <Member MemberName="DisplayKeysInTooltips">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool DisplayKeysInTooltips { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public virtual bool DisplayKeysInTooltips { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool DisplayKeysInTooltips" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CommandBarsClass.DisplayKeysInTooltips" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property DisplayKeysInTooltips As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool DisplayKeysInTooltips { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.DisplayKeysInTooltips : bool with get, set" Usage="DisplayKeysInTooltips" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CommandBars.DisplayKeysInTooltips</InterfaceMember>
@@ -452,13 +530,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809350)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809350)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809350)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809350)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809350)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809350)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809350)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809350)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809350)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -471,11 +552,12 @@
       </Docs>
     </Member>
     <Member MemberName="DisplayTooltips">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool DisplayTooltips { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public virtual bool DisplayTooltips { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool DisplayTooltips" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CommandBarsClass.DisplayTooltips" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property DisplayTooltips As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool DisplayTooltips { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.DisplayTooltips : bool with get, set" Usage="DisplayTooltips" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CommandBars.DisplayTooltips</InterfaceMember>
@@ -486,13 +568,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809348)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809348)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809348)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809348)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809348)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809348)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -505,11 +590,12 @@
       </Docs>
     </Member>
     <Member MemberName="ExecuteMso">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ExecuteMso(System::String ^ idMso) = Microsoft::Office::Core::_CommandBars::ExecuteMso;" />
       <MemberSignature Language="C#" Value="public virtual void ExecuteMso (string idMso);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ExecuteMso([in]string idMso) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CommandBarsClass.ExecuteMso(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub ExecuteMso (idMso As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ExecuteMso(System::String ^ idMso) = Microsoft::Office::Core::_CommandBars::ExecuteMso;" />
+      <MemberSignature Language="F#" Value="abstract member ExecuteMso : string -&gt; unit&#xA;override this.ExecuteMso : string -&gt; unit" Usage="commandBarsClass.ExecuteMso idMso" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CommandBars.ExecuteMso(System.String)</InterfaceMember>
@@ -520,7 +606,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809373)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809373)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809373)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -540,6 +627,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.CommandBarControl FindControl([in]object Type, [in]object Id, [in]object Tag, [in]object Visible) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CommandBarsClass.FindControl(System.Object,System.Object,System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function FindControl (Optional Type As Object, Optional Id As Object, Optional Tag As Object, Optional Visible As Object) As CommandBarControl" />
+      <MemberSignature Language="F#" Value="abstract member FindControl : obj * obj * obj * obj -&gt; Microsoft.Office.Core.CommandBarControl&#xA;override this.FindControl : obj * obj * obj * obj -&gt; Microsoft.Office.Core.CommandBarControl" Usage="commandBarsClass.FindControl (Type, Id, Tag, Visible)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CommandBars.FindControl(System.Object,System.Object,System.Object,System.Object)</InterfaceMember>
@@ -550,7 +638,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809352)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809352)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809352)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -577,6 +666,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.CommandBarControls FindControls([in]object Type, [in]object Id, [in]object Tag, [in]object Visible) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CommandBarsClass.FindControls(System.Object,System.Object,System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function FindControls (Optional Type As Object, Optional Id As Object, Optional Tag As Object, Optional Visible As Object) As CommandBarControls" />
+      <MemberSignature Language="F#" Value="abstract member FindControls : obj * obj * obj * obj -&gt; Microsoft.Office.Core.CommandBarControls&#xA;override this.FindControls : obj * obj * obj * obj -&gt; Microsoft.Office.Core.CommandBarControls" Usage="commandBarsClass.FindControls (Type, Id, Tag, Visible)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CommandBars.FindControls(System.Object,System.Object,System.Object,System.Object)</InterfaceMember>
@@ -587,7 +677,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809365)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809365)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809365)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -610,11 +701,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetEnabledMso">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool GetEnabledMso(System::String ^ idMso) = Microsoft::Office::Core::_CommandBars::GetEnabledMso;" />
       <MemberSignature Language="C#" Value="public virtual bool GetEnabledMso (string idMso);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool GetEnabledMso([in]string idMso) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CommandBarsClass.GetEnabledMso(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetEnabledMso (idMso As String) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool GetEnabledMso(System::String ^ idMso) = Microsoft::Office::Core::_CommandBars::GetEnabledMso;" />
+      <MemberSignature Language="F#" Value="abstract member GetEnabledMso : string -&gt; bool&#xA;override this.GetEnabledMso : string -&gt; bool" Usage="commandBarsClass.GetEnabledMso idMso" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CommandBars.GetEnabledMso(System.String)</InterfaceMember>
@@ -625,7 +717,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809374)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809374)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809374)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -642,11 +735,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::IEnumerator ^ GetEnumerator() = Microsoft::Office::Core::_CommandBars::GetEnumerator;" />
       <MemberSignature Language="C#" Value="public virtual System.Collections.IEnumerator GetEnumerator ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CommandBarsClass.GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetEnumerator () As IEnumerator" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::IEnumerator ^ GetEnumerator() = Microsoft::Office::Core::_CommandBars::GetEnumerator;" />
+      <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.IEnumerator&#xA;override this.GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="commandBarsClass.GetEnumerator " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CommandBars.GetEnumerator</InterfaceMember>
@@ -657,10 +751,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(-4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(-4)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibFunc(1024)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibFunc(1024)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -674,11 +770,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetImageMso">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual stdole::IPictureDisp ^ GetImageMso(System::String ^ idMso, int Width, int Height) = Microsoft::Office::Core::_CommandBars::GetImageMso;" />
       <MemberSignature Language="C#" Value="public virtual stdole.IPictureDisp GetImageMso (string idMso, int Width, int Height);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class stdole.IPictureDisp GetImageMso([in]string idMso, [in]int32 Width, [in]int32 Height) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CommandBarsClass.GetImageMso(System.String,System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetImageMso (idMso As String, Width As Integer, Height As Integer) As IPictureDisp" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual stdole::IPictureDisp ^ GetImageMso(System::String ^ idMso, int Width, int Height) = Microsoft::Office::Core::_CommandBars::GetImageMso;" />
+      <MemberSignature Language="F#" Value="abstract member GetImageMso : string * int * int -&gt; stdole.IPictureDisp&#xA;override this.GetImageMso : string * int * int -&gt; stdole.IPictureDisp" Usage="commandBarsClass.GetImageMso (idMso, Width, Height)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CommandBars.GetImageMso(System.String,System.Int32,System.Int32)</InterfaceMember>
@@ -689,14 +786,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809380)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809380)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809380)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>stdole.IPictureDisp</ReturnType>
         <Attributes>
           <Attribute>
-            <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.IPictureDisp")</AttributeName>
+            <AttributeName Language="C#">[System.Runtime.InteropServices.ComAliasName("stdole.IPictureDisp")]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComAliasName("stdole.IPictureDisp")&gt;]</AttributeName>
           </Attribute>
         </Attributes>
       </ReturnValue>
@@ -715,11 +814,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetLabelMso">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ GetLabelMso(System::String ^ idMso) = Microsoft::Office::Core::_CommandBars::GetLabelMso;" />
       <MemberSignature Language="C#" Value="public virtual string GetLabelMso (string idMso);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetLabelMso([in]string idMso) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CommandBarsClass.GetLabelMso(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetLabelMso (idMso As String) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ GetLabelMso(System::String ^ idMso) = Microsoft::Office::Core::_CommandBars::GetLabelMso;" />
+      <MemberSignature Language="F#" Value="abstract member GetLabelMso : string -&gt; string&#xA;override this.GetLabelMso : string -&gt; string" Usage="commandBarsClass.GetLabelMso idMso" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CommandBars.GetLabelMso(System.String)</InterfaceMember>
@@ -730,7 +830,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809377)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809377)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809377)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -747,11 +848,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetPressedMso">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool GetPressedMso(System::String ^ idMso) = Microsoft::Office::Core::_CommandBars::GetPressedMso;" />
       <MemberSignature Language="C#" Value="public virtual bool GetPressedMso (string idMso);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool GetPressedMso([in]string idMso) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CommandBarsClass.GetPressedMso(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPressedMso (idMso As String) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool GetPressedMso(System::String ^ idMso) = Microsoft::Office::Core::_CommandBars::GetPressedMso;" />
+      <MemberSignature Language="F#" Value="abstract member GetPressedMso : string -&gt; bool&#xA;override this.GetPressedMso : string -&gt; bool" Usage="commandBarsClass.GetPressedMso idMso" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CommandBars.GetPressedMso(System.String)</InterfaceMember>
@@ -762,7 +864,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809376)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809376)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809376)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -779,11 +882,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetScreentipMso">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ GetScreentipMso(System::String ^ idMso) = Microsoft::Office::Core::_CommandBars::GetScreentipMso;" />
       <MemberSignature Language="C#" Value="public virtual string GetScreentipMso (string idMso);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetScreentipMso([in]string idMso) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CommandBarsClass.GetScreentipMso(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetScreentipMso (idMso As String) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ GetScreentipMso(System::String ^ idMso) = Microsoft::Office::Core::_CommandBars::GetScreentipMso;" />
+      <MemberSignature Language="F#" Value="abstract member GetScreentipMso : string -&gt; string&#xA;override this.GetScreentipMso : string -&gt; string" Usage="commandBarsClass.GetScreentipMso idMso" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CommandBars.GetScreentipMso(System.String)</InterfaceMember>
@@ -794,7 +898,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809378)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809378)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809378)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -811,11 +916,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetSupertipMso">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ GetSupertipMso(System::String ^ idMso) = Microsoft::Office::Core::_CommandBars::GetSupertipMso;" />
       <MemberSignature Language="C#" Value="public virtual string GetSupertipMso (string idMso);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetSupertipMso([in]string idMso) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CommandBarsClass.GetSupertipMso(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetSupertipMso (idMso As String) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ GetSupertipMso(System::String ^ idMso) = Microsoft::Office::Core::_CommandBars::GetSupertipMso;" />
+      <MemberSignature Language="F#" Value="abstract member GetSupertipMso : string -&gt; string&#xA;override this.GetSupertipMso : string -&gt; string" Usage="commandBarsClass.GetSupertipMso idMso" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CommandBars.GetSupertipMso(System.String)</InterfaceMember>
@@ -826,7 +932,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809379)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809379)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809379)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -843,11 +950,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetVisibleMso">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool GetVisibleMso(System::String ^ idMso) = Microsoft::Office::Core::_CommandBars::GetVisibleMso;" />
       <MemberSignature Language="C#" Value="public virtual bool GetVisibleMso (string idMso);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool GetVisibleMso([in]string idMso) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CommandBarsClass.GetVisibleMso(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetVisibleMso (idMso As String) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool GetVisibleMso(System::String ^ idMso) = Microsoft::Office::Core::_CommandBars::GetVisibleMso;" />
+      <MemberSignature Language="F#" Value="abstract member GetVisibleMso : string -&gt; bool&#xA;override this.GetVisibleMso : string -&gt; bool" Usage="commandBarsClass.GetVisibleMso idMso" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CommandBars.GetVisibleMso(System.String)</InterfaceMember>
@@ -858,7 +966,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809375)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809375)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809375)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -875,11 +984,12 @@
       </Docs>
     </Member>
     <Member MemberName="IdsString">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int IdsString[int, System::String ^ %] { int get(int ids, [Runtime::InteropServices::Out] System::String ^ % pbstrName); };" />
       <MemberSignature Language="C#" Value="public virtual int IdsString[int ids, out string pbstrName] { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 IdsString(int32, string)" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CommandBarsClass.IdsString(System.Int32,System.String@)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property IdsString(ids As Integer, ByRef pbstrName As String) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int IdsString[int, System::String ^ %] { int get(int ids, [Runtime::InteropServices::Out] System::String ^ % pbstrName); };" />
+      <MemberSignature Language="F#" Value="member this.IdsString(int * string) : int" Usage="IdsString" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CommandBars.IdsString(System.Int32,System.String@)</InterfaceMember>
@@ -890,13 +1000,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809361)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809361)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809361)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809361)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809361)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809361)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(64)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(64)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -904,7 +1017,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="ids" Type="System.Int32" />
-        <Parameter Name="pbstrName" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="pbstrName" Type="System.String" RefType="out" />
       </Parameters>
       <Docs>
         <param name="ids">To be added.</param>
@@ -915,11 +1028,12 @@
       </Docs>
     </Member>
     <Member MemberName="Item">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Core::CommandBar ^ default[System::Object ^] { Microsoft::Office::Core::CommandBar ^ get(System::Object ^ Index); };" />
       <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Core.CommandBar this[object Index] { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.CommandBar Item(object)" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CommandBarsClass.Item(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Default Public Overridable ReadOnly Property Item(Index As Object) As CommandBar" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Core::CommandBar ^ default[System::Object ^] { Microsoft::Office::Core::CommandBar ^ get(System::Object ^ Index); };" />
+      <MemberSignature Language="F#" Value="member this.Item(obj) : Microsoft.Office.Core.CommandBar" Usage="Item" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CommandBars.Item(System.Object)</InterfaceMember>
@@ -930,10 +1044,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -950,11 +1066,12 @@
       </Docs>
     </Member>
     <Member MemberName="LargeButtons">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool LargeButtons { bool get(); void set(bool value); };" />
       <MemberSignature Language="C#" Value="public virtual bool LargeButtons { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool LargeButtons" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CommandBarsClass.LargeButtons" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property LargeButtons As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool LargeButtons { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.LargeButtons : bool with get, set" Usage="LargeButtons" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CommandBars.LargeButtons</InterfaceMember>
@@ -965,13 +1082,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809354)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809354)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809354)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809354)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809354)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809354)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809354)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809354)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809354)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -984,11 +1104,12 @@
       </Docs>
     </Member>
     <Member MemberName="MenuAnimationStyle">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Core::MsoMenuAnimation MenuAnimationStyle { Microsoft::Office::Core::MsoMenuAnimation get(); void set(Microsoft::Office::Core::MsoMenuAnimation value); };" />
       <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Core.MsoMenuAnimation MenuAnimationStyle { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoMenuAnimation MenuAnimationStyle" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CommandBarsClass.MenuAnimationStyle" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property MenuAnimationStyle As MsoMenuAnimation" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Core::MsoMenuAnimation MenuAnimationStyle { Microsoft::Office::Core::MsoMenuAnimation get(); void set(Microsoft::Office::Core::MsoMenuAnimation value); };" />
+      <MemberSignature Language="F#" Value="member this.MenuAnimationStyle : Microsoft.Office.Core.MsoMenuAnimation with get, set" Usage="MenuAnimationStyle" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CommandBars.MenuAnimationStyle</InterfaceMember>
@@ -999,13 +1120,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809356)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809356)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809356)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809356)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809356)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809356)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809356)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1610809356)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1610809356)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1018,11 +1142,12 @@
       </Docs>
     </Member>
     <Member MemberName="OnUpdate">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Core::_CommandBarsEvents_OnUpdateEventHandler ^ OnUpdate;" />
       <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler OnUpdate;" />
       <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler OnUpdate" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core.CommandBarsClass.OnUpdate" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event OnUpdate As _CommandBarsEvents_OnUpdateEventHandler Implements OnUpdate" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Core::_CommandBarsEvents_OnUpdateEventHandler ^ OnUpdate;" />
+      <MemberSignature Language="F#" Value="member this.OnUpdate : Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler " Usage="member this.OnUpdate : Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler " />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:Microsoft.Office.Core._CommandBarsEvents_Event.OnUpdate</InterfaceMember>
@@ -1044,11 +1169,12 @@
       </Docs>
     </Member>
     <Member MemberName="Parent">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Parent { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public virtual object Parent { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CommandBarsClass.Parent" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Parent As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Parent" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CommandBars.Parent</InterfaceMember>
@@ -1059,10 +1185,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809359)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809359)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809359)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809359)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1075,11 +1203,12 @@
       </Docs>
     </Member>
     <Member MemberName="ReleaseFocus">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ReleaseFocus() = Microsoft::Office::Core::_CommandBars::ReleaseFocus;" />
       <MemberSignature Language="C#" Value="public virtual void ReleaseFocus ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ReleaseFocus() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CommandBarsClass.ReleaseFocus" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub ReleaseFocus ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ReleaseFocus() = Microsoft::Office::Core::_CommandBars::ReleaseFocus;" />
+      <MemberSignature Language="F#" Value="abstract member ReleaseFocus : unit -&gt; unit&#xA;override this.ReleaseFocus : unit -&gt; unit" Usage="commandBarsClass.ReleaseFocus " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Core._CommandBars.ReleaseFocus</InterfaceMember>
@@ -1090,7 +1219,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809360)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809360)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809360)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1102,12 +1232,39 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="remove_OnUpdate">
+      <MemberSignature Language="C#" Value="public virtual void remove_OnUpdate (Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_OnUpdate(class Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CommandBarsClass.remove_OnUpdate(Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_OnUpdate (unnamedParam1 As _CommandBarsEvents_OnUpdateEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_OnUpdate : Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler -&gt; unit&#xA;override this.remove_OnUpdate : Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler -&gt; unit" Usage="commandBarsClass.remove_OnUpdate unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core._CommandBarsEvents_Event.remove_OnUpdate(Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="TmcGetName">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int TmcGetName[int, System::String ^ %] { int get(int tmc, [Runtime::InteropServices::Out] System::String ^ % pbstrName); };" />
       <MemberSignature Language="C#" Value="public virtual int TmcGetName[int tmc, out string pbstrName] { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 TmcGetName(int32, string)" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CommandBarsClass.TmcGetName(System.Int32,System.String@)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property TmcGetName(tmc As Integer, ByRef pbstrName As String) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int TmcGetName[int, System::String ^ %] { int get(int tmc, [Runtime::InteropServices::Out] System::String ^ % pbstrName); };" />
+      <MemberSignature Language="F#" Value="member this.TmcGetName(int * string) : int" Usage="TmcGetName" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Core._CommandBars.TmcGetName(System.Int32,System.String@)</InterfaceMember>
@@ -1118,13 +1275,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610809362)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610809362)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610809362)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809362)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610809362)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610809362)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(64)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(64)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1132,7 +1292,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="tmc" Type="System.Int32" />
-        <Parameter Name="pbstrName" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="pbstrName" Type="System.String" RefType="out" />
       </Parameters>
       <Docs>
         <param name="tmc">To be added.</param>

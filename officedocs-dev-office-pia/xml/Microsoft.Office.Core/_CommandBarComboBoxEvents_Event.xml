@@ -1,9 +1,10 @@
 <Type Name="_CommandBarComboBoxEvents_Event" FullName="Microsoft.Office.Core._CommandBarComboBoxEvents_Event">
+  <TypeSignature Language="C++ CLI" Value="public interface class _CommandBarComboBoxEvents_Event" />
   <TypeSignature Language="C#" Value="public interface _CommandBarComboBoxEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CommandBarComboBoxEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CommandBarComboBoxEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CommandBarComboBoxEvents_Event" />
-  <TypeSignature Language="C++ CLI" Value="public interface class _CommandBarComboBoxEvents_Event" />
+  <TypeSignature Language="F#" Value="type _CommandBarComboBoxEvents_Event = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,13 +12,16 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Core._CommandBarComboBoxEvents), typeof(Microsoft.Office.Core._CommandBarComboBoxEvents_EventProvider))</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Core._CommandBarComboBoxEvents), typeof(Microsoft.Office.Core._CommandBarComboBoxEvents_EventProvider))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Core._CommandBarComboBoxEvents), typeof(Microsoft.Office.Core._CommandBarComboBoxEvents_EventProvider))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComVisible(false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComVisible(false)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(16)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(16)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -25,12 +29,36 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="add_Change">
+      <MemberSignature Language="C#" Value="public void add_Change (Microsoft.Office.Core._CommandBarComboBoxEvents_ChangeEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Change(class Microsoft.Office.Core._CommandBarComboBoxEvents_ChangeEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarComboBoxEvents_Event.add_Change(Microsoft.Office.Core._CommandBarComboBoxEvents_ChangeEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_Change (unnamedParam1 As _CommandBarComboBoxEvents_ChangeEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_Change : Microsoft.Office.Core._CommandBarComboBoxEvents_ChangeEventHandler -&gt; unit" Usage="_CommandBarComboBoxEvents_Event.add_Change unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CommandBarComboBoxEvents_ChangeEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Change">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::_CommandBarComboBoxEvents_ChangeEventHandler ^ Change;" />
       <MemberSignature Language="C#" Value="event Microsoft.Office.Core._CommandBarComboBoxEvents_ChangeEventHandler Change;" />
       <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core._CommandBarComboBoxEvents_ChangeEventHandler Change" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core._CommandBarComboBoxEvents_Event.Change" />
       <MemberSignature Language="VB.NET" Value="Event Change As _CommandBarComboBoxEvents_ChangeEventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::_CommandBarComboBoxEvents_ChangeEventHandler ^ Change;" />
+      <MemberSignature Language="F#" Value="member this.Change : Microsoft.Office.Core._CommandBarComboBoxEvents_ChangeEventHandler " Usage="member this.Change : Microsoft.Office.Core._CommandBarComboBoxEvents_ChangeEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -41,6 +69,29 @@
       </ReturnValue>
       <Docs>
         <summary>Occurs when the end user changes the selection in a command bar combo box.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Change">
+      <MemberSignature Language="C#" Value="public void remove_Change (Microsoft.Office.Core._CommandBarComboBoxEvents_ChangeEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Change(class Microsoft.Office.Core._CommandBarComboBoxEvents_ChangeEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarComboBoxEvents_Event.remove_Change(Microsoft.Office.Core._CommandBarComboBoxEvents_ChangeEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_Change (unnamedParam1 As _CommandBarComboBoxEvents_ChangeEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_Change : Microsoft.Office.Core._CommandBarComboBoxEvents_ChangeEventHandler -&gt; unit" Usage="_CommandBarComboBoxEvents_Event.remove_Change unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CommandBarComboBoxEvents_ChangeEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

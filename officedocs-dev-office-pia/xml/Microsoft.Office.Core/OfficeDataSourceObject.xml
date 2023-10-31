@@ -1,9 +1,10 @@
-﻿<Type Name="OfficeDataSourceObject" FullName="Microsoft.Office.Core.OfficeDataSourceObject">
+<Type Name="OfficeDataSourceObject" FullName="Microsoft.Office.Core.OfficeDataSourceObject">
+  <TypeSignature Language="C++ CLI" Value="public interface class OfficeDataSourceObject" />
   <TypeSignature Language="C#" Value="public interface OfficeDataSourceObject" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OfficeDataSourceObject" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.OfficeDataSourceObject" />
   <TypeSignature Language="VB.NET" Value="Public Interface OfficeDataSourceObject" />
-  <TypeSignature Language="C++ CLI" Value="public interface class OfficeDataSourceObject" />
+  <TypeSignature Language="F#" Value="type OfficeDataSourceObject = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,10 +12,12 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("000C1530-0000-0000-C000-000000000046")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("000C1530-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("000C1530-0000-0000-C000-000000000046")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4288)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4288)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -27,11 +30,12 @@
   </Docs>
   <Members>
     <Member MemberName="ApplyFilter">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ApplyFilter();" />
       <MemberSignature Language="C#" Value="public void ApplyFilter ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ApplyFilter() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.OfficeDataSourceObject.ApplyFilter" />
       <MemberSignature Language="VB.NET" Value="Public Sub ApplyFilter ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ApplyFilter();" />
+      <MemberSignature Language="F#" Value="abstract member ApplyFilter : unit -&gt; unit" Usage="officeDataSourceObject.ApplyFilter " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -39,7 +43,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743820)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743820)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743820)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -52,11 +57,12 @@
       </Docs>
     </Member>
     <Member MemberName="Columns">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Columns { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object Columns { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Columns" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.OfficeDataSourceObject.Columns" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Columns As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Columns { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Columns : obj" Usage="Microsoft.Office.Core.OfficeDataSourceObject.Columns" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -64,10 +70,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -80,11 +88,12 @@
       </Docs>
     </Member>
     <Member MemberName="ConnectString">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ConnectString { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="C#" Value="public string ConnectString { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ConnectString" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.OfficeDataSourceObject.ConnectString" />
       <MemberSignature Language="VB.NET" Value="Public Property ConnectString As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ConnectString { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ConnectString : string with get, set" Usage="Microsoft.Office.Core.OfficeDataSourceObject.ConnectString" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -92,13 +101,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(1)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -111,11 +123,12 @@
       </Docs>
     </Member>
     <Member MemberName="DataSource">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DataSource { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="C#" Value="public string DataSource { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string DataSource" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.OfficeDataSourceObject.DataSource" />
       <MemberSignature Language="VB.NET" Value="Public Property DataSource As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DataSource { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.DataSource : string with get, set" Usage="Microsoft.Office.Core.OfficeDataSourceObject.DataSource" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -123,13 +136,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(3)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -142,11 +158,12 @@
       </Docs>
     </Member>
     <Member MemberName="Filters">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Filters { System::Object ^ get(); };" />
       <MemberSignature Language="C#" Value="public object Filters { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Filters" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.OfficeDataSourceObject.Filters" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Filters As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Filters { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Filters : obj" Usage="Microsoft.Office.Core.OfficeDataSourceObject.Filters" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -154,10 +171,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(6)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(6)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(6)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(6)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -173,6 +192,8 @@
       <MemberSignature Language="C#" Value="public int Move (Microsoft.Office.Core.MsoMoveRow MsoMoveRow, int RowNbr = 1);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 Move([in]valuetype Microsoft.Office.Core.MsoMoveRow MsoMoveRow, [in]int32 RowNbr) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.OfficeDataSourceObject.Move(Microsoft.Office.Core.MsoMoveRow,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Move (MsoMoveRow As MsoMoveRow, Optional RowNbr As Integer = 1) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member Move : Microsoft.Office.Core.MsoMoveRow * int -&gt; int" Usage="officeDataSourceObject.Move (MsoMoveRow, RowNbr)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -180,7 +201,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743817)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743817)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743817)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -206,6 +228,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Open([in]string bstrSrc, [in]string bstrConnect, [in]string bstrTable, [in]int32 fOpenExclusive, [in]int32 fNeverPrompt) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.OfficeDataSourceObject.Open(System.String,System.String,System.String,System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Open (Optional bstrSrc As String = &quot;&quot;, Optional bstrConnect As String = &quot;&quot;, Optional bstrTable As String = &quot;&quot;, Optional fOpenExclusive As Integer = 0, Optional fNeverPrompt As Integer = 1)" />
+      <MemberSignature Language="F#" Value="abstract member Open : string * string * string * int * int -&gt; unit" Usage="officeDataSourceObject.Open (bstrSrc, bstrConnect, bstrTable, fOpenExclusive, fNeverPrompt)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -213,7 +236,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743818)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743818)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743818)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -237,11 +261,12 @@
       </Docs>
     </Member>
     <Member MemberName="RowCount">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int RowCount { int get(); };" />
       <MemberSignature Language="C#" Value="public int RowCount { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 RowCount" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.OfficeDataSourceObject.RowCount" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RowCount As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int RowCount { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.RowCount : int" Usage="Microsoft.Office.Core.OfficeDataSourceObject.RowCount" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -249,10 +274,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -269,6 +296,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetSortOrder([in]string SortField1, [in]bool SortAscending1, [in]string SortField2, [in]bool SortAscending2, [in]string SortField3, [in]bool SortAscending3) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.OfficeDataSourceObject.SetSortOrder(System.String,System.Boolean,System.String,System.Boolean,System.String,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetSortOrder (SortField1 As String, Optional SortAscending1 As Boolean = false, Optional SortField2 As String = &quot;&quot;, Optional SortAscending2 As Boolean = false, Optional SortField3 As String = &quot;&quot;, Optional SortAscending3 As Boolean = false)" />
+      <MemberSignature Language="F#" Value="abstract member SetSortOrder : string * bool * string * bool * string * bool -&gt; unit" Usage="officeDataSourceObject.SetSortOrder (SortField1, SortAscending1, SortField2, SortAscending2, SortField3, SortAscending3)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -276,7 +304,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(1610743819)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743819)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743819)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -302,11 +331,12 @@
       </Docs>
     </Member>
     <Member MemberName="Table">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Table { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="C#" Value="public string Table { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Table" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.OfficeDataSourceObject.Table" />
       <MemberSignature Language="VB.NET" Value="Public Property Table As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Table { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Table : string with get, set" Usage="Microsoft.Office.Core.OfficeDataSourceObject.Table" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -314,13 +344,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>set: System.Runtime.InteropServices.DispId(2)</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(2)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

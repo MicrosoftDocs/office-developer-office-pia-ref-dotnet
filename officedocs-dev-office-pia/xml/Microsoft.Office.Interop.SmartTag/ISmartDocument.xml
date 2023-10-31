@@ -1,0 +1,993 @@
+<Type Name="ISmartDocument" FullName="Microsoft.Office.Interop.SmartTag.ISmartDocument">
+  <TypeSignature Language="C#" Value="public interface ISmartDocument" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISmartDocument" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.SmartTag.ISmartDocument" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISmartDocument" />
+  <TypeSignature Language="F#" Value="type ISmartDocument = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("9BF068D0-B736-11D3-B2CF-00500489D6D6")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("9BF068D0-B736-11D3-B2CF-00500489D6D6")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4160)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4160)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ControlCaptionFromID">
+      <MemberSignature Language="C#" Value="public string ControlCaptionFromID[int ControlID, string ApplicationName, int LocaleID, string Text, string Xml, object Target] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ControlCaptionFromID(int32, string, int32, string, string, object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.SmartTag.ISmartDocument.ControlCaptionFromID(System.Int32,System.String,System.Int32,System.String,System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ControlCaptionFromID(ControlID As Integer, ApplicationName As String, LocaleID As Integer, Text As String, Xml As String, Target As Object) As String" />
+      <MemberSignature Language="F#" Value="member this.ControlCaptionFromID(int * string * int * string * string * obj) : string" Usage="Microsoft.Office.Interop.SmartTag.ISmartDocument.ControlCaptionFromID" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(12)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(12)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(12)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(12)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.Int32" />
+        <Parameter Name="ApplicationName" Type="System.String" />
+        <Parameter Name="LocaleID" Type="System.Int32" />
+        <Parameter Name="Text" Type="System.String" />
+        <Parameter Name="Xml" Type="System.String" />
+        <Parameter Name="Target" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">To be added.</param>
+        <param name="ApplicationName">To be added.</param>
+        <param name="LocaleID">To be added.</param>
+        <param name="Text">To be added.</param>
+        <param name="Xml">To be added.</param>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ControlCount">
+      <MemberSignature Language="C#" Value="public int ControlCount[string XMLTypeName] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ControlCount(string)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.SmartTag.ISmartDocument.ControlCount(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ControlCount(XMLTypeName As String) As Integer" />
+      <MemberSignature Language="F#" Value="member this.ControlCount(string) : int" Usage="Microsoft.Office.Interop.SmartTag.ISmartDocument.ControlCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(7)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(7)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(7)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(7)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="XMLTypeName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="XMLTypeName">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ControlID">
+      <MemberSignature Language="C#" Value="public int ControlID[string XMLTypeName, int ControlIndex] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ControlID(string, int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.SmartTag.ISmartDocument.ControlID(System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ControlID(XMLTypeName As String, ControlIndex As Integer) As Integer" />
+      <MemberSignature Language="F#" Value="member this.ControlID(string * int) : int" Usage="Microsoft.Office.Interop.SmartTag.ISmartDocument.ControlID" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(8)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(8)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(8)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(8)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="XMLTypeName" Type="System.String" />
+        <Parameter Name="ControlIndex" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="XMLTypeName">To be added.</param>
+        <param name="ControlIndex">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ControlNameFromID">
+      <MemberSignature Language="C#" Value="public string ControlNameFromID[int ControlID] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ControlNameFromID(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.SmartTag.ISmartDocument.ControlNameFromID(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ControlNameFromID(ControlID As Integer) As String" />
+      <MemberSignature Language="F#" Value="member this.ControlNameFromID(int) : string" Usage="Microsoft.Office.Interop.SmartTag.ISmartDocument.ControlNameFromID" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(10)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(10)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(10)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(10)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ControlTypeFromID">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.SmartTag.C_TYPE ControlTypeFromID[int ControlID, string ApplicationName, int LocaleID] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.SmartTag.C_TYPE ControlTypeFromID(int32, string, int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.SmartTag.ISmartDocument.ControlTypeFromID(System.Int32,System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ControlTypeFromID(ControlID As Integer, ApplicationName As String, LocaleID As Integer) As C_TYPE" />
+      <MemberSignature Language="F#" Value="member this.ControlTypeFromID(int * string * int) : Microsoft.Office.Interop.SmartTag.C_TYPE" Usage="Microsoft.Office.Interop.SmartTag.ISmartDocument.ControlTypeFromID" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.ComAliasName("Microsoft.Office.Interop.SmartTag.C_TYPE")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComAliasName("Microsoft.Office.Interop.SmartTag.C_TYPE")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(16)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(16)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(16)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(16)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.SmartTag.C_TYPE</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.Int32" />
+        <Parameter Name="ApplicationName" Type="System.String" />
+        <Parameter Name="LocaleID" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">To be added.</param>
+        <param name="ApplicationName">To be added.</param>
+        <param name="LocaleID">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageClick">
+      <MemberSignature Language="C#" Value="public void ImageClick (int ControlID, string ApplicationName, object Target, string Text, string Xml, int LocaleID, int XCoordinate, int YCoordinate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ImageClick([in]int32 ControlID, [in]string ApplicationName, [in]object Target, [in]string Text, [in]string Xml, [in]int32 LocaleID, [in]int32 XCoordinate, [in]int32 YCoordinate) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.SmartTag.ISmartDocument.ImageClick(System.Int32,System.String,System.Object,System.String,System.String,System.Int32,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ImageClick (ControlID As Integer, ApplicationName As String, Target As Object, Text As String, Xml As String, LocaleID As Integer, XCoordinate As Integer, YCoordinate As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member ImageClick : int * string * obj * string * string * int * int * int -&gt; unit" Usage="iSmartDocument.ImageClick (ControlID, ApplicationName, Target, Text, Xml, LocaleID, XCoordinate, YCoordinate)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(28)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(28)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.Int32" />
+        <Parameter Name="ApplicationName" Type="System.String" />
+        <Parameter Name="Target" Type="System.Object" />
+        <Parameter Name="Text" Type="System.String" />
+        <Parameter Name="Xml" Type="System.String" />
+        <Parameter Name="LocaleID" Type="System.Int32" />
+        <Parameter Name="XCoordinate" Type="System.Int32" />
+        <Parameter Name="YCoordinate" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">To be added.</param>
+        <param name="ApplicationName">To be added.</param>
+        <param name="Target">To be added.</param>
+        <param name="Text">To be added.</param>
+        <param name="Xml">To be added.</param>
+        <param name="LocaleID">To be added.</param>
+        <param name="XCoordinate">To be added.</param>
+        <param name="YCoordinate">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvokeControl">
+      <MemberSignature Language="C#" Value="public void InvokeControl (int ControlID, string ApplicationName, object Target, string Text, string Xml, int LocaleID);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InvokeControl([in]int32 ControlID, [in]string ApplicationName, [in]object Target, [in]string Text, [in]string Xml, [in]int32 LocaleID) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.SmartTag.ISmartDocument.InvokeControl(System.Int32,System.String,System.Object,System.String,System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub InvokeControl (ControlID As Integer, ApplicationName As String, Target As Object, Text As String, Xml As String, LocaleID As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member InvokeControl : int * string * obj * string * string * int -&gt; unit" Usage="iSmartDocument.InvokeControl (ControlID, ApplicationName, Target, Text, Xml, LocaleID)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(13)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(13)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.Int32" />
+        <Parameter Name="ApplicationName" Type="System.String" />
+        <Parameter Name="Target" Type="System.Object" />
+        <Parameter Name="Text" Type="System.String" />
+        <Parameter Name="Xml" Type="System.String" />
+        <Parameter Name="LocaleID" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">To be added.</param>
+        <param name="ApplicationName">To be added.</param>
+        <param name="Target">To be added.</param>
+        <param name="Text">To be added.</param>
+        <param name="Xml">To be added.</param>
+        <param name="LocaleID">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnCheckboxChange">
+      <MemberSignature Language="C#" Value="public void OnCheckboxChange (int ControlID, object Target, bool Checked);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnCheckboxChange([in]int32 ControlID, [in]object Target, [in]bool Checked) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.SmartTag.ISmartDocument.OnCheckboxChange(System.Int32,System.Object,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnCheckboxChange (ControlID As Integer, Target As Object, Checked As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member OnCheckboxChange : int * obj * bool -&gt; unit" Usage="iSmartDocument.OnCheckboxChange (ControlID, Target, Checked)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(21)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(21)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.Int32" />
+        <Parameter Name="Target" Type="System.Object" />
+        <Parameter Name="Checked" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">To be added.</param>
+        <param name="Target">To be added.</param>
+        <param name="Checked">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnListOrComboSelectChange">
+      <MemberSignature Language="C#" Value="public void OnListOrComboSelectChange (int ControlID, object Target, int Selected, string Value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnListOrComboSelectChange([in]int32 ControlID, [in]object Target, [in]int32 Selected, [in]string Value) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.SmartTag.ISmartDocument.OnListOrComboSelectChange(System.Int32,System.Object,System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnListOrComboSelectChange (ControlID As Integer, Target As Object, Selected As Integer, Value As String)" />
+      <MemberSignature Language="F#" Value="abstract member OnListOrComboSelectChange : int * obj * int * string -&gt; unit" Usage="iSmartDocument.OnListOrComboSelectChange (ControlID, Target, Selected, Value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(23)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(23)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.Int32" />
+        <Parameter Name="Target" Type="System.Object" />
+        <Parameter Name="Selected" Type="System.Int32" />
+        <Parameter Name="Value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">To be added.</param>
+        <param name="Target">To be added.</param>
+        <param name="Selected">To be added.</param>
+        <param name="Value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnPaneUpdateComplete">
+      <MemberSignature Language="C#" Value="public void OnPaneUpdateComplete (object Document);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnPaneUpdateComplete([in]object Document) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.SmartTag.ISmartDocument.OnPaneUpdateComplete(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnPaneUpdateComplete (Document As Object)" />
+      <MemberSignature Language="F#" Value="abstract member OnPaneUpdateComplete : obj -&gt; unit" Usage="iSmartDocument.OnPaneUpdateComplete Document" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(31)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(31)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Document" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Document">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnRadioGroupSelectChange">
+      <MemberSignature Language="C#" Value="public void OnRadioGroupSelectChange (int ControlID, object Target, int Selected, string Value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnRadioGroupSelectChange([in]int32 ControlID, [in]object Target, [in]int32 Selected, [in]string Value) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.SmartTag.ISmartDocument.OnRadioGroupSelectChange(System.Int32,System.Object,System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnRadioGroupSelectChange (ControlID As Integer, Target As Object, Selected As Integer, Value As String)" />
+      <MemberSignature Language="F#" Value="abstract member OnRadioGroupSelectChange : int * obj * int * string -&gt; unit" Usage="iSmartDocument.OnRadioGroupSelectChange (ControlID, Target, Selected, Value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(30)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(30)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.Int32" />
+        <Parameter Name="Target" Type="System.Object" />
+        <Parameter Name="Selected" Type="System.Int32" />
+        <Parameter Name="Value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">To be added.</param>
+        <param name="Target">To be added.</param>
+        <param name="Selected">To be added.</param>
+        <param name="Value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnTextboxContentChange">
+      <MemberSignature Language="C#" Value="public void OnTextboxContentChange (int ControlID, object Target, string Value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnTextboxContentChange([in]int32 ControlID, [in]object Target, [in]string Value) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.SmartTag.ISmartDocument.OnTextboxContentChange(System.Int32,System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnTextboxContentChange (ControlID As Integer, Target As Object, Value As String)" />
+      <MemberSignature Language="F#" Value="abstract member OnTextboxContentChange : int * obj * string -&gt; unit" Usage="iSmartDocument.OnTextboxContentChange (ControlID, Target, Value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(22)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(22)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.Int32" />
+        <Parameter Name="Target" Type="System.Object" />
+        <Parameter Name="Value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">To be added.</param>
+        <param name="Target">To be added.</param>
+        <param name="Value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PopulateActiveXProps">
+      <MemberSignature Language="C#" Value="public void PopulateActiveXProps (int ControlID, string ApplicationName, int LocaleID, string Text, string Xml, object Target, Microsoft.Office.Interop.SmartTag.ISmartDocProperties Props, Microsoft.Office.Interop.SmartTag.ISmartDocProperties ActiveXPropBag);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PopulateActiveXProps([in]int32 ControlID, [in]string ApplicationName, [in]int32 LocaleID, [in]string Text, [in]string Xml, [in]object Target, [in]class Microsoft.Office.Interop.SmartTag.ISmartDocProperties Props, [in]class Microsoft.Office.Interop.SmartTag.ISmartDocProperties ActiveXPropBag) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.SmartTag.ISmartDocument.PopulateActiveXProps(System.Int32,System.String,System.Int32,System.String,System.String,System.Object,Microsoft.Office.Interop.SmartTag.ISmartDocProperties,Microsoft.Office.Interop.SmartTag.ISmartDocProperties)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PopulateActiveXProps (ControlID As Integer, ApplicationName As String, LocaleID As Integer, Text As String, Xml As String, Target As Object, Props As ISmartDocProperties, ActiveXPropBag As ISmartDocProperties)" />
+      <MemberSignature Language="F#" Value="abstract member PopulateActiveXProps : int * string * int * string * string * obj * Microsoft.Office.Interop.SmartTag.ISmartDocProperties * Microsoft.Office.Interop.SmartTag.ISmartDocProperties -&gt; unit" Usage="iSmartDocument.PopulateActiveXProps (ControlID, ApplicationName, LocaleID, Text, Xml, Target, Props, ActiveXPropBag)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(25)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(25)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.Int32" />
+        <Parameter Name="ApplicationName" Type="System.String" />
+        <Parameter Name="LocaleID" Type="System.Int32" />
+        <Parameter Name="Text" Type="System.String" />
+        <Parameter Name="Xml" Type="System.String" />
+        <Parameter Name="Target" Type="System.Object" />
+        <Parameter Name="Props" Type="Microsoft.Office.Interop.SmartTag.ISmartDocProperties" />
+        <Parameter Name="ActiveXPropBag" Type="Microsoft.Office.Interop.SmartTag.ISmartDocProperties" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">To be added.</param>
+        <param name="ApplicationName">To be added.</param>
+        <param name="LocaleID">To be added.</param>
+        <param name="Text">To be added.</param>
+        <param name="Xml">To be added.</param>
+        <param name="Target">To be added.</param>
+        <param name="Props">To be added.</param>
+        <param name="ActiveXPropBag">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PopulateCheckbox">
+      <MemberSignature Language="C#" Value="public void PopulateCheckbox (int ControlID, string ApplicationName, int LocaleID, string Text, string Xml, object Target, Microsoft.Office.Interop.SmartTag.ISmartDocProperties Props, out bool Checked);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PopulateCheckbox([in]int32 ControlID, [in]string ApplicationName, [in]int32 LocaleID, [in]string Text, [in]string Xml, [in]object Target, [in]class Microsoft.Office.Interop.SmartTag.ISmartDocProperties Props, [out] bool&amp; Checked) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.SmartTag.ISmartDocument.PopulateCheckbox(System.Int32,System.String,System.Int32,System.String,System.String,System.Object,Microsoft.Office.Interop.SmartTag.ISmartDocProperties,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PopulateCheckbox (ControlID As Integer, ApplicationName As String, LocaleID As Integer, Text As String, Xml As String, Target As Object, Props As ISmartDocProperties, ByRef Checked As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member PopulateCheckbox : int * string * int * string * string * obj * Microsoft.Office.Interop.SmartTag.ISmartDocProperties * bool -&gt; unit" Usage="iSmartDocument.PopulateCheckbox (ControlID, ApplicationName, LocaleID, Text, Xml, Target, Props, Checked)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(18)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(18)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.Int32" />
+        <Parameter Name="ApplicationName" Type="System.String" />
+        <Parameter Name="LocaleID" Type="System.Int32" />
+        <Parameter Name="Text" Type="System.String" />
+        <Parameter Name="Xml" Type="System.String" />
+        <Parameter Name="Target" Type="System.Object" />
+        <Parameter Name="Props" Type="Microsoft.Office.Interop.SmartTag.ISmartDocProperties" />
+        <Parameter Name="Checked" Type="System.Boolean" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">To be added.</param>
+        <param name="ApplicationName">To be added.</param>
+        <param name="LocaleID">To be added.</param>
+        <param name="Text">To be added.</param>
+        <param name="Xml">To be added.</param>
+        <param name="Target">To be added.</param>
+        <param name="Props">To be added.</param>
+        <param name="Checked">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PopulateDocumentFragment">
+      <MemberSignature Language="C#" Value="public void PopulateDocumentFragment (int ControlID, string ApplicationName, int LocaleID, string Text, string Xml, object Target, Microsoft.Office.Interop.SmartTag.ISmartDocProperties Props, out string DocumentFragment);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PopulateDocumentFragment([in]int32 ControlID, [in]string ApplicationName, [in]int32 LocaleID, [in]string Text, [in]string Xml, [in]object Target, [in]class Microsoft.Office.Interop.SmartTag.ISmartDocProperties Props, [out] string&amp; DocumentFragment) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.SmartTag.ISmartDocument.PopulateDocumentFragment(System.Int32,System.String,System.Int32,System.String,System.String,System.Object,Microsoft.Office.Interop.SmartTag.ISmartDocProperties,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PopulateDocumentFragment (ControlID As Integer, ApplicationName As String, LocaleID As Integer, Text As String, Xml As String, Target As Object, Props As ISmartDocProperties, ByRef DocumentFragment As String)" />
+      <MemberSignature Language="F#" Value="abstract member PopulateDocumentFragment : int * string * int * string * string * obj * Microsoft.Office.Interop.SmartTag.ISmartDocProperties * string -&gt; unit" Usage="iSmartDocument.PopulateDocumentFragment (ControlID, ApplicationName, LocaleID, Text, Xml, Target, Props, DocumentFragment)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(24)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(24)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.Int32" />
+        <Parameter Name="ApplicationName" Type="System.String" />
+        <Parameter Name="LocaleID" Type="System.Int32" />
+        <Parameter Name="Text" Type="System.String" />
+        <Parameter Name="Xml" Type="System.String" />
+        <Parameter Name="Target" Type="System.Object" />
+        <Parameter Name="Props" Type="Microsoft.Office.Interop.SmartTag.ISmartDocProperties" />
+        <Parameter Name="DocumentFragment" Type="System.String" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">To be added.</param>
+        <param name="ApplicationName">To be added.</param>
+        <param name="LocaleID">To be added.</param>
+        <param name="Text">To be added.</param>
+        <param name="Xml">To be added.</param>
+        <param name="Target">To be added.</param>
+        <param name="Props">To be added.</param>
+        <param name="DocumentFragment">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PopulateHelpContent">
+      <MemberSignature Language="C#" Value="public void PopulateHelpContent (int ControlID, string ApplicationName, int LocaleID, string Text, string Xml, object Target, Microsoft.Office.Interop.SmartTag.ISmartDocProperties Props, out string Content);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PopulateHelpContent([in]int32 ControlID, [in]string ApplicationName, [in]int32 LocaleID, [in]string Text, [in]string Xml, [in]object Target, [in]class Microsoft.Office.Interop.SmartTag.ISmartDocProperties Props, [out] string&amp; Content) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.SmartTag.ISmartDocument.PopulateHelpContent(System.Int32,System.String,System.Int32,System.String,System.String,System.Object,Microsoft.Office.Interop.SmartTag.ISmartDocProperties,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PopulateHelpContent (ControlID As Integer, ApplicationName As String, LocaleID As Integer, Text As String, Xml As String, Target As Object, Props As ISmartDocProperties, ByRef Content As String)" />
+      <MemberSignature Language="F#" Value="abstract member PopulateHelpContent : int * string * int * string * string * obj * Microsoft.Office.Interop.SmartTag.ISmartDocProperties * string -&gt; unit" Usage="iSmartDocument.PopulateHelpContent (ControlID, ApplicationName, LocaleID, Text, Xml, Target, Props, Content)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(17)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(17)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.Int32" />
+        <Parameter Name="ApplicationName" Type="System.String" />
+        <Parameter Name="LocaleID" Type="System.Int32" />
+        <Parameter Name="Text" Type="System.String" />
+        <Parameter Name="Xml" Type="System.String" />
+        <Parameter Name="Target" Type="System.Object" />
+        <Parameter Name="Props" Type="Microsoft.Office.Interop.SmartTag.ISmartDocProperties" />
+        <Parameter Name="Content" Type="System.String" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">To be added.</param>
+        <param name="ApplicationName">To be added.</param>
+        <param name="LocaleID">To be added.</param>
+        <param name="Text">To be added.</param>
+        <param name="Xml">To be added.</param>
+        <param name="Target">To be added.</param>
+        <param name="Props">To be added.</param>
+        <param name="Content">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PopulateImage">
+      <MemberSignature Language="C#" Value="public void PopulateImage (int ControlID, string ApplicationName, int LocaleID, string Text, string Xml, object Target, Microsoft.Office.Interop.SmartTag.ISmartDocProperties Props, out string ImageSrc);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PopulateImage([in]int32 ControlID, [in]string ApplicationName, [in]int32 LocaleID, [in]string Text, [in]string Xml, [in]object Target, [in]class Microsoft.Office.Interop.SmartTag.ISmartDocProperties Props, [out] string&amp; ImageSrc) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.SmartTag.ISmartDocument.PopulateImage(System.Int32,System.String,System.Int32,System.String,System.String,System.Object,Microsoft.Office.Interop.SmartTag.ISmartDocProperties,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PopulateImage (ControlID As Integer, ApplicationName As String, LocaleID As Integer, Text As String, Xml As String, Target As Object, Props As ISmartDocProperties, ByRef ImageSrc As String)" />
+      <MemberSignature Language="F#" Value="abstract member PopulateImage : int * string * int * string * string * obj * Microsoft.Office.Interop.SmartTag.ISmartDocProperties * string -&gt; unit" Usage="iSmartDocument.PopulateImage (ControlID, ApplicationName, LocaleID, Text, Xml, Target, Props, ImageSrc)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(27)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(27)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.Int32" />
+        <Parameter Name="ApplicationName" Type="System.String" />
+        <Parameter Name="LocaleID" Type="System.Int32" />
+        <Parameter Name="Text" Type="System.String" />
+        <Parameter Name="Xml" Type="System.String" />
+        <Parameter Name="Target" Type="System.Object" />
+        <Parameter Name="Props" Type="Microsoft.Office.Interop.SmartTag.ISmartDocProperties" />
+        <Parameter Name="ImageSrc" Type="System.String" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">To be added.</param>
+        <param name="ApplicationName">To be added.</param>
+        <param name="LocaleID">To be added.</param>
+        <param name="Text">To be added.</param>
+        <param name="Xml">To be added.</param>
+        <param name="Target">To be added.</param>
+        <param name="Props">To be added.</param>
+        <param name="ImageSrc">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PopulateListOrComboContent">
+      <MemberSignature Language="C#" Value="public void PopulateListOrComboContent (int ControlID, string ApplicationName, int LocaleID, string Text, string Xml, object Target, Microsoft.Office.Interop.SmartTag.ISmartDocProperties Props, out Array List, out int Count, out int InitialSelected);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PopulateListOrComboContent([in]int32 ControlID, [in]string ApplicationName, [in]int32 LocaleID, [in]string Text, [in]string Xml, [in]object Target, [in]class Microsoft.Office.Interop.SmartTag.ISmartDocProperties Props, [out] class System.Array&amp; List, [out] int32&amp; Count, [out] int32&amp; InitialSelected) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.SmartTag.ISmartDocument.PopulateListOrComboContent(System.Int32,System.String,System.Int32,System.String,System.String,System.Object,Microsoft.Office.Interop.SmartTag.ISmartDocProperties,System.Array@,System.Int32@,System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PopulateListOrComboContent (ControlID As Integer, ApplicationName As String, LocaleID As Integer, Text As String, Xml As String, Target As Object, Props As ISmartDocProperties, ByRef List As Array, ByRef Count As Integer, ByRef InitialSelected As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member PopulateListOrComboContent : int * string * int * string * string * obj * Microsoft.Office.Interop.SmartTag.ISmartDocProperties * Array * int * int -&gt; unit" Usage="iSmartDocument.PopulateListOrComboContent (ControlID, ApplicationName, LocaleID, Text, Xml, Target, Props, List, Count, InitialSelected)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(20)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(20)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.Int32" />
+        <Parameter Name="ApplicationName" Type="System.String" />
+        <Parameter Name="LocaleID" Type="System.Int32" />
+        <Parameter Name="Text" Type="System.String" />
+        <Parameter Name="Xml" Type="System.String" />
+        <Parameter Name="Target" Type="System.Object" />
+        <Parameter Name="Props" Type="Microsoft.Office.Interop.SmartTag.ISmartDocProperties" />
+        <Parameter Name="List" Type="System.Array" RefType="out" />
+        <Parameter Name="Count" Type="System.Int32" RefType="out" />
+        <Parameter Name="InitialSelected" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">To be added.</param>
+        <param name="ApplicationName">To be added.</param>
+        <param name="LocaleID">To be added.</param>
+        <param name="Text">To be added.</param>
+        <param name="Xml">To be added.</param>
+        <param name="Target">To be added.</param>
+        <param name="Props">To be added.</param>
+        <param name="List">To be added.</param>
+        <param name="Count">To be added.</param>
+        <param name="InitialSelected">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PopulateOther">
+      <MemberSignature Language="C#" Value="public void PopulateOther (int ControlID, string ApplicationName, int LocaleID, string Text, string Xml, object Target, Microsoft.Office.Interop.SmartTag.ISmartDocProperties Props);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PopulateOther([in]int32 ControlID, [in]string ApplicationName, [in]int32 LocaleID, [in]string Text, [in]string Xml, [in]object Target, [in]class Microsoft.Office.Interop.SmartTag.ISmartDocProperties Props) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.SmartTag.ISmartDocument.PopulateOther(System.Int32,System.String,System.Int32,System.String,System.String,System.Object,Microsoft.Office.Interop.SmartTag.ISmartDocProperties)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PopulateOther (ControlID As Integer, ApplicationName As String, LocaleID As Integer, Text As String, Xml As String, Target As Object, Props As ISmartDocProperties)" />
+      <MemberSignature Language="F#" Value="abstract member PopulateOther : int * string * int * string * string * obj * Microsoft.Office.Interop.SmartTag.ISmartDocProperties -&gt; unit" Usage="iSmartDocument.PopulateOther (ControlID, ApplicationName, LocaleID, Text, Xml, Target, Props)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(32)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(32)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.Int32" />
+        <Parameter Name="ApplicationName" Type="System.String" />
+        <Parameter Name="LocaleID" Type="System.Int32" />
+        <Parameter Name="Text" Type="System.String" />
+        <Parameter Name="Xml" Type="System.String" />
+        <Parameter Name="Target" Type="System.Object" />
+        <Parameter Name="Props" Type="Microsoft.Office.Interop.SmartTag.ISmartDocProperties" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">To be added.</param>
+        <param name="ApplicationName">To be added.</param>
+        <param name="LocaleID">To be added.</param>
+        <param name="Text">To be added.</param>
+        <param name="Xml">To be added.</param>
+        <param name="Target">To be added.</param>
+        <param name="Props">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PopulateRadioGroup">
+      <MemberSignature Language="C#" Value="public void PopulateRadioGroup (int ControlID, string ApplicationName, int LocaleID, string Text, string Xml, object Target, Microsoft.Office.Interop.SmartTag.ISmartDocProperties Props, out Array List, out int Count, out int InitialSelected);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PopulateRadioGroup([in]int32 ControlID, [in]string ApplicationName, [in]int32 LocaleID, [in]string Text, [in]string Xml, [in]object Target, [in]class Microsoft.Office.Interop.SmartTag.ISmartDocProperties Props, [out] class System.Array&amp; List, [out] int32&amp; Count, [out] int32&amp; InitialSelected) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.SmartTag.ISmartDocument.PopulateRadioGroup(System.Int32,System.String,System.Int32,System.String,System.String,System.Object,Microsoft.Office.Interop.SmartTag.ISmartDocProperties,System.Array@,System.Int32@,System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PopulateRadioGroup (ControlID As Integer, ApplicationName As String, LocaleID As Integer, Text As String, Xml As String, Target As Object, Props As ISmartDocProperties, ByRef List As Array, ByRef Count As Integer, ByRef InitialSelected As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member PopulateRadioGroup : int * string * int * string * string * obj * Microsoft.Office.Interop.SmartTag.ISmartDocProperties * Array * int * int -&gt; unit" Usage="iSmartDocument.PopulateRadioGroup (ControlID, ApplicationName, LocaleID, Text, Xml, Target, Props, List, Count, InitialSelected)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(29)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(29)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.Int32" />
+        <Parameter Name="ApplicationName" Type="System.String" />
+        <Parameter Name="LocaleID" Type="System.Int32" />
+        <Parameter Name="Text" Type="System.String" />
+        <Parameter Name="Xml" Type="System.String" />
+        <Parameter Name="Target" Type="System.Object" />
+        <Parameter Name="Props" Type="Microsoft.Office.Interop.SmartTag.ISmartDocProperties" />
+        <Parameter Name="List" Type="System.Array" RefType="out" />
+        <Parameter Name="Count" Type="System.Int32" RefType="out" />
+        <Parameter Name="InitialSelected" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">To be added.</param>
+        <param name="ApplicationName">To be added.</param>
+        <param name="LocaleID">To be added.</param>
+        <param name="Text">To be added.</param>
+        <param name="Xml">To be added.</param>
+        <param name="Target">To be added.</param>
+        <param name="Props">To be added.</param>
+        <param name="List">To be added.</param>
+        <param name="Count">To be added.</param>
+        <param name="InitialSelected">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PopulateTextboxContent">
+      <MemberSignature Language="C#" Value="public void PopulateTextboxContent (int ControlID, string ApplicationName, int LocaleID, string Text, string Xml, object Target, Microsoft.Office.Interop.SmartTag.ISmartDocProperties Props, out string Value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PopulateTextboxContent([in]int32 ControlID, [in]string ApplicationName, [in]int32 LocaleID, [in]string Text, [in]string Xml, [in]object Target, [in]class Microsoft.Office.Interop.SmartTag.ISmartDocProperties Props, [out] string&amp; Value) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.SmartTag.ISmartDocument.PopulateTextboxContent(System.Int32,System.String,System.Int32,System.String,System.String,System.Object,Microsoft.Office.Interop.SmartTag.ISmartDocProperties,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PopulateTextboxContent (ControlID As Integer, ApplicationName As String, LocaleID As Integer, Text As String, Xml As String, Target As Object, Props As ISmartDocProperties, ByRef Value As String)" />
+      <MemberSignature Language="F#" Value="abstract member PopulateTextboxContent : int * string * int * string * string * obj * Microsoft.Office.Interop.SmartTag.ISmartDocProperties * string -&gt; unit" Usage="iSmartDocument.PopulateTextboxContent (ControlID, ApplicationName, LocaleID, Text, Xml, Target, Props, Value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(19)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(19)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.Int32" />
+        <Parameter Name="ApplicationName" Type="System.String" />
+        <Parameter Name="LocaleID" Type="System.Int32" />
+        <Parameter Name="Text" Type="System.String" />
+        <Parameter Name="Xml" Type="System.String" />
+        <Parameter Name="Target" Type="System.Object" />
+        <Parameter Name="Props" Type="Microsoft.Office.Interop.SmartTag.ISmartDocProperties" />
+        <Parameter Name="Value" Type="System.String" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">To be added.</param>
+        <param name="ApplicationName">To be added.</param>
+        <param name="LocaleID">To be added.</param>
+        <param name="Text">To be added.</param>
+        <param name="Xml">To be added.</param>
+        <param name="Target">To be added.</param>
+        <param name="Props">To be added.</param>
+        <param name="Value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmartDocInitialize">
+      <MemberSignature Language="C#" Value="public void SmartDocInitialize (string ApplicationName, object Document, string SolutionPath, string SolutionRegKeyRoot);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SmartDocInitialize([in]string ApplicationName, [in]object Document, [in]string SolutionPath, [in]string SolutionRegKeyRoot) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.SmartTag.ISmartDocument.SmartDocInitialize(System.String,System.Object,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SmartDocInitialize (ApplicationName As String, Document As Object, SolutionPath As String, SolutionRegKeyRoot As String)" />
+      <MemberSignature Language="F#" Value="abstract member SmartDocInitialize : string * obj * string * string -&gt; unit" Usage="iSmartDocument.SmartDocInitialize (ApplicationName, Document, SolutionPath, SolutionRegKeyRoot)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(26)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(26)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ApplicationName" Type="System.String" />
+        <Parameter Name="Document" Type="System.Object" />
+        <Parameter Name="SolutionPath" Type="System.String" />
+        <Parameter Name="SolutionRegKeyRoot" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ApplicationName">To be added.</param>
+        <param name="Document">To be added.</param>
+        <param name="SolutionPath">To be added.</param>
+        <param name="SolutionRegKeyRoot">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmartDocXmlTypeCaption">
+      <MemberSignature Language="C#" Value="public string SmartDocXmlTypeCaption[int XMLTypeID, int LocaleID] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SmartDocXmlTypeCaption(int32, int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.SmartTag.ISmartDocument.SmartDocXmlTypeCaption(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SmartDocXmlTypeCaption(XMLTypeID As Integer, LocaleID As Integer) As String" />
+      <MemberSignature Language="F#" Value="member this.SmartDocXmlTypeCaption(int * int) : string" Usage="Microsoft.Office.Interop.SmartTag.ISmartDocument.SmartDocXmlTypeCaption" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(6)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(6)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(6)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(6)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="XMLTypeID" Type="System.Int32" />
+        <Parameter Name="LocaleID" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="XMLTypeID">To be added.</param>
+        <param name="LocaleID">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmartDocXmlTypeCount">
+      <MemberSignature Language="C#" Value="public int SmartDocXmlTypeCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SmartDocXmlTypeCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.SmartTag.ISmartDocument.SmartDocXmlTypeCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SmartDocXmlTypeCount As Integer" />
+      <MemberSignature Language="F#" Value="member this.SmartDocXmlTypeCount : int" Usage="Microsoft.Office.Interop.SmartTag.ISmartDocument.SmartDocXmlTypeCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmartDocXmlTypeName">
+      <MemberSignature Language="C#" Value="public string SmartDocXmlTypeName[int XMLTypeID] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SmartDocXmlTypeName(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.SmartTag.ISmartDocument.SmartDocXmlTypeName(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SmartDocXmlTypeName(XMLTypeID As Integer) As String" />
+      <MemberSignature Language="F#" Value="member this.SmartDocXmlTypeName(int) : string" Usage="Microsoft.Office.Interop.SmartTag.ISmartDocument.SmartDocXmlTypeName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="XMLTypeID" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="XMLTypeID">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

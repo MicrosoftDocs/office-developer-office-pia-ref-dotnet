@@ -1,0 +1,910 @@
+<Type Name="MultiPageEvents_SinkHelper" FullName="Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper">
+  <TypeSignature Language="C#" Value="public sealed class MultiPageEvents_SinkHelper : Microsoft.Vbe.Interop.Forms.MultiPageEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MultiPageEvents_SinkHelper extends System.Object implements class Microsoft.Vbe.Interop.Forms.MultiPageEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MultiPageEvents_SinkHelper&#xA;Implements MultiPageEvents" />
+  <TypeSignature Language="F#" Value="type MultiPageEvents_SinkHelper = class&#xA;    interface MultiPageEvents" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Vbe.Interop.Forms.MultiPageEvents</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(System.Runtime.InteropServices.TypeLibTypeFlags.FHidden)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(System.Runtime.InteropServices.TypeLibTypeFlags.FHidden)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddControl">
+      <MemberSignature Language="C#" Value="public override void AddControl (int unnamedParam1, Microsoft.Vbe.Interop.Forms.Control unnamedParam2);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void AddControl(int32 unnamedParam1, class Microsoft.Vbe.Interop.Forms.Control unnamedParam2) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.AddControl(System.Int32,Microsoft.Vbe.Interop.Forms.Control)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub AddControl (unnamedParam1 As Integer, unnamedParam2 As Control)" />
+      <MemberSignature Language="F#" Value="abstract member AddControl : int * Microsoft.Vbe.Interop.Forms.Control -&gt; unit&#xA;override this.AddControl : int * Microsoft.Vbe.Interop.Forms.Control -&gt; unit" Usage="multiPageEvents_SinkHelper.AddControl (unnamedParam1, unnamedParam2)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.MultiPageEvents.AddControl(System.Int32,Microsoft.Vbe.Interop.Forms.Control)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="System.Int32" />
+        <Parameter Name="unnamedParam2" Type="Microsoft.Vbe.Interop.Forms.Control" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDragOver">
+      <MemberSignature Language="C#" Value="public override void BeforeDragOver (int unnamedParam1, Microsoft.Vbe.Interop.Forms.ReturnBoolean unnamedParam2, Microsoft.Vbe.Interop.Forms.Control unnamedParam3, Microsoft.Vbe.Interop.Forms.DataObject unnamedParam4, float unnamedParam5, float unnamedParam6, Microsoft.Vbe.Interop.Forms.fmDragState unnamedParam7, Microsoft.Vbe.Interop.Forms.ReturnEffect unnamedParam8, short unnamedParam9);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void BeforeDragOver(int32 unnamedParam1, class Microsoft.Vbe.Interop.Forms.ReturnBoolean unnamedParam2, class Microsoft.Vbe.Interop.Forms.Control unnamedParam3, class Microsoft.Vbe.Interop.Forms.DataObject unnamedParam4, float32 unnamedParam5, float32 unnamedParam6, valuetype Microsoft.Vbe.Interop.Forms.fmDragState unnamedParam7, class Microsoft.Vbe.Interop.Forms.ReturnEffect unnamedParam8, int16 unnamedParam9) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.BeforeDragOver(System.Int32,Microsoft.Vbe.Interop.Forms.ReturnBoolean,Microsoft.Vbe.Interop.Forms.Control,Microsoft.Vbe.Interop.Forms.DataObject,System.Single,System.Single,Microsoft.Vbe.Interop.Forms.fmDragState,Microsoft.Vbe.Interop.Forms.ReturnEffect,System.Int16)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub BeforeDragOver (unnamedParam1 As Integer, unnamedParam2 As ReturnBoolean, unnamedParam3 As Control, unnamedParam4 As DataObject, unnamedParam5 As Single, unnamedParam6 As Single, unnamedParam7 As fmDragState, unnamedParam8 As ReturnEffect, unnamedParam9 As Short)" />
+      <MemberSignature Language="F#" Value="abstract member BeforeDragOver : int * Microsoft.Vbe.Interop.Forms.ReturnBoolean * Microsoft.Vbe.Interop.Forms.Control * Microsoft.Vbe.Interop.Forms.DataObject * single * single * Microsoft.Vbe.Interop.Forms.fmDragState * Microsoft.Vbe.Interop.Forms.ReturnEffect * int16 -&gt; unit&#xA;override this.BeforeDragOver : int * Microsoft.Vbe.Interop.Forms.ReturnBoolean * Microsoft.Vbe.Interop.Forms.Control * Microsoft.Vbe.Interop.Forms.DataObject * single * single * Microsoft.Vbe.Interop.Forms.fmDragState * Microsoft.Vbe.Interop.Forms.ReturnEffect * int16 -&gt; unit" Usage="multiPageEvents_SinkHelper.BeforeDragOver (unnamedParam1, unnamedParam2, unnamedParam3, unnamedParam4, unnamedParam5, unnamedParam6, unnamedParam7, unnamedParam8, unnamedParam9)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.MultiPageEvents.BeforeDragOver(System.Int32,Microsoft.Vbe.Interop.Forms.ReturnBoolean,Microsoft.Vbe.Interop.Forms.Control,Microsoft.Vbe.Interop.Forms.DataObject,System.Single,System.Single,Microsoft.Vbe.Interop.Forms.fmDragState,Microsoft.Vbe.Interop.Forms.ReturnEffect,System.Int16)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="System.Int32" />
+        <Parameter Name="unnamedParam2" Type="Microsoft.Vbe.Interop.Forms.ReturnBoolean" />
+        <Parameter Name="unnamedParam3" Type="Microsoft.Vbe.Interop.Forms.Control" />
+        <Parameter Name="unnamedParam4" Type="Microsoft.Vbe.Interop.Forms.DataObject" />
+        <Parameter Name="unnamedParam5" Type="System.Single" />
+        <Parameter Name="unnamedParam6" Type="System.Single" />
+        <Parameter Name="unnamedParam7" Type="Microsoft.Vbe.Interop.Forms.fmDragState" />
+        <Parameter Name="unnamedParam8" Type="Microsoft.Vbe.Interop.Forms.ReturnEffect" />
+        <Parameter Name="unnamedParam9" Type="System.Int16" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
+        <param name="unnamedParam3">To be added.</param>
+        <param name="unnamedParam4">To be added.</param>
+        <param name="unnamedParam5">To be added.</param>
+        <param name="unnamedParam6">To be added.</param>
+        <param name="unnamedParam7">To be added.</param>
+        <param name="unnamedParam8">To be added.</param>
+        <param name="unnamedParam9">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDropOrPaste">
+      <MemberSignature Language="C#" Value="public override void BeforeDropOrPaste (int unnamedParam1, Microsoft.Vbe.Interop.Forms.ReturnBoolean unnamedParam2, Microsoft.Vbe.Interop.Forms.Control unnamedParam3, Microsoft.Vbe.Interop.Forms.fmAction unnamedParam4, Microsoft.Vbe.Interop.Forms.DataObject unnamedParam5, float unnamedParam6, float unnamedParam7, Microsoft.Vbe.Interop.Forms.ReturnEffect unnamedParam8, short unnamedParam9);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void BeforeDropOrPaste(int32 unnamedParam1, class Microsoft.Vbe.Interop.Forms.ReturnBoolean unnamedParam2, class Microsoft.Vbe.Interop.Forms.Control unnamedParam3, valuetype Microsoft.Vbe.Interop.Forms.fmAction unnamedParam4, class Microsoft.Vbe.Interop.Forms.DataObject unnamedParam5, float32 unnamedParam6, float32 unnamedParam7, class Microsoft.Vbe.Interop.Forms.ReturnEffect unnamedParam8, int16 unnamedParam9) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.BeforeDropOrPaste(System.Int32,Microsoft.Vbe.Interop.Forms.ReturnBoolean,Microsoft.Vbe.Interop.Forms.Control,Microsoft.Vbe.Interop.Forms.fmAction,Microsoft.Vbe.Interop.Forms.DataObject,System.Single,System.Single,Microsoft.Vbe.Interop.Forms.ReturnEffect,System.Int16)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub BeforeDropOrPaste (unnamedParam1 As Integer, unnamedParam2 As ReturnBoolean, unnamedParam3 As Control, unnamedParam4 As fmAction, unnamedParam5 As DataObject, unnamedParam6 As Single, unnamedParam7 As Single, unnamedParam8 As ReturnEffect, unnamedParam9 As Short)" />
+      <MemberSignature Language="F#" Value="abstract member BeforeDropOrPaste : int * Microsoft.Vbe.Interop.Forms.ReturnBoolean * Microsoft.Vbe.Interop.Forms.Control * Microsoft.Vbe.Interop.Forms.fmAction * Microsoft.Vbe.Interop.Forms.DataObject * single * single * Microsoft.Vbe.Interop.Forms.ReturnEffect * int16 -&gt; unit&#xA;override this.BeforeDropOrPaste : int * Microsoft.Vbe.Interop.Forms.ReturnBoolean * Microsoft.Vbe.Interop.Forms.Control * Microsoft.Vbe.Interop.Forms.fmAction * Microsoft.Vbe.Interop.Forms.DataObject * single * single * Microsoft.Vbe.Interop.Forms.ReturnEffect * int16 -&gt; unit" Usage="multiPageEvents_SinkHelper.BeforeDropOrPaste (unnamedParam1, unnamedParam2, unnamedParam3, unnamedParam4, unnamedParam5, unnamedParam6, unnamedParam7, unnamedParam8, unnamedParam9)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.MultiPageEvents.BeforeDropOrPaste(System.Int32,Microsoft.Vbe.Interop.Forms.ReturnBoolean,Microsoft.Vbe.Interop.Forms.Control,Microsoft.Vbe.Interop.Forms.fmAction,Microsoft.Vbe.Interop.Forms.DataObject,System.Single,System.Single,Microsoft.Vbe.Interop.Forms.ReturnEffect,System.Int16)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="System.Int32" />
+        <Parameter Name="unnamedParam2" Type="Microsoft.Vbe.Interop.Forms.ReturnBoolean" />
+        <Parameter Name="unnamedParam3" Type="Microsoft.Vbe.Interop.Forms.Control" />
+        <Parameter Name="unnamedParam4" Type="Microsoft.Vbe.Interop.Forms.fmAction" />
+        <Parameter Name="unnamedParam5" Type="Microsoft.Vbe.Interop.Forms.DataObject" />
+        <Parameter Name="unnamedParam6" Type="System.Single" />
+        <Parameter Name="unnamedParam7" Type="System.Single" />
+        <Parameter Name="unnamedParam8" Type="Microsoft.Vbe.Interop.Forms.ReturnEffect" />
+        <Parameter Name="unnamedParam9" Type="System.Int16" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
+        <param name="unnamedParam3">To be added.</param>
+        <param name="unnamedParam4">To be added.</param>
+        <param name="unnamedParam5">To be added.</param>
+        <param name="unnamedParam6">To be added.</param>
+        <param name="unnamedParam7">To be added.</param>
+        <param name="unnamedParam8">To be added.</param>
+        <param name="unnamedParam9">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Change">
+      <MemberSignature Language="C#" Value="public override void Change ();" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void Change() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.Change" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Change ()" />
+      <MemberSignature Language="F#" Value="abstract member Change : unit -&gt; unit&#xA;override this.Change : unit -&gt; unit" Usage="multiPageEvents_SinkHelper.Change " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.MultiPageEvents.Change</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Click">
+      <MemberSignature Language="C#" Value="public override void Click (int unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void Click(int32 unnamedParam1) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.Click(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Click (unnamedParam1 As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member Click : int -&gt; unit&#xA;override this.Click : int -&gt; unit" Usage="multiPageEvents_SinkHelper.Click unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.MultiPageEvents.Click(System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DblClick">
+      <MemberSignature Language="C#" Value="public override void DblClick (int unnamedParam1, Microsoft.Vbe.Interop.Forms.ReturnBoolean unnamedParam2);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void DblClick(int32 unnamedParam1, class Microsoft.Vbe.Interop.Forms.ReturnBoolean unnamedParam2) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.DblClick(System.Int32,Microsoft.Vbe.Interop.Forms.ReturnBoolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub DblClick (unnamedParam1 As Integer, unnamedParam2 As ReturnBoolean)" />
+      <MemberSignature Language="F#" Value="abstract member DblClick : int * Microsoft.Vbe.Interop.Forms.ReturnBoolean -&gt; unit&#xA;override this.DblClick : int * Microsoft.Vbe.Interop.Forms.ReturnBoolean -&gt; unit" Usage="multiPageEvents_SinkHelper.DblClick (unnamedParam1, unnamedParam2)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.MultiPageEvents.DblClick(System.Int32,Microsoft.Vbe.Interop.Forms.ReturnBoolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="System.Int32" />
+        <Parameter Name="unnamedParam2" Type="Microsoft.Vbe.Interop.Forms.ReturnBoolean" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="public override void Error (int unnamedParam1, short unnamedParam2, Microsoft.Vbe.Interop.Forms.ReturnString unnamedParam3, int unnamedParam4, string unnamedParam5, string unnamedParam6, int unnamedParam7, Microsoft.Vbe.Interop.Forms.ReturnBoolean unnamedParam8);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void Error(int32 unnamedParam1, int16 unnamedParam2, class Microsoft.Vbe.Interop.Forms.ReturnString unnamedParam3, int32 unnamedParam4, string unnamedParam5, string unnamedParam6, int32 unnamedParam7, class Microsoft.Vbe.Interop.Forms.ReturnBoolean unnamedParam8) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.Error(System.Int32,System.Int16,Microsoft.Vbe.Interop.Forms.ReturnString,System.Int32,System.String,System.String,System.Int32,Microsoft.Vbe.Interop.Forms.ReturnBoolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Error (unnamedParam1 As Integer, unnamedParam2 As Short, unnamedParam3 As ReturnString, unnamedParam4 As Integer, unnamedParam5 As String, unnamedParam6 As String, unnamedParam7 As Integer, unnamedParam8 As ReturnBoolean)" />
+      <MemberSignature Language="F#" Value="abstract member Error : int * int16 * Microsoft.Vbe.Interop.Forms.ReturnString * int * string * string * int * Microsoft.Vbe.Interop.Forms.ReturnBoolean -&gt; unit&#xA;override this.Error : int * int16 * Microsoft.Vbe.Interop.Forms.ReturnString * int * string * string * int * Microsoft.Vbe.Interop.Forms.ReturnBoolean -&gt; unit" Usage="multiPageEvents_SinkHelper.Error (unnamedParam1, unnamedParam2, unnamedParam3, unnamedParam4, unnamedParam5, unnamedParam6, unnamedParam7, unnamedParam8)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.MultiPageEvents.Error(System.Int32,System.Int16,Microsoft.Vbe.Interop.Forms.ReturnString,System.Int32,System.String,System.String,System.Int32,Microsoft.Vbe.Interop.Forms.ReturnBoolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="System.Int32" />
+        <Parameter Name="unnamedParam2" Type="System.Int16" />
+        <Parameter Name="unnamedParam3" Type="Microsoft.Vbe.Interop.Forms.ReturnString" />
+        <Parameter Name="unnamedParam4" Type="System.Int32" />
+        <Parameter Name="unnamedParam5" Type="System.String" />
+        <Parameter Name="unnamedParam6" Type="System.String" />
+        <Parameter Name="unnamedParam7" Type="System.Int32" />
+        <Parameter Name="unnamedParam8" Type="Microsoft.Vbe.Interop.Forms.ReturnBoolean" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
+        <param name="unnamedParam3">To be added.</param>
+        <param name="unnamedParam4">To be added.</param>
+        <param name="unnamedParam5">To be added.</param>
+        <param name="unnamedParam6">To be added.</param>
+        <param name="unnamedParam7">To be added.</param>
+        <param name="unnamedParam8">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyDown">
+      <MemberSignature Language="C#" Value="public override void KeyDown (Microsoft.Vbe.Interop.Forms.ReturnInteger unnamedParam1, short unnamedParam2);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void KeyDown(class Microsoft.Vbe.Interop.Forms.ReturnInteger unnamedParam1, int16 unnamedParam2) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.KeyDown(Microsoft.Vbe.Interop.Forms.ReturnInteger,System.Int16)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub KeyDown (unnamedParam1 As ReturnInteger, unnamedParam2 As Short)" />
+      <MemberSignature Language="F#" Value="abstract member KeyDown : Microsoft.Vbe.Interop.Forms.ReturnInteger * int16 -&gt; unit&#xA;override this.KeyDown : Microsoft.Vbe.Interop.Forms.ReturnInteger * int16 -&gt; unit" Usage="multiPageEvents_SinkHelper.KeyDown (unnamedParam1, unnamedParam2)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.MultiPageEvents.KeyDown(Microsoft.Vbe.Interop.Forms.ReturnInteger,System.Int16)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ReturnInteger" />
+        <Parameter Name="unnamedParam2" Type="System.Int16" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyPress">
+      <MemberSignature Language="C#" Value="public override void KeyPress (Microsoft.Vbe.Interop.Forms.ReturnInteger unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void KeyPress(class Microsoft.Vbe.Interop.Forms.ReturnInteger unnamedParam1) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.KeyPress(Microsoft.Vbe.Interop.Forms.ReturnInteger)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub KeyPress (unnamedParam1 As ReturnInteger)" />
+      <MemberSignature Language="F#" Value="abstract member KeyPress : Microsoft.Vbe.Interop.Forms.ReturnInteger -&gt; unit&#xA;override this.KeyPress : Microsoft.Vbe.Interop.Forms.ReturnInteger -&gt; unit" Usage="multiPageEvents_SinkHelper.KeyPress unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.MultiPageEvents.KeyPress(Microsoft.Vbe.Interop.Forms.ReturnInteger)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ReturnInteger" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyUp">
+      <MemberSignature Language="C#" Value="public override void KeyUp (Microsoft.Vbe.Interop.Forms.ReturnInteger unnamedParam1, short unnamedParam2);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void KeyUp(class Microsoft.Vbe.Interop.Forms.ReturnInteger unnamedParam1, int16 unnamedParam2) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.KeyUp(Microsoft.Vbe.Interop.Forms.ReturnInteger,System.Int16)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub KeyUp (unnamedParam1 As ReturnInteger, unnamedParam2 As Short)" />
+      <MemberSignature Language="F#" Value="abstract member KeyUp : Microsoft.Vbe.Interop.Forms.ReturnInteger * int16 -&gt; unit&#xA;override this.KeyUp : Microsoft.Vbe.Interop.Forms.ReturnInteger * int16 -&gt; unit" Usage="multiPageEvents_SinkHelper.KeyUp (unnamedParam1, unnamedParam2)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.MultiPageEvents.KeyUp(Microsoft.Vbe.Interop.Forms.ReturnInteger,System.Int16)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Vbe.Interop.Forms.ReturnInteger" />
+        <Parameter Name="unnamedParam2" Type="System.Int16" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Layout">
+      <MemberSignature Language="C#" Value="public override void Layout (int unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void Layout(int32 unnamedParam1) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.Layout(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Layout (unnamedParam1 As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member Layout : int -&gt; unit&#xA;override this.Layout : int -&gt; unit" Usage="multiPageEvents_SinkHelper.Layout unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.MultiPageEvents.Layout(System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_AddControlDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.MultiPageEvents_AddControlEventHandler m_AddControlDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.MultiPageEvents_AddControlEventHandler m_AddControlDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_AddControlDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_AddControlDelegate As MultiPageEvents_AddControlEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_AddControlDelegate : Microsoft.Vbe.Interop.Forms.MultiPageEvents_AddControlEventHandler" Usage="Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_AddControlDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MultiPageEvents_AddControlEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_BeforeDragOverDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.MultiPageEvents_BeforeDragOverEventHandler m_BeforeDragOverDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.MultiPageEvents_BeforeDragOverEventHandler m_BeforeDragOverDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_BeforeDragOverDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_BeforeDragOverDelegate As MultiPageEvents_BeforeDragOverEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_BeforeDragOverDelegate : Microsoft.Vbe.Interop.Forms.MultiPageEvents_BeforeDragOverEventHandler" Usage="Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_BeforeDragOverDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MultiPageEvents_BeforeDragOverEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_BeforeDropOrPasteDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.MultiPageEvents_BeforeDropOrPasteEventHandler m_BeforeDropOrPasteDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.MultiPageEvents_BeforeDropOrPasteEventHandler m_BeforeDropOrPasteDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_BeforeDropOrPasteDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_BeforeDropOrPasteDelegate As MultiPageEvents_BeforeDropOrPasteEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_BeforeDropOrPasteDelegate : Microsoft.Vbe.Interop.Forms.MultiPageEvents_BeforeDropOrPasteEventHandler" Usage="Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_BeforeDropOrPasteDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MultiPageEvents_BeforeDropOrPasteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_ChangeDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.MultiPageEvents_ChangeEventHandler m_ChangeDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.MultiPageEvents_ChangeEventHandler m_ChangeDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_ChangeDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_ChangeDelegate As MultiPageEvents_ChangeEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_ChangeDelegate : Microsoft.Vbe.Interop.Forms.MultiPageEvents_ChangeEventHandler" Usage="Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_ChangeDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MultiPageEvents_ChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_ClickDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.MultiPageEvents_ClickEventHandler m_ClickDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.MultiPageEvents_ClickEventHandler m_ClickDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_ClickDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_ClickDelegate As MultiPageEvents_ClickEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_ClickDelegate : Microsoft.Vbe.Interop.Forms.MultiPageEvents_ClickEventHandler" Usage="Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_ClickDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MultiPageEvents_ClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_DblClickDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.MultiPageEvents_DblClickEventHandler m_DblClickDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.MultiPageEvents_DblClickEventHandler m_DblClickDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_DblClickDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_DblClickDelegate As MultiPageEvents_DblClickEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_DblClickDelegate : Microsoft.Vbe.Interop.Forms.MultiPageEvents_DblClickEventHandler" Usage="Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_DblClickDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MultiPageEvents_DblClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_dwCookie">
+      <MemberSignature Language="C#" Value="public int m_dwCookie;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 m_dwCookie" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_dwCookie" />
+      <MemberSignature Language="VB.NET" Value="Public m_dwCookie As Integer " />
+      <MemberSignature Language="F#" Value="val mutable m_dwCookie : int" Usage="Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_dwCookie" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_ErrorDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.MultiPageEvents_ErrorEventHandler m_ErrorDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.MultiPageEvents_ErrorEventHandler m_ErrorDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_ErrorDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_ErrorDelegate As MultiPageEvents_ErrorEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_ErrorDelegate : Microsoft.Vbe.Interop.Forms.MultiPageEvents_ErrorEventHandler" Usage="Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_ErrorDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MultiPageEvents_ErrorEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_KeyDownDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.MultiPageEvents_KeyDownEventHandler m_KeyDownDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.MultiPageEvents_KeyDownEventHandler m_KeyDownDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_KeyDownDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_KeyDownDelegate As MultiPageEvents_KeyDownEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_KeyDownDelegate : Microsoft.Vbe.Interop.Forms.MultiPageEvents_KeyDownEventHandler" Usage="Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_KeyDownDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MultiPageEvents_KeyDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_KeyPressDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.MultiPageEvents_KeyPressEventHandler m_KeyPressDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.MultiPageEvents_KeyPressEventHandler m_KeyPressDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_KeyPressDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_KeyPressDelegate As MultiPageEvents_KeyPressEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_KeyPressDelegate : Microsoft.Vbe.Interop.Forms.MultiPageEvents_KeyPressEventHandler" Usage="Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_KeyPressDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MultiPageEvents_KeyPressEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_KeyUpDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.MultiPageEvents_KeyUpEventHandler m_KeyUpDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.MultiPageEvents_KeyUpEventHandler m_KeyUpDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_KeyUpDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_KeyUpDelegate As MultiPageEvents_KeyUpEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_KeyUpDelegate : Microsoft.Vbe.Interop.Forms.MultiPageEvents_KeyUpEventHandler" Usage="Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_KeyUpDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MultiPageEvents_KeyUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_LayoutDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.MultiPageEvents_LayoutEventHandler m_LayoutDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.MultiPageEvents_LayoutEventHandler m_LayoutDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_LayoutDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_LayoutDelegate As MultiPageEvents_LayoutEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_LayoutDelegate : Microsoft.Vbe.Interop.Forms.MultiPageEvents_LayoutEventHandler" Usage="Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_LayoutDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MultiPageEvents_LayoutEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_MouseDownDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.MultiPageEvents_MouseDownEventHandler m_MouseDownDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.MultiPageEvents_MouseDownEventHandler m_MouseDownDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_MouseDownDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_MouseDownDelegate As MultiPageEvents_MouseDownEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_MouseDownDelegate : Microsoft.Vbe.Interop.Forms.MultiPageEvents_MouseDownEventHandler" Usage="Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_MouseDownDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MultiPageEvents_MouseDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_MouseMoveDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.MultiPageEvents_MouseMoveEventHandler m_MouseMoveDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.MultiPageEvents_MouseMoveEventHandler m_MouseMoveDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_MouseMoveDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_MouseMoveDelegate As MultiPageEvents_MouseMoveEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_MouseMoveDelegate : Microsoft.Vbe.Interop.Forms.MultiPageEvents_MouseMoveEventHandler" Usage="Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_MouseMoveDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MultiPageEvents_MouseMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_MouseUpDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.MultiPageEvents_MouseUpEventHandler m_MouseUpDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.MultiPageEvents_MouseUpEventHandler m_MouseUpDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_MouseUpDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_MouseUpDelegate As MultiPageEvents_MouseUpEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_MouseUpDelegate : Microsoft.Vbe.Interop.Forms.MultiPageEvents_MouseUpEventHandler" Usage="Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_MouseUpDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MultiPageEvents_MouseUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_RemoveControlDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.MultiPageEvents_RemoveControlEventHandler m_RemoveControlDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.MultiPageEvents_RemoveControlEventHandler m_RemoveControlDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_RemoveControlDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_RemoveControlDelegate As MultiPageEvents_RemoveControlEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_RemoveControlDelegate : Microsoft.Vbe.Interop.Forms.MultiPageEvents_RemoveControlEventHandler" Usage="Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_RemoveControlDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MultiPageEvents_RemoveControlEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_ScrollDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.MultiPageEvents_ScrollEventHandler m_ScrollDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.MultiPageEvents_ScrollEventHandler m_ScrollDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_ScrollDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_ScrollDelegate As MultiPageEvents_ScrollEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_ScrollDelegate : Microsoft.Vbe.Interop.Forms.MultiPageEvents_ScrollEventHandler" Usage="Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_ScrollDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MultiPageEvents_ScrollEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_ZoomDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.Forms.MultiPageEvents_ZoomEventHandler m_ZoomDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop.Forms.MultiPageEvents_ZoomEventHandler m_ZoomDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_ZoomDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_ZoomDelegate As MultiPageEvents_ZoomEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_ZoomDelegate : Microsoft.Vbe.Interop.Forms.MultiPageEvents_ZoomEventHandler" Usage="Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.m_ZoomDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.Forms.MultiPageEvents_ZoomEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseDown">
+      <MemberSignature Language="C#" Value="public override void MouseDown (int unnamedParam1, short unnamedParam2, short unnamedParam3, float unnamedParam4, float unnamedParam5);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void MouseDown(int32 unnamedParam1, int16 unnamedParam2, int16 unnamedParam3, float32 unnamedParam4, float32 unnamedParam5) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.MouseDown(System.Int32,System.Int16,System.Int16,System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub MouseDown (unnamedParam1 As Integer, unnamedParam2 As Short, unnamedParam3 As Short, unnamedParam4 As Single, unnamedParam5 As Single)" />
+      <MemberSignature Language="F#" Value="abstract member MouseDown : int * int16 * int16 * single * single -&gt; unit&#xA;override this.MouseDown : int * int16 * int16 * single * single -&gt; unit" Usage="multiPageEvents_SinkHelper.MouseDown (unnamedParam1, unnamedParam2, unnamedParam3, unnamedParam4, unnamedParam5)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.MultiPageEvents.MouseDown(System.Int32,System.Int16,System.Int16,System.Single,System.Single)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="System.Int32" />
+        <Parameter Name="unnamedParam2" Type="System.Int16" />
+        <Parameter Name="unnamedParam3" Type="System.Int16" />
+        <Parameter Name="unnamedParam4" Type="System.Single" />
+        <Parameter Name="unnamedParam5" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
+        <param name="unnamedParam3">To be added.</param>
+        <param name="unnamedParam4">To be added.</param>
+        <param name="unnamedParam5">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseMove">
+      <MemberSignature Language="C#" Value="public override void MouseMove (int unnamedParam1, short unnamedParam2, short unnamedParam3, float unnamedParam4, float unnamedParam5);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void MouseMove(int32 unnamedParam1, int16 unnamedParam2, int16 unnamedParam3, float32 unnamedParam4, float32 unnamedParam5) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.MouseMove(System.Int32,System.Int16,System.Int16,System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub MouseMove (unnamedParam1 As Integer, unnamedParam2 As Short, unnamedParam3 As Short, unnamedParam4 As Single, unnamedParam5 As Single)" />
+      <MemberSignature Language="F#" Value="abstract member MouseMove : int * int16 * int16 * single * single -&gt; unit&#xA;override this.MouseMove : int * int16 * int16 * single * single -&gt; unit" Usage="multiPageEvents_SinkHelper.MouseMove (unnamedParam1, unnamedParam2, unnamedParam3, unnamedParam4, unnamedParam5)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.MultiPageEvents.MouseMove(System.Int32,System.Int16,System.Int16,System.Single,System.Single)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="System.Int32" />
+        <Parameter Name="unnamedParam2" Type="System.Int16" />
+        <Parameter Name="unnamedParam3" Type="System.Int16" />
+        <Parameter Name="unnamedParam4" Type="System.Single" />
+        <Parameter Name="unnamedParam5" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
+        <param name="unnamedParam3">To be added.</param>
+        <param name="unnamedParam4">To be added.</param>
+        <param name="unnamedParam5">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseUp">
+      <MemberSignature Language="C#" Value="public override void MouseUp (int unnamedParam1, short unnamedParam2, short unnamedParam3, float unnamedParam4, float unnamedParam5);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void MouseUp(int32 unnamedParam1, int16 unnamedParam2, int16 unnamedParam3, float32 unnamedParam4, float32 unnamedParam5) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.MouseUp(System.Int32,System.Int16,System.Int16,System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub MouseUp (unnamedParam1 As Integer, unnamedParam2 As Short, unnamedParam3 As Short, unnamedParam4 As Single, unnamedParam5 As Single)" />
+      <MemberSignature Language="F#" Value="abstract member MouseUp : int * int16 * int16 * single * single -&gt; unit&#xA;override this.MouseUp : int * int16 * int16 * single * single -&gt; unit" Usage="multiPageEvents_SinkHelper.MouseUp (unnamedParam1, unnamedParam2, unnamedParam3, unnamedParam4, unnamedParam5)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.MultiPageEvents.MouseUp(System.Int32,System.Int16,System.Int16,System.Single,System.Single)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="System.Int32" />
+        <Parameter Name="unnamedParam2" Type="System.Int16" />
+        <Parameter Name="unnamedParam3" Type="System.Int16" />
+        <Parameter Name="unnamedParam4" Type="System.Single" />
+        <Parameter Name="unnamedParam5" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
+        <param name="unnamedParam3">To be added.</param>
+        <param name="unnamedParam4">To be added.</param>
+        <param name="unnamedParam5">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveControl">
+      <MemberSignature Language="C#" Value="public override void RemoveControl (int unnamedParam1, Microsoft.Vbe.Interop.Forms.Control unnamedParam2);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void RemoveControl(int32 unnamedParam1, class Microsoft.Vbe.Interop.Forms.Control unnamedParam2) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.RemoveControl(System.Int32,Microsoft.Vbe.Interop.Forms.Control)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub RemoveControl (unnamedParam1 As Integer, unnamedParam2 As Control)" />
+      <MemberSignature Language="F#" Value="abstract member RemoveControl : int * Microsoft.Vbe.Interop.Forms.Control -&gt; unit&#xA;override this.RemoveControl : int * Microsoft.Vbe.Interop.Forms.Control -&gt; unit" Usage="multiPageEvents_SinkHelper.RemoveControl (unnamedParam1, unnamedParam2)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.MultiPageEvents.RemoveControl(System.Int32,Microsoft.Vbe.Interop.Forms.Control)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="System.Int32" />
+        <Parameter Name="unnamedParam2" Type="Microsoft.Vbe.Interop.Forms.Control" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Scroll">
+      <MemberSignature Language="C#" Value="public override void Scroll (int unnamedParam1, Microsoft.Vbe.Interop.Forms.fmScrollAction unnamedParam2, Microsoft.Vbe.Interop.Forms.fmScrollAction unnamedParam3, float unnamedParam4, float unnamedParam5, Microsoft.Vbe.Interop.Forms.ReturnSingle unnamedParam6, Microsoft.Vbe.Interop.Forms.ReturnSingle unnamedParam7);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void Scroll(int32 unnamedParam1, valuetype Microsoft.Vbe.Interop.Forms.fmScrollAction unnamedParam2, valuetype Microsoft.Vbe.Interop.Forms.fmScrollAction unnamedParam3, float32 unnamedParam4, float32 unnamedParam5, class Microsoft.Vbe.Interop.Forms.ReturnSingle unnamedParam6, class Microsoft.Vbe.Interop.Forms.ReturnSingle unnamedParam7) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.Scroll(System.Int32,Microsoft.Vbe.Interop.Forms.fmScrollAction,Microsoft.Vbe.Interop.Forms.fmScrollAction,System.Single,System.Single,Microsoft.Vbe.Interop.Forms.ReturnSingle,Microsoft.Vbe.Interop.Forms.ReturnSingle)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Scroll (unnamedParam1 As Integer, unnamedParam2 As fmScrollAction, unnamedParam3 As fmScrollAction, unnamedParam4 As Single, unnamedParam5 As Single, unnamedParam6 As ReturnSingle, unnamedParam7 As ReturnSingle)" />
+      <MemberSignature Language="F#" Value="abstract member Scroll : int * Microsoft.Vbe.Interop.Forms.fmScrollAction * Microsoft.Vbe.Interop.Forms.fmScrollAction * single * single * Microsoft.Vbe.Interop.Forms.ReturnSingle * Microsoft.Vbe.Interop.Forms.ReturnSingle -&gt; unit&#xA;override this.Scroll : int * Microsoft.Vbe.Interop.Forms.fmScrollAction * Microsoft.Vbe.Interop.Forms.fmScrollAction * single * single * Microsoft.Vbe.Interop.Forms.ReturnSingle * Microsoft.Vbe.Interop.Forms.ReturnSingle -&gt; unit" Usage="multiPageEvents_SinkHelper.Scroll (unnamedParam1, unnamedParam2, unnamedParam3, unnamedParam4, unnamedParam5, unnamedParam6, unnamedParam7)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.MultiPageEvents.Scroll(System.Int32,Microsoft.Vbe.Interop.Forms.fmScrollAction,Microsoft.Vbe.Interop.Forms.fmScrollAction,System.Single,System.Single,Microsoft.Vbe.Interop.Forms.ReturnSingle,Microsoft.Vbe.Interop.Forms.ReturnSingle)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="System.Int32" />
+        <Parameter Name="unnamedParam2" Type="Microsoft.Vbe.Interop.Forms.fmScrollAction" />
+        <Parameter Name="unnamedParam3" Type="Microsoft.Vbe.Interop.Forms.fmScrollAction" />
+        <Parameter Name="unnamedParam4" Type="System.Single" />
+        <Parameter Name="unnamedParam5" Type="System.Single" />
+        <Parameter Name="unnamedParam6" Type="Microsoft.Vbe.Interop.Forms.ReturnSingle" />
+        <Parameter Name="unnamedParam7" Type="Microsoft.Vbe.Interop.Forms.ReturnSingle" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
+        <param name="unnamedParam3">To be added.</param>
+        <param name="unnamedParam4">To be added.</param>
+        <param name="unnamedParam5">To be added.</param>
+        <param name="unnamedParam6">To be added.</param>
+        <param name="unnamedParam7">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Zoom">
+      <MemberSignature Language="C#" Value="public override void Zoom (int unnamedParam1, ref short unnamedParam2);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void Zoom(int32 unnamedParam1, int16&amp; unnamedParam2) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.Forms.MultiPageEvents_SinkHelper.Zoom(System.Int32,System.Int16@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Zoom (unnamedParam1 As Integer, ByRef unnamedParam2 As Short)" />
+      <MemberSignature Language="F#" Value="abstract member Zoom : int * int16 -&gt; unit&#xA;override this.Zoom : int * int16 -&gt; unit" Usage="multiPageEvents_SinkHelper.Zoom (unnamedParam1, unnamedParam2)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop.Forms.MultiPageEvents.Zoom(System.Int32,System.Int16@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="System.Int32" />
+        <Parameter Name="unnamedParam2" Type="System.Int16" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

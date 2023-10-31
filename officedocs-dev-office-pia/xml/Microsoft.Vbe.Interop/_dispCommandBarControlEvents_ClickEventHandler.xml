@@ -1,0 +1,39 @@
+<Type Name="_dispCommandBarControlEvents_ClickEventHandler" FullName="Microsoft.Vbe.Interop._dispCommandBarControlEvents_ClickEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void _dispCommandBarControlEvents_ClickEventHandler(object CommandBarControl, ref bool handled, ref bool CancelDefault);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _dispCommandBarControlEvents_ClickEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop._dispCommandBarControlEvents_ClickEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub _dispCommandBarControlEvents_ClickEventHandler(CommandBarControl As Object, ByRef handled As Boolean, ByRef CancelDefault As Boolean)" />
+  <TypeSignature Language="F#" Value="type _dispCommandBarControlEvents_ClickEventHandler = delegate of obj * bool * bool -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComVisible(false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComVisible(false)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(16)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(16)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="CommandBarControl" Type="System.Object" />
+    <Parameter Name="handled" Type="System.Boolean" RefType="ref" />
+    <Parameter Name="CancelDefault" Type="System.Boolean" RefType="ref" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="CommandBarControl">To be added.</param>
+    <param name="handled">To be added.</param>
+    <param name="CancelDefault">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

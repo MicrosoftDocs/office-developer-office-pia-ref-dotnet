@@ -1,0 +1,51 @@
+<Type Name="MultiPageEvents_BeforeDropOrPasteEventHandler" FullName="Microsoft.Vbe.Interop.Forms.MultiPageEvents_BeforeDropOrPasteEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void MultiPageEvents_BeforeDropOrPasteEventHandler(int Index, ReturnBoolean Cancel, Control Control, fmAction Action, DataObject Data, float X, float Y, ReturnEffect Effect, short Shift);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MultiPageEvents_BeforeDropOrPasteEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop.Forms.MultiPageEvents_BeforeDropOrPasteEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub MultiPageEvents_BeforeDropOrPasteEventHandler(Index As Integer, Cancel As ReturnBoolean, Control As Control, Action As fmAction, Data As DataObject, X As Single, Y As Single, Effect As ReturnEffect, Shift As Short)" />
+  <TypeSignature Language="F#" Value="type MultiPageEvents_BeforeDropOrPasteEventHandler = delegate of int * ReturnBoolean * Control * fmAction * DataObject * single * single * ReturnEffect * int16 -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop.Forms</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComVisible(false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComVisible(false)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(16)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(16)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Index" Type="System.Int32" />
+    <Parameter Name="Cancel" Type="Microsoft.Vbe.Interop.Forms.ReturnBoolean" />
+    <Parameter Name="Control" Type="Microsoft.Vbe.Interop.Forms.Control" />
+    <Parameter Name="Action" Type="Microsoft.Vbe.Interop.Forms.fmAction" />
+    <Parameter Name="Data" Type="Microsoft.Vbe.Interop.Forms.DataObject" />
+    <Parameter Name="X" Type="System.Single" />
+    <Parameter Name="Y" Type="System.Single" />
+    <Parameter Name="Effect" Type="Microsoft.Vbe.Interop.Forms.ReturnEffect" />
+    <Parameter Name="Shift" Type="System.Int16" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Index">To be added.</param>
+    <param name="Cancel">To be added.</param>
+    <param name="Control">To be added.</param>
+    <param name="Action">To be added.</param>
+    <param name="Data">To be added.</param>
+    <param name="X">To be added.</param>
+    <param name="Y">To be added.</param>
+    <param name="Effect">To be added.</param>
+    <param name="Shift">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

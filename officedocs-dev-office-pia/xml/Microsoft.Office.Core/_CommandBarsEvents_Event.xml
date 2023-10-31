@@ -1,9 +1,10 @@
 <Type Name="_CommandBarsEvents_Event" FullName="Microsoft.Office.Core._CommandBarsEvents_Event">
+  <TypeSignature Language="C++ CLI" Value="public interface class _CommandBarsEvents_Event" />
   <TypeSignature Language="C#" Value="public interface _CommandBarsEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CommandBarsEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CommandBarsEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CommandBarsEvents_Event" />
-  <TypeSignature Language="C++ CLI" Value="public interface class _CommandBarsEvents_Event" />
+  <TypeSignature Language="F#" Value="type _CommandBarsEvents_Event = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,13 +12,16 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Core._CommandBarsEvents), typeof(Microsoft.Office.Core._CommandBarsEvents_EventProvider))</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Core._CommandBarsEvents), typeof(Microsoft.Office.Core._CommandBarsEvents_EventProvider))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Core._CommandBarsEvents), typeof(Microsoft.Office.Core._CommandBarsEvents_EventProvider))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComVisible(false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComVisible(false)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(16)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(16)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -25,12 +29,36 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="add_OnUpdate">
+      <MemberSignature Language="C#" Value="public void add_OnUpdate (Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_OnUpdate(class Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarsEvents_Event.add_OnUpdate(Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_OnUpdate (unnamedParam1 As _CommandBarsEvents_OnUpdateEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_OnUpdate : Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler -&gt; unit" Usage="_CommandBarsEvents_Event.add_OnUpdate unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="OnUpdate">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::_CommandBarsEvents_OnUpdateEventHandler ^ OnUpdate;" />
       <MemberSignature Language="C#" Value="event Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler OnUpdate;" />
       <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler OnUpdate" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core._CommandBarsEvents_Event.OnUpdate" />
       <MemberSignature Language="VB.NET" Value="Event OnUpdate As _CommandBarsEvents_OnUpdateEventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::_CommandBarsEvents_OnUpdateEventHandler ^ OnUpdate;" />
+      <MemberSignature Language="F#" Value="member this.OnUpdate : Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler " Usage="member this.OnUpdate : Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -45,6 +73,29 @@
           <para>The <b>OnUpdate</b> event is recognized by the <see cref="T:Microsoft.Office.Core.CommandBar" /> object and all command bar controls. The event is triggered by any change to a command bar or command bar control or any change to the state of a command bar or command bar control. These changes can occur due to a text or cell selection, for example. Since a large number of <b>OnUpdate</b> events can occur during normal usage, developers should exercise caution when using this event. It is strongly recommended that this event be used primarily for checking that a custom command bar has been added or removed by a <see cref="T:Microsoft.Office.Core.COMAddIn" /> object.</para>
           <para />
         </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_OnUpdate">
+      <MemberSignature Language="C#" Value="public void remove_OnUpdate (Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_OnUpdate(class Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarsEvents_Event.remove_OnUpdate(Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_OnUpdate (unnamedParam1 As _CommandBarsEvents_OnUpdateEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_OnUpdate : Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler -&gt; unit" Usage="_CommandBarsEvents_Event.remove_OnUpdate unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
   </Members>

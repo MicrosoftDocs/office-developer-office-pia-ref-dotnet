@@ -1,0 +1,160 @@
+<Type Name="ISmartTagTokenProperties" FullName="Microsoft.Office.Interop.SmartTag.ISmartTagTokenProperties">
+  <TypeSignature Language="C#" Value="public interface ISmartTagTokenProperties" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISmartTagTokenProperties" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.SmartTag.ISmartTagTokenProperties" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISmartTagTokenProperties" />
+  <TypeSignature Language="F#" Value="type ISmartTagTokenProperties = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("9BF068D0-B736-11D3-B2CF-00500489D6A6")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("9BF068D0-B736-11D3-B2CF-00500489D6A6")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(4160)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(4160)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.SmartTag.ISmartTagTokenProperties.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.Office.Interop.SmartTag.ISmartTagTokenProperties.Count" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(3)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(3)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyFromIndex">
+      <MemberSignature Language="C#" Value="public string KeyFromIndex[int Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string KeyFromIndex(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.SmartTag.ISmartTagTokenProperties.KeyFromIndex(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KeyFromIndex(Index As Integer) As String" />
+      <MemberSignature Language="F#" Value="member this.KeyFromIndex(int) : string" Usage="Microsoft.Office.Interop.SmartTag.ISmartTagTokenProperties.KeyFromIndex" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(4)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(4)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Read">
+      <MemberSignature Language="C#" Value="public string Read[string Key] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Read(string)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.SmartTag.ISmartTagTokenProperties.Read(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Read(Key As String) As String" />
+      <MemberSignature Language="F#" Value="member this.Read(string) : string" Usage="Microsoft.Office.Interop.SmartTag.ISmartTagTokenProperties.Read" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Key" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Key">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValueFromIndex">
+      <MemberSignature Language="C#" Value="public string ValueFromIndex[int Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ValueFromIndex(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.SmartTag.ISmartTagTokenProperties.ValueFromIndex(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ValueFromIndex(Index As Integer) As String" />
+      <MemberSignature Language="F#" Value="member this.ValueFromIndex(int) : string" Usage="Microsoft.Office.Interop.SmartTag.ISmartTagTokenProperties.ValueFromIndex" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.SmartTag</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(5)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(5)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

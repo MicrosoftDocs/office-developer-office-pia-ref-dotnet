@@ -1,0 +1,103 @@
+<Type Name="_dispCommandBarControlEvents_SinkHelper" FullName="Microsoft.Vbe.Interop._dispCommandBarControlEvents_SinkHelper">
+  <TypeSignature Language="C#" Value="public sealed class _dispCommandBarControlEvents_SinkHelper : Microsoft.Vbe.Interop._dispCommandBarControlEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _dispCommandBarControlEvents_SinkHelper extends System.Object implements class Microsoft.Vbe.Interop._dispCommandBarControlEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop._dispCommandBarControlEvents_SinkHelper" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class _dispCommandBarControlEvents_SinkHelper&#xA;Implements _dispCommandBarControlEvents" />
+  <TypeSignature Language="F#" Value="type _dispCommandBarControlEvents_SinkHelper = class&#xA;    interface _dispCommandBarControlEvents" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Vbe.Interop._dispCommandBarControlEvents</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(System.Runtime.InteropServices.TypeLibTypeFlags.FHidden)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(System.Runtime.InteropServices.TypeLibTypeFlags.FHidden)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Click">
+      <MemberSignature Language="C#" Value="public override void Click (object unnamedParam1, ref bool unnamedParam2, ref bool unnamedParam3);" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void Click(object unnamedParam1, bool&amp; unnamedParam2, bool&amp; unnamedParam3) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop._dispCommandBarControlEvents_SinkHelper.Click(System.Object,System.Boolean@,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Click (unnamedParam1 As Object, ByRef unnamedParam2 As Boolean, ByRef unnamedParam3 As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Click : obj * bool * bool -&gt; unit&#xA;override this.Click : obj * bool * bool -&gt; unit" Usage="_dispCommandBarControlEvents_SinkHelper.Click (unnamedParam1, unnamedParam2, unnamedParam3)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop._dispCommandBarControlEvents.Click(System.Object,System.Boolean@,System.Boolean@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="System.Object" />
+        <Parameter Name="unnamedParam2" Type="System.Boolean" RefType="ref" />
+        <Parameter Name="unnamedParam3" Type="System.Boolean" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <param name="unnamedParam2">To be added.</param>
+        <param name="unnamedParam3">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_ClickDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop._dispCommandBarControlEvents_ClickEventHandler m_ClickDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Vbe.Interop._dispCommandBarControlEvents_ClickEventHandler m_ClickDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop._dispCommandBarControlEvents_SinkHelper.m_ClickDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_ClickDelegate As _dispCommandBarControlEvents_ClickEventHandler " />
+      <MemberSignature Language="F#" Value="val mutable m_ClickDelegate : Microsoft.Vbe.Interop._dispCommandBarControlEvents_ClickEventHandler" Usage="Microsoft.Vbe.Interop._dispCommandBarControlEvents_SinkHelper.m_ClickDelegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop._dispCommandBarControlEvents_ClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_dwCookie">
+      <MemberSignature Language="C#" Value="public int m_dwCookie;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 m_dwCookie" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Vbe.Interop._dispCommandBarControlEvents_SinkHelper.m_dwCookie" />
+      <MemberSignature Language="VB.NET" Value="Public m_dwCookie As Integer " />
+      <MemberSignature Language="F#" Value="val mutable m_dwCookie : int" Usage="Microsoft.Vbe.Interop._dispCommandBarControlEvents_SinkHelper.m_dwCookie" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

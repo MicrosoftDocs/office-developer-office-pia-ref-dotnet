@@ -1,0 +1,711 @@
+<Type Name="CodeModuleClass" FullName="Microsoft.Vbe.Interop.CodeModuleClass">
+  <TypeSignature Language="C#" Value="public class CodeModuleClass : Microsoft.Vbe.Interop.CodeModule" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi CodeModuleClass extends System.Object implements class Microsoft.Vbe.Interop._CodeModule, class Microsoft.Vbe.Interop.CodeModule" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Vbe.Interop.CodeModuleClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class CodeModuleClass&#xA;Implements CodeModule" />
+  <TypeSignature Language="F#" Value="type CodeModuleClass = class&#xA;    interface _CodeModule&#xA;    interface CodeModule" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Vbe.Interop._CodeModule</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Vbe.Interop.CodeModule</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ClassInterface(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ClassInterface(0)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("0002E170-0000-0000-C000-000000000046")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("0002E170-0000-0000-C000-000000000046")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(2)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(2)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CodeModuleClass ();" />
+      <MemberSignature Language="ILAsm" Value=".method public specialname rtspecialname instance void .ctor() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.CodeModuleClass.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddFromFile">
+      <MemberSignature Language="C#" Value="public virtual void AddFromFile (string FileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddFromFile([in]string FileName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.CodeModuleClass.AddFromFile(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub AddFromFile (FileName As String)" />
+      <MemberSignature Language="F#" Value="abstract member AddFromFile : string -&gt; unit&#xA;override this.AddFromFile : string -&gt; unit" Usage="codeModuleClass.AddFromFile FileName" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop._CodeModule.AddFromFile(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743813)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743813)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="FileName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddFromString">
+      <MemberSignature Language="C#" Value="public virtual void AddFromString (string String);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddFromString([in]string String) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.CodeModuleClass.AddFromString(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub AddFromString (String As String)" />
+      <MemberSignature Language="F#" Value="abstract member AddFromString : string -&gt; unit&#xA;override this.AddFromString : string -&gt; unit" Usage="codeModuleClass.AddFromString String" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop._CodeModule.AddFromString(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743812)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743812)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="String" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="String">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CodePane">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Vbe.Interop.CodePane CodePane { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Vbe.Interop.CodePane CodePane" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.CodeModuleClass.CodePane" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property CodePane As CodePane" />
+      <MemberSignature Language="F#" Value="member this.CodePane : Microsoft.Vbe.Interop.CodePane" Usage="CodePane" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop._CodeModule.CodePane</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743826)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743826)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743826)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743826)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.CodePane</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CountOfDeclarationLines">
+      <MemberSignature Language="C#" Value="public virtual int CountOfDeclarationLines { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 CountOfDeclarationLines" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.CodeModuleClass.CountOfDeclarationLines" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property CountOfDeclarationLines As Integer" />
+      <MemberSignature Language="F#" Value="member this.CountOfDeclarationLines : int" Usage="CountOfDeclarationLines" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop._CodeModule.CountOfDeclarationLines</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743823)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743823)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743823)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743823)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CountOfLines">
+      <MemberSignature Language="C#" Value="public virtual int CountOfLines { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 CountOfLines" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.CodeModuleClass.CountOfLines" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property CountOfLines As Integer" />
+      <MemberSignature Language="F#" Value="member this.CountOfLines : int" Usage="CountOfLines" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop._CodeModule.CountOfLines</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743815)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743815)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743815)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743815)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateEventProc">
+      <MemberSignature Language="C#" Value="public virtual int CreateEventProc (string EventName, string ObjectName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 CreateEventProc([in]string EventName, [in]string ObjectName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.CodeModuleClass.CreateEventProc(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateEventProc (EventName As String, ObjectName As String) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member CreateEventProc : string * string -&gt; int&#xA;override this.CreateEventProc : string * string -&gt; int" Usage="codeModuleClass.CreateEventProc (EventName, ObjectName)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop._CodeModule.CreateEventProc(System.String,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743824)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743824)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="EventName" Type="System.String" />
+        <Parameter Name="ObjectName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="EventName">To be added.</param>
+        <param name="ObjectName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteLines">
+      <MemberSignature Language="C#" Value="public virtual void DeleteLines (int StartLine, int Count = 1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DeleteLines([in]int32 StartLine, [in]int32 Count) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.CodeModuleClass.DeleteLines(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub DeleteLines (StartLine As Integer, Optional Count As Integer = 1)" />
+      <MemberSignature Language="F#" Value="abstract member DeleteLines : int * int -&gt; unit&#xA;override this.DeleteLines : int * int -&gt; unit" Usage="codeModuleClass.DeleteLines (StartLine, Count)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop._CodeModule.DeleteLines(System.Int32,System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743817)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743817)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="StartLine" Type="System.Int32" />
+        <Parameter Name="Count" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="StartLine">To be added.</param>
+        <param name="Count">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Find">
+      <MemberSignature Language="C#" Value="public virtual bool Find (string Target, out int StartLine, out int StartColumn, out int EndLine, out int EndColumn, bool WholeWord = false, bool MatchCase = false, bool PatternSearch = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Find([in]string Target, [out] int32&amp; StartLine, [out] int32&amp; StartColumn, [out] int32&amp; EndLine, [out] int32&amp; EndColumn, [in]bool WholeWord, [in]bool MatchCase, [in]bool PatternSearch) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.CodeModuleClass.Find(System.String,System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Boolean,System.Boolean,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Find (Target As String, ByRef StartLine As Integer, ByRef StartColumn As Integer, ByRef EndLine As Integer, ByRef EndColumn As Integer, Optional WholeWord As Boolean = false, Optional MatchCase As Boolean = false, Optional PatternSearch As Boolean = false) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member Find : string * int * int * int * int * bool * bool * bool -&gt; bool&#xA;override this.Find : string * int * int * int * int * bool * bool * bool -&gt; bool" Usage="codeModuleClass.Find (Target, StartLine, StartColumn, EndLine, EndColumn, WholeWord, MatchCase, PatternSearch)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop._CodeModule.Find(System.String,System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Boolean,System.Boolean,System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743825)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743825)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Target" Type="System.String" />
+        <Parameter Name="StartLine" Type="System.Int32" RefType="out" />
+        <Parameter Name="StartColumn" Type="System.Int32" RefType="out" />
+        <Parameter Name="EndLine" Type="System.Int32" RefType="out" />
+        <Parameter Name="EndColumn" Type="System.Int32" RefType="out" />
+        <Parameter Name="WholeWord" Type="System.Boolean" />
+        <Parameter Name="MatchCase" Type="System.Boolean" />
+        <Parameter Name="PatternSearch" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="Target">To be added.</param>
+        <param name="StartLine">To be added.</param>
+        <param name="StartColumn">To be added.</param>
+        <param name="EndLine">To be added.</param>
+        <param name="EndColumn">To be added.</param>
+        <param name="WholeWord">To be added.</param>
+        <param name="MatchCase">To be added.</param>
+        <param name="PatternSearch">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertLines">
+      <MemberSignature Language="C#" Value="public virtual void InsertLines (int Line, string String);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InsertLines([in]int32 Line, [in]string String) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.CodeModuleClass.InsertLines(System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub InsertLines (Line As Integer, String As String)" />
+      <MemberSignature Language="F#" Value="abstract member InsertLines : int * string -&gt; unit&#xA;override this.InsertLines : int * string -&gt; unit" Usage="codeModuleClass.InsertLines (Line, String)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop._CodeModule.InsertLines(System.Int32,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743816)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743816)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Line" Type="System.Int32" />
+        <Parameter Name="String" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Line">To be added.</param>
+        <param name="String">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Lines">
+      <MemberSignature Language="C#" Value="public virtual string Lines[int StartLine, int Count] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Lines(int32, int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.CodeModuleClass.Lines(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Lines(StartLine As Integer, Count As Integer) As String" />
+      <MemberSignature Language="F#" Value="member this.Lines(int * int) : string" Usage="Lines" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop._CodeModule.Lines(System.Int32,System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743814)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743814)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743814)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743814)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="StartLine" Type="System.Int32" />
+        <Parameter Name="Count" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="StartLine">To be added.</param>
+        <param name="Count">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public virtual string this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.CodeModuleClass.Name" />
+      <MemberSignature Language="VB.NET" Value="Default Public Overridable Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Name" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop._CodeModule.Name</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.TypeLibFunc(64)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.TypeLibFunc(64)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.DispId(0)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.DispId(0)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[set: System.Runtime.InteropServices.TypeLibFunc(64)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.InteropServices.TypeLibFunc(64)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Vbe.Interop.VBComponent Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Vbe.Interop.VBComponent Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.CodeModuleClass.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Parent As VBComponent" />
+      <MemberSignature Language="F#" Value="member this.Parent : Microsoft.Vbe.Interop.VBComponent" Usage="Parent" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop._CodeModule.Parent</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743808)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743808)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.VBComponent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcBodyLine">
+      <MemberSignature Language="C#" Value="public virtual int ProcBodyLine[string ProcName, Microsoft.Vbe.Interop.vbext_ProcKind ProcKind] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ProcBodyLine(string, valuetype Microsoft.Vbe.Interop.vbext_ProcKind)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.CodeModuleClass.ProcBodyLine(System.String,Microsoft.Vbe.Interop.vbext_ProcKind)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ProcBodyLine(ProcName As String, ProcKind As vbext_ProcKind) As Integer" />
+      <MemberSignature Language="F#" Value="member this.ProcBodyLine(string * Microsoft.Vbe.Interop.vbext_ProcKind) : int" Usage="ProcBodyLine" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop._CodeModule.ProcBodyLine(System.String,Microsoft.Vbe.Interop.vbext_ProcKind)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743821)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743821)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743821)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743821)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ProcName" Type="System.String" />
+        <Parameter Name="ProcKind" Type="Microsoft.Vbe.Interop.vbext_ProcKind" />
+      </Parameters>
+      <Docs>
+        <param name="ProcName">To be added.</param>
+        <param name="ProcKind">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcCountLines">
+      <MemberSignature Language="C#" Value="public virtual int ProcCountLines[string ProcName, Microsoft.Vbe.Interop.vbext_ProcKind ProcKind] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ProcCountLines(string, valuetype Microsoft.Vbe.Interop.vbext_ProcKind)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.CodeModuleClass.ProcCountLines(System.String,Microsoft.Vbe.Interop.vbext_ProcKind)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ProcCountLines(ProcName As String, ProcKind As vbext_ProcKind) As Integer" />
+      <MemberSignature Language="F#" Value="member this.ProcCountLines(string * Microsoft.Vbe.Interop.vbext_ProcKind) : int" Usage="ProcCountLines" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop._CodeModule.ProcCountLines(System.String,Microsoft.Vbe.Interop.vbext_ProcKind)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743820)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743820)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743820)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743820)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ProcName" Type="System.String" />
+        <Parameter Name="ProcKind" Type="Microsoft.Vbe.Interop.vbext_ProcKind" />
+      </Parameters>
+      <Docs>
+        <param name="ProcName">To be added.</param>
+        <param name="ProcKind">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcOfLine">
+      <MemberSignature Language="C#" Value="public virtual string ProcOfLine[int Line, out Microsoft.Vbe.Interop.vbext_ProcKind ProcKind] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ProcOfLine(int32, valuetype Microsoft.Vbe.Interop.vbext_ProcKind)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.CodeModuleClass.ProcOfLine(System.Int32,Microsoft.Vbe.Interop.vbext_ProcKind@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ProcOfLine(Line As Integer, ByRef ProcKind As vbext_ProcKind) As String" />
+      <MemberSignature Language="F#" Value="member this.ProcOfLine(int * vbext_ProcKind) : string" Usage="ProcOfLine" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop._CodeModule.ProcOfLine(System.Int32,Microsoft.Vbe.Interop.vbext_ProcKind@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743822)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743822)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743822)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743822)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Line" Type="System.Int32" />
+        <Parameter Name="ProcKind" Type="Microsoft.Vbe.Interop.vbext_ProcKind" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Line">To be added.</param>
+        <param name="ProcKind">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcStartLine">
+      <MemberSignature Language="C#" Value="public virtual int ProcStartLine[string ProcName, Microsoft.Vbe.Interop.vbext_ProcKind ProcKind] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ProcStartLine(string, valuetype Microsoft.Vbe.Interop.vbext_ProcKind)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.CodeModuleClass.ProcStartLine(System.String,Microsoft.Vbe.Interop.vbext_ProcKind)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ProcStartLine(ProcName As String, ProcKind As vbext_ProcKind) As Integer" />
+      <MemberSignature Language="F#" Value="member this.ProcStartLine(string * Microsoft.Vbe.Interop.vbext_ProcKind) : int" Usage="ProcStartLine" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop._CodeModule.ProcStartLine(System.String,Microsoft.Vbe.Interop.vbext_ProcKind)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743819)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743819)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743819)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743819)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ProcName" Type="System.String" />
+        <Parameter Name="ProcKind" Type="Microsoft.Vbe.Interop.vbext_ProcKind" />
+      </Parameters>
+      <Docs>
+        <param name="ProcName">To be added.</param>
+        <param name="ProcKind">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplaceLine">
+      <MemberSignature Language="C#" Value="public virtual void ReplaceLine (int Line, string String);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ReplaceLine([in]int32 Line, [in]string String) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Vbe.Interop.CodeModuleClass.ReplaceLine(System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ReplaceLine (Line As Integer, String As String)" />
+      <MemberSignature Language="F#" Value="abstract member ReplaceLine : int * string -&gt; unit&#xA;override this.ReplaceLine : int * string -&gt; unit" Usage="codeModuleClass.ReplaceLine (Line, String)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Vbe.Interop._CodeModule.ReplaceLine(System.Int32,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743818)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743818)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Line" Type="System.Int32" />
+        <Parameter Name="String" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Line">To be added.</param>
+        <param name="String">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VBE">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Vbe.Interop.VBE VBE { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Vbe.Interop.VBE VBE" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Vbe.Interop.CodeModuleClass.VBE" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property VBE As VBE" />
+      <MemberSignature Language="F#" Value="member this.VBE : Microsoft.Vbe.Interop.VBE" Usage="VBE" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Vbe.Interop._CodeModule.VBE</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Vbe.Interop</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[get: System.Runtime.InteropServices.DispId(1610743809)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.InteropServices.DispId(1610743809)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.VBE</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

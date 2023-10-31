@@ -1,9 +1,10 @@
-﻿<Type Name="MsoContactCardStyle" FullName="Microsoft.Office.Core.MsoContactCardStyle">
+<Type Name="MsoContactCardStyle" FullName="Microsoft.Office.Core.MsoContactCardStyle">
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoContactCardStyle" />
   <TypeSignature Language="C#" Value="public enum MsoContactCardStyle" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoContactCardStyle extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoContactCardStyle" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoContactCardStyle" />
-  <TypeSignature Language="C++ CLI" Value="public enum class MsoContactCardStyle" />
+  <TypeSignature Language="F#" Value="type MsoContactCardStyle = " />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -13,7 +14,8 @@
   </Base>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("0739EEEF-D856-414C-9494-F2F791FD1F22")</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("0739EEEF-D856-414C-9494-F2F791FD1F22")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.Guid("0739EEEF-D856-414C-9494-F2F791FD1F22")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -22,11 +24,12 @@
   </Docs>
   <Members>
     <Member MemberName="msoContactCardFull">
+      <MemberSignature Language="C++ CLI" Value="msoContactCardFull" />
       <MemberSignature Language="C#" Value="msoContactCardFull" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoContactCardStyle msoContactCardFull = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoContactCardStyle.msoContactCardFull" />
       <MemberSignature Language="VB.NET" Value="msoContactCardFull" />
-      <MemberSignature Language="C++ CLI" Value="msoContactCardFull" />
+      <MemberSignature Language="F#" Value="msoContactCardFull = 1" Usage="Microsoft.Office.Core.MsoContactCardStyle.msoContactCardFull" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -41,11 +44,12 @@
       </Docs>
     </Member>
     <Member MemberName="msoContactCardHover">
+      <MemberSignature Language="C++ CLI" Value="msoContactCardHover" />
       <MemberSignature Language="C#" Value="msoContactCardHover" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoContactCardStyle msoContactCardHover = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoContactCardStyle.msoContactCardHover" />
       <MemberSignature Language="VB.NET" Value="msoContactCardHover" />
-      <MemberSignature Language="C++ CLI" Value="msoContactCardHover" />
+      <MemberSignature Language="F#" Value="msoContactCardHover = 0" Usage="Microsoft.Office.Core.MsoContactCardStyle.msoContactCardHover" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>

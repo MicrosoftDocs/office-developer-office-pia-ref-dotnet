@@ -1,9 +1,10 @@
-﻿<Type Name="MsoDiagramType" FullName="Microsoft.Office.Core.MsoDiagramType">
+<Type Name="MsoDiagramType" FullName="Microsoft.Office.Core.MsoDiagramType">
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoDiagramType" />
   <TypeSignature Language="C#" Value="public enum MsoDiagramType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoDiagramType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoDiagramType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoDiagramType" />
-  <TypeSignature Language="C++ CLI" Value="public enum class MsoDiagramType" />
+  <TypeSignature Language="F#" Value="type MsoDiagramType = " />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -13,7 +14,8 @@
   </Base>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(16)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(16)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -22,11 +24,12 @@
   </Docs>
   <Members>
     <Member MemberName="msoDiagramCycle">
+      <MemberSignature Language="C++ CLI" Value="msoDiagramCycle" />
       <MemberSignature Language="C#" Value="msoDiagramCycle" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDiagramType msoDiagramCycle = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDiagramType.msoDiagramCycle" />
       <MemberSignature Language="VB.NET" Value="msoDiagramCycle" />
-      <MemberSignature Language="C++ CLI" Value="msoDiagramCycle" />
+      <MemberSignature Language="F#" Value="msoDiagramCycle = 2" Usage="Microsoft.Office.Core.MsoDiagramType.msoDiagramCycle" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -41,11 +44,12 @@
       </Docs>
     </Member>
     <Member MemberName="msoDiagramMixed">
+      <MemberSignature Language="C++ CLI" Value="msoDiagramMixed" />
       <MemberSignature Language="C#" Value="msoDiagramMixed" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDiagramType msoDiagramMixed = int32(-2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDiagramType.msoDiagramMixed" />
       <MemberSignature Language="VB.NET" Value="msoDiagramMixed" />
-      <MemberSignature Language="C++ CLI" Value="msoDiagramMixed" />
+      <MemberSignature Language="F#" Value="msoDiagramMixed = -2" Usage="Microsoft.Office.Core.MsoDiagramType.msoDiagramMixed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -60,11 +64,12 @@
       </Docs>
     </Member>
     <Member MemberName="msoDiagramOrgChart">
+      <MemberSignature Language="C++ CLI" Value="msoDiagramOrgChart" />
       <MemberSignature Language="C#" Value="msoDiagramOrgChart" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDiagramType msoDiagramOrgChart = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDiagramType.msoDiagramOrgChart" />
       <MemberSignature Language="VB.NET" Value="msoDiagramOrgChart" />
-      <MemberSignature Language="C++ CLI" Value="msoDiagramOrgChart" />
+      <MemberSignature Language="F#" Value="msoDiagramOrgChart = 1" Usage="Microsoft.Office.Core.MsoDiagramType.msoDiagramOrgChart" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -79,11 +84,12 @@
       </Docs>
     </Member>
     <Member MemberName="msoDiagramPyramid">
+      <MemberSignature Language="C++ CLI" Value="msoDiagramPyramid" />
       <MemberSignature Language="C#" Value="msoDiagramPyramid" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDiagramType msoDiagramPyramid = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDiagramType.msoDiagramPyramid" />
       <MemberSignature Language="VB.NET" Value="msoDiagramPyramid" />
-      <MemberSignature Language="C++ CLI" Value="msoDiagramPyramid" />
+      <MemberSignature Language="F#" Value="msoDiagramPyramid = 4" Usage="Microsoft.Office.Core.MsoDiagramType.msoDiagramPyramid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -98,11 +104,12 @@
       </Docs>
     </Member>
     <Member MemberName="msoDiagramRadial">
+      <MemberSignature Language="C++ CLI" Value="msoDiagramRadial" />
       <MemberSignature Language="C#" Value="msoDiagramRadial" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDiagramType msoDiagramRadial = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDiagramType.msoDiagramRadial" />
       <MemberSignature Language="VB.NET" Value="msoDiagramRadial" />
-      <MemberSignature Language="C++ CLI" Value="msoDiagramRadial" />
+      <MemberSignature Language="F#" Value="msoDiagramRadial = 3" Usage="Microsoft.Office.Core.MsoDiagramType.msoDiagramRadial" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -117,11 +124,12 @@
       </Docs>
     </Member>
     <Member MemberName="msoDiagramTarget">
+      <MemberSignature Language="C++ CLI" Value="msoDiagramTarget" />
       <MemberSignature Language="C#" Value="msoDiagramTarget" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDiagramType msoDiagramTarget = int32(6)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDiagramType.msoDiagramTarget" />
       <MemberSignature Language="VB.NET" Value="msoDiagramTarget" />
-      <MemberSignature Language="C++ CLI" Value="msoDiagramTarget" />
+      <MemberSignature Language="F#" Value="msoDiagramTarget = 6" Usage="Microsoft.Office.Core.MsoDiagramType.msoDiagramTarget" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -136,11 +144,12 @@
       </Docs>
     </Member>
     <Member MemberName="msoDiagramVenn">
+      <MemberSignature Language="C++ CLI" Value="msoDiagramVenn" />
       <MemberSignature Language="C#" Value="msoDiagramVenn" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDiagramType msoDiagramVenn = int32(5)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDiagramType.msoDiagramVenn" />
       <MemberSignature Language="VB.NET" Value="msoDiagramVenn" />
-      <MemberSignature Language="C++ CLI" Value="msoDiagramVenn" />
+      <MemberSignature Language="F#" Value="msoDiagramVenn = 5" Usage="Microsoft.Office.Core.MsoDiagramType.msoDiagramVenn" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>

@@ -1,9 +1,10 @@
-﻿<Type Name="IMsoEnvelopeVBEvents_Event" FullName="Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event">
+<Type Name="IMsoEnvelopeVBEvents_Event" FullName="Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event">
+  <TypeSignature Language="C++ CLI" Value="public interface class IMsoEnvelopeVBEvents_Event" />
   <TypeSignature Language="C#" Value="public interface IMsoEnvelopeVBEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMsoEnvelopeVBEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface IMsoEnvelopeVBEvents_Event" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IMsoEnvelopeVBEvents_Event" />
+  <TypeSignature Language="F#" Value="type IMsoEnvelopeVBEvents_Event = interface" />
   <AssemblyInfo>
     <AssemblyName>office</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -11,13 +12,16 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Core.IMsoEnvelopeVBEvents), typeof(Microsoft.Office.Core.IMsoEnvelopeVBEvents_EventProvider))</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Core.IMsoEnvelopeVBEvents), typeof(Microsoft.Office.Core.IMsoEnvelopeVBEvents_EventProvider))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Core.IMsoEnvelopeVBEvents), typeof(Microsoft.Office.Core.IMsoEnvelopeVBEvents_EventProvider))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.ComVisible(false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComVisible(false)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.TypeLibType(16)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.TypeLibType(16)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -25,12 +29,59 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="add_EnvelopeHide">
+      <MemberSignature Language="C#" Value="public void add_EnvelopeHide (Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_EnvelopeHide(class Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event.add_EnvelopeHide(Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_EnvelopeHide (unnamedParam1 As IMsoEnvelopeVBEvents_EnvelopeHideEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_EnvelopeHide : Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler -&gt; unit" Usage="iMsoEnvelopeVBEvents_Event.add_EnvelopeHide unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_EnvelopeShow">
+      <MemberSignature Language="C#" Value="public void add_EnvelopeShow (Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_EnvelopeShow(class Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event.add_EnvelopeShow(Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_EnvelopeShow (unnamedParam1 As IMsoEnvelopeVBEvents_EnvelopeShowEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member add_EnvelopeShow : Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler -&gt; unit" Usage="iMsoEnvelopeVBEvents_Event.add_EnvelopeShow unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="EnvelopeHide">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::IMsoEnvelopeVBEvents_EnvelopeHideEventHandler ^ EnvelopeHide;" />
       <MemberSignature Language="C#" Value="event Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler EnvelopeHide;" />
       <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler EnvelopeHide" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event.EnvelopeHide" />
       <MemberSignature Language="VB.NET" Value="Event EnvelopeHide As IMsoEnvelopeVBEvents_EnvelopeHideEventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::IMsoEnvelopeVBEvents_EnvelopeHideEventHandler ^ EnvelopeHide;" />
+      <MemberSignature Language="F#" Value="member this.EnvelopeHide : Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler " Usage="member this.EnvelopeHide : Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -45,11 +96,12 @@
       </Docs>
     </Member>
     <Member MemberName="EnvelopeShow">
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::IMsoEnvelopeVBEvents_EnvelopeShowEventHandler ^ EnvelopeShow;" />
       <MemberSignature Language="C#" Value="event Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler EnvelopeShow;" />
       <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler EnvelopeShow" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event.EnvelopeShow" />
       <MemberSignature Language="VB.NET" Value="Event EnvelopeShow As IMsoEnvelopeVBEvents_EnvelopeShowEventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::IMsoEnvelopeVBEvents_EnvelopeShowEventHandler ^ EnvelopeShow;" />
+      <MemberSignature Language="F#" Value="member this.EnvelopeShow : Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler " Usage="member this.EnvelopeShow : Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>office</AssemblyName>
@@ -60,6 +112,52 @@
       </ReturnValue>
       <Docs>
         <summary>Occurs when the user interface (UI) that corresponds to the <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> object is displayed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_EnvelopeHide">
+      <MemberSignature Language="C#" Value="public void remove_EnvelopeHide (Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_EnvelopeHide(class Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event.remove_EnvelopeHide(Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_EnvelopeHide (unnamedParam1 As IMsoEnvelopeVBEvents_EnvelopeHideEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_EnvelopeHide : Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler -&gt; unit" Usage="iMsoEnvelopeVBEvents_Event.remove_EnvelopeHide unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_EnvelopeShow">
+      <MemberSignature Language="C#" Value="public void remove_EnvelopeShow (Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler unnamedParam1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_EnvelopeShow(class Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler unnamedParam1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event.remove_EnvelopeShow(Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_EnvelopeShow (unnamedParam1 As IMsoEnvelopeVBEvents_EnvelopeShowEventHandler)" />
+      <MemberSignature Language="F#" Value="abstract member remove_EnvelopeShow : Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler -&gt; unit" Usage="iMsoEnvelopeVBEvents_Event.remove_EnvelopeShow unnamedParam1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unnamedParam1" Type="Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="unnamedParam1">To be added.</param>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
